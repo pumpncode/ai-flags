@@ -1,0 +1,20 @@
+{
+	"tasks": {
+		"start": "deno run -A --no-check --unstable --watch=routes/,components/,static/ ./dev.js",
+		"chatgpt": "deno run -A --unstable ./generators/chatgpt.js",
+		"openai": "deno run -A --unstable ./generators/openai.js",
+		"generate": "deno run -A --unstable ./generate.js"
+	},
+	"importMap": "./modules.json",
+	"lint": {
+		"rules": {
+			"exclude": [
+				"require-await"
+			]
+		}
+	},
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact"
+	}
+}
