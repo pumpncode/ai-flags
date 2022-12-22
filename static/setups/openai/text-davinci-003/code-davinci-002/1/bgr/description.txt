@@ -1,0 +1,1 @@
+The flag of Bulgaria consists of three horizontal bands of white, green and red. The white band is on the top, the green in the center and the red on the bottom. The width of each band is equal, and the aspect ratio is 3:5.

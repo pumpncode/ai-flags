@@ -1,0 +1,1 @@
+The flag of Ivory Coast is a rectangular tricolor consisting of three equal vertical bands of orange, white, and green. The aspect ratio is 2:3.

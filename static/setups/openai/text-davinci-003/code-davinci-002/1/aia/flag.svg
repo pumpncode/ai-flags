@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" height="100px">
+		<defs>
+			<!-- Define a stripe -->
+			<pattern id="stripe" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)" x="5" y="5">
+				<rect width="12" height="12" transform="rotate(45)" fill="white" x="0"/>
+			</pattern>
+		</defs>
+		<!-- Top stripe -->
+		<rect width="600" height="100" fill="#008C9E"/>
+		<!-- Center stripe -->
+		<rect width="600" height="100" y="100" fill="#FFFFFF"/>
+		<!-- Bottom stripe -->
+		<rect width="600" height="100" y="200" fill="#F2F2F2"/>
+		<!-- Saint David's cross -->
+		<rect width="100" x="250" y="100" height="100"/>
+		<rect width="100" y="100" height="100" x="250" fill="url(#stripe)"/></svg>

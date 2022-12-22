@@ -1,0 +1,1 @@
+The flag of Burkina Faso has a ratio of 2:3 and is horizontally divided into two equal bands of red and yellow with a lit green yellow-capped totem in the middle.

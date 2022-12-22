@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+		<rect width="640" height="480" fill="#004d00" />
+		<switch>
+			<g fill="#ff0000">
+				<path d="M0 0h2v480h-2zM639 0h2v480h-2zM59 0h2v480h-2zM140 0h2v480h-2zM560.1 0h1.8v480h-1.8z" />
+				<path d="M60.7 80h518.6v320h-518.6z" />
+			</g>
+			<g fill="#fff">
+				<path d="M0 0h2v480h-2zM639 0h2v480h-2zM80.7 0h479.6v480h-479.6z" />
+			</g>
+		</switch></svg>

@@ -1,0 +1,1 @@
+The flag of China is a red field consisting of five golden stars on the upper left side in the shape of a large star surrounded by four small stars. The sides are parallel and the flag has an aspect ratio of 1:2.

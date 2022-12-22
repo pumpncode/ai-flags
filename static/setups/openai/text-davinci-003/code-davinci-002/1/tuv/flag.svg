@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -70 520 520"  
+		width="550" height="420"><g fill="red" transform="rotate(5)">
+		<rect width="100%" height="100%" fill="#fff"/>
+		<path id="unionjack" />
+		<polygon id="whitePlane" />
+		<polygon id="yellowPlane"/>
+		<circle id="star1" />
+		<circle id="star2"  />
+		<circle id="star3"  />
+		<circle id="star4"  />
+		</g></svg>

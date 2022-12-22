@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 352">
+		<style>
+			rect {
+				fill: blue;
+			}
+			ellipse,
+			circle {
+				fill: yellow;
+			}
+			path {
+				fill: white;
+			}
+		</style>
+		<rect x="0" y="48" width="512" height="256"/>
+		<ellipse cx="470" cy="200" rx="42" ry="74" transform="rotate(20 470 200)"/>
+		<g>
+			<path d="M470,126 l56,0 l0,48 l-56,0z"/>
+			<path d="M359,180 l288,0 l0,48 l-288,0z"/>
+			<path d="M274,234 l426,0 l0,48 l-426,0z"/>
+			<path d="M191,288 l486,0 l0,48 l-486,0z"/>
+			<path d="M274,180 l78,0 l27,48 l-105,0z"/>
+		</g></svg>

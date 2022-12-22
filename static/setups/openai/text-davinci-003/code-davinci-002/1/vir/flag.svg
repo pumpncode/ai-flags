@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+		<defs>
+			<linearGradient id="shade">
+			  <stop offset="0" stop-color="#eef" />
+			  <stop offset="1" stop-color="#005" />
+			</linearGradient>
+		</defs>
+		<rect width="100%" height="100%" fill="rgba(0, 110, 178, .3)"/>
+		<rect width="100%" height="600" fill="url(#shade)"/>
+		<rect width="200" height="1200" fill="#fb4"/>
+		<rect y="400" width="1200" height="400" fill="#fff"/>
+		<rect x="400" width="400" height="1200" fill="#fff"/>
+		<rect rx="150" x="250" y="250" width="700" height="700" fill="#fb4"/>
+		<g fill="#ffe302" stroke="#000">
+			<ellipse cx="800.5" cy="550.7" rx="94.6" ry="94.6" stroke-width="8"/>
+			<ellipse cx="450.4" cy="450.4" rx="150.2" ry="150.2" stroke-width="9"/>
+			<ellipse cx="1050.6" cy="450.4" rx="150.2" ry="150.2" stroke-width="9"/>
+			<ellipse cx="450.4" cy="1050.6" rx="150.2" ry="150.2" stroke-width="9"/>
+			<ellipse cx="1050.6" cy="1050.6" rx="150.2" ry="150.2" stroke-width="9"/>
+		</g>
+		<ellipse cx="750" cy="750" rx="100" ry="100" fill="#fb4" stroke="#000" stroke-width="30"/>
+		<g fill="#000">
+			<circle cx="750" cy="750" r="30"/>
+			<path d="M748 752.2H752v150.1h-4.1l-25-42.9-25 42.9H700l-25-42.9L650 902.3h-4v-150h4.4l25.4 44 25.4-44H750z"/>
+		</g></svg>

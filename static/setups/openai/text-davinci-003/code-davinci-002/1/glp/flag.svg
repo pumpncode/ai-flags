@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" height="400" width="400">
+    	<g transform="translate(-55 -65)">
+      		<rect width="30" height="800" x="75" y="65" fill="rgb(255, 0, 0)"/>
+      		<rect width="30" height="800" x="175" y="65" fill="rgb(255, 0, 0)"/>
+      		<rect width="30" height="800" x="125" y="65" fill="rgb(255, 255, 255)"/>
+    	</g></svg>

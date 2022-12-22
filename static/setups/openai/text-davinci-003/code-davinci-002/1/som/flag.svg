@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600">
+	  <title>Somalia Flag</title>
+	  
+	  <rect id="base" fill="midnightblue" stroke="white" x="0" y="0" width="400" height="300"/>
+	  <rect id="star" fill="white" x="185.25" y="63" width="60" height="180" stroke="white"/>
+	  <rect id="stripe" fill="lightblue" x="400" y="0" width="600" height="300"/></svg>

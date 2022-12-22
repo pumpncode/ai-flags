@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 88">
+		<defs>
+			<path stroke-width="4" d="M0,44a44,44 0 0,1 44,44v4a4,4 0 0,0 4,4h4a4,4 0 0,0 4-4V88a44,44 0 0,1 -44-44z" id="rect-1" />
+			<path stroke-width="6" d="M0 22l6 0l8 3l3 8l0 6l-3 10l0 10l3 10l0 6l-3 8l-8 3l-6 0l-10 0l-10 -3l-6 0l-8 -3l-3 -8l0 -6l3 -10l0 -10l-3 -10l0 -6l3 -8z" id="cross-1" />
+			<path stroke-width="2" d="M0 22L8 8v42L0 64M26 4c-12 0 16 28 -6 28v-56z" id="stripe-1" />
+		</defs>
+		<path stroke-width="2" d="M0 0L0 64L64 88L64 24L36 0H0z" fill="red" />
+		<use href="#rect-1" fill="white" stroke="red" /><use href="#cross-1" fill="white" stroke="red" /><use href="#stripe-1" fill="red" /><use href="#stripe-1" transform="rotate(90)" fill="red" /><use href="#stripe-1" transform="rotate(180)" fill="red" /><use href="#stripe-1" transform="rotate(270)" fill="red" /></svg>

@@ -3,9 +3,6 @@
 	"deno.lint": true,
 	"editor.defaultFormatter": "denoland.vscode-deno",
 	"[svg]": {
-		"editor.defaultFormatter": "redhat.vscode-xml"
-	},
-	"[xml]": {
-		"editor.defaultFormatter": "mikeburgh.xml-format"
+		"editor.defaultFormatter": "trunk.io"
 	}
 }

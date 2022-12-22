@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+		<style>
+			.star { fill: #ffffff }
+		</style>
+		<rect width="100%" height="100%" fill="#000"/>
+		<polygon points="0,100 0,67.5 39.4755,47.5 100,50.3755 100,17.9465 60.245,0 39.4755,28.5622" class="star" transform="rotate(18 50 50)" />
+		<polygon points="40,40 70,40 60,0" class="star"/>
+		<polygon points="40,40 70,40 60,0" class="star" transform="rotate(72 50 50)" />
+		<polygon points="40,40 70,40 60,0" class="star" transform="rotate(144 50 50)" />
+		<polygon points="40,40 70,40 60,0" class="star" transform="rotate(216 50 50)" />
+		<polygon points="40,60 70,60 60,100" class="star" transform="rotate(288 50 50)" />
+		<rect width="100%" height="100%" fill="#bf0a30" /></svg>

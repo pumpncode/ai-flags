@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+	  <rect width="640" height="400" style="fill:#FFF;"/>
+	  <rect width="640" height="40" style="fill:#00247D;"/>
+	  <rect width="640" height="40" y="40" style="fill:#FFF;"/>
+	  <rect width="640" height="40" y="80" style="fill:#00247D;"/>
+	  <rect width="640" height="40" y="120" style="fill:#FFF;"/>
+	  <rect width="640" height="40" y="160" style="fill:#00247D;"/>
+	  <rect width="640" height="40" y="200" style="fill:#FFF;"/>
+	  <rect width="640" height="40" y="240" style="fill:#00247D;"/>
+	  <rect width="640" height="40" y="280" style="fill:#FFF;"/>
+	  <rect width="640" height="40" y="320" style="fill:#00247D;"/>
+	  <rect width="640" height="40" y="360" style="fill:#FFF;"/>
+	  <path thing="something" other="who knows" d="   ...  " /></svg>

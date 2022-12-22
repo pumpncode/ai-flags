@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40" width="512" height="256">
+		<defs>
+			<radialGradient id="radial-leaves" cx="200%" cy="200%" r="200%" fx="200%" fy="200%" gradientUnits="objectBoundingBox">
+				<stop offset="0%" stop-color="#e80a54"></stop>
+				<stop offset="100%" stop-color="#dd2a52"></stop>
+			</radialGradient>
+		</defs>
+		<rect width="80" height="40" fill="#fff"></rect>
+		<path d="M80 0H40L-40 0L-40 40L40 40L40 10C40 10 16 12.888031 15.994336 28.463341C15.986116 35.600613 22.414349 41.704528 29.839014 41.990367C37.263679 42.276206 44.000001 35.600613 44.000001 35.600613L60 35.600613C60 35.600613 60 40 80 40L80 0Z" fill="url(#radial-leaves)"></path></svg>

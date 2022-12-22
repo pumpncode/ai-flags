@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 3"><defs><filter id="d"><feMorphology in="SourceGraphic"/></filter></defs>
+	<metadata><filter id="d"><feMorphology in="SourceGraphic"/></filter></metadata>
+	<rect height="3" width="2" style="stroke-width:1;stroke:#000"/>
+	<g filter="url(#d)">
+	<circle cx="2" cy="1.5" r="1.5" style="fill:#00f"/>
+	</g></svg>

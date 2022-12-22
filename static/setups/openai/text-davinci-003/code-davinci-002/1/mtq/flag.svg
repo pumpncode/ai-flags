@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1 32 9">
+		<rect width="25" height="6" fill="#0066FF"/>
+		<path fill="gold" stroke="gold" stroke-width="0.5"
+			d="M-1 0 L13 -3 L3 6 L-1 0 M11 3 L25 0 L15 6
+				L11 3"/></svg>

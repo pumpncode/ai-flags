@@ -1,0 +1,1 @@
+The flag of Bahrain consists of a white band on the left side and a red band on the right side that both span the width of the flag. In the middle of the flag is a serrated (indented) black triangle pointed downward. The ratio of the flag is 5:3.

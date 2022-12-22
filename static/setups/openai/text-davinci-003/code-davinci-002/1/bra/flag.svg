@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">	
+		<path fill="#FFF" d="M0 0,800 0,800 600,0 600"/>
+		<path fill="#009" d="M0 0,400 0,400 600,0 600"/>	
+		<path fill="#FFD700" d="M227 0,400 0,400 600,227 600"/>
+		<path fill="#FFD700" d="M227 600,400 600,400 0,227 0"/>
+		<path fill="#FFD700" d="M160 0,160 600,240 600,240 0"/>
+		<circle fill="#FFF" cx="360" cy="450" r="80"/>
+		{{{ stars }}}
+		<circle fill="#FFF" cx="120" cy="150" r="20"/>
+		<circle fill="#FFF" cx="120" cy="300" r="20"/>
+		<circle fill="#FFF" cx="120" cy="450" r="20"/>
+		<circle fill="#FFF" cx="120" cy="450" r="20"/>
+		<path fill="#009" d="M150 60,215 60,215 100,150 100"/>
+		<path fill="#009" d="M360 210,380 210,380 270,360 270"/>	
+		<path fill="#009" d="M270 340,330 340,330 430,270 430"/></svg>

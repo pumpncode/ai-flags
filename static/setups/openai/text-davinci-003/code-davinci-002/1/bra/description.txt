@@ -1,0 +1,1 @@
+The flag of Brazil is a green field with a yellow diamond-shaped figure in the center, surmounted by a blue celestial globe, with 27 white five-pointed stars arranged in the same pattern as the stars in the night sky. It has an aspect ratio of 11:15.

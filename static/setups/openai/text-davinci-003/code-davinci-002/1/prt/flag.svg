@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 12" width="100">
+		  <rect width="100%" height="100%" fill="#006" />
+		  <rect x="0" y="0" width="100%" height="100%" fill="#FFD300" />
+		  <g transform="translate(80 60) scale(.25)">
+		    <g transform="translate(200 200) scale(.5) rotate(30)">
+		      <path transform="rotate(0) translate(460 0)" d="M0-80 A80 80 0 1 0 0 80 L0 0 Z" fill="#FFF" stroke="#000" stroke-width="20" />
+		      <path transform="rotate(120) translate(460 0)" d="M0-80 A80 80 0 1 0 0 80 L0 0 Z" fill="#FFF" stroke="#000" stroke-width="20" />
+		      <path transform="rotate(240) translate(460 0)" d="M0-80 A80 80 0 1 0 0 80 L0 0 Z" fill="#FFF" stroke="#000" stroke-width="20" />
+		    </g>
+		    <g transform="translate(260 260) scale(1.128)">
+		      <path transform="translate( 0 30) rotate(  0) scale( .9 .88)" d="M0-110 A110 110 0 1 0 0 110 L0 0 Z" fill="#003893" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+		      <path transform="translate( 0 30) rotate( 10) scale( .9 .88)" d="M0-110 A110 110 0 1 0 0 110 L0 0 Z" fill="#003893" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+		      <path transform="translate( 0 30) rotate( 20) scale( .9 .88)" d="M0-110 A110 110 0 1 0 0 110 L0 0 Z" fill="#003893" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+		      <path transform="translate( 0 30) rotate(-10) scale( .9 .88)" d="M0-110 A110 110 0 1 0 0 110 L0 0 Z" fill="#003893" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+		      <path transform="translate( 0 30) rotate(-20) scale( .9 .88)" d="M0-110 A110 110 0 1 0 0 110 L0 0 Z" fill="#003893" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+		    </g>
+		    <path transform="translate(330 330) scale(.45)" d="M0 0 C160-160 220 100 220 220 L0 220" fill="#fff" stroke="#000" stroke-width="60" />
+		  </g></svg>

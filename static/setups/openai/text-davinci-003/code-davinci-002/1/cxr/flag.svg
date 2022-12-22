@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 480">
+
+		<clipPath id="shoreline">
+			<path d="M329 3.1c30-6.8 129-10.2 331.9-10.2 202.9 0 302.9 0.5 331.9 10.5C714.8 14.4 911.2 70.4 1024 243 1024 308 963.4 400 772.5 440c-30 4.2-234.8-103-302.9-224.9z"/>
+		</clipPath>
+
+		<!-- Backgrounds-->
+		<rect x="0" y="0" width="740" height="480" fill="skyblue"/>
+		<rect x="0" y="0" width="740" height="210" fill="black"/>
+		<rect x="0" y="0" width="740" height="175" fill="#f4aa4c"/>
+		<g clip-path="url(#shoreline)">
+			<rect x="-50%" y="0" width="200%" height="480" fill="white"/>
+		</g>
+
+		<!-- Coat of Arms-->
+		<g font-family="'Palatino Linotype', 'Times New Roman', sans-serif" font-size="127">
+			<!-- Ribbon-->
+			<path d="M34 157h611M34 229h611M34 299h611" stroke="red" stroke-width="17"/>
+			<!-- Cap of Maintenance-->
+			<path d="M596 212c0-20-17-37-37-37s-37 17-37 37" fill="white" stroke="red" stroke-width="17" stroke-linejoin="round"/>
+			<!-- Turtle-->
+			<path d="M177 200q-50-10.5-119 0 1.5-2 3-4C153 211 159 209 177 200z" fill="white" stroke="black" stroke-width="11" stroke-linejoin="round"/>
+			<path d="M112 200a216 68.4 0 0 0 188 87M205 275a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1z"/>
+			<circle cx="120" cy="230" r="4" fill="black"/>
+			<circle cx="172.2" cy="233.3" r="4" fill="black"/>
+			<!-- Crosses-->
+			<path d="M40 279l70 80M40 359l70-80" fill="none" stroke-width="17"/>
+			<path d="M37 279l74 80M37 359l74-80" fill="none" stroke="red" stroke-width="16"/>
+			<path d="M40 78l70 80M40 158l70-80M405 78l70 80M405 158l70-80" fill="none" stroke-width="17"/>
+			<path d="M405 159l71.9-80M372.4 78.8L441.4 158 405 159 405 78.8z" fill="#f4aa4c" stroke="red" />
+			<path d="M405 158l71.9-80M372.4 77.8l69.9 81.9" fill="none" stroke="red" stroke-linecap="square" stroke-linejoin="miter"/>
+		</g>
+
+		<!-- Wave-->
+		<rect x="10" y="460" width="720" height="15" rx="7.5" fill="white"/></svg>

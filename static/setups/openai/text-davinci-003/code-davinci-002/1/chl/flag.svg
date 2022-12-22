@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+		<!-- blue stripe -->
+		<rect fill="#00a" height="320" width="640" x="0" y="160"/>
+
+		<!-- red stripe -->
+		<rect fill="#c00" height="160" width="640" x="0" y="320"/>
+
+		<!-- white star -->
+		<polygon points="320 80 380 116 460 116 400 174 440 174 380 232 420 232 360 288 440 288 380 350 420 350 360 368 380 384 420 384 360 400 440 400 380 440 320 380"
+			stroke-width="40" stroke="#fff" fill="none" transform="matrix(0.85, -0.53, 0.53, 0.85, 100, 30)"/>
+
+		<!-- red border -->
+		<polygon points="320 80 380 116 460 116 400 174 440 174 380 232 420 232 360 288 440 288 380 350 420 350 360 368 380 384 420 384 360 400 440 400 380 440 320 380"
+			stroke-width="20" stroke="#c00" fill="none" transform="matrix(0.85, -0.53, 0.53, 0.85, 100, 30)"/></svg>

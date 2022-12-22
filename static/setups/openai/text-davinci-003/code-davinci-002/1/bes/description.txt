@@ -1,0 +1,1 @@
+The Caribbean Netherlands flag is a Dutch tricolor of blue, white, and red. It has a width to length ratio of 1:2. The upper stripe is a 30:80 ratio blue to white, the middle stripe is white, and the lower stripe is a 30:80 ratio red to white.

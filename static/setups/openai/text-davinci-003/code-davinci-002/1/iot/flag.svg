@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 24">
+		<title>Someone Has Landed</title>
+		<style>
+			.flag {
+				fill: #006;
+			}
+			.inner {
+				fill: linear-gradient(90deg, #fff 50%, #ccc 50%);
+			}
+			.outer {
+				fill: #fc3;
+			}
+		</style>
+		<rect class="flag" width="48" height="24" rx="4" ry="4"/>
+		<rect class="inner" width="40" height="16" x="4" y="4" rx="4" ry="4"/>
+		<rect class="outer" width="8" height="8" x="20" y="8"/>
+		<rect class="outer" width="8" height="8" x="20" y="8"/>
+		<rect class="outer" width="8" height="8" x="36" y="8"/></svg>

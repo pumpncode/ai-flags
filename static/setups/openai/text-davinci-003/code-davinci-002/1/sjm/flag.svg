@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
+		<path d="M320,0L640,320H0Z" style="fill: white" />
+		<g transform="translate(-100,-100) scale(1.25,0.85)">
+			<path d="M0,212.75V425H425V212.75L212.5,106.25Z" style="fill: white" />
+			<path d="M212.5,106.25L106.25,0H318.75L212.5,106.25Z" style="fill: white" />
+			<path d="M425,106.25V318.75H106.25V106.25L212.5,0Z" style="fill: white" />
+		</g>
+		<g transform="rotate(-45,320,212.5) translate(-60,-60) scale(0.4,0.4)">
+			<rect width="400" height="240" style="fill: white" />
+			<rect x="80" width="240" height="80" style="fill: white" />
+			<rect x="200" width="240" height="80" style="fill: white" />
+			<rect y="160" width="240" height="80" style="fill: white" />
+			<rect x="80" y="160" width="240" height="80" style="fill: white" />
+			<rect x="40" y="40" width="320" height="160" style="fill: white" />
+		</g>
+		<path d="M383.333,3.333L320,0,256.667,3.333l3.333,3.333H160l3.333,3.333,3.333-3.333,3.333,3.333Z" style="fill: white" />
+		<path d="M320,256.667l63.333,3.333,3.333-3.333,21.333-21.333-3.333-3.333L384,224,400.333,234.667Z" style="fill: white" />
+		<path d="M0,0V320H640V0Z" style="fill: goldenrod" />
+		<path d="M320,64a192,192,0,0,1,64,38.667,179.791,179.791,0,0,1,48,58.667,179.77,179.77,0,0,1,16,69.333,176.965,176.965,0,0,1-16,69.333A176.909,176.909,0,0,1,384,320h-64a191.773,191.773,0,0,1-38.667,64A191.9,191.9,0,0,1,320,320,192,192,0,0,1,320,64Z" style="fill: goldenrod" />
+		<path d="M320,3.333A196.614,196.614,0,0,1,476.667,200,197.874,197.874,0,0,1,512,320h-64c0-23.4-4.025-58.365-12.156-103.465a189.1,189.1,0,0,0,12.156-44.537C448,243.216,544,138.76,576,0Z" style="fill: goldenrod" />
+		<path d="M320,3.333c-48.014,256.085-208,284.677-256,292-48-7.323-208-35.915-256-292l128,76.8V146.667Z" style="fill: goldenrod" /></svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+		<defs>
+			<linearGradient id="armenia-flag-red" y2="100%" x2="100%">
+				<stop offset="0%" stop-color="#8A2538" />
+     			<stop offset="100%" stop-color="#C1354A" />
+				</linearGradient>
+			<linearGradient id="armenia-flag-blue" y2="50%" x2="0%">
+				<stop offset="0%" stop-color="#00307F" />
+				<stop offset="100%" stop-color="#0060B3" />
+			</linearGradient>
+		</defs>
+		<rect id="armeniaFlag_1" y="-2" x="-2" height="403" width="644" fill="url('#armenia-flag-red')"/>
+		<rect id="armeniaFlag_2" x="221" y="-2" height="401.616" width="220" fill="url('#armenia-flag-blue')"/>
+		<rect id="armeniaFlag_3" x="442" y="-3" height="400" width="222" fill="#FFBF12"/>
+		<polygon id="armeniaFlag_4" points="440 207 623 204 623 196 440 199 440 207 440 207" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_5" points="440 173 440 158 624 158 623 166 628 165 629 166 631 165 440 165 440 173 440 173" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_6" points="619 171 624 163 627 164 441 162 440 157 440 156 439 153 442 153 442 152 435 154 435 158 631 159 631 166 624 164 619 169 619 171 619 171" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_7" points="440 128 440 114 629 117 631 117 623 117 630 113 629 109 633 111 633 102 631 103 631 109 440 110 440 119 440 127 440 128" fill="#FFFFFF"/><polygon id="armeniaFlag_8" points="440 91 440 75 626 79 628 79 517 79 507 79 440 84 440 95 440 90 440 91" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_9" points="440 56 440 40 500 46 497 43 441 39 440 34 440 40 439 40 439 46 626 47 626 53 623 50 440 56 440 56" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_10" points="440 21 440 10 470 11 440 10 440 19 440 21" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_11" points="440 275 442 275 621 271 623 269 628 269 629 269 630 269 629 272 625 269 626 273 625 275 620 275 620 272 616 274 618 27 426 272 426 279 440 279 440 276 440 275" fill="#FFFFFF"/><polygon id="armeniaFlag_12" points="427 234 442 235 443 233 498 233 504 234 506 234 514 234 517 234 522 234 522 235 525 234 622 232 625 232 626 232 620 232 623 227 625 228 628 227 426 236 426 234 427 234" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_13" points="440 199 440 207 623 204 623 196 440 199 440 199" fill="#FFFFFF"/><polygon id="armeniaFlag_14" points="625 174 625 174 626 172 442 170 440 171 440 171 441 169 439 171 440 171 440 168 425 168 425 169 427 169 427 171 425 171 440 171 623 171 623 175 622 181 617 181 616 181 616 176 616 174 619 174 625 174" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_15" points="440 141 440 136 540 136 533 134 440 134 440 141" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_16" points="441 108 440 108 440 95 628 89 629 91 440 95 440 105 440 108 441 108" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_17" points="449 71 443 71 426 72 426 78 440 80 440 81 440 83 440 84 440 87 440 91 440 95 525 91 525 90 629 89 629 84 444 72 449 71" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_18" points="622 47 622 47 622 50 640 48 622 47 622 47" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_19" points="442 31 440 31 440 21 439 21 439 37 437 37 437 40 439 40 512 40 512 31 441 31 441 31 442 31" fill="#FFFFFF"/>
+		<polygon id="armeniaFlag_20" points="427 10 427 18 614 18 440 20 440 23 439 23 440 21 440 10 427 10" fill="#FFFFFF"/></svg>

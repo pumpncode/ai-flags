@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+		<rect width="100%" height="100%" fill="#0074D9"/>
+		<g stroke-width="20" stroke-linecap="round">
+			<line x1="A" y1="0" x2="A" y2="480" stroke="#FFDC00"/>
+			<line x1="B" y1="0" x2="B" y2="480" stroke="#FFF"/>
+		</g>
+		<polygon fill="#FFF" stroke="#000" stroke-width="2" points="
+			C FC FC BC BC B
+			C ACC ACC A DC DC D
+			C ADBD AABB AABD ADBD
+			C AAAD BBCD DCCD DADD
+			C DADF DAAB DABF DADF
+			C EEEF EFED EFDD AEED
+			C BEED BFFD BEED AFFF
+			C AEDF DEDF DFFF DFFD
+			C DFF3 DFF1 DFEF DFE7
+			C EFE3 EFDEF EFEF EFFF
+			C FFFF FFDF FFDF FFFD
+			C FFBD FFBD FFDD FFED
+			C FFF5 FFEF FFE5 FFF5
+		"/></svg>

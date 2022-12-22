@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27">
+		<rect width="18" height="27" fill="blue" />
+		<rect x="0" y="9" width="18" height="9" fill="white" />
+		<rect x="0" y="18" width="18" height="9" fill="blue" />
+		<circle cx="3" cy="3" r="3" fill="red" />
+		<circle cx="3" cy="3" r="3" fill="lightred" />
+		<circle cx="14" cy="3" r="3" fill="blue" />
+		<circle cx="14" cy="3" r="3" fill="lightblue" />
+		<circle cx="14" cy="14" r="3" fill="black" />
+		<circle cx="3" cy="14" r="3" fill="white" />
+		<circle cx="3" cy="14" r="3" fill="grey" />
+		<rect x="4.5" y="4.5" width="9" height="9" fill="white" />
+		<line x1="14" y1="14" x2="11" y2="14" />
+		<line x1="8" y1="14" x2="5" y2="14" />
+		<line x1="2" y1="14" x2="-1" y2="14" />
+		<line x1="14" y1="17" x2="11" y2="20" />
+		<line x1="8" y1="17" x2="5" y2="20" />
+		<line x1="2" y1="17" x2="-1" y2="20" />
+		<path d="M-1 14 L2 14 L5 17 L8 17 L11 20 L14 17 M14 11 L11 8 L8 8 L5 5 L2 2 L-1 5" stroke="none" fill="#AAAAAA" />
+		<path d="M9 0 A 9 9 0 0 0 9 18" fill="none" stroke="black" /></svg>

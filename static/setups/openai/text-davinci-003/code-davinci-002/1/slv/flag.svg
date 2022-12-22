@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+    <title>Flag of El Salvador</title>
+    <rect width="500" height="700" fill="#FFBB20"></rect>
+    <rect x="10" width="480" height="320" fill="#0072C6"></rect>
+    <rect x="10" y="320" width="480" height="70" fill="#FFFFFF"></rect>
+    <rect x="89" y="347" width="141" height="14" fill="#0072C6"></rect>
+    <rect x="139" y="361" width="41" height="35" fill="#FFFFFF"></rect>
+		<path fill="#5193a0" d="M 108 370 L 150 370 A 160 25 1 1 1 92 399 z">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 450 399"
+      to="180 450 399"
+      dur="1s"
+      begin="0s"
+      repeatCount="indefinite"
+    />
+  </path>
+	<path fill="#5193a0" d="M 108 370 L 150 370 A 160 25 0 1 1 92 399 z">
+		<animateTransform
+			attributeName="transform"
+			attributeType="XML"
+			type="rotate"
+			from="0 450 399"
+			to="-180 450 399"
+			dur="1s"
+			begin="0s"
+			repeatCount="indefinite"
+		/>
+  </path></svg>

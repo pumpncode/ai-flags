@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox='0 0 10 15'>
+		<rect fill='#07899e' width='10' height='15'/>
+		<rect fill='#fcf618' width='10' height='5' />
+		<polygon points='5,5 0,15 10,15' fill='#d21313'/>
+		<rect fill='#ffed00' transform='rotate(90 5, 5)' x='2' y='-1' width='5' height='3'/>	
+		<polygon points='5,5 5,10 7.5,10 5,10 7.5,5 5,5' transform='rotate(90)' fill='#07899e'/>
+		<polygon points='0,0 10,0 10,5 0,5' fill='#07899e'/></svg>

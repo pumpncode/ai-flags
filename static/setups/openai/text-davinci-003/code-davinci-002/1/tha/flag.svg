@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300">
+		<path d="M0 0 H 99.95 L 150 250 L 99.95 100 H 0 Z" fill="crimson"></path>
+		<path d="M700 0 H 200 L 150 100 H 150 L 700 200 V 100 H 600 L 400 0 H 700 Z" fill="white"></path>
+		<circle cx="450" cy="150" r="25" fill="navy"></circle>
+		<circle cx="450" cy="150" r="15" fill="white"></circle></svg>

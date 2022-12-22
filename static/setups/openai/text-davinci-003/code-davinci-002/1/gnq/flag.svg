@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+		<g fill="hsl(122.5737704918033,100%,50%)">
+			<rect fill="none" x="0" y="0" width="400" height="300"/>
+			<g transform="translate(0,0)">
+				<rect width="400" height="100"/>
+				<rect y="200" width="400" height="100"/>
+			</g>
+			<polygon points="100,100 240,150 100,200" transform="rotate(90,200,150)"/>
+		</g></svg>

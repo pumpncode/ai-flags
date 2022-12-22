@@ -1,0 +1,1 @@
+The flag of Bahamas is a horizontal tribar, blue-yellow-blue, with the yellow stripe twice as wide as the other two. The ratio is 1:2:1.

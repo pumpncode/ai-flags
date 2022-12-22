@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+		<defs>
+			<pattern id="eagle" height="100%" width="100%" viewBox="0 0 40 300">
+				<polygon fill="#fefefe" points="31,19 29,25 27,19 12,19 15,10 9,10 0,119 95,119 80,174 84,267 77,276 77,271"/>
+				<polygon fill="#fefefe" points="11,12 13,38 15,12 30,12 24,0 27,0"/>
+				<polygon fill="#fefefe" points="39,30 38,36 37,30 30,30 36,19 39,19"/>
+			</pattern>
+		</defs>
+		<rect width="400" height="200" fill="hsl(210, 24%, 90%)" />
+		<rect width="400" height="66.666" fill="hsl(0, 0%, 100%)" />
+		<path d="M0 200, 350 150, 400 200, 450 150, 900 200" fill="hsl(0, 0%, 0%)" />
+		<rect width="20%" height="50%" x="40%" y="25%" fill="url(#eagle)"/>
+		<path d="M100 150, 150 100, 200 150" fill="hsl(210, 24%, 74%)" />
+		<circle cx="35" cy="45" r="5" fill="hsl(210, 24%, 90%)" />
+		<circle cx="65" cy="45" r="5" fill="hsl(210, 24%, 90%)" /></svg>
