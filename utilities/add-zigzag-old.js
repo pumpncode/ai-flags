@@ -1,5 +1,5 @@
-import { add, bignumber, compare, divide, multiply, subtract, sum } from "mathjs-browser";
-import SVGPathCommander from "svg-path-commander-browser";
+import { add, bignumber, compare, divide, multiply, subtract, sum } from "mathjs";
+import SVGPathCommander from "svg-path-commander";
 import Bezier from "./bezier.js";
 
 const addZigzag = (path, { count: countOfPeaks, amplitude }) => {

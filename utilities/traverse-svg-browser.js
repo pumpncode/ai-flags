@@ -1,4 +1,4 @@
-import { DOMParser } from "xmldom-browser";
+import { DOMParser } from "xmldom";
 
 const traverseSvg = (svg, iteratee) => {
 	const traverseSvgElement = (element) => {

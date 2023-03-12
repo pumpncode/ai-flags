@@ -1,4 +1,4 @@
-import { DOMParser } from "npm:xmldom";
+import { DOMParser } from "xmldom";
 
 const isSvgValid = (svg) => {
 	let parseErrors = false;

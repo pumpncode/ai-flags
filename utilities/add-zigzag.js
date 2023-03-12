@@ -1,6 +1,6 @@
-import { Bezier } from "bezier-js-browser";
-import { sum } from "lodash-es-browser";
-import SVGPathCommander from "svg-path-commander-browser";
+import { Bezier } from "bezier-js";
+import { sum } from "lodash-es";
+import SVGPathCommander from "svg-path-commander";
 import areColinear from "./are-colinear.js";
 import roundToThousands from "./round-to-thousands.js";
 

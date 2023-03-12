@@ -1,9 +1,9 @@
 import "std/dotenv/load";
 
+import { loopOverCountries } from "@ai-flags/utilities";
+import { Configuration, OpenAIApi } from "openai";
 import { retry } from "std/async";
 import { fromFileUrl } from "std/path";
-import { Configuration, OpenAIApi } from "npm:openai";
-import { loopOverCountries } from "@ai-flags/utilities";
 
 const {
 	cwd,

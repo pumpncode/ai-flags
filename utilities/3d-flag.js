@@ -1,5 +1,5 @@
-import Zdog from "npm:zdog";
-import { DOMParser, XMLSerializer } from "npm:xmldom"
+import { DOMParser, XMLSerializer } from "xmldom";
+import Zdog from "zdog";
 
 // const illustration = new Zdog.Illustration();
 

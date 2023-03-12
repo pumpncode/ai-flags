@@ -1,7 +1,7 @@
-import { format, bignumber } from "npm:mathjs";
-import SvgPath from "npm:svgpath";
+import { bignumber, format } from "mathjs";
+import SvgPath from "svgpath";
 
-import { traverseSvg, dimensionlessPathCommandParameterIndexes } from "@ai-flags/utilities";
+import { dimensionlessPathCommandParameterIndexes, traverseSvg } from "@ai-flags/utilities";
 
 const replaceSvgNumberStrings = (svg, replaceMap) => {
 	return traverseSvg(

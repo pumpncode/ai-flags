@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 100">
+	<path fill="#B22234" d="M0 0h190v100H0z" stroke-width="1"/>
+	<path fill="#FFF" d="M0 20h190v20H0z" stroke-width="1"/>
+	<path fill="#B22234" d="M0 40h190v20H0z" stroke-width="1"/>
+	<path fill="#FFF" d="M0 60h190v20H0z" stroke-width="1"/>
+	<path fill="#B22234" d="M0 80h190v20H0z" stroke-width="1"/>
+	<path fill="#3C3B6E" d="M33 13h110v74H33z" stroke-width="1"/>
+	<g fill="#FFF" stroke-width="1">
+		<circle cx="38" cy="30" r="5" stroke-width="1"/>
+		<circle cx="57" cy="30" r="5" stroke-width="1"/>
+		<circle cx="76" cy="30" r="5" stroke-width="1"/>
+		<circle cx="95" cy="30" r="5" stroke-width="1"/>
+		<circle cx="114" cy="30" r="5" stroke-width="1"/>
+		<circle cx="133" cy="30" r="5" stroke-width="1"/>
+		<circle cx="152" cy="30" r="5" stroke-width="1"/>
+		<circle cx="38" cy="49" r="5" stroke-width="1"/>
+		<circle cx="57" cy="49" r="5" stroke-width="1"/>
+		<circle cx="76" cy="49" r="5" stroke-width="1"/>
+		<circle cx="95" cy="49" r="5" stroke-width="1"/>
+		<circle cx="114" cy="49" r="5" stroke-width="1"/>
+		<circle cx="133" cy="49" r="5" stroke-width="1"/>
+		<circle cx="152" cy="49" r="5" stroke-width="1"/>
+		<circle cx="38" cy="68" r="5" stroke-width="1"/>
+		<circle cx="57" cy="68" r="5" stroke-width="1"/>
+		<circle cx="76" cy="68" r="5" stroke-width="1"/>
+		<circle cx="95" cy="68" r="5" stroke-width="1"/>
+		<circle cx="114" cy="68" r="5" stroke-width="1"/>
+		<circle cx="133" cy="68" r="5" stroke-width="1"/>
+		<circle cx="152" cy="68" r="5" stroke-width="1"/>
+		<circle cx="38" cy="87" r="5" stroke-width="1"/>
+		<circle cx="57" cy="87" r="5" stroke-width="1"/>
+		<circle cx="76" cy="87" r="5" stroke-width="1"/>
+		<circle cx="95" cy="87" r="5" stroke-width="1"/>
+		<circle cx="114" cy="87" r="5" stroke-width="1"/>
+		<circle cx="133" cy="87" r="5" stroke-width="1"/>
+		<circle cx="152" cy="87" r="5" stroke-width="1"/>
+	</g>
+</svg>

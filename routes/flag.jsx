@@ -1,11 +1,11 @@
-import rehypeStringify from "npm:rehype-stringify";
-import remarkGfm from "npm:remark-gfm";
-import remarkParse from "npm:remark-parse";
-import remarkRehype from "npm:remark-rehype";
-import { unified } from "npm:unified";
+import rehypeStringify from "rehype-stringify";
 import remarkBehead from "remark-behead";
+import remarkGfm from "remark-gfm";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
 import { join, relative } from "std/path";
 import { css, cx } from "twind";
+import { unified } from "unified";
 
 import { asset } from "$fresh/runtime.ts";
 

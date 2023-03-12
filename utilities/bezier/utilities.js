@@ -1,7 +1,7 @@
 // import { Bezier } from "./bezier.js";
 
 // math-inlining.
-import { add, subtract, multiply, divide, abs, cos, sin, acos, atan2, sqrt, pow, bignumber, unaryMinus, compare } from "mathjs-browser";
+import { abs, acos, add, atan2, bignumber, compare, cos, divide, multiply, pow, sin, sqrt, subtract, unaryMinus } from "mathjs";
 
 // cube root function yielding real roots
 function crt(v) {

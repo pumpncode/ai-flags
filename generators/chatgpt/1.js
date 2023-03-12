@@ -1,7 +1,7 @@
 import "std/dotenv/load";
 
 import { loopOverCountries } from "@ai-flags/utilities";
-import { ChatGPTAPI } from "npm:chatgpt";
+import { ChatGPTAPI } from "chatgpt";
 import { retry } from "std/async";
 import { fromFileUrl } from "std/path";
 

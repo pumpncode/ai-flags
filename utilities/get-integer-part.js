@@ -1,4 +1,4 @@
-import { bignumber } from "npm:mathjs";
+import { bignumber } from "mathjs";
 
 const getIntegerPart = (number) => bignumber(
 	number.toFixed(0, bignumber.ROUND_DOWN)

@@ -1,11 +1,11 @@
 import DOMPurify from "dompurify";
 import { useEffect, useState } from "preact/hooks";
-import SVGPathCommander from "svg-path-commander-browser";
-import { optimize as optimizeSvg } from "svgo-browser";
+import SVGPathCommander from "svg-path-commander";
+import { optimize as optimizeSvg } from "svgo";
 import { css, cx } from "twind";
 
 import addZigzag from "../utilities/add-zigzag.js";
-import traverseSvgBrowser from "../utilities/traverse-svg-browser.js";
+import traverseSvgBrowser from "../utilities/traverse-svg.js";
 
 const svgoConfig = {
 	multipass: true,

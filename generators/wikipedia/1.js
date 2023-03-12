@@ -1,15 +1,15 @@
 import "std/dotenv/load";
 
-import { fromFileUrl, join } from "std/path";
 import { loopOverCountries } from "@ai-flags/utilities";
-import { unified } from "npm:unified";
-import rehypeParse from "npm:rehype-parse";
-import rehypeRemark from "npm:rehype-remark";
-import remarkGfm from "npm:remark-gfm";
-import remarkStringify from "npm:remark-stringify";
-import { select } from "npm:hast-util-select";
-import { h } from "npm:hastscript";
-import remarkUnlink from "npm:remark-unlink";
+import { select } from "hast-util-select";
+import { h } from "hastscript";
+import rehypeParse from "rehype-parse";
+import rehypeRemark from "rehype-remark";
+import remarkGfm from "remark-gfm";
+import remarkStringify from "remark-stringify";
+import remarkUnlink from "remark-unlink";
+import { fromFileUrl } from "std/path";
+import { unified } from "unified";
 import patches from "./patches.js";
 
 const {

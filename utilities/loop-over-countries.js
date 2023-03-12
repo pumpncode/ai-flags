@@ -1,5 +1,5 @@
-import { optimize as optimizeSvg } from "npm:svgo";
 import { join } from "std/path";
+import { optimize as optimizeSvg } from "svgo";
 
 import isSvgValid from "./is-svg-valid.js";
 import simplifySvg from "./simplify-svg.js";

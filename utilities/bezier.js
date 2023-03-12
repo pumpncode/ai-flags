@@ -6,10 +6,10 @@
   This code is MIT licensed.
 **/
 
-import utilities from "./bezier/utilities.js";
 import PolyBezier from "./bezier/poly-bezier.js";
+import utilities from "./bezier/utilities.js";
 
-import { add, subtract, multiply, divide, abs, cos, sin, acos, atan2, sqrt, pow, bignumber, unaryMinus, compare } from "mathjs-browser";
+import { abs, acos, add, bignumber, compare, cos, divide, multiply, sin, sqrt, unaryMinus } from "mathjs";
 const pi = Math.PI;
 // a zero coordinate, which is surprisingly useful
 const ZERO = { x: bignumber(0), y: bignumber(0), z: bignumber(0) };

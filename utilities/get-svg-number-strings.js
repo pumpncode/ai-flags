@@ -1,7 +1,7 @@
-import { format } from "npm:mathjs";
-import SvgPath from "npm:svgpath";
+import { format } from "mathjs";
+import SvgPath from "svgpath";
 
-import { traverseSvg, dimensionlessPathCommandParameterIndexes } from "@ai-flags/utilities";
+import { dimensionlessPathCommandParameterIndexes, traverseSvg } from "@ai-flags/utilities";
 
 const getSvgNumberStrings = (svg) => {
 	const numberStrings = new Set([1]);

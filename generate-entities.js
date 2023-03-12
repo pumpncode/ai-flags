@@ -1,4 +1,4 @@
-import WBK from "npm:wikibase-sdk";
+import WBK from "wikibase-sdk";
 
 import "std/dotenv/load";
 import { join } from "std/path";

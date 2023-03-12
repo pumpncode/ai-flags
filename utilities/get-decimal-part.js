@@ -1,4 +1,4 @@
-import { bignumber, subtract } from "npm:mathjs";
+import { bignumber, subtract } from "mathjs";
 
 import getIntegerPart from "./get-integer-part.js";
 

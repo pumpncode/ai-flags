@@ -1,4 +1,4 @@
-import cn from "classnames-browser";
+import cn from "classnames";
 
 /**
  *

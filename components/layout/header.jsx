@@ -1,4 +1,4 @@
-import { startCase } from "npm:lodash-es";
+import { startCase } from "lodash-es";
 import { cx } from "twind";
 
 import Button from "../input/button.jsx";

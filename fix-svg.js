@@ -1,4 +1,4 @@
-import { optimize as optimizeSvg } from "npm:svgo";
+import { optimize as optimizeSvg } from "svgo";
 
 import { isSvgValid, simplifySvg } from "@ai-flags/utilities";
 

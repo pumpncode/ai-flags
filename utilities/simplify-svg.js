@@ -1,4 +1,4 @@
-import { bignumber, gcd, multiply, pow, divide, fraction, format, compare } from "npm:mathjs";
+import { bignumber, compare, divide, format, fraction, gcd, multiply, pow } from "mathjs";
 
 import { getDecimalPart, getSvgNumberStrings, replaceSvgNumberStrings } from "@ai-flags/utilities";
 

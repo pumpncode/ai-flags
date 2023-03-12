@@ -1,8 +1,7 @@
-import { Fragment } from "preact";
-import { Disclosure, Transition } from "@headlessui/react-browser";
 import { asset } from "$fresh/runtime.ts";
-import { cx, css } from "twind";
-import { join } from "std/path";
+import { Disclosure, Transition } from "@headlessui/react";
+import { Fragment } from "preact";
+import { css, cx } from "twind";
 
 const SetupListItem = ({ name: setupName, flags }) => {
 	return (
