@@ -329,7 +329,7 @@ A nice side effect of all the research done here would be a modern, open source,
   - ❌ only provides GIFs
 - [Cyberflag](http://www.cyber-flag.net/)
   - ✅ somewhat comprehensive
-  - ❌ machine-readable
+  - ❌ not machine-readable
   - ❌ not open source
   - ❌ not precise enough
   - ❌ extremely outdated page design
