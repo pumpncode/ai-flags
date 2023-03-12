@@ -56,7 +56,14 @@ const getInstances = async ({ staticVariantFolderPath }) => {
 					let createdAt = null;
 
 					try {
-						const { birthtime } = await stat(svgFlagFilePath);
+						console.log("svgFlagFilePath", svgFlagFilePath);
+						const stat = await stat(svgFlagFilePath);
+
+						console.log("stat", stat);
+
+						const { birthtime } = stat;
+
+						console.log("birthtime", birthtime);
 
 						createdAt = birthtime.toISOString();
 					}
