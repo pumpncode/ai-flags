@@ -53,32 +53,15 @@ const getInstances = async ({ staticVariantFolderPath }) => {
 					const svgFlagFilePath = join(countryFolderPath, "flag.svg");
 					const pngFlagFilePath = join(countryFolderPath, "flag.png");
 
-					let createdAt = (new Date()).toISOString();
+					const createdAt = (new Date()).toISOString();
 
-					try {
-						const statResult = await stat(svgFlagFilePath);
-
-						const { birthtime } = statResult;
-
-						createdAt = birthtime.toISOString();
-					}
-					catch (error) {
-						// if (!(error instanceof NotFound)) {
-						// 	throw error;
-						// }
-						// do nothing
-					}
-
-					if (createdAt !== null) {
-						instanceContent.push({
-							// eslint-disable-next-line max-len
-							name: countries.find(({ cca3 }) => cca3 === code.toLocaleUpperCase()).name.common,
-							code,
-							svgFlagPath: svgFlagFilePath.replace("static/", ""),
-							pngFlagPath: pngFlagFilePath.replace("static/", ""),
-							createdAt
-						});
-					}
+					instanceContent.push({
+						name: countries.find(({ cca3 }) => cca3 === code.toLocaleUpperCase()).name.common,
+						code,
+						svgFlagPath: svgFlagFilePath.replace("static/", ""),
+						pngFlagPath: pngFlagFilePath.replace("static/", ""),
+						createdAt
+					});
 				}
 			}
 

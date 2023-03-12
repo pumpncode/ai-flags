@@ -13,6 +13,8 @@ const {
  * @param props.fullVariantName
  */
 const InstancesList = ({ instances, fullVariantName }) => {
+	console.log("instances");
+	console.log(instances);
 	const sortedInstancesArray = Object.entries(instances)
 		.sort(([nameA, flagsA], [nameB, flagsB]) => {
 			const sortedFlagsA = [...flagsA]
@@ -38,6 +40,9 @@ const InstancesList = ({ instances, fullVariantName }) => {
 				startDate
 			};
 		});
+
+	console.log("sortedInstancesArray");
+	console.log(sortedInstancesArray);
 
 	return (
 		<ul>
