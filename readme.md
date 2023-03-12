@@ -59,6 +59,8 @@ The experiments described below involve ChatGPT exclusively in the designated ro
 
 It's also noted that whenever I speak of a "human" slipping into one of the roles, this of course can also just mean text written assisted by AI or the internet or code. For example, if we are the **vexillologist** and are asked to describe a flag of a country accurately, we can just look it up on Wikipedia and copy the description written by another human, not just using content we came up with. Although even Wikipedia isn't accurate enough in some cases, relying on images of construction sheets or too general descriptions a vexillologist might understand but a non-vexillologist might struggle with. However, to keep comparisons "fair", so to speak, I will always try to stay in the scope of the conversation without a lot of outside help, sometimes even actively ignoring my own knowledge of a flag, just to see how far AI can get on its own, since this is basically the whole reason for this project and the main point of interest here. Also keep in mind the randomness of ChatGPT. The selected examples below are just the first results I got, if the goal was to find the best result, asking the same thing multiple times and picking the best answer would be necessary.
 
+Oh and before anyone tries to
+
 #### Human Text to AI Text to Human Image
 
 Here we ask the AI to describe a flag, but then create the image of it ourselves. While ChatGPT does a great job of describing flags **roughly**, asking to get more specific can get wrong really fast. Also, in typical snarky ChatGPT fashion, it often provides additional information about the symbolism of a flag, which in our case just adds irrelevant noise.
@@ -105,13 +107,13 @@ ChatGPT (**vexillologist**):
 
 ---
 
-While the ratio is correct here (which could be a coincidence, considering that 2:3 is very common), the color codes are completely made up. It's also unclear why ChatGPT assumes we want to physically construct the flag and suggests getting a piece of fabric. The description on how to place the star on the flag is also inaccurate at best and just wrong at worst, the white star on the official flag does not "touch" the edge of any stripe, its height is actually just eight twelfths the height of the flag. And let's not about the fact that all of this not enough to create an accurate image of the flag.
+While the ratio is correct here (which could be a coincidence, considering that 2:3 is very common), the color codes are completely made up. It's also unclear why ChatGPT assumes we want to physically construct the flag and suggests getting a piece of fabric. The description on how to place the star on the flag is also inaccurate at best and just wrong at worst, the white star on the official flag does not "touch" the edge of any stripe, its height is actually just eight twelfths the height of the flag.
 
 Here is the flag of Myanmar, as it is described by ChatGPT (SVG markup is written by us (the **vexillographer**)):
 
 ![Flag of Myanmar as described by ChatGPT](./images/flag-of-myanmar-chatgpt-vexillologist.svg)
 
-And here is the flag of Myanmar, as it is found on Wikipedia (Wikimedia Commons):
+And here is the actual flag of Myanmar, as it is found on Wikipedia (Wikimedia Commons):
 
 ![Wikipedia's flag of Myanmar](./images/flag-of-myanmar-wikipedia.svg)
 
@@ -153,7 +155,7 @@ Let's look at the result (I removed the `width` and `height` attributes to make 
 
 ![ChatGPT's flag of Myanmar](./images/flag-of-myanmar-chatgpt-vexillographer-1.svg)
 
-The generated markup provides insight into both ChatGPT's limited ability to generate visual representations, as well as its inability to produce working code. This SVG markup is not really valid, since it uses fractions for values where only numbers or percentages are valid, which leads to SVG implementations defaulting to `0` for these values (as far as I know). But alright, let's fix that ourselves by replacing the fractions by percentage values and see what it looks like:
+The generated markup provides insight into both ChatGPT's limited ability to generate visual representations, as well as its inability to produce working code. This SVG markup is not really valid, since it uses fractions for values where only numbers or percentages are valid, which leads to SVG implementations defaulting to `0` for these values (as far as I know). But alright, let's fix that ourselves by replacing the fractions with percentage values and see what it looks like:
 
 ![ChatGPT's flag of Myanmar (fixed fractions)](./images/flag-of-myanmar-chatgpt-vexillographer-2.svg)
 
@@ -163,7 +165,7 @@ One could argue that the prompt "Please create an accurate image of the flag of 
 
 #### Human Text to AI Text to AI Image
 
-Again, we use ChatGPT for everything here, but this time we ask ChatGPT to describe the flag of Myanmar and then let it create the image of it as well:
+Again, we use ChatGPT for everything here, but this time we ask it to describe the flag of Myanmar and then let it create the image of it as well:
 
 ---
 
@@ -249,7 +251,7 @@ ChatGPT (**vexillographer**):
 
 ![ChatGPT's unsupervised flag of Myanmar](./images/flag-of-myanmar-chatgpt-vexillographer-3.svg)
 
-The infamous circle instead of a star again. Colors are all wrong as well and the measurements aren't correct at all.
+The infamous circle instead of a star again. The colors are all wrong as well and the measurements aren't correct at all. Interestingly enough, this looks like [the flag of Shan State](https://en.wikipedia.org/wiki/Flag_of_Shan_State), a province in Myanmar.
 
 ### Conclusion
 
