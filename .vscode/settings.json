@@ -21,5 +21,9 @@
 	"deno.testing.enable": false,
 	"[markdown]": {
 		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-	}
+	},
+	"[tailwindcss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"css.validate": false
 }

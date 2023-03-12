@@ -36,8 +36,6 @@
 		"wikibase-sdk": "https://esm.sh/wikibase-sdk@9.0.4",
 		"lodash-es": "https://esm.sh/lodash-es@4.17.21",
 		"pixelmatch": "https://esm.sh/pixelmatch@5.3.0",
-		"chatgpt": "https://esm.sh/chatgpt@5.0.10?dev",
-		"https://esm.sh/v111/chatgpt@5.0.10/deno/chatgpt.development.js": "./patches/chatgpt@5.0.10/deno/chatgpt.development.js",
 		"openai": "https://esm.sh/openai@3.2.1",
 		"unified": "https://esm.sh/unified@10.1.2",
 		"rehype-parse": "https://esm.sh/rehype-parse@8.0.4",
@@ -54,6 +52,10 @@
 		"xmldom": "https://esm.sh/xmldom@0.6.0",
 		"mathjs": "https://esm.sh/mathjs@11.6.0?target=esnext",
 		"svgpath": "https://esm.sh/svgpath@2.6.0",
-		"@tabler/icons-preact": "https://esm.sh/@tabler/icons-preact@2.10.0"
+		"@tabler/icons-preact": "https://esm.sh/@tabler/icons-preact@2.10.0",
+		"@js-temporal/polyfill": "https://esm.sh/@js-temporal/polyfill@0.4.3",
+		"cliffy": "https://deno.land/x/cliffy@v0.25.7/mod.ts",
+		"chatgpt": "./patches/chatgpt@5.0.10/deno/chatgpt.development.js",
+		"@haverstack/axios-fetch-adapter": "https://esm.sh/@haverstack/axios-fetch-adapter@0.5.0"
 	}
 }

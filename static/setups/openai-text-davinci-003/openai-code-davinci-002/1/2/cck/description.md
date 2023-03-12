@@ -1,0 +1,1 @@
+The flag of the Cocos (Keeling) Islands is a bicolor flag of green and gold. It has a 1:2 aspect ratio and its two vertical stripes are of equal size and have a width fulfilling the requirements of the 1:2 ratio. The gold stripe occupies the left and the green stripe occupies the right. In the center the flag features a white crescent and a white five-pointed star facing upwards.

@@ -32,13 +32,16 @@ const Header = () => {
 			name: "tools"
 		},
 		{
+			name: "about"
+		},
+		{
 			to: "https://github.com/pumpncode/ai-flags",
 			name: "github",
 			title: "GitHub",
 			custom: () => (
 				<Button variant="transparent" size="2xl"><IconBrandGithub /></Button>
 			)
-		},
+		}
 	];
 
 	return (
@@ -49,30 +52,30 @@ const Header = () => {
 						navigationItems
 							.map((
 								{
-								name,
-								to = `/${name}`,
-								title = startCase(name), 
-								custom,
-								customLink
-							},
-							index
+									name,
+									to = `/${name}`,
+									title = startCase(name),
+									custom,
+									customLink
+								},
+								index
 							) => (
 								<li
 									className={cn(
 										"min-h-full h-full items-center justify-center first-child:justify-start",
 										{
 											"hidden sm:flex": index !== 0,
-											"flex": index === 0
+											flex: index === 0
 										}
-									)} 
+									)}
 									key={name}
 								>
 									{
 										customLink
 											? customLink()
-											: <a 
-												href={to} 
-												target={to.match(/^https?/) ? "_blank" : "_self"} 
+											: <a
+												href={to}
+												target={to.match(/^https?/) ? "_blank" : "_self"}
 												className="flex justify-center items-center first-child:p-6"
 											>
 												{

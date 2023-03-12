@@ -1,0 +1,1 @@
+The flag of the Republic of the Congo consists of a rectangular band of red, with a central yellow emblem consisting of five stars in the form of a diamond placed above a yellow cut-off triangle, which is itself superimposed over a grey cut-off triangle. The ratio of the length of the flag to the width is 2:3.

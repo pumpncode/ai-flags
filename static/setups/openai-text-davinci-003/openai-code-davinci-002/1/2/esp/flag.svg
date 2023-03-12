@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100000" height="100000" viewBox="-100000 -100000 200000 200000">
+	<path fill="#DE0707" d="M-2000-1000H98000V99000H-2000z" stroke-width="1000"/>
+	<path fill="#FDEB00" d="M-45000-1000H55000V99000H-45000z" stroke-width="1000"/>
+	<path fill="#A0168C" d="M-2000-45000H98000V55000H-2000z" stroke-width="1000"/>
+	<path fill="none" stroke="#000" stroke-dasharray="0" stroke-dashoffset="3046139" stroke-width="5000" d="M-192000-184000H5000v100000h-197000z"/>
+	<path fill="none" stroke="#0f0" stroke-width="5000" d="M-500 66500h3000v3000h-3000z"/>
+</svg>

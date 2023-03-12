@@ -1,0 +1,1 @@
+The flag of Comoros is a four-sided rectangular flag with a width to length ratio of 2:3. The background is divided diagonally from the lower hoist side to the upper fly side into green and white. Each side is equal in size. In the middle is a red crescent with four five-pointed yellow stars, one in each corner.

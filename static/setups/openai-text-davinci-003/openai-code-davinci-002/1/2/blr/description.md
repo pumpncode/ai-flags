@@ -1,0 +1,1 @@
+The national flag of Belarus is a vertical bicolor with a red stripe at the hoist the width of half the flag's length and a green stripe at the fly the width of the other half of the flag's length. A red-and-white Belarusian ornamental pattern is centered over the two stripes. The official aspect ratio of the flag is 1:2.

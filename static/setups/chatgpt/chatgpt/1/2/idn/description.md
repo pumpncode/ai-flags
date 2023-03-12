@@ -1,0 +1,1 @@
+The flag of Indonesia consists of two equal horizontal bands, with the top band being red (#FF0000) and the bottom band being white (#FFFFFF). The aspect ratio of the flag is 2:3, and its geometric properties are rectangular with a length-to-width ratio of 5:3. The dimensions of the flag are therefore 2.5 units in length and 1.5 units in width.

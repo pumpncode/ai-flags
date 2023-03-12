@@ -1,0 +1,1 @@
+The flag of Ivory Coast consists of three equal vertical bands of orange (hoist side), white, and green with a green five-pointed star centered in the white band. The ratio of the flag is 2:3.

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
+	<path fill="#00A652" d="M0 0h60000v40000H0z" stroke-width="100"/>
+	<path d="M0 13333h60000v13333H0z" stroke-width="100"/>
+	<path fill="#FC0" d="M0 26667h60000V40000H0z" stroke-width="100"/>
+	<circle cx="30000" cy="20000" r="6667" fill="#FFF" stroke-width="100"/>
+	<path fill="red" d="M30000 13333l2869 7774h7696l-5834 5560L37500 34441l-7500-5461-7500 5461 2769-7774-5834-5560h7696z" stroke-width="100"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500">
+	<path fill="#CE1126" d="M0 0h300v500H0z" stroke-width="1"/>
+	<path fill="#FFC400" d="M150 250l-50-87a40 40 0 0 1 100 0z" stroke-width="1"/>
+	<path fill="#FFC400" d="M150 250l50-87a40 40 0 0 0-100 0z m0 0l-50 87a40 40 0 0 0 100 0z" stroke-width="1"/>
+	<path fill="#FFC400" d="M150 250l50 87a40 40 0 0 1-100 0z" stroke-width="1"/>
+</svg>

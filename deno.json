@@ -1,6 +1,6 @@
 {
 	"tasks": {
-		"start": "deno run -A --no-check --unstable --watch=routes/,components/,static/ ./dev.js",
+		"start": "deno run -A --no-check --unstable --watch=routes/,components/,static/,setups/ ./dev.js",
 		"generate": "deno run -A --unstable ./generate.js",
 		"fix-svg": "deno run -A --unstable ./fix-svg.js"
 	},

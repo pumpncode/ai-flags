@@ -1,0 +1,1 @@
+The flag of Albania is a red flag with a black double-headed eagle in the center. The width of the flag is twice the length, making its aspect ratio 2:1.

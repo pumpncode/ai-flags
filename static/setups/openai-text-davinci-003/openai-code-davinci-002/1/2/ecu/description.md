@@ -1,0 +1,1 @@
+The flag of Ecuador is a vertical tricolor of yellow, blue and red. It has a width-to-length aspect ratio of 2:3, with the upper band being yellow, the middle band being blue, and the bottom band being red.

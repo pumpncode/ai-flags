@@ -1,0 +1,1 @@
+The Cayman Islands flag has a light blue background with a British Union Jack in the upper hoist corner, and a yellow-bordered shield in the center. The shield has a sailing ship depicted on it. The aspect ratio is 3:5.

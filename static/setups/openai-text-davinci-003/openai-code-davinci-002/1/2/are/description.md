@@ -1,0 +1,1 @@
+The flag of United Arab Emirates is a vertical tricolor of red, green and white. The red compartment is twice as wide as the green and white. The white compartment is half as wide as the green and occupies the top of the flag. The hoist side margin is split into two sections with a green strip at the bottom, and a white strip at the top.

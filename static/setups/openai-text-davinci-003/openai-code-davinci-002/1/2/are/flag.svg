@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 622">
+	<path d="M0-60h500v180H0z m0 245h500v185H0z" stroke-width="500"/>
+	<path d="M0 370h500v185H0z" stroke-width="500">
+		<animate attributeName="width" begin="0s" direction="alternate-reverse" dur="3s" from="250" repeatCount="indefinite" to="500"/>
+	</path>
+</svg>

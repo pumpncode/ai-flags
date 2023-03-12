@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 440 100">
+	<path d="M200 10h100v90h100-200z" style="fill:#009b2e" stroke-width="1"/>
+	<path d="M400 100h100v90z" style="fill:#12b8ff" stroke-width="1"/>
+	<path d="M200 100h100v140h300-300 100l100-50h100z" style="fill:#ffce00" stroke-width="1"/>
+	<path d="M200 240h100v110z" style="fill:#007bc4" stroke-width="1"/>
+	<path d="M400 240l100-50h100v50h100v110H600h100L600 600H300l100-250h200z" style="fill:#002868" stroke-width="1"/>
+	<path d="M400 600H200V500h100z" style="fill:#9e7c19" stroke-width="1"/>
+	<path d="M700 350H600v250H500V500h200z" style="fill:#00a68b" stroke-width="1"/>
+	<path d="M100 420v-70h100v250h500V500H200V350H100z" style="fill:#009b2e" stroke-width="1"/>
+</svg>

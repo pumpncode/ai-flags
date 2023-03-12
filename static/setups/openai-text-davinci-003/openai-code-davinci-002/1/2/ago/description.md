@@ -1,0 +1,1 @@
+The Flag of Angola consists of two equal horizontal stripes, the upper being red and the lower being black. In the center is an emblem consisting of a yellow 5-pointed star with a gray machete encompassed by a half cog wheel overlaid on a green half gear wheel, all emblem set on a white circle. The aspect ratio of the flag is 2:3.

@@ -1,0 +1,1 @@
+The flag of Armenia is rectangular and consists of three equal horizontal stripes. The top stripe is red, the middle stripe is blue, and the bottom stripe is orange. The flag has an aspect ratio of 1:2.

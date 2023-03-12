@@ -1,0 +1,1 @@
+The flag of French Southern and Antarctic Lands consists of a white thumbnail vertically at the hoist containing a circle with a diameter of 2/3 of the flag's height, and a blue field striped with an equal number of white and red alternating stripes and a vertical white stripe at the fly. The ratio of the flag is 2:3.

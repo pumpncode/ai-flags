@@ -1,0 +1,5 @@
+The national flag of Sierra Leone consists of three horizontal stripes of equal size. The top and bottom stripes are light green (#33CC33), while the center stripe is white (#FFFFFF). On the left-hand side of the flag, there is a blue (#0072C6) equilateral triangle with a height equal to half the width of the flag. Inside the triangle is a yellow (#FFCC00) five-pointed star. 
+
+The aspect ratio of the flag is 2:3, and its geometric properties include a rectangular shape with a length of 1.5 times its width. The width of the flag is equal to the diagonal of the blue triangle. The ratio of the height of the blue triangle to the width of the flag is approximately 0.866. The distance between the hoist edge of the flag and the left side of the triangle is one-sixth the width of the flag.
+
+The official specifications for the flag's measurements are not publicly available, but it typically measures 90 cm x 150 cm when used for display purposes.

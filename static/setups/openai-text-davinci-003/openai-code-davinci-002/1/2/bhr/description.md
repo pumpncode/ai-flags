@@ -1,0 +1,1 @@
+The flag of Bahrain has a white rectangular field sized 5:3, with a red band of the same width on the hoist side bearing five white points. On the fly side, there is a serrated section displaying three white points above two red points.

@@ -1,0 +1,1 @@
+The flag of China is a red field, featuring a gold star in the upper left corner and 4 smaller gold stars in a semicircle in the lower right corner. The aspect ratio is 3:2.

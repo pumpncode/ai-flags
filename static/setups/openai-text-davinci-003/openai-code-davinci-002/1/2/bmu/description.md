@@ -1,0 +1,1 @@
+The flag of Bermuda is a defaced blue ensign with the coat of arms of Bermuda on a white disc taking up the whole of the center of the flag. It has an aspect ratio of 1:2.

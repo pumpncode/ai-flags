@@ -1,0 +1,1 @@
+The flag of Christmas Island is a green and red vertical bicolor with an golden Southern Cross on a golden yellow map of the island. The width-to-length ratio of the flag is 2:3.

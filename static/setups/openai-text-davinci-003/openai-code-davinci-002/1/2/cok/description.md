@@ -1,0 +1,1 @@
+The flag of the Cook Islands consists of a dark blue field with a Union Flag in the upper hoist corner and four gold, five-pointed stars arranged in a diamond pattern in the fly. Aspect ratio of 10:11.

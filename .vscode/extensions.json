@@ -3,6 +3,8 @@
 		"dbaeumer.vscode-eslint",
 		"denoland.vscode-deno",
 		"eamodio.gitlens",
-		"sastan.twind-intellisense"
+		"sastan.twind-intellisense",
+		"sibiraj-s.vscode-scss-formatter",
+		"bradlc.vscode-tailwindcss"
 	]
 }

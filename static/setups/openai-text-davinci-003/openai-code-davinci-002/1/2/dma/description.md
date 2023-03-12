@@ -1,0 +1,1 @@
+The flag of Dominica is a green, yellow, and black triband with a design of a sisserou parrot in the centre of the yellow section. The green section is 4:5 ratio, the yellow section is 1:2 ratio, and the black section is 4:5 ratio.

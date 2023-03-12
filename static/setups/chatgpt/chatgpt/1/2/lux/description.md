@@ -1,0 +1,1 @@
+The flag of Luxembourg consists of three horizontal stripes of equal dimension. The top and bottom stripes are red (#BF1E2D), while the middle stripe is light blue (#00A1DE). The aspect ratio of the flag is 3:5, and its geometric properties take the form of a rectangle. In terms of measurements, the width of the flag is three-fifths (60%) of its length.

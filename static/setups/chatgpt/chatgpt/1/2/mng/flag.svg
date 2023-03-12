@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+	<path fill="#2851A3" d="M0 0h200v300H0z m400 0h200v300h-200z" stroke-width="4"/>
+	<path fill="#C8102E" d="M200 0h400v300H200z" stroke-width="4"/>
+	<path fill="#FCD116" d="M90 75h60v150h-60v-150z m120 0h60v150h-60v-150z m120 0h60v150h-60v-150z m120 0h60v150h-60v-150zM90 0h60v75h-60V0z m60 0h60v75h-60V0z m120 0h60v75h-60V0z m60 0h60v75h-60V0z m120 0h60v75h-60V0z" stroke-width="4"/>
+</svg>

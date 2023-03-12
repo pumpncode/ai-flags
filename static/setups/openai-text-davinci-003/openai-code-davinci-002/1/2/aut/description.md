@@ -1,0 +1,1 @@
+The flag of Austria consists of three horizontal stripes, white at the top, red in the middle, and red at the bottom. The width to length ratio is 2:3.

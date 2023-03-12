@@ -1,0 +1,1 @@
+The flag of Switzerland consists of a red square field with a white cross near the centre. The width of the cross is one-sixth of the height of the flag, and its arms are one-sixth of the flag's width.

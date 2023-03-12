@@ -123,50 +123,46 @@ const FlagDetails = ({
 			name, code, pngFlagPath, description, setupName, comments
 		}
 	}
-}) => {
-	console.log(pngFlagPath);
+}) => (
+	<section className="p-4 md:p-16 min-h-[calc(100vh-12rem)]">
+		<h2 className="flex gap-2 items-center h-24">
+			<span>{name}</span>
+			<span className="text-base font-mono bg-neutral-700 px-1 py-0.5 rounded">({code})</span>
+		</h2>
 
-	return (
-		<section className="p-4 md:p-16 min-h-[calc(100vh-12rem)]">
-			<h2 className="flex gap-2 items-center h-24">
-				<span>{name}</span>
-				<span className="text-base font-mono bg-neutral-700 px-1 py-0.5 rounded">({code})</span>
-			</h2>
-
-			<section className="flex flex-col sm:flex-row gap-4 min-h-[calc(100vh-26rem)]">
-				<div className="w-full flex items-start justify-center p-2 bg-neutral-700 rounded min-h-full">
-					<img
-						src={asset(pngFlagPath)}
-						alt={`Flag of ${name} (according to ${setupName})`}
-						className={cx`
+		<section className="flex flex-col sm:flex-row gap-4 min-h-[calc(100vh-26rem)]">
+			<div className="w-full flex items-start justify-center p-2 bg-neutral-700 rounded min-h-full">
+				<img
+					src={asset(pngFlagPath)}
+					alt={`Flag of ${name} (according to ${setupName})`}
+					className={cx`
 							max-w-full max-h-[max(16rem,calc(100vh-23rem))] border border-neutral-800
 							${css({ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" })}
 						`}
+				/>
+			</div>
+
+			<div className="w-full flex flex-col gap-4 p-4 bg-neutral-700 min-h-full rounded">
+				<div className="flex flex-col gap-4 p-4 bg-neutral-600 rounded">
+					<h3 className="text-3xl font-medium">Description</h3>
+					<section className="max-w-prose text-justify markdown"
+						dangerouslySetInnerHTML={{ __html: String(description) }}
 					/>
 				</div>
 
-				<div className="w-full flex flex-col gap-4 p-4 bg-neutral-700 min-h-full rounded">
+				{comments && (
 					<div className="flex flex-col gap-4 p-4 bg-neutral-600 rounded">
-						<h3 className="text-3xl font-medium">Description</h3>
+						<h3 className="text-3xl font-medium">Comments</h3>
 						<section className="max-w-prose text-justify markdown"
-							dangerouslySetInnerHTML={{ __html: String(description) }}
+							dangerouslySetInnerHTML={{ __html: String(comments) }}
 						/>
 					</div>
-
-					{comments && (
-						<div className="flex flex-col gap-4 p-4 bg-neutral-600 rounded">
-							<h3 className="text-3xl font-medium">Comments</h3>
-							<section className="max-w-prose text-justify markdown"
-								dangerouslySetInnerHTML={{ __html: String(comments) }}
-							/>
-						</div>
-					)}
-				</div>
-			</section>
-
+				)}
+			</div>
 		</section>
-	);
-};
+
+	</section>
+);
 
 export { config, handler };
 

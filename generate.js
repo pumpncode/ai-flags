@@ -1,49 +1,78 @@
+import { Command } from "cliffy";
 import { join } from "std/path";
 
+import { loopOverCountries } from "@ai-flags/utilities";
+
 const {
-	args: [setupNamesString, countryCodesFilterString],
+	args,
 	cwd,
-	readTextFile,
-	run,
-	writeTextFile
+	errors: {
+		NotFound
+	},
+	stat
 } = Deno;
 
-const setupNames = setupNamesString?.split(",") ?? [];
+const allCountries = await (await fetch("https://raw.githubusercontent.com/mledoze/countries/master/countries.json")).json();
 
-if (setupNames.length === 0) {
-	console.error("Please provide one or multiple setup names");
-	Deno.exit(1);
-}
+const { options: { setups, countries } } = await new Command()
+	.name("generate")
+	.version("0.1.0")
+	.description("Generate flags from setups and generators")
+	.option(
+		"-s, --setups <setups:string>",
+		"comma-separated setups to use, a list of setup strings including the instance name at the end",
+		{ required: true }
+	)
+	.option(
+		"-c, --countries [countries:string]",
+		"comma-separated list of ISO 3166-1 alpha-3 country codes to use, if not provided all countries will be used"
+	)
+	.parse(args);
 
-for (const setupName of setupNames) {
-	const savedSetupNames = JSON.parse(await readTextFile(join(cwd(), "setup-names.json")));
+const { setups: fullSetupNames, countries: countryCodes } = {
+	setups: setups.split(","),
+	countries: (countries ? countries.split(",") : allCountries.map(({ cca3: code }) => code)).map((code) => code.toLowerCase())
+};
 
-	if (!savedSetupNames.includes(setupName)) {
-		await writeTextFile(
-			join(cwd(), "setup-names.json"),
-			JSON.stringify(
-				[...savedSetupNames, setupName],
-				null,
-				"\t"
-			)
-		);
+const setupsFolderPath = join(cwd(), "setups");
+const generatorsFolderPath = join(cwd(), "generators");
+
+for (const fullSetupName of fullSetupNames) {
+	const setupNameParts = fullSetupName.split("/");
+
+	const instanceName = fullSetupName.at(-1);
+
+	const setupName = setupNameParts.slice(0, -1).join("/");
+
+	const setupFolderPath = join(setupsFolderPath, setupName);
+
+	const descriptionFilePath = join(setupFolderPath, "description.md");
+
+	try {
+		await stat(descriptionFilePath);
+	}
+	catch (error) {
+		if (error instanceof NotFound) {
+			throw new Error(`Description for setup "${setupName}" could not be found at "${descriptionFilePath}"`);
+		}
+
+		throw error;
 	}
 
-	const setupPath = join(cwd(), "generators", setupName);
+	const generatorFilePath = join(generatorsFolderPath, `${setupName}.js`);
 
-	const command = [
-		"deno",
-		"run",
-		"-A",
-		"--unstable",
-		`${setupPath}.js`
-	];
+	try {
+		await stat(generatorFilePath);
 
-	const process = run({
-		cmd: countryCodesFilterString
-			? [...command, countryCodesFilterString]
-			: command
-	});
+		const { default: generator } = await import(generatorFilePath);
 
-	await process.status();
+		await loopOverCountries(fullSetupName, countryCodes, generator);
+	}
+	catch (error) {
+		if (error instanceof NotFound) {
+			throw new Error(`Generator for setup "${setupName}" could not be found at "${generatorFilePath}"`);
+		}
+
+		throw error;
+	}
 }

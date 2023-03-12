@@ -1,0 +1,3 @@
+The flag of Namibia has a rectangular shape with the aspect ratio of 2:3. It consists of two horizontal stripes of equal size, with the top stripe in blue color and the bottom stripe in green color. The blue stripe represents the sky and the ocean, while the green stripe represents the land and vegetation. In the center of the flag, there is a white sun with 12 triangular rays emanating from it.
+
+The diameter of the sun is one-third of the height of the flag, and the rays are separated by angles of 30 degrees. The colors used in the flag are defined using Pantone Matching System (PMS) codes. The blue stripe is PMS 294C, the green stripe is PMS 355C, and the sun and its rays are PMS White.

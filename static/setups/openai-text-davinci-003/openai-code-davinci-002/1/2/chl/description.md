@@ -1,0 +1,1 @@
+The flag of Chile consists of two equal horizontal bands of white [upper] and red, with a blue square the same height as the white band at the canton bearing a white five-pointed star in the center. Its aspect ratio is 2:3.

@@ -1,0 +1,1 @@
+The flag of Albania is a red rectangular panel with a length-to-width ratio of 5:3. The shade of red used is Pantone 186C or its equivalent, and it covers the entire surface of the flag. The flag has no other features such as emblems, symbols, or text.

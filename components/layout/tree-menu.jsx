@@ -32,7 +32,7 @@ const TreeMenu = ({
 					className={cn(
 						"p-4 grow",
 						{
-							"bg-blue-600 text-neutral-200 invert": active,
+							"bg-cyan-500 text-neutral-900": active,
 							"pl-12": !entity.children
 						}
 					)}

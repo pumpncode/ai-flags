@@ -1,0 +1,1 @@
+The flag of Barbados is a rectangular bicolor with a gold split in the centre. The upper triangle is blue and the lower triangle is ultramarine. The width of the flag is 3:5.

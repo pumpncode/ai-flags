@@ -1,0 +1,1 @@
+The flag of Belgium is a vertical tricolor of black, yellow, and red, in that order. The flag has a 2:3 aspect ratio, with a width of two units and a height of three units.

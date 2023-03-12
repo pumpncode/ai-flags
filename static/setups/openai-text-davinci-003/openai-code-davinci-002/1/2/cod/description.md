@@ -1,0 +1,1 @@
+The flag of DR Congo has a rectangular shape with dimensions of 2:3. The top half of the flag is sky blue, and the bottom half is a golden yellow, with a red centered star at the intersection of the two colors.

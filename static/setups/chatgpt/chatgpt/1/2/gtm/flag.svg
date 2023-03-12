@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 8000">
+	<path fill="#0074CE" d="M0 0h1000v8000H0z" stroke-width="1000"/>
+	<path fill="#FFF" d="M1000 0h3000v8000H1000z" stroke-width="1000"/>
+	<path fill="#0074CE" d="M4000 0h1000v8000H4000z" stroke-width="1000"/>
+	<path fill="#CE1126" d="M2500 6250a750 750 0 1 0 750 750 750 750 0 0 0-750-750ZM1000 5500V7000h1500V5500Zm3000 0V7000h1500V5500ZM2500 2250a2000 2000 0 1 0 2000 2000 2000 2000 0 0 0-2000-2000Z" stroke-width="1000"/>
+	<path fill="#CE1126" d="M2500 3125l-1250 1250 313 1125L2500 5000l938 500 312-1125z" stroke-width="1000"/>
+	<path fill="#FFF" d="M2500 2875a375 375 0 1 0 375 375 375 375 0 0 0-375-375Z" stroke-width="1000"/>
+	<path fill="#FFF" d="M3188 3500h-376L2500 3187l-313 313h-374v375h1250V4500H2500v375h375V4500h688v-625h-376Z" stroke-width="1000"/>
+</svg>

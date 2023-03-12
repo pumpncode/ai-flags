@@ -1,0 +1,1 @@
+The flag of Antarctica is a white background with a map of Antarctica in the center, a horizontal line of 9 coastal countries crossing the continent from east to west, and two blue vertical stripes on each side of the map. The aspect ratio of the flag is 2:3.

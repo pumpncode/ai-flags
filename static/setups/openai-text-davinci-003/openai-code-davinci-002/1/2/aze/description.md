@@ -1,0 +1,1 @@
+The flag of Azerbaijan is a horizontal tricolor with equal bands of blue, red, and green with a white crescent moon and eight-pointed star in the center. The aspect ratio of the flag is 1:2.

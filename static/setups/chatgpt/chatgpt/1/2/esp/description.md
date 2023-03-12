@@ -1,0 +1,3 @@
+The flag of Spain consists of three horizontal stripes, with the top and bottom stripes being red and the middle stripe being yellow. The aspect ratio of the flag is 2:3. The geometric properties of the flag are that it is rectangular in shape, with the width being twice the height. The exact color codes for the flag are as follows: 
+- Red: Pantone 186 C / RGB (176, 13, 38) / Hex #C81026
+- Yellow: Pantone 109 C / RGB (255, 223, 0) / Hex #FFDF00

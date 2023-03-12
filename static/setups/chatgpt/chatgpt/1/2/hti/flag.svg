@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 300">
+	<path fill="#00209F" d="M0 0h180v100H0z" stroke-width="4"/>
+	<path fill="#E40013" d="M0 200h180v100H0z" stroke-width="4"/>
+	<path fill="#FFF" d="M40 100h100v100H40z" stroke-width="4"/>
+	<path fill="#00209F" d="M90 150h-20v-20h20v-20h20v20h20v20h-20v20h-20z" stroke-width="4"/>
+	<path fill="#FFF" d="M115 125l-10-10v-20h-20v20l-10 10h-20l20 20-20 20h20l10 10v20h20v-20l10-10h20l-20-20 20-20z" stroke-width="4"/>
+	<text x="90" y="276" font-family="Arial" font-size="24" text-anchor="middle" stroke-width="4">L'UNION FAIT LA FORCE</text>
+</svg>

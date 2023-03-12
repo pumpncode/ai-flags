@@ -1,0 +1,1 @@
+The flag of Curaçao has two equal horizontal stripes; the top stripe blue and the bottom stripe white. It also bears a red triangle pointing downwards at the flagpoleside, with a five-pointed yellow star in the center of the triangle. The aspect ratio of the flag of Curaçao is 2:3.

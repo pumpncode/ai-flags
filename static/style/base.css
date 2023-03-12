@@ -13,28 +13,26 @@ html {
 	@apply scroll-smooth;
 
 	&,
-	&>body {
+	& > body {
 		@apply min-h-screen;
 	}
 
 	&.light {
-
 		&,
-		&>body {
+		& > body {
 			@apply bg-white;
 		}
 	}
 
 	@media (prefers-color-scheme: light) {
-
 		&,
-		&>body {
+		& > body {
 			@apply bg-white;
 		}
 	}
 
-	&>body {
-		@apply flex flex-col overflow-x-hidden;
+	& > body {
+		@apply flex flex-col overflow-x-hidden text-neutral-100;
 
 		& * {
 			@apply transition-all;
@@ -52,7 +50,13 @@ html {
 		& h6,
 		& p,
 		& span {
-			@apply text-neutral-100;
+			& a {
+				@apply text-cyan-500 underline;
+
+				&:hover {
+					@apply no-underline;
+				}
+			}
 		}
 
 		& h1 {
@@ -80,7 +84,6 @@ html {
 		}
 
 		& .markdown {
-
 			& h1,
 			& h2,
 			& h3,
@@ -114,23 +117,46 @@ html {
 				@apply bg-neutral-500 px-1 py-0.5 rounded text-sm;
 			}
 
+			& pre {
+				@apply p-4 rounded text-sm relative not:last-child:mb-4;
+
+				& > code {
+					@apply bg-transparent px-0 py-0;
+				}
+			}
+
+			& blockquote {
+				quotes: "\201C""\201D";
+				@apply bg-black/25 p-4 rounded relative mb-4;
+
+				&:before {
+					content: open-quote;
+					@apply text-6xl absolute -left-3 -top-3;
+				}
+
+				&:after {
+					content: close-quote;
+					@apply text-6xl leading-[0] absolute -right-3 -bottom-3;
+				}
+			}
+
 			& table {
 				@apply border-separate border-spacing-0 mt-4;
 				border-spacing: 0px;
 
-				&>thead {
+				& > thead {
 					@apply bg-neutral-700;
 				}
 
-				&>thead,
-				&>tbody {
-					&>tr {
-						&>th {
+				& > thead,
+				& > tbody {
+					& > tr {
+						& > th {
 							@apply border-t;
 						}
 
-						&>th,
-						&>td {
+						& > th,
+						& > td {
 							@apply border-b border-r border-neutral-500 p-4;
 
 							&:first-child {
@@ -139,7 +165,7 @@ html {
 						}
 
 						&:first-child {
-							&>th {
+							& > th {
 								&:first-child {
 									@apply rounded-tl;
 								}
@@ -151,7 +177,7 @@ html {
 						}
 
 						&:last-child {
-							&>td {
+							& > td {
 								&:first-child {
 									@apply rounded-bl;
 								}

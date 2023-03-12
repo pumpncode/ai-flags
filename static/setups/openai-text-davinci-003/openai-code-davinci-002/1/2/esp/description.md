@@ -1,0 +1,1 @@
+The flag of Spain is the Flag of the Second Spanish Republic. It has a horizontal triband of red, yellow and purple, with the red at the top, the yellow in the middle, and the purple at the bottom. The aspect ratio of the flag is 2:3.

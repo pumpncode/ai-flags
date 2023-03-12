@@ -1,0 +1,1 @@
+The flag of Hong Kong features a red field with a white, stylized, five-petal bauhinia flower in the center. The ratio of the flag's length to its width is 1:2. The bauhinia design has a diameter of approximately 5/12 the height of the flag. The color codes for the flag are Pantone 186C for the red field and Pantone Cool Gray 1C for the bauhinia flower.

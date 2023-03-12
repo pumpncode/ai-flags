@@ -1,0 +1,1 @@
+The flag of Costa Rica is a rectangular-shaped flag with an aspect ratio of 2:3. The flag is composed of five horizontal stripes, alternating in the colours blue, white, red, white, and blue from top to bottom. There is a large black and white triangle on the left side of the flag.

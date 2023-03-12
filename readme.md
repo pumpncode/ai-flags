@@ -1,6 +1,6 @@
 # ai-flags
 
-This is code for [ai-flags.deno.dev](https://ai-flags.deno.dev/) and a collection of experiments and tools for working with
+This is code for [ai-flags.com](https://ai-flags.com/) and a collection of experiments and tools for working with
 SVG, flags and AI.
 
 ## Get Started
@@ -29,7 +29,19 @@ deno task start
 #### Generate flags
 
 ```bash
-deno task generate ${setup name}
+deno task generate -s ${setup name}
+```
+
+For example:
+
+```bash
+deno task generate -s openai/text-davinci-003/code-davinci-002/1/3
+```
+
+To see help for the `generate` task, run:
+
+```bash
+deno task generate --help
 ```
 
 ## Motivation
@@ -337,15 +349,21 @@ A nice side effect of all the research done here would be a modern, open source,
   - ❌ only provides GIFs
   - ❌ not in english
 
+## Comparisons
+
+Another goal I have is to implement an image comparison tool on the webapp, using [pixelmatch](https://github.com/mapbox/pixelmatch). You can track my progress on that at [experiments/pixelmatch](./experiments/pixelmatch). It would be awesome if we could then give every setup a score based on how similar its generated flags are to the actual flags. A nice slider thingy on the web app sounds awesome too.
+
 ## Contributing
 
 I already started conceptualizing how such an "AI" generating flags (mentioned above in [Conclusion](#conclusion)) could work and wrote some code to gather as much training data as possible in [`generate-entities.js`](./generate-entities.js) using the Wikidata API, but you are invited to join me on this journey and help me out.
 
-You are of course also invited to contribute new "setups" using existing AI tools. "Setups" is what I call the different pipelines of methods used in this project. Every setup has a generator in the [`generators`](./generators) folder, and outputs its results into the [`static/setups`](./static/setups) folder. For example the setup `openai/text-davinci-003/code-davinci-002/1` is using OpenAI's `text-davinci-003` model to generate flag descriptions and the model `code-davinci-002` to generate SVG markup. The number `1` at the end just means that it's the first "variant", since you could eventually use other prompts but with the same tools.
+You are of course also invited to contribute new "setups" using existing AI tools. "Setups" is what I call the different pipelines of methods used in this project. Every setup has a generator in the [`generators`](./generators) folder, and outputs its results into the [`static/setups`](./static/setups) folder. For example the setup `openai/text-davinci-003/code-davinci-002/1/2` is using OpenAI's `text-davinci-003` model to generate flag descriptions and the model `code-davinci-002` to generate SVG markup. The first number at the end, `1`, just means that it's the first "variant", since you could eventually use other prompts but with the same pipeline of tools. The second number, `2`, is the name of the "instance", and means that it's the second run of the same exact setup and variant. Due to the randomness of large language models, this of course still produces different results.
 
-Everything is allowed, no matter how wacky the results are. You can also contribute setups that don't use any form of AI, for example the `wikipedia/1` just fetches the actual flags of countries and their descriptions from Wikipedia. One could do something similar but with emoji flags or [Flag heart symbols of Eurovision](https://commons.wikimedia.org/wiki/Flag_heart_symbols_of_Eurovision).
+In case you want to contribute, just know that basically everything is allowed, no matter how wacky the results are. You can also contribute setups that don't use any form of AI, for example the `wikipedia/wikipedia/1` just fetches the actual flags of countries and their descriptions from Wikipedia. One could do something similar but with emoji flags or [Flag heart symbols of Eurovision](https://commons.wikimedia.org/wiki/Flag_heart_symbols_of_Eurovision).
 
-Each new setup has to be added to [`setup-names.json`](./setup-names.json). Each generator is just a default exported async function that receives an object with the `name` and `code` of a country. It should return an object with a `description` of flag and `svg` markup of it. To actually generate results, you need to run `deno task generate {setup name}` (see [Get Started](#get-started) for the requirements and specific steps). The generated results should then appear automatically on the web app.
+Each new setup has to have a description markdown file at [`setups/{vexillologist}/{vexillographer}/{variant}/description.md`](./setups/openai-text-davinci-003/openai-code-davinci-002/1/description.md). Each generator is just a default exported async function that receives an object with the `name` and `code` of a country. It should return an object with a `description` of flag and `svg` markup of it. To actually generate results, you need to run `deno task generate {setup name}` (see [Get Started](#get-started) for the requirements and specific steps). The generated results should then appear automatically on the web app.
+
+Currently the setups only loop over all countries of the world (or to be precise, any entity that has an ISO 3166-1 alpha-3 code), but the plan is to change this to loop over all entities defined in [static/entities.json](./static/entities.json).
 
 ## Related Work
 

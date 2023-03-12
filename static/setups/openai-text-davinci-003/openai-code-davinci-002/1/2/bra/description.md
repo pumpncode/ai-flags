@@ -1,0 +1,1 @@
+The flag of Brazil has a green of 0.32 with a yellow rhombus in the middle, with a ratio of 0.22, and a blue disk on the rhombus, with a 0.14 ratio. The flag's aspect ratio is 3:2.

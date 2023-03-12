@@ -5,44 +5,59 @@ import Keyv from "https://esm.sh/v111/keyv@4.5.2/deno/keyv.development.js";
 import { default as pTimeout, default as pTimeout2 } from "https://esm.sh/v111/p-timeout@6.1.1/deno/p-timeout.development.js";
 import QuickLRU from "https://esm.sh/v111/quick-lru@6.1.1/deno/quick-lru.development.js";
 import { v4 as uuidv4, v4 as uuidv42 } from "https://esm.sh/v111/uuid@9.0.0/deno/uuid.development.js";
+
 import { get_encoding } from "../../@dqbd/tiktoken@0.4.0/dist/node/_tiktoken.js";
 
-var tokenizer = get_encoding("cl100k_base");
+const tokenizer = get_encoding("cl100k_base");
+
 function encode(input) {
 	return tokenizer.encode(input);
 }
-var ChatGPTError = class extends Error {
+
+/**
+ *
+ */
+const ChatGPTError = class extends Error {
 };
-var openai;
+let openai;
+
 ((openai2) => {
-})(openai || (openai = {}));
-var fetch = globalThis.fetch;
+})(openai ||= {});
+const { fetch } = globalThis;
+
 async function* streamAsyncIterable(stream) {
 	const reader = stream.getReader();
+
 	try {
 		while (true) {
 			const { done, value } = await reader.read();
+
 			if (done) {
 				return;
 			}
 			yield value;
 		}
-	} finally {
+	}
+	finally {
 		reader.releaseLock();
 	}
 }
 async function fetchSSE(url, options, fetch2 = fetch) {
 	const { onMessage, ...fetchOptions } = options;
 	const res = await fetch2(url, fetchOptions);
+
 	if (!res.ok) {
 		let reason;
+
 		try {
 			reason = await res.text();
-		} catch (err) {
+		}
+		catch (err) {
 			reason = res.statusText;
 		}
 		const msg = `ChatGPT error ${res.status}: ${reason}`;
 		const error = new ChatGPTError(msg, { cause: res });
+
 		error.statusCode = res.status;
 		error.statusText = res.statusText;
 		throw error;
@@ -52,28 +67,38 @@ async function fetchSSE(url, options, fetch2 = fetch) {
 			onMessage(event.data);
 		}
 	});
+
 	if (!res.body.getReader) {
-		const body = res.body;
+		const { body } = res;
+
 		if (!body.on || !body.read) {
-			throw new ChatGPTError('unsupported "fetch" implementation');
+			throw new ChatGPTError("unsupported \"fetch\" implementation");
 		}
 		body.on("readable", () => {
 			let chunk;
-			while (null !== (chunk = body.read())) {
+
+			while ((chunk = body.read()) !== null) {
 				parser.feed(chunk.toString());
 			}
 		});
-	} else {
+	}
+	else {
 		for await (const chunk of streamAsyncIterable(res.body)) {
 			const str = new TextDecoder().decode(chunk);
+
 			parser.feed(str);
 		}
 	}
 }
-var CHATGPT_MODEL = "gpt-3.5-turbo";
-var USER_LABEL_DEFAULT = "User";
-var ASSISTANT_LABEL_DEFAULT = "ChatGPT";
-var ChatGPTAPI = class {
+const CHATGPT_MODEL = "gpt-3.5-turbo";
+const USER_LABEL_DEFAULT = "User";
+const ASSISTANT_LABEL_DEFAULT = "ChatGPT";
+
+/**
+ *
+ */
+const ChatGPTAPI = class {
+
 	/**
 	 * Creates a new client wrapper around OpenAI's chat completion API, mimicing the official ChatGPT webapp's functionality as closely as possible.
 	 *
@@ -87,6 +112,7 @@ var ChatGPTAPI = class {
 	 * @param getMessageById - Optional function to retrieve a message by its ID. If not provided, the default implementation will be used (using an in-memory `messageStore`).
 	 * @param upsertMessage - Optional function to insert or update a message. If not provided, the default implementation will be used (using an in-memory `messageStore`).
 	 * @param fetch - Optional override for the `fetch` implementation to use. Defaults to the global `fetch` function.
+	 * @param opts
 	 */
 	constructor(opts) {
 		const {
@@ -102,9 +128,10 @@ var ChatGPTAPI = class {
 			upsertMessage,
 			fetch: fetch2 = fetch
 		} = opts;
+
 		this._apiKey = apiKey;
 		this._apiBaseUrl = apiBaseUrl;
-		this._debug = !!debug;
+		this._debug = Boolean(debug);
 		this._fetch = fetch2;
 		this._completionParams = {
 			model: CHATGPT_MODEL,
@@ -115,7 +142,8 @@ var ChatGPTAPI = class {
 		};
 		this._systemMessage = systemMessage;
 		if (this._systemMessage === void 0) {
-			const currentDate = (/* @__PURE__ */ new Date()).toISOString().split("T")[0];
+			const currentDate = (/** @__PURE__ */ new Date()).toISOString().split("T")[0];
+
 			this._systemMessage = `You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.
 Knowledge cutoff: 2021-09-01
 Current date: ${currentDate}`;
@@ -126,7 +154,8 @@ Current date: ${currentDate}`;
 		this._upsertMessage = upsertMessage ?? this._defaultUpsertMessage;
 		if (messageStore) {
 			this._messageStore = messageStore;
-		} else {
+		}
+		else {
 			this._messageStore = new Keyv({
 				store: new QuickLRU({ maxSize: 1e4 })
 			});
@@ -138,9 +167,10 @@ Current date: ${currentDate}`;
 			throw new Error("Invalid environment; fetch is not defined");
 		}
 		if (typeof this._fetch !== "function") {
-			throw new Error('Invalid "fetch" is not a function');
+			throw new Error("Invalid \"fetch\" is not a function");
 		}
 	}
+
 	/**
 	 * Sends a message to the OpenAI chat completions endpoint, waits for the response
 	 * to resolve, and returns the response.
@@ -151,15 +181,17 @@ Current date: ${currentDate}`;
 	 *
 	 * Set `debug: true` in the `ChatGPTAPI` constructor to log more info on the full prompt sent to the OpenAI chat completions API. You can override the `systemMessage` in `opts` to customize the assistant's instructions.
 	 *
-	 * @param message - The prompt message to send
-	 * @param opts.parentMessageId - Optional ID of the previous message in the conversation (defaults to `undefined`)
-	 * @param opts.messageId - Optional ID of the message to send (defaults to a random UUID)
-	 * @param opts.systemMessage - Optional override for the chat "system message" which acts as instructions to the model (defaults to the ChatGPT system message)
-	 * @param opts.timeoutMs - Optional timeout in milliseconds (defaults to no timeout)
-	 * @param opts.onProgress - Optional callback which will be invoked every time the partial response is updated
-	 * @param opts.abortSignal - Optional callback used to abort the underlying `fetch` call using an [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
+	 * @param message - The prompt message to send.
+	 * @param opts.parentMessageId - Optional ID of the previous message in the conversation (defaults to `undefined`).
+	 * @param opts.messageId - Optional ID of the message to send (defaults to a random UUID).
+	 * @param opts.systemMessage - Optional override for the chat "system message" which acts as instructions to the model (defaults to the ChatGPT system message).
+	 * @param opts.timeoutMs - Optional timeout in milliseconds (defaults to no timeout).
+	 * @param opts.onProgress - Optional callback which will be invoked every time the partial response is updated.
+	 * @param opts.abortSignal - Optional callback used to abort the underlying `fetch` call using an [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController).
 	 *
-	 * @returns The response from ChatGPT
+	 * @param text
+	 * @param opts
+	 * @return The response from ChatGPT.
 	 */
 	async sendMessage(text, opts = {}) {
 		const {
@@ -167,10 +199,11 @@ Current date: ${currentDate}`;
 			messageId = uuidv4(),
 			timeoutMs,
 			onProgress,
-			stream = onProgress ? true : false
+			stream = Boolean(onProgress)
 		} = opts;
 		let { abortSignal } = opts;
 		let abortController = null;
+
 		if (timeoutMs && !abortSignal) {
 			abortController = new AbortController();
 			abortSignal = abortController.signal;
@@ -181,8 +214,11 @@ Current date: ${currentDate}`;
 			parentMessageId,
 			text
 		};
+
 		await this._upsertMessage(message);
-		const { messages, maxTokens, numTokens } = await this._buildMessages(
+		const {
+			messages, maxTokens, numTokens
+		} = await this._buildMessages(
 			text,
 			opts
 		);
@@ -194,7 +230,8 @@ Current date: ${currentDate}`;
 		};
 		const responseP = new Promise(
 			async (resolve, reject) => {
-				var _a, _b;
+				let _a; let
+					_b;
 				const url = `${this._apiBaseUrl}/v1/chat/completions`;
 				const headers = {
 					"Content-Type": "application/json",
@@ -206,6 +243,7 @@ Current date: ${currentDate}`;
 					messages,
 					stream
 				};
+
 				if (this._debug) {
 					console.log(`sendMessage (${numTokens} tokens)`, body);
 				}
@@ -218,36 +256,44 @@ Current date: ${currentDate}`;
 							body: JSON.stringify(body),
 							signal: abortSignal,
 							onMessage: (data) => {
-								var _a2;
+								let _a2;
+
 								if (data === "[DONE]") {
 									result.text = result.text.trim();
+
 									return resolve(result);
 								}
 								try {
 									const response = JSON.parse(data);
+
 									if (response.id) {
 										result.id = response.id;
 									}
 									if ((_a2 = response == null ? void 0 : response.choices) == null ? void 0 : _a2.length) {
-										const delta = response.choices[0].delta;
+										const { delta } = response.choices[0];
+
 										result.delta = delta.content;
-										if (delta == null ? void 0 : delta.content)
+										if (delta == null ? void 0 : delta.content) {
 											result.text += delta.content;
+										}
 										result.detail = response;
 										if (delta.role) {
 											result.role = delta.role;
 										}
 										onProgress == null ? void 0 : onProgress(result);
 									}
-								} catch (err) {
+								}
+								catch (err) {
 									console.warn("OpenAI stream SEE event unexpected error", err);
+
 									return reject(err);
 								}
 							}
 						},
 						this._fetch
 					).catch(reject);
-				} else {
+				}
+				else {
 					try {
 						const res = await this._fetch(url, {
 							method: "POST",
@@ -255,15 +301,19 @@ Current date: ${currentDate}`;
 							body: JSON.stringify(body),
 							signal: abortSignal
 						});
+
 						if (!res.ok) {
 							const reason = await res.text();
 							const msg = `OpenAI error ${res.status || res.statusText}: ${reason}`;
 							const error = new ChatGPTError(msg, { cause: res });
+
 							error.statusCode = res.status;
 							error.statusText = res.statusText;
+
 							return reject(error);
 						}
 						const response = await res.json();
+
 						if (this._debug) {
 							console.log(response);
 						}
@@ -272,12 +322,15 @@ Current date: ${currentDate}`;
 						}
 						if ((_a = response == null ? void 0 : response.choices) == null ? void 0 : _a.length) {
 							const message2 = response.choices[0].message;
+
 							result.text = message2.content;
 							if (message2.role) {
 								result.role = message2.role;
 							}
-						} else {
+						}
+						else {
 							const res2 = response;
+
 							return reject(
 								new Error(
 									`OpenAI error: ${((_b = res2 == null ? void 0 : res2.detail) == null ? void 0 : _b.message) || (res2 == null ? void 0 : res2.detail) || "unknown"}`
@@ -285,36 +338,51 @@ Current date: ${currentDate}`;
 							);
 						}
 						result.detail = response;
+
 						return resolve(result);
-					} catch (err) {
+					}
+					catch (err) {
 						return reject(err);
 					}
 				}
 			}
-		).then((message2) => {
-			return this._upsertMessage(message2).then(() => message2);
-		});
+		).then((message2) => this._upsertMessage(message2).then(() => message2));
+
 		if (timeoutMs) {
 			if (abortController) {
-				;
 				responseP.cancel = () => {
 					abortController.abort();
 				};
 			}
+
 			return pTimeout(responseP, {
 				milliseconds: timeoutMs,
 				message: "OpenAI timed out waiting for response"
 			});
-		} else {
-			return responseP;
 		}
+
+		return responseP;
 	}
+
+	/**
+	 *
+	 */
 	get apiKey() {
 		return this._apiKey;
 	}
+
+	/**
+	 *
+	 */
 	set apiKey(apiKey) {
 		this._apiKey = apiKey;
 	}
+
+	/**
+	 *
+	 * @param text
+	 * @param opts
+	 */
 	async _buildMessages(text, opts) {
 		const { systemMessage = this._systemMessage } = opts;
 		let { parentMessageId } = opts;
@@ -322,6 +390,7 @@ Current date: ${currentDate}`;
 		const assistantLabel = ASSISTANT_LABEL_DEFAULT;
 		const maxNumTokens = this._maxModelTokens - this._maxResponseTokens;
 		let messages = [];
+
 		if (systemMessage) {
 			messages.push({
 				role: "system",
@@ -329,30 +398,40 @@ Current date: ${currentDate}`;
 			});
 		}
 		const systemMessageOffset = messages.length;
-		let nextMessages = text ? messages.concat([
-			{
-				role: "user",
-				content: text,
-				name: opts.name
-			}
-		]) : messages;
+		let nextMessages = text
+			? messages.concat([
+				{
+					role: "user",
+					content: text,
+					name: opts.name
+				}
+			])
+			: messages;
 		let numTokens = 0;
+
 		do {
 			const prompt = nextMessages.reduce((prompt2, message) => {
 				switch (message.role) {
 					case "system":
-						return prompt2.concat([`Instructions:
-${message.content}`]);
+						return prompt2.concat([
+							`Instructions:
+${message.content}`
+						]);
 					case "user":
-						return prompt2.concat([`${userLabel}:
-${message.content}`]);
+						return prompt2.concat([
+							`${userLabel}:
+${message.content}`
+						]);
 					default:
-						return prompt2.concat([`${assistantLabel}:
-${message.content}`]);
+						return prompt2.concat([
+							`${assistantLabel}:
+${message.content}`
+						]);
 				}
 			}, []).join("\n\n");
 			const nextNumTokensEstimate = await this._getTokenCount(prompt);
 			const isValidPrompt = nextNumTokensEstimate <= maxNumTokens;
+
 			if (prompt && !isValidPrompt) {
 				break;
 			}
@@ -365,10 +444,12 @@ ${message.content}`]);
 				break;
 			}
 			const parentMessage = await this._getMessageById(parentMessageId);
+
 			if (!parentMessage) {
 				break;
 			}
 			const parentMessageRole = parentMessage.role || "user";
+
 			nextMessages = nextMessages.slice(0, systemMessageOffset).concat([
 				{
 					role: parentMessageRole,
@@ -383,27 +464,57 @@ ${message.content}`]);
 			1,
 			Math.min(this._maxModelTokens - numTokens, this._maxResponseTokens)
 		);
-		return { messages, maxTokens, numTokens };
+
+		return {
+			messages,
+			maxTokens,
+			numTokens
+		};
 	}
+
+	/**
+	 *
+	 * @param text
+	 */
 	async _getTokenCount(text) {
 		text = text.replace(/<\|endoftext\|>/g, "");
+
 		return encode(text).length;
 	}
+
+	/**
+	 *
+	 * @param id
+	 */
 	async _defaultGetMessageById(id) {
 		const res = await this._messageStore.get(id);
+
 		return res;
 	}
+
+	/**
+	 *
+	 * @param message
+	 */
 	async _defaultUpsertMessage(message) {
 		await this._messageStore.set(message.id, message);
 	}
+
 };
-var uuidv4Re = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const uuidv4Re = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
 function isValidUUIDv4(str) {
 	return str && uuidv4Re.test(str);
 }
-var ChatGPTUnofficialProxyAPI = class {
+
+/**
+ *
+ */
+const ChatGPTUnofficialProxyAPI = class {
+
 	/**
 	 * @param fetch - Optional override for the `fetch` implementation to use. Defaults to the global `fetch` function.
+	 * @param opts
 	 */
 	constructor(opts) {
 		const {
@@ -414,9 +525,10 @@ var ChatGPTUnofficialProxyAPI = class {
 			headers,
 			fetch: fetch2 = fetch
 		} = opts;
+
 		this._accessToken = accessToken;
 		this._apiReverseProxyUrl = apiReverseProxyUrl;
-		this._debug = !!debug;
+		this._debug = Boolean(debug);
 		this._model = model;
 		this._fetch = fetch2;
 		this._headers = headers;
@@ -427,15 +539,24 @@ var ChatGPTUnofficialProxyAPI = class {
 			throw new Error("Invalid environment; fetch is not defined");
 		}
 		if (typeof this._fetch !== "function") {
-			throw new Error('Invalid "fetch" is not a function');
+			throw new Error("Invalid \"fetch\" is not a function");
 		}
 	}
+
+	/**
+	 *
+	 */
 	get accessToken() {
 		return this._accessToken;
 	}
+
+	/**
+	 *
+	 */
 	set accessToken(value) {
 		this._accessToken = value;
 	}
+
 	/**
 	 * Sends a message to ChatGPT, waits for the response to resolve, and returns
 	 * the response.
@@ -449,18 +570,20 @@ var ChatGPTUnofficialProxyAPI = class {
 	 *
 	 * Set `debug: true` in the `ChatGPTAPI` constructor to log more info on the full prompt sent to the OpenAI completions API. You can override the `promptPrefix` and `promptSuffix` in `opts` to customize the prompt.
 	 *
-	 * @param message - The prompt message to send
-	 * @param opts.conversationId - Optional ID of a conversation to continue (defaults to a random UUID)
-	 * @param opts.parentMessageId - Optional ID of the previous message in the conversation (defaults to `undefined`)
-	 * @param opts.messageId - Optional ID of the message to send (defaults to a random UUID)
-	 * @param opts.timeoutMs - Optional timeout in milliseconds (defaults to no timeout)
-	 * @param opts.onProgress - Optional callback which will be invoked every time the partial response is updated
-	 * @param opts.abortSignal - Optional callback used to abort the underlying `fetch` call using an [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
+	 * @param message - The prompt message to send.
+	 * @param opts.conversationId - Optional ID of a conversation to continue (defaults to a random UUID).
+	 * @param opts.parentMessageId - Optional ID of the previous message in the conversation (defaults to `undefined`).
+	 * @param opts.messageId - Optional ID of the message to send (defaults to a random UUID).
+	 * @param opts.timeoutMs - Optional timeout in milliseconds (defaults to no timeout).
+	 * @param opts.onProgress - Optional callback which will be invoked every time the partial response is updated.
+	 * @param opts.abortSignal - Optional callback used to abort the underlying `fetch` call using an [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController).
 	 *
-	 * @returns The response from ChatGPT
+	 * @param text
+	 * @param opts
+	 * @return The response from ChatGPT.
 	 */
 	async sendMessage(text, opts = {}) {
-		if (!!opts.conversationId !== !!opts.parentMessageId) {
+		if (Boolean(opts.conversationId) !== Boolean(opts.parentMessageId)) {
 			throw new Error(
 				"ChatGPTUnofficialProxyAPI.sendMessage: conversationId and parentMessageId must both be set or both be undefined"
 			);
@@ -490,6 +613,7 @@ var ChatGPTUnofficialProxyAPI = class {
 		} = opts;
 		let { abortSignal } = opts;
 		let abortController = null;
+
 		if (timeoutMs && !abortSignal) {
 			abortController = new AbortController();
 			abortSignal = abortController.signal;
@@ -509,6 +633,7 @@ var ChatGPTUnofficialProxyAPI = class {
 			model: this._model,
 			parent_message_id: parentMessageId
 		};
+
 		if (conversationId) {
 			body.conversation_id = conversationId;
 		}
@@ -527,8 +652,12 @@ var ChatGPTUnofficialProxyAPI = class {
 				Accept: "text/event-stream",
 				"Content-Type": "application/json"
 			};
+
 			if (this._debug) {
-				console.log("POST", url, { body, headers });
+				console.log("POST", url, {
+					body,
+					headers
+				});
 			}
 			fetchSSE(
 				url,
@@ -538,21 +667,26 @@ var ChatGPTUnofficialProxyAPI = class {
 					body: JSON.stringify(body),
 					signal: abortSignal,
 					onMessage: (data) => {
-						var _a, _b, _c;
+						let _a; let _b; let
+							_c;
+
 						if (data === "[DONE]") {
 							return resolve(result);
 						}
 						try {
 							const convoResponseEvent = JSON.parse(data);
+
 							if (convoResponseEvent.conversation_id) {
 								result.conversationId = convoResponseEvent.conversation_id;
 							}
 							if ((_a = convoResponseEvent.message) == null ? void 0 : _a.id) {
 								result.id = convoResponseEvent.message.id;
 							}
-							const message = convoResponseEvent.message;
+							const { message } = convoResponseEvent;
+
 							if (message) {
-								let text2 = (_c = (_b = message == null ? void 0 : message.content) == null ? void 0 : _b.parts) == null ? void 0 : _c[0];
+								const text2 = (_c = (_b = message == null ? void 0 : message.content) == null ? void 0 : _b.parts) == null ? void 0 : _c[0];
+
 								if (text2) {
 									result.text = text2;
 									if (onProgress) {
@@ -560,35 +694,45 @@ var ChatGPTUnofficialProxyAPI = class {
 									}
 								}
 							}
-						} catch (err) {
+						}
+						catch (err) {
 						}
 					}
 				},
 				this._fetch
 			).catch((err) => {
 				const errMessageL = err.toString().toLowerCase();
+
 				if (result.text && (errMessageL === "error: typeerror: terminated" || errMessageL === "typeerror: terminated")) {
 					return resolve(result);
-				} else {
-					return reject(err);
 				}
+
+				return reject(err);
 			});
 		});
+
 		if (timeoutMs) {
 			if (abortController) {
-				;
 				responseP.cancel = () => {
 					abortController.abort();
 				};
 			}
+
 			return pTimeout2(responseP, {
 				milliseconds: timeoutMs,
 				message: "ChatGPT timed out waiting for response"
 			});
-		} else {
-			return responseP;
 		}
+
+		return responseP;
 	}
+
 };
-export { ChatGPTAPI, ChatGPTError, ChatGPTUnofficialProxyAPI, openai };
-//# sourceMappingURL=chatgpt.development.js.map
+
+export {
+	ChatGPTAPI,
+	ChatGPTError,
+	ChatGPTUnofficialProxyAPI,
+	openai
+};
+// # sourceMappingURL=chatgpt.development.js.map

@@ -6,6 +6,11 @@ import { toFileUrl } from "std/path";
 // calculate time somehow using some fps and maybe duration attributes or maybe just use 5 seconds
 // export each frame to png, compare each png to correct png and take average as score
 
+/**
+ *
+ * @param svgPath
+ * @param pngPath
+ */
 const svgToPng = async (svgPath, pngPath) => {
 	const browser = await puppeteer.launch();
 
@@ -27,17 +32,25 @@ const svgToPng = async (svgPath, pngPath) => {
 
 			const viewBoxString = svgElement.getAttribute("viewBox");
 
-			svgElement.removeAttribute("style")
+			svgElement.removeAttribute("style");
 
 			svgElement.style.width = "revert";
 			svgElement.style.height = "revert";
 			svgElement.removeAttribute("width");
 			svgElement.removeAttribute("height");
 
-			const [x, y, width, height] = viewBoxString?.split(" ") ?? [];
+			const [
+				x,
+				y,
+				width,
+				height
+			] = viewBoxString?.split(" ") ?? [];
 
 			if (width && height && document.querySelector("parsererror") === null) {
-				return { width: Number(width), height: Number(height) };
+				return {
+					width: Number(width),
+					height: Number(height)
+				};
 			}
 
 			throw new Error("SVG viewBox attribute is missing or malformed or SVG code is invalid");

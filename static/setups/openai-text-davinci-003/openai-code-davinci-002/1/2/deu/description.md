@@ -1,0 +1,1 @@
+The national flag of Germany is a tricolour consisting of three equal horizontal bands, displaying the national colours of Germany: black, red, and gold. The aspect ratio is 3:5.
