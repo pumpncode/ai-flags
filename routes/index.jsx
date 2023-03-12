@@ -61,9 +61,10 @@ const getInstances = async ({ staticVariantFolderPath }) => {
 						createdAt = mtime.toISOString();
 					}
 					catch (error) {
-						if (!(error instanceof NotFound)) {
-							throw error;
-						}
+						// if (!(error instanceof NotFound)) {
+						// 	throw error;
+						// }
+						// do nothing
 					}
 
 					if (createdAt !== null) {
