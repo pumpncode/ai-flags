@@ -1,6 +1,6 @@
 # ai-flags
 
-This is code for the ai-flags website and a collection of experiments and tools for working with
+This is code for [ai-flags.deno.dev](https://ai-flags.deno.dev/) and a collection of experiments and tools for working with
 SVG, flags and AI.
 
 ## Get Started
