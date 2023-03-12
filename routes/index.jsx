@@ -72,6 +72,8 @@ const getInstances = async ({ staticVariantFolderPath }) => {
 						// 	throw error;
 						// }
 						// do nothing
+
+						throw error;
 					}
 
 					if (createdAt !== null) {
