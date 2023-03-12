@@ -53,17 +53,12 @@ const getInstances = async ({ staticVariantFolderPath }) => {
 					const svgFlagFilePath = join(countryFolderPath, "flag.svg");
 					const pngFlagFilePath = join(countryFolderPath, "flag.png");
 
-					let createdAt = null;
+					let createdAt = (new Date()).toISOString();
 
 					try {
-						console.log("svgFlagFilePath", svgFlagFilePath);
 						const statResult = await stat(svgFlagFilePath);
 
-						console.log("statResult", statResult);
-
 						const { birthtime } = statResult;
-
-						console.log("birthtime", birthtime);
 
 						createdAt = birthtime.toISOString();
 					}
@@ -72,8 +67,6 @@ const getInstances = async ({ staticVariantFolderPath }) => {
 						// 	throw error;
 						// }
 						// do nothing
-
-						throw error;
 					}
 
 					if (createdAt !== null) {
