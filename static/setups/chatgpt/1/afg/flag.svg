@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+	<path d="M0 0h100v200H0z" stroke-width="1"/>
+	<path fill="red" d="M100 0h100v200H100z" stroke-width="1"/>
+	<path fill="green" d="M200 0h100v200H200z" stroke-width="1"/>
+	<path fill="#FFF" d="M105 55h90l-45 45-45-45z" stroke-width="1"/>
+	<text x="150" y="170" font-size="60" text-anchor="middle" stroke-width="1">۱۲۹۸</text>
+</svg>

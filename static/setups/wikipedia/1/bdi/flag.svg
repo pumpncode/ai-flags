@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#c8102e" viewBox="-50000 -30000 100000 60000">
+	<defs>
+		<clipPath id="a">
+			<path d="M-50000-30000H50000v60000H-50000z"/>
+		</clipPath>
+	</defs>
+	<path d="M-50000-30000H50000v60000H-50000z"/>
+	<path fill="#43b02a" stroke="#fff" stroke-width="8000" d="M-55000-33000v66000L55000-33000v66000z" clip-path="url(#a)"/>
+	<circle r="17000" fill="#fff"/>
+	<path id="b" stroke="#43b02a" stroke-width="360" d="M0-12440l1051 1820h2101L2102-8800l1050 1820H1051L0-5160l-1051-1820h-2101l1050-1820-1050-1820h2101z"/>
+	<use xlink:href="#b" transform="rotate(120000)"/>
+	<use xlink:href="#b" transform="rotate(240000)"/>
+</svg>

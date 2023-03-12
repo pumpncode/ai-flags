@@ -1,0 +1,1 @@
+The flag of Bolivia consists of three equal horizontal stripes of red, yellow, and green, with the Bolivian coat of arms in the center. The aspect ratio of the flag is 2:3.

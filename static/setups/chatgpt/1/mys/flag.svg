@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 28">
+	<path fill="#fff" d="M0 0h14v28H0z" stroke-width="1"/>
+	<path fill="#cd0000" d="M0 0h14v2H0z" stroke-width="1"/>
+	<path fill="#fff" d="M0 2h14v2H0z" stroke-width="1"/>
+	<path fill="#cd0000" d="M0 4h14v2H0z" stroke-width="1"/>
+	<path fill="#fff" d="M0 6h14v2H0z" stroke-width="1"/>
+	<path fill="#cd0000" d="M0 8h14v2H0z" stroke-width="1"/>
+	<path fill="#fff" d="M0 10h14v2H0z" stroke-width="1"/>
+	<path fill="#cd0000" d="M0 12h14v2H0z" stroke-width="1"/>
+	<path fill="#fff" d="M0 14h14v2H0z" stroke-width="1"/>
+	<path fill="#cd0000" d="M0 16h14v2H0z" stroke-width="1"/>
+	<path fill="#fff" d="M0 18h14v2H0z" stroke-width="1"/>
+	<path fill="#cd0000" d="M0 20h14v2H0z" stroke-width="1"/>
+	<path fill="#fff" d="M0 22h14v2H0z" stroke-width="1"/>
+	<path fill="#cd0000" d="M0 24h14v2H0z" stroke-width="1"/>
+	<path fill="#fff" d="M0 26h14v2H0z" stroke-width="1"/>
+	<path fill="#002395" d="M0 0h7v14H0z" stroke-width="1"/>
+	<path fill="#fc0" d="M7 14a7 7 0 0 1 7 7V7Z" stroke-width="1"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-75000 -40000 120000 80000">
+	<rect width="120000" height="80000" x="-75000" y="-40000" fill="#fff" stroke-width="1000"/>
+	<rect width="90000" height="80000" x="-45000" y="-40000" fill="#01411C" stroke-width="1000"/>
+	<circle r="24000" fill="#fff" stroke-width="1000"/>
+	<circle cx="-7000" cy="-40000" r="22000" fill="#01411C" transform="rotate(-41.634, 45000, -40000)" stroke-width="1000"/>
+	<polygon fill="#fff" points="0 -513674000 301930000 415571000 -488533000 -158734000 488533000 -158734000 -301930000 415571000" transform="translate(11959, -10630) scale(0.00001)" stroke-width="1000"/>
+</svg>

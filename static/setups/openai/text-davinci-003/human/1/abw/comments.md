@@ -1,0 +1,1 @@
+I really like this one (although the colors could be less strong). I made the star transparent because [Fimbriation](https://en.wikipedia.org/wiki/Fimbriation) basically just means "contour", I guess, so if you don't tell me the color of the thing getting fimbriated, it's probably just transaprent.

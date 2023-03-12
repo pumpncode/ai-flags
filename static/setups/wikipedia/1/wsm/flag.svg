@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2880000 1440000">
+	<defs>
+		<path id="a" d="M0 0l310 951L-500 363h1000l-810 588z" stroke-width="1000"/>
+	</defs>
+	<rect width="2880000" height="1440000" fill="#ce1126" stroke-width="1000"/>
+	<rect width="1440000" height="720000" fill="#002b7f" stroke-width="1000"/>
+	<g fill="#fff" stroke-width="1000">
+		<use xlink:href="#a" transform="matrix(160, 0, 0, 160, 720000, 30000)" stroke-width="1000"/>
+		<use xlink:href="#a" transform="matrix(160, 0, 0, 160, 500000, 210000)" stroke-width="1000"/>
+		<use xlink:href="#a" transform="matrix(150, 0, 0, 150, 945000, 180000)" stroke-width="1000"/>
+		<use xlink:href="#a" transform="matrix(100, 0, 0, 100, 830000, 364894)" stroke-width="1000"/>
+		<use xlink:href="#a" transform="matrix(200, 0, 0, 200, 720000, 499789)" stroke-width="1000"/>
+	</g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 180 120">
+	<defs>
+		<g id="d" transform="translate(0, -36)" stroke-width="1">
+			<g id="c" stroke-width="1">
+				<g id="b" stroke-width="1">
+					<path id="a" fill="#fff" d="M0-5v5h3z" transform="rotate(18, 0, -5)" stroke-width="1"/>
+					<use xlink:href="#a" transform="scale(-1, 1)" stroke-width="1"/>
+				</g>
+				<use xlink:href="#b" transform="rotate(72)" stroke-width="1"/>
+			</g>
+			<use xlink:href="#b" transform="rotate(-72)" stroke-width="1"/>
+			<use xlink:href="#c" transform="rotate(144)" stroke-width="1"/>
+		</g>
+	</defs>
+	<path fill="#cf142b" d="M0 0h180v120H0z" stroke-width="1"/>
+	<path fill="#00247d" d="M0 0h180v80H0z" stroke-width="1"/>
+	<path fill="#ffcc00" d="M0 0h180v40H0z" stroke-width="1"/>
+	<g transform="translate(90, 84)" stroke-width="1">
+		<g id="f" stroke-width="1">
+			<g id="e" stroke-width="1">
+				<use xlink:href="#d" transform="rotate(10)" stroke-width="1"/>
+				<use xlink:href="#d" transform="rotate(30)" stroke-width="1"/>
+			</g>
+			<use xlink:href="#e" transform="rotate(40)" stroke-width="1"/>
+		</g>
+		<use xlink:href="#f" transform="rotate(-80)" stroke-width="1"/>
+	</g>
+</svg>

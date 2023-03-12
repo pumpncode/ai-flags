@@ -1,0 +1,1 @@
+The flag of Switzerland consists of a red square with an aspect ratio of 1:1. The shade of red is defined as Pantone 485 or RGB 255, 0, 0. The flag has no other geometric properties or measurements.

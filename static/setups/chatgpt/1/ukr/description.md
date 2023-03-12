@@ -1,0 +1,1 @@
+The flag of Ukraine consists of two equal horizontal bands of blue and yellow. The blue band has a Pantone shade of 286C and the yellow band has a Pantone shade of 116C. The aspect ratio of the flag is 2:3, meaning that the height of the flag is 1.5 times its width. It is rectangular in shape with no additional geometric properties or measurements.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30000 20000">
+	<defs>
+		<path id="a" fill="#FFFF00" d="M0-1000L588 810-952-310H952L-588 810z" stroke-width="1000"/>
+	</defs>
+	<rect width="30000" height="20000" fill="#EE1C25" stroke-width="1000"/>
+	<use xlink:href="#a" transform="matrix(3, 0, 0, 3, 5000, 5000)" stroke-width="1000"/>
+	<use xlink:href="#a" transform="rotate(23.036, 93, 25536)" stroke-width="1000"/>
+	<use xlink:href="#a" transform="rotate(45.87, 1273, 16180)" stroke-width="1000"/>
+	<use xlink:href="#a" transform="rotate(69.945, 996, 12078)" stroke-width="1000"/>
+	<use xlink:href="#a" transform="rotate(20.66, -19689, 31932)" stroke-width="1000"/>
+</svg>

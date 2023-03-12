@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="#f8e92e" viewBox="-7000 -3500 14000 7000">
+	<path fill="#d82126" d="M-7000-3500h14000V3500h-14000z" stroke-width="50"/>
+	<path d="M-7000 700v-1400l14000 1400v-1400z m6300-4200h1400L0-750zM700 3500h-1400L0 750zM-7000-3500h2100L643 386z m0 7000h2100L643-386zM7000-3500H4900L-643 386z m0 7000H4900L-643-386z" stroke-width="50"/>
+	<circle r="1250" fill="#d82126" stroke-width="50"/>
+	<circle r="1000" stroke-width="50"/>
+</svg>

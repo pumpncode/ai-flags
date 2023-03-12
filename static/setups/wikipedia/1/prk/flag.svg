@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72000 36000">
+	<rect width="72000" height="36000" fill="#024FA2" stroke-width="1000"/>
+	<rect width="72000" height="24000" y="6000" fill="#fff" stroke-width="1000"/>
+	<rect width="72000" height="22000" y="7000" fill="#ED1C27" stroke-width="1000"/>
+	<circle cx="24000" cy="18000" r="8000" fill="#fff" stroke-width="1000"/>
+	<g fill="#ED1C27" transform="matrix(7.75, 0, 0, 7.75, 24000, 18000)" stroke-width="1000">
+		<g id="b" stroke-width="1000">
+			<polygon id="a" points="0 0 0 1000 500 1000" transform="rotate(18, 3157, -500)" stroke-width="1000"/>
+			<use xlink:href="#a" transform="scale(-1, 1)" stroke-width="1000"/>
+		</g>
+		<use xlink:href="#b" transform="rotate(72)" stroke-width="1000"/>
+		<use xlink:href="#b" transform="rotate(-72)" stroke-width="1000"/>
+		<use xlink:href="#b" transform="rotate(144)" stroke-width="1000"/>
+		<use xlink:href="#b" transform="rotate(-144)" stroke-width="1000"/>
+	</g>
+</svg>

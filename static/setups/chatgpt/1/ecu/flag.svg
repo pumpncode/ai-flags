@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+	<path fill="#FCD116" d="M0 0h600v400H0z" stroke-width="1"/>
+	<path fill="#00247D" d="M0 133h600v133H0z" stroke-width="1"/>
+	<path fill="#FCD116" d="M0 266h600v133H0z" stroke-width="1"/>
+	<circle cx="300" cy="200" r="75" fill="none" stroke="#00247D" stroke-width="10"/>
+	<path fill="#00247D" d="M286 153l14-40 14 40h-28m-23 0h74v40h-74z" stroke-width="1"/>
+	<text x="300" y="173" fill="#FCD116" font-family="Arial, Helvetica, sans-serif" font-size="32" text-anchor="middle" stroke-width="1">ECUADOR</text>
+	<g transform="matrix(1.5, 0, 0, 1.5, 300, 165)" stroke-width="1">
+		<path fill="#E6E6E6" d="M33 0L18 43l42-27H4l42 27Z" stroke-width="1"/>
+		<path fill="#00247D" d="M33 50h30L46 77l-17 27h34l-30 27-30-27h34L20 77Z" stroke-width="1"/>
+		<path fill="#FCD116" d="M15 50h48v54H15z" stroke-width="1"/>
+		<circle cx="39" cy="90" r="15" fill="#00247D" stroke-width="1"/>
+	</g>
+</svg>

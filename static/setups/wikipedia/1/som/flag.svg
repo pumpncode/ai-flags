@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-81000 -54000 162000 108000">
+	<defs>
+		<clipPath id="a">
+			<path d="M0-26000L15282-4966-5752 10317" stroke-width="1000"/>
+		</clipPath>
+	</defs>
+	<path fill="#4189dd" d="M-81000-54000H81000V54000H-81000z" stroke-width="1000"/>
+	<path id="b" fill="#fff" d="M0-26000V0h26000" clip-path="url(#a)" transform="rotate(18, 0, -26000)" stroke-width="1000"/>
+	<g id="c" stroke-width="1000">
+		<use xlink:href="#b" transform="rotate(72)" stroke-width="1000"/>
+		<use xlink:href="#b" transform="rotate(144)" stroke-width="1000"/>
+	</g>
+	<use xlink:href="#c" transform="rotate(144)" stroke-width="1000"/>
+</svg>

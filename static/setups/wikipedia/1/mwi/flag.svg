@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-225000 -114000 450000 300000">
+	<path d="M-225000-114000h450000v300000h-450000z" stroke-width="1000"/>
+	<circle r="64500" fill="#ce1126" stroke-width="1000"/>
+	<g id="e" stroke-width="1000">
+		<g id="d" stroke-width="1000">
+			<g id="c" stroke-width="1000">
+				<g id="b" stroke-width="1000">
+					<path id="a" fill="#ce1126" d="M0 0c-2167 0-3000 3250-3000 6500 0 7833 960 11929 3000 23500C2040 18430 3000 14333 3000 6500 3000 3250 2167 0 0 0z" transform="translate(0, -102000)" stroke-width="1000"/>
+					<use xlink:href="#a" transform="rotate(5)" stroke-width="1000"/>
+				</g>
+				<use xlink:href="#b" transform="rotate(10)" stroke-width="1000"/>
+			</g>
+			<use xlink:href="#c" transform="rotate(20)" stroke-width="1000"/>
+		</g>
+		<use xlink:href="#d" transform="rotate(40)" stroke-width="1000"/>
+	</g>
+	<use xlink:href="#e" transform="rotate(-80)" stroke-width="1000"/>
+	<path d="M-225000-21500h450000V186000h-450000z" stroke-width="1000"/>
+	<path fill="#ce1126" d="M-225000-14000h450000v200000h-450000z" stroke-width="1000"/>
+	<path fill="#339e35" d="M-225000 86000h450000v100000h-450000z" stroke-width="1000"/>
+</svg>

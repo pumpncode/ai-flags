@@ -1,0 +1,3 @@
+The flag of Monaco has a 4:5 aspect ratio and is divided into two equal horizontal bands, the top one being red (Pantone 186C) and the bottom one being white. The colors are arranged in a rectangular shape with a height-to-width ratio of 2:3. The geometric properties of the flag are simple: it is a rectangle.
+
+There are no additional elements other than the solid color bands. The flag does not have an official ratio for the width of the two colors, but they are generally reported to be equal in width.

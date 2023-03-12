@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450000 300000">
+	<g fill-rule="evenodd" stroke-width="500">
+		<path fill="#fe0000" d="M0 0h450000v300000H0z" stroke-width="500"/>
+		<path fill="#000095" d="M0 0h225000v150000H0z" stroke-width="500"/>
+	</g>
+	<path fill="#fff" d="M112500 18750l-28125 104964L161214 46875 56250 75000l104964 28125L84375 26286 112500 131250l28125-104964L63786 103125 168750 75000 63786 46875 140625 123714 112500 18750" paint-order="markers fill stroke" stroke-width="500"/>
+	<circle cx="112500" cy="75000" r="30000" fill="#fff" stroke="#000095" stroke-width="3750"/>
+</svg>

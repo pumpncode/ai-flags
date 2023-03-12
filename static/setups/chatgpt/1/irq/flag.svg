@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
+	<path fill="#CE1126" d="M0 0h60000v40000H0z" stroke-width="100"/>
+	<path fill="#FFF" d="M0 13333h60000v13333H0z" stroke-width="100"/>
+	<path d="M0 26667h60000V40000H0z" stroke-width="100"/>
+	<text x="30000" y="26667" fill="#007A3E" dominant-baseline="central" font-family="Kufi" font-size="15000" text-anchor="middle" stroke-width="100">ﷲ أكبر</text>
+</svg>

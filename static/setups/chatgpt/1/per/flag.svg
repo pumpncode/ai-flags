@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000">
+	<path fill="#ED1C24" d="M0 0h500v1000H0z" stroke-width="10"/>
+	<path fill="#FFF" d="M500 0h500v1000H500z" stroke-width="10"/>
+	<path fill="#ED1C24" d="M1000 0h500v1000h-500z" stroke-width="10"/>
+	<circle cx="750" cy="500" r="250" fill="gold" stroke-width="10"/>
+	<path fill="#1A1A1A" d="M750 354l93 178H657z" stroke-width="10"/>
+	<path fill="#1A1A1A" d="M750 646l-93-178h186z" stroke-width="10"/>
+	<path fill="#1A1A1A" d="M705 488L660 514v-52z m90 26l45-26V540z" stroke-width="10"/>
+	<path fill="#1A1A1A" d="M750 575c-73 0-132-59-132-132S677 311 750 311 882 370 882 443 823 575 750 575zM750 340c-57 0-103 46-103 103S693 546 750 546 853 500 853 443 807 340 750 340z" stroke-width="10"/>
+</svg>

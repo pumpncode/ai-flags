@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" viewBox="0 0 60000 36000">
+	<path d="M0 0h60000v36000H0z" stroke-width="1000"/>
+	<path fill="#ffd100" d="M0 0h60000v9000H0z" stroke-width="1000"/>
+	<path fill="#ef3340" d="M0 18000h60000v18000H0z" stroke-width="1000"/>
+	<path fill="#003da5" d="M0 27000h60000v9000H0z" stroke-width="1000"/>
+	<path fill="#009639" d="M30000 18000L0 36000V0z" stroke-width="1000"/>
+	<path d="M12519 9809a8250 8250 0 0 0 0 16382 8500 8500 0 1 1 0-16382z" stroke-width="1000"/>
+	<g id="b" stroke-width="1000">
+		<path id="a" d="M12519 10750l1029 3166-2693-1957h3329l-2693 1957z" stroke-width="1000"/>
+		<use xlink:href="#a" y="3750" stroke-width="1000"/>
+	</g>
+	<use xlink:href="#b" y="7500" stroke-width="1000"/>
+</svg>

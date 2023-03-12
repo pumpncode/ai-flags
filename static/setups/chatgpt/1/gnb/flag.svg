@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1000">
+	<path fill="#FCD116" d="M0 0h2000v330H0z" stroke-width="10"/>
+	<path fill="#007A3D" d="M0 330h2000v340H0z" stroke-width="10"/>
+	<path fill="#FCD116" d="M0 670h2000v330H0z" stroke-width="10"/>
+	<path d="M1000 500l25 82 73 21-49 53 12 73L1000 700l-61 29 12-73-49-53 73-21z" stroke-width="10"/>
+</svg>

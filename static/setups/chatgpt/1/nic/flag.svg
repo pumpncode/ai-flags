@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 5000">
+	<path fill="#0051b7" d="M0 0h3000v1670H0z" stroke-width="1000"/>
+	<path fill="#fff" d="M0 1670h3000v1670H0z" stroke-width="1000"/>
+	<path fill="#0051b7" d="M0 3340h3000v1670H0z" stroke-width="1000"/>
+	<path fill="#00a86b" d="M1000 1634h1000l500 866-500 866H1000L500 2500z" stroke-width="1000"/>
+	<path fill="#ff0" d="M1500 2789h750l375 649-375 649H1500l-375-649z" stroke-width="1000"/>
+	<text y="-1000" font-family="arial" font-size="400" text-anchor="middle" transform="translate(1500, 2500)" stroke-width="1000">Republica de Nicaragua</text>
+</svg>

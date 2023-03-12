@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200000 600000">
+	<defs>
+		<clipPath id="b">
+			<path d="M0 0h600000v300000H0z" stroke-width="1000"/>
+		</clipPath>
+		<clipPath id="c">
+			<path d="M0 0l300000 150000H0z m300000 0h300000L300000 150000z m0 150000h300000v150000z m0 0v150000H0z" stroke-width="1000"/>
+		</clipPath>
+		<g id="d" stroke-width="1000">
+			<g id="a" stroke-width="1000">
+				<path d="M0-325v500l1000-500z" stroke-width="1000"/>
+				<path d="M190 263l-293-405L1000-325z" stroke-width="1000"/>
+			</g>
+			<use xlink:href="#a" transform="scale(-1, 1)" stroke-width="1000"/>
+			<use xlink:href="#a" transform="rotate(72, 0, 0)" stroke-width="1000"/>
+			<use xlink:href="#a" transform="rotate(-72, 0, 0)" stroke-width="1000"/>
+			<use xlink:href="#a" transform="scale(-1, 1) rotate(72)" stroke-width="1000"/>
+		</g>
+	</defs>
+	<rect width="1200000" height="600000" fill="#012169" stroke-width="1000"/>
+	<path stroke="#FFF" stroke-width="60000" d="M0 0l600000 300000M0 300000L600000 0" clip-path="url(#b)"/>
+	<path stroke="#C8102E" stroke-width="40000" d="M0 0l600000 300000M0 300000L600000 0" clip-path="url(#c)"/>
+	<path stroke="#FFF" stroke-width="100000" d="M300000 0v300000M0 150000h600000" clip-path="url(#b)"/>
+	<path stroke="#C8102E" stroke-width="60000" d="M300000 0v300000M0 150000h600000" clip-path="url(#b)"/>
+	<use xlink:href="#d" fill="#FFF" transform="matrix(45.4, 0, 0, 45.4, 900000, 120000)" stroke-width="1000"/>
+	<use xlink:href="#d" fill="#C8102E" transform="matrix(30, 0, 0, 30, 900000, 120000)" stroke-width="1000"/>
+	<g transform="rotate(82, 900000, 240000)" stroke-width="1000">
+		<use xlink:href="#d" fill="#FFF" transform="rotate(-82, 519022, -457666) scale(40.4)" stroke-width="1000"/>
+		<use xlink:href="#d" fill="#C8102E" transform="rotate(-82, 519022, -457666) scale(25)" stroke-width="1000"/>
+	</g>
+	<g transform="rotate(82, 900000, 240000)" stroke-width="1000">
+		<use xlink:href="#d" fill="#FFF" transform="rotate(-82, 668570, -327666) scale(45.4)" stroke-width="1000"/>
+		<use xlink:href="#d" fill="#C8102E" transform="rotate(-82, 668570, -327666) scale(30)" stroke-width="1000"/>
+	</g>
+	<use xlink:href="#d" fill="#FFF" transform="matrix(50.4, 0, 0, 50.4, 900000, 480000)" stroke-width="1000"/>
+	<use xlink:href="#d" fill="#C8102E" transform="matrix(35, 0, 0, 35, 900000, 480000)" stroke-width="1000"/>
+</svg>

@@ -1,0 +1,5 @@
+The flag of the Philippines has a rectangular shape with an aspect ratio of 1:2. It consists of two horizontal stripes with equal width, one blue and one red, and a white equilateral triangle on the hoist side. The triangle contains three five-pointed stars arranged in a horizontal line, with one larger star and two smaller ones.
+
+The dimensions of the flag are prescribed by law, with the triangle occupying 3/5 of the flag's total width and the sides of the triangle being equal to the width of each stripe. The shade of blue used on the flag is cobalt blue (#0038A8), while the shade of red is scarlet (#CE1126). The shade of white used is pure white (#FFFFFF).
+
+The three stars on the flag represent the three main geographic regions of the Philippines: Luzon, Visayas, and Mindanao. The larger star represents Luzon, while the smaller stars represent Visayas and Mindanao.

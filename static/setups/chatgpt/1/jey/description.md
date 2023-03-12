@@ -1,0 +1,1 @@
+The flag of Jersey consists of a red saltire (diagonal cross) on a white background. The arms of the saltire extend to the edges of the flag and are each 1/3 the height of the flag. The dimensions of the flag are in a 3:5 aspect ratio, with a width-to-length ratio of 3:5. The color codes for the flag are Pantone 186 C for the red and Pantone White for the background.

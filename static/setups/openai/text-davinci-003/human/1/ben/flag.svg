@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300000 200000">
+	<rect width="100000" height="200000" fill="red"/>
+	<rect width="100000" height="200000" x="100000" fill="red"/>
+	<rect width="100000" height="200000" x="200000" fill="red"/>
+	<path fill="yellow" d="M117543 150000L150000 50000l32456 100000-85088-61842h105263"/>
+</svg>

@@ -1,0 +1,1 @@
+The sole reason for the existence of the zigzagger tool. Also the white band is here, you just can't see it because both the white and red band "span the width of the flag". I'm not satisfied with the serration by the way, please help me fixing zigzagger so the edges can be perfect.

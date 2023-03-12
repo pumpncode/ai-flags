@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="2" viewBox="-4 -6 24 12">
+	<rect width="24" height="12" x="-4" y="-6" fill="#fcd116" stroke-width="2"/>
+	<rect width="24" height="6" x="-4" fill="#009e49" stroke-width="2"/>
+	<rect width="8" height="12" x="-4" y="-6" fill="#ce1126" stroke-width="2"/>
+	<g id="b" stroke-width="2">
+		<path id="a" fill="#000" d="M0-2v2h1" transform="rotate(18, 0, -2)" stroke-width="2"/>
+		<use xlink:href="#a" transform="scale(-1, 1)" stroke-width="2"/>
+	</g>
+	<use xlink:href="#b" transform="rotate(72)" stroke-width="2"/>
+	<use xlink:href="#b" transform="rotate(144)" stroke-width="2"/>
+	<use xlink:href="#b" transform="rotate(216)" stroke-width="2"/>
+	<use xlink:href="#b" transform="rotate(288)" stroke-width="2"/>
+</svg>

@@ -1,0 +1,5 @@
+The flag of Andorra consists of three vertical stripes: blue, yellow, and red. The blue stripe is located at the hoist side and takes up one-third of the flag's width, while the yellow and red stripes each take up one-sixth of the flag's width. The colors are defined using Pantone color codes: blue (Pantone 286C), yellow (Pantone 109C), and red (Pantone 186C). 
+
+The aspect ratio of the flag is 7:10, meaning that its width is 70% of its height. The flag has no official geometric properties or measurements, but it is typically produced in a range of sizes, with larger flags having thicker stripes to maintain the correct proportion of the colors. 
+
+The design of the flag dates back to the Middle Ages and was officially adopted on July 8, 1866. It is similar in appearance to the flags of other countries in the region, such as Catalonia and the Balearic Islands.

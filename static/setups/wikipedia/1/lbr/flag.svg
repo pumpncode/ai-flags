@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 209000 110000">
+	<path fill="#bf0a30" d="M0 0h209000v110000H0z" stroke-width="1000"/>
+	<path stroke="#fff" stroke-width="10000" d="M0 15000h209000m0 20000H0"/>
+	<path fill="#002868" d="M0 0h50000v55000H0z" stroke-width="1000"/>
+	<path stroke="#fff" stroke-width="10000" d="M0 55000h209000m0 20000H0m0 20000h209000"/>
+	<g transform="matrix(15, 0, 0, 15, 25000, 25000)" stroke-width="1000">
+		<g id="b" stroke-width="1000">
+			<polygon id="a" fill="#fff" points="0 0 0 1000 500 1000" transform="rotate(18, 3157, -500)" stroke-width="1000"/>
+			<use xlink:href="#a" transform="scale(-1, 1)" stroke-width="1000"/>
+		</g>
+		<g id="c" stroke-width="1000">
+			<use xlink:href="#b" transform="rotate(72)" stroke-width="1000"/>
+			<use xlink:href="#b" transform="rotate(216)" stroke-width="1000"/>
+		</g>
+		<use xlink:href="#c" transform="rotate(72)" stroke-width="1000"/>
+	</g>
+</svg>

@@ -1,0 +1,5 @@
+The flag of San Marino consists of two equal horizontal bands of white (top) and light blue with the national coat of arms superimposed in the center. The coat of arms features a shield (with three towers on three peaks) flanked by two branches (one of laurel, the other of oak) and is surrounded by a crown atop which rests a pheasant. The aspect ratio of the flag is 3:4. The geometric properties and measurements are as follows: the coat of arms has a height equal to 2/5 the width of the white band and a width equal to 3/8 the height of the entire flag; the branches have a length of 1/2 the height of the coat of arms; the crown has a height of 1/4 the height of the coat of arms. The precise color codes for the flag are: 
+- White: #FFFFFF
+- Light Blue: #5E99D5.
+
+Note that some variations exist in the shape and placement of the emblem among different versions of the flag.

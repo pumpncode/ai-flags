@@ -1,0 +1,1 @@
+The flag of Guatemala consists of three vertical stripes, with two outer stripes in light blue (#5D81B6) and a middle stripe in white. In the center of the white stripe, there is the Guatemalan coat of arms. The aspect ratio of the flag is 5:8. The geometric properties of the flag are rectangular and it measures approximately 120cm x 200cm (47in x 79in).

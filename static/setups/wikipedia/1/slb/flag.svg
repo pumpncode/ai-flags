@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-35000 -30000 200000 100000">
+	<clipPath id="a">
+		<path d="M-35000-30000h200000V70000H-35000z" stroke-width="1000"/>
+	</clipPath>
+	<path fill="#215b33" d="M-35000-30000h200000V70000H-35000z" stroke-width="1000"/>
+	<path fill="#0051ba" d="M-35000 70000V-30000h200000" stroke-width="1000"/>
+	<path stroke="#fcd116" stroke-width="9000" d="M165000-30000L-35000 70000" clip-path="url(#a)"/>
+	<g id="d" fill="#fff" transform="scale(10)" stroke-width="1000">
+		<g id="c" stroke-width="1000">
+			<path id="b" d="M0-1000l-309 951 476 157z" stroke-width="1000"/>
+			<use xlink:href="#b" transform="scale(-1, 1)" stroke-width="1000"/>
+		</g>
+		<use xlink:href="#c" transform="rotate(72)" stroke-width="1000"/>
+		<use xlink:href="#c" transform="rotate(288)" stroke-width="1000"/>
+		<use xlink:href="#c" transform="rotate(144)" stroke-width="1000"/>
+		<use xlink:href="#c" transform="rotate(216)" stroke-width="1000"/>
+	</g>
+	<use xlink:href="#d" transform="translate(19741, -16920)" stroke-width="1000"/>
+	<use xlink:href="#d" transform="translate(19741, 16920)" stroke-width="1000"/>
+	<use xlink:href="#d" transform="translate(-19741, 16920)" stroke-width="1000"/>
+	<use xlink:href="#d" transform="translate(-19741, -16920)" stroke-width="1000"/>
+</svg>

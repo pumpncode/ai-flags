@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84000 42000">
+	<path fill="#009739" d="M0 0h84000v42000H0z" stroke-width="500"/>
+	<path fill="#ffd100" d="M0 12000h84000v18000H0z" stroke-width="500"/>
+	<path fill="#ef3340" d="M21000 21000L0 42000V0z" stroke-width="500"/>
+	<path id="a" d="M42000 14500l4224 13000L35165 19465h13670L37776 27500z" stroke-width="500"/>
+	<use xlink:href="#a" x="21000" stroke-width="500"/>
+</svg>
