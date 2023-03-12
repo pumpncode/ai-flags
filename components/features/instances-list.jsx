@@ -13,8 +13,6 @@ const {
  * @param props.fullVariantName
  */
 const InstancesList = ({ instances, fullVariantName }) => {
-	console.log(instances);
-	console.log(fullVariantName);
 	const sortedInstancesArray = Object.entries(instances)
 		.sort(([nameA, flagsA], [nameB, flagsB]) => {
 			const sortedFlagsA = [...flagsA]
