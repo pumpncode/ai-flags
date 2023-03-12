@@ -32,8 +32,6 @@ const simplifySvg = (svg) => {
 
 	const replaceMap = new Map(newNumbers.map((number, index) => [numberStringsAsBigNumbers[index], divide(number, scaleDivisor)].map((number) => format(number, { notation: "fixed" }))));
 
-	console.log(replaceMap);
-
 	// in chrome at least (what does this number mean?)
 	const upperSvgLimit = bignumber("340282332385245561561233491457113721595");
 

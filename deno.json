@@ -1,11 +1,10 @@
 {
 	"tasks": {
 		"start": "deno run -A --no-check --unstable --watch=routes/,components/,static/ ./dev.js",
-		"chatgpt": "deno run -A --unstable ./generators/chatgpt.js",
-		"openai": "deno run -A --unstable ./generators/openai.js",
-		"generate": "deno run -A --unstable ./generate.js"
+		"generate": "deno run -A --unstable ./generate.js",
+		"fix-svg": "deno run -A --unstable ./fix-svg.js"
 	},
-	"importMap": "./modules.json",
+	"importMap": "./import-map.json",
 	"lint": {
 		"rules": {
 			"exclude": [

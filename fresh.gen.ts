@@ -4,16 +4,29 @@
 
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/_app.jsx";
-import * as $1 from "./routes/flag.jsx";
-import * as $2 from "./routes/index.jsx";
+import * as $1 from "./routes/entities.jsx";
+import * as $2 from "./routes/entity.jsx";
+import * as $3 from "./routes/flag.jsx";
+import * as $4 from "./routes/index.jsx";
+import * as $5 from "./routes/tools.jsx";
+import * as $6 from "./routes/tools/zigzagger.jsx";
+import * as $$0 from "./islands/setup-list-item.jsx";
+import * as $$1 from "./islands/zigzagger.jsx";
 
 const manifest = {
   routes: {
     "./routes/_app.jsx": $0,
-    "./routes/flag.jsx": $1,
-    "./routes/index.jsx": $2,
+    "./routes/entities.jsx": $1,
+    "./routes/entity.jsx": $2,
+    "./routes/flag.jsx": $3,
+    "./routes/index.jsx": $4,
+    "./routes/tools.jsx": $5,
+    "./routes/tools/zigzagger.jsx": $6,
   },
-  islands: {},
+  islands: {
+    "./islands/setup-list-item.jsx": $$0,
+    "./islands/zigzagger.jsx": $$1,
+  },
   baseUrl: import.meta.url,
   config,
 };

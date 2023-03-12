@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700&display=swap");
+
+h1 {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 2.25em;
+	line-height: 2.5em;
+}
+
+h3 {
+	font-size: 1.875em;
+	line-height: 2.25em;
+}
+
+h4 {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+h5 {
+	font-size: 1.25em;
+	line-height: 1.75em;
+}
+
+h6 {
+	font-size: 1.125em;
+	line-height: 1.75em;
+}
+
+.markdown a {
+	color: deepskyblue;
+	text-decoration: underline;
+}
+
+.markdown a:hover {
+	text-decoration: none;
+}
+
+.markdown ul {
+	list-style: disc;
+	padding-left: 1.5em;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.markdown ol {
+	list-style: decimal;
+	padding-left: 1.5em;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.markdown code {
+	@apply bg-neutral-900;
+}
+
+* {
+	@apply transition-all;
+}
+
+html {
+	@apply scroll-smooth;
+
+	&,
+	&>body {
+		@apply min-h-screen;
+	}
+
+	&.light {
+
+		&,
+		&>body {
+			@apply bg-white;
+		}
+	}
+
+	@media (prefers-color-scheme: light) {
+
+		&,
+		&>body {
+			@apply bg-white;
+		}
+	}
+
+	&>body {
+		@apply flex flex-col overflow-x-hidden;
+
+		& h1 {
+			@apply text-5xl;
+		}
+
+		& h2 {
+			@apply text-4xl;
+		}
+
+		& h3 {
+			@apply text-3xl;
+		}
+
+		& h4 {
+			@apply text-2xl;
+		}
+
+		& h5 {
+			@apply text-xl;
+		}
+
+		& h6 {
+			@apply text-lg;
+		}
+
+		& .markdown {
+
+			& h1,
+			& h2,
+			& h3,
+			& h4,
+			& h5,
+			& h6 {
+				@apply mt-8;
+			}
+
+			& p {
+				@apply mt-4 mb-4 first: mt-0 last:mb-0;
+			}
+
+			& a {
+				@apply text-blue-500;
+			}
+
+			& ul {
+				@apply list-disc pl-6 flex flex-col gap-2 mt-2 mb-2;
+			}
+
+			& ol {
+				@apply list-decimal pl-6 flex flex-col gap-2 mt-2 mb-2;
+			}
+
+			& code {
+				@apply bg-neutral-500 px-1 py-0.5 rounded text-sm;
+			}
+
+			& table {
+				@apply border-separate border-spacing-0 mt-4;
+				border-spacing: 0px;
+
+				&>thead {
+					@apply bg-neutral-700;
+				}
+
+				&>thead,
+				&>tbody {
+					&>tr {
+						&>th {
+							@apply border-t;
+						}
+
+						&>th,
+						&>td {
+							@apply border-b border-r border-neutral-500 p-4;
+
+							&:first-child {
+								@apply border-l;
+							}
+						}
+
+						&:first-child {
+							&>th {
+								&:first-child {
+									@apply rounded-tl;
+								}
+
+								&:last-child {
+									@apply rounded-tr;
+								}
+							}
+						}
+
+						&:last-child {
+							&>td {
+								&:first-child {
+									@apply rounded-bl;
+								}
+
+								&:last-child {
+									@apply rounded-br;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,10 +1,10 @@
 import { format } from "npm:mathjs";
 import SvgPath from "npm:svgpath";
 
-import { traverseSvg } from "@ai-flags/utilities";
+import { traverseSvg, dimensionlessPathCommandParameterIndexes } from "@ai-flags/utilities";
 
 const getSvgNumberStrings = (svg) => {
-	const numberStrings = new Set();
+	const numberStrings = new Set([1]);
 
 	traverseSvg(
 		svg,
@@ -17,12 +17,60 @@ const getSvgNumberStrings = (svg) => {
 						const { segments } = new SvgPath(value);
 
 						for (const [letter, ...numbers] of segments) {
-							for (const number of numbers) {
-								if (number !== 0) {
+							for (const [indexString, number] of Object.entries(numbers)) {
+								if (
+									number !== 0 &&
+									(
+										(
+											dimensionlessPathCommandParameterIndexes.has(letter) &&
+											!dimensionlessPathCommandParameterIndexes.get(letter).has(Number(indexString) + 1)
+										) ||
+										!dimensionlessPathCommandParameterIndexes.has(letter)
+									)
+								) {
 									numberStrings.add(format(number, { notation: "fixed" }));
 								}
 							}
 						}
+						break;
+					}
+					case "transform": {
+						const transformFunctions = new Map(
+							value.split(/(?<=\))\s/g)
+								.map((transformFunctionString) => {
+									const [transformFunctionName, ...parameters] = transformFunctionString
+										.trim()
+										.split(/\(|\)/g)
+										.slice(0, -1)
+										.map((parametersString, index) => index === 0 ? parametersString : parametersString.trim().split(/\s|,/g).map(Number))
+										.flat();
+
+									return [transformFunctionName, parameters];
+								})
+						);
+
+						const scalableParameters = [];
+
+						for (const [transformFunctionName, parameters] of transformFunctions) {
+							switch (transformFunctionName) {
+								case "matrix":
+									scalableParameters.push(...parameters.slice(4));
+									break;
+								case "translate":
+									scalableParameters.push(...parameters);
+									break;
+								case "rotate":
+									scalableParameters.push(...parameters.slice(1));
+									break;
+								default:
+									break;
+							}
+						}
+
+						for (const number of scalableParameters.filter((parameter) => parameter !== "0")) {
+							numberStrings.add(format(number, { notation: "fixed" }));
+						}
+
 						break;
 					}
 					default: {

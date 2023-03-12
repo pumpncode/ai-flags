@@ -1,7 +1,7 @@
 import { getSheet } from "twind";
 import { Options, setup, STYLE_ELEMENT_ID } from "./shared.ts";
 
-export default function hydrate(options: Options) {
+export default async function hydrate(options: Options) {
   const sheet = getSheet(true, false);
   // deno-lint-ignore ban-ts-comment
   // @ts-ignore

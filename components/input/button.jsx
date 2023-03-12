@@ -1,6 +1,7 @@
 import { forwardRef } from "preact/compat";
-import { cx, tx } from "twind";
-import { css } from "twind/css";
+import {
+	css, cx, tx
+} from "twind";
 
 const Button = forwardRef((
 	{
@@ -17,12 +18,15 @@ const Button = forwardRef((
 		ref={ref}
 		type="button"
 		className={tx`
-			flex justify-center items-center cursor-pointer font-medium duration-300 rounded-[1em] px-[1em] py-[0.5em] disabled:(pointer-events-none cursor-default grayscale) focus:outline-none ${css({ backgroundPosition: "0% 100%", backgroundSize: "400% 100%" })}
+			flex justify-center items-center cursor-pointer font-medium duration-300 rounded-[1em] px-[1em] py-[0.5em] disabled:(pointer-events-none cursor-default grayscale) focus:outline-none ${css({
+		backgroundPosition: "0% 100%",
+		backgroundSize: "400% 100%"
+	})}
 			hover:${css({ backgroundPosition: "100% 100%" })}
 			${variant === "contained" && cx`bg-gradient2 text-white`}
 			${variant === "transparent" &&
-			cx`bg-none text(gray-800 dark:white) hover:(bg(gray-200 dark:black opacity(25 dark:25)))`
-			}
+			cx`bg-none text-white hover:(bg(neutral-500 opacity-25))`
+	}
 			${size === "2xl" && cx`text-2xl`}
 			${size === "xl" && cx`text-xl`}
 			${className}

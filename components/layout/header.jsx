@@ -1,6 +1,5 @@
-import { cx } from "twind";
-
 import { startCase } from "npm:lodash-es";
+import { cx } from "twind";
 
 import Button from "../input/button.jsx";
 
@@ -8,6 +7,9 @@ const {
 	env
 } = Deno;
 
+/**
+ *
+ */
 const Header = () => {
 	const navigationItems = [
 		{
@@ -18,9 +20,15 @@ const Header = () => {
 				<h1 className="font-bold">AI Flags</h1>
 			)
 		},
-		// {
-		// 	name: "assets"
-		// }
+		{
+			name: "setups"
+		},
+		{
+			name: "entities"
+		},
+		{
+			name: "tools"
+		}
 	];
 
 	return (
@@ -29,7 +37,9 @@ const Header = () => {
 				<ul className="grid grid-cols-header h-full w-full">
 					{
 						navigationItems
-							.map(({ name, to = `/${name}`, title = startCase(name), custom, customLink }) => (
+							.map(({
+								name, to = `/${name}`, title = startCase(name), custom, customLink
+							}) => (
 								<li className={cx`min-h-full h-full flex items-center justify-center first-child:justify-start`} key={name}>
 									{
 										customLink
@@ -48,7 +58,7 @@ const Header = () => {
 				</ul>
 			</nav>
 		</header>
-	)
+	);
 };
 
 export default Header;

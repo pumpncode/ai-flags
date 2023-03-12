@@ -1,6 +1,8 @@
 {
-  "recommendations": [
-    "denoland.vscode-deno",
-    "sastan.twind-intellisense"
-  ]
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"denoland.vscode-deno",
+		"eamodio.gitlens",
+		"sastan.twind-intellisense"
+	]
 }

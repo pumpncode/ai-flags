@@ -12,10 +12,10 @@ const moduleFilePath = fromFileUrl(import.meta.url);
 
 const setupName = moduleFilePath.replace(cwd(), "").replace(/^\/generators\//, "").replace(/\.js$/, "");
 
-const generator = async ({ countryCode }) => {
-	const folderPath = join(cwd(), "static", "setups", setupName, countryCode);
+const generator = async ({ code }) => {
+	const folderPath = join(cwd(), "static", "setups", setupName, code);
 
-	const descriptionFilePath = join(folderPath, "description.txt");
+	const descriptionFilePath = join(folderPath, "description.md");
 	const svgFlagFilePath = join(folderPath, "flag.svg");
 
 	const description = await readTextFile(descriptionFilePath);

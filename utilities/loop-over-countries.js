@@ -1,16 +1,30 @@
-import { join } from "std/path";
 import { optimize as optimizeSvg } from "npm:svgo";
+import { join } from "std/path";
 
 import isSvgValid from "./is-svg-valid.js";
-import svgToPng from "./svg-to-png.js";
 import simplifySvg from "./simplify-svg.js";
+import svgToPng from "./svg-to-png.js";
 
 import countries from "https://raw.githubusercontent.com/mledoze/countries/master/countries.json" assert { type: "json" };
-import svgoConfig from "../svgo.json" assert { type: "json" };
+
+const svgoConfig = {
+	multipass: true,
+	js2svg: {
+		pretty: true,
+		indent: "\t"
+	},
+	plugins: [
+		"preset-default",
+		{
+			name: "removeViewBox",
+			active: false
+		}
+	]
+};
 
 const {
 	args: [
-		countryCodesFilterString
+		codesFilterString
 	],
 	cwd,
 	errors: {
@@ -21,37 +35,92 @@ const {
 	writeTextFile,
 } = Deno;
 
-const countryCodesFilter = countryCodesFilterString?.split(",") ?? [];
+const codesFilter = codesFilterString?.split(",") ?? [];
+
+const processCountry = async ({ name, officialName, code }) => {
+	const folderPath = join(cwd(), "static", "setups", setupName, code);
+
+	const descriptionFilePath = join(folderPath, "description.md");
+	const svgFlagFilePath = join(folderPath, "flag.svg");
+	const pngFlagFilePath = join(folderPath, "flag.png");
+
+	try {
+		if (codesFilter.length === 0) {
+			let alreadyProcessed = false;
+
+			try {
+				await stat(descriptionFilePath);
+				await stat(svgFlagFilePath);
+				await stat(pngFlagFilePath);
+
+				alreadyProcessed = true;
+			}
+			catch (error) {
+				if (!(error instanceof NotFound)) {
+					throw error;
+				}
+			}
+
+			if (alreadyProcessed) {
+				throw new Error(`Already processed ${name} (${code})`);
+			}
+		}
+
+		console.log(`Processing ${name} (${code})...`);
+
+		const { description, svg } = await iteratee({ name, code });
+
+		await mkdir(folderPath, { recursive: true });
+
+		await writeTextFile(descriptionFilePath, description);
+
+		if (!isSvgValid(svg)) {
+			throw new Error(`Invalid SVG code for ${name} (${code})`);
+		}
+
+		const { data: optimizedSvg } = optimizeSvg(svg, svgoConfig);
+
+		const simplifiedSvg = simplifySvg(optimizedSvg);
+
+		await writeTextFile(svgFlagFilePath, simplifiedSvg);
+
+		await svgToPng(svgFlagFilePath, pngFlagFilePath);
+	}
+	catch (error) {
+		console.error(`Failed to process ${name} (${code})`);
+		console.error(error);
+	}
+}
 
 const loopOverCountries = async (setupName, iteratee) => {
 	const sortedCountries = new Set(
 		[
 			...(
-				countryCodesFilter.length > 0
+				codesFilter.length > 0
 					? countries
-						.filter(({ cca3: countryCode }) => countryCodesFilter
-							.map((filterCountryCode) => filterCountryCode.toLocaleLowerCase())
-							.includes(countryCode.toLocaleLowerCase())
+						.filter(({ cca3: code }) => codesFilter
+							.map((filterCode) => filterCode.toLocaleLowerCase())
+							.includes(code.toLocaleLowerCase())
 						)
 					: countries
 			)
-				.map(({ name: { common: name }, cca3: countryCode }) => ({ name, countryCode: countryCode.toLocaleLowerCase() }))
+				.map(({ name: { common: name, official: officialName }, cca3: code }) => ({ name, officialName, code: code.toLocaleLowerCase() }))
 		]
 			.sort((
-				{ countryCode: countryCodeA },
-				{ countryCode: countryCodeB },
-			) => Intl.Collator().compare(countryCodeA, countryCodeB))
+				{ code: codeA },
+				{ code: codeB },
+			) => Intl.Collator().compare(codeA, codeB))
 	);
 
-	for (const { name, countryCode } of sortedCountries) {
-		const folderPath = join(cwd(), "static", "setups", setupName, countryCode);
+	for (const { name, officialName, code } of sortedCountries) {
+		const folderPath = join(cwd(), "static", "setups", setupName, code);
 
-		const descriptionFilePath = join(folderPath, "description.txt");
+		const descriptionFilePath = join(folderPath, "description.md");
 		const svgFlagFilePath = join(folderPath, "flag.svg");
 		const pngFlagFilePath = join(folderPath, "flag.png");
 
 		try {
-			if (countryCodesFilter.length === 0) {
+			if (codesFilter.length === 0) {
 				let alreadyProcessed = false;
 
 				try {
@@ -68,21 +137,21 @@ const loopOverCountries = async (setupName, iteratee) => {
 				}
 
 				if (alreadyProcessed) {
-					console.log(`Already processed ${name} (${countryCode})`);
+					console.log(`Already processed ${name} (${code})`);
 					continue;
 				}
 			}
 
-			console.log(`Processing ${name} (${countryCode})...`);
+			console.log(`Processing ${name} (${code})...`);
 
-			const { description, svg } = await iteratee({ name, countryCode });
+			const { description, svg } = await iteratee({ name, code });
 
 			await mkdir(folderPath, { recursive: true });
 
 			await writeTextFile(descriptionFilePath, description);
 
 			if (!isSvgValid(svg)) {
-				throw new Error(`Invalid SVG code for ${name} (${countryCode})`);
+				throw new Error(`Invalid SVG code for ${name} (${code})`);
 			}
 
 			const { data: optimizedSvg } = optimizeSvg(svg, svgoConfig);
@@ -94,7 +163,7 @@ const loopOverCountries = async (setupName, iteratee) => {
 			await svgToPng(svgFlagFilePath, pngFlagFilePath);
 		}
 		catch (error) {
-			console.error(`Failed to process ${name} (${countryCode})`);
+			console.error(`Failed to process ${name} (${code})`);
 			console.error(error);
 		}
 	}

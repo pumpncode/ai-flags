@@ -1,10 +1,7 @@
 import { join } from "std/path";
 
 const {
-	args: [
-		setupNamesString,
-		countryCodesFilterString
-	],
+	args: [setupNamesString, countryCodesFilterString],
 	cwd,
 	readTextFile,
 	run,
@@ -14,7 +11,7 @@ const {
 const setupNames = setupNamesString?.split(",") ?? [];
 
 if (setupNames.length === 0) {
-	console.error("Please provide one or setup names");
+	console.error("Please provide one or multiple setup names");
 	Deno.exit(1);
 }
 
@@ -25,10 +22,7 @@ for (const setupName of setupNames) {
 		await writeTextFile(
 			join(cwd(), "setup-names.json"),
 			JSON.stringify(
-				[
-					...savedSetupNames,
-					setupName
-				],
+				[...savedSetupNames, setupName],
 				null,
 				"\t"
 			)
@@ -47,13 +41,9 @@ for (const setupName of setupNames) {
 
 	const process = run({
 		cmd: countryCodesFilterString
-			? [
-				...command,
-				countryCodesFilterString
-			]
+			? [...command, countryCodesFilterString]
 			: command
 	});
 
 	await process.status();
 }
-
