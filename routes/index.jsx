@@ -60,8 +60,8 @@ const handler = {
  * @param root0.data.content
  */
 const Home = ({ data: { content } }) => (
-	<section className="p-16">
-		<h2 className="text-mono h-24">Flags (according to AI)</h2>
+	<section className="p-4 md:p-16 flex flex-col gap-8">
+		<h2 className="text-2xl sm:text-4xl">Flags (according to AI)</h2>
 		<ul>
 			{
 				Object.entries(content).sort(([setupNameA], [setupNameB]) => Intl.Collator().compare(setupNameA, setupNameB)).map(([setupName, setupContent], index) => (

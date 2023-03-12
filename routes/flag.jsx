@@ -127,13 +127,13 @@ const FlagDetails = ({
 	console.log(pngFlagPath);
 
 	return (
-		<section className="p-16 min-h-[calc(100vh-12rem)]">
+		<section className="p-4 md:p-16 min-h-[calc(100vh-12rem)]">
 			<h2 className="flex gap-2 items-center h-24">
 				<span>{name}</span>
 				<span className="text-base font-mono bg-neutral-700 px-1 py-0.5 rounded">({code})</span>
 			</h2>
 
-			<section className="flex gap-4 min-h-[calc(100vh-26rem)]">
+			<section className="flex flex-col sm:flex-row gap-4 min-h-[calc(100vh-26rem)]">
 				<div className="w-full flex items-start justify-center p-2 bg-neutral-700 rounded min-h-full">
 					<img
 						src={asset(pngFlagPath)}

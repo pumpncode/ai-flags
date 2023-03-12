@@ -24,11 +24,11 @@ const TreeMenu = ({
 			<>
 				{
 					entity.children && (
-						<span className="bg-neutral-200 text-neutral-800 w-8 flex items-center justify-center font-bold text-sm shrink-0">+</span>
+						<span className="bg-neutral-200 text-neutral-800  flex items-center justify-center font-bold text-sm shrink-0 w-12 md:w-8">+</span>
 					)
 				}
 				<a
-					href={currentHref}
+					href={`${currentHref}#${entity.name}`}
 					className={cn(
 						"p-4 grow",
 						{

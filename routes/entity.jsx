@@ -127,15 +127,15 @@ const Entity = ({
 	};
 
 	return (
-		<section className="p-16">
+		<section className="p-4 md:p-16">
 			<h2 className="text-mono h-24">Entities</h2>
-			<div className="flex gap-4">
-				<TreeMenu rootEntity={earthEntity} href="/entities" className="w-3/12" openIds={entityIds} />
-				<div className="bg-neutral-800 rounded w-9/12 p-4 flex flex-col gap-8">
-					<h3 className="text-6xl">{name}</h3>
+			<div className="flex flex-col md:flex-row gap-4">
+				<TreeMenu rootEntity={earthEntity} href="/entities" className="w-full md:w-3/12" openIds={entityIds} />
+				<div className="bg-neutral-800 rounded w-full md:w-9/12 p-4 flex flex-col gap-8">
+					<h3 className="text-6xl scroll-mt-12 md:scroll-mt-96" id={name}>{name}</h3>
 					{
 						flags && (
-							<ul className="grid grid-cols-3 gap-4">
+							<ul className="grid grid-cols-cards gap-4">
 								{
 									flags.map(({
 										id, name: flagName, images: [flagUrl]

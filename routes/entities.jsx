@@ -38,12 +38,11 @@ const Entities = ({ data: { entityTree } }) => {
 	};
 
 	return (
-		<section className="p-16">
+		<section className="p-4 md:p-16">
 			<h2 className="text-mono h-24">Entities</h2>
-			<div className="flex gap-4">
-				<TreeMenu rootEntity={earthEntity} href="/entities" className="w-3/12" />
+			<div className="flex flex-col md:flex-row gap-4">
+				<TreeMenu rootEntity={earthEntity} href="/entities" className="w-full md:w-3/12" />
 			</div>
-
 		</section>
 	);
 };

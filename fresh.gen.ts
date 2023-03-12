@@ -10,8 +10,9 @@ import * as $3 from "./routes/flag.jsx";
 import * as $4 from "./routes/index.jsx";
 import * as $5 from "./routes/tools.jsx";
 import * as $6 from "./routes/tools/zigzagger.jsx";
-import * as $$0 from "./islands/setup-list-item.jsx";
-import * as $$1 from "./islands/zigzagger.jsx";
+import * as $$0 from "./islands/mobile-menu.jsx";
+import * as $$1 from "./islands/setup-list-item.jsx";
+import * as $$2 from "./islands/zigzagger.jsx";
 
 const manifest = {
   routes: {
@@ -24,8 +25,9 @@ const manifest = {
     "./routes/tools/zigzagger.jsx": $6,
   },
   islands: {
-    "./islands/setup-list-item.jsx": $$0,
-    "./islands/zigzagger.jsx": $$1,
+    "./islands/mobile-menu.jsx": $$0,
+    "./islands/setup-list-item.jsx": $$1,
+    "./islands/zigzagger.jsx": $$2,
   },
   baseUrl: import.meta.url,
   config,

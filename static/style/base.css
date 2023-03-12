@@ -5,71 +5,8 @@
 @import url("https://rsms.me/inter/inter.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700&display=swap");
 
-h1 {
-	font-size: 3em;
-	line-height: 1em;
-}
-
-h2 {
-	font-size: 2.25em;
-	line-height: 2.5em;
-}
-
-h3 {
-	font-size: 1.875em;
-	line-height: 2.25em;
-}
-
-h4 {
-	font-size: 1.5em;
-	line-height: 2em;
-}
-
-h5 {
-	font-size: 1.25em;
-	line-height: 1.75em;
-}
-
-h6 {
-	font-size: 1.125em;
-	line-height: 1.75em;
-}
-
-.markdown a {
-	color: deepskyblue;
-	text-decoration: underline;
-}
-
-.markdown a:hover {
-	text-decoration: none;
-}
-
-.markdown ul {
-	list-style: disc;
-	padding-left: 1.5em;
-	display: flex;
-	flex-direction: column;
-	gap: 0.5em;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.markdown ol {
-	list-style: decimal;
-	padding-left: 1.5em;
-	display: flex;
-	flex-direction: column;
-	gap: 0.5em;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.markdown code {
-	@apply bg-neutral-900;
-}
-
-* {
-	@apply transition-all;
+:root {
+	color-scheme: dark;
 }
 
 html {
@@ -98,6 +35,25 @@ html {
 
 	&>body {
 		@apply flex flex-col overflow-x-hidden;
+
+		& * {
+			@apply transition-all;
+
+			&::selection {
+				@apply bg-cyan-500 text-neutral-900;
+			}
+		}
+
+		& h1,
+		& h2,
+		& h3,
+		& h4,
+		& h5,
+		& h6,
+		& p,
+		& span {
+			@apply text-neutral-100;
+		}
 
 		& h1 {
 			@apply text-5xl;
@@ -139,7 +95,11 @@ html {
 			}
 
 			& a {
-				@apply text-blue-500;
+				@apply text-cyan-500 underline;
+
+				&:hover {
+					@apply no-underline;
+				}
 			}
 
 			& ul {
