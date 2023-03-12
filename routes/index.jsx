@@ -56,12 +56,9 @@ const getInstances = async ({ staticVariantFolderPath }) => {
 					let createdAt = null;
 
 					try {
-						console.log("svgFlagFilePath", svgFlagFilePath);
-						const { mtime } = await stat(svgFlagFilePath);
+						const { birthtime } = await stat(svgFlagFilePath);
 
-						console.log("mtime", mtime);
-
-						createdAt = mtime.toISOString();
+						createdAt = birthtime.toISOString();
 					}
 					catch (error) {
 						// if (!(error instanceof NotFound)) {
