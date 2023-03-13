@@ -11,7 +11,6 @@ import { asset } from "$fresh/runtime.ts";
  * @param props.vexillologists
  */
 const RandomFlag = ({ vexillologists }) => {
-	console.log(vexillologists);
 	const allFlags = Object.entries(vexillologists)
 		.filter(([name]) => name !== "wikipedia")
 		.map(([name, vexillologist]) => Object.values(vexillologist)
