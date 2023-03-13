@@ -32,7 +32,7 @@ const RandomFlag = ({ vexillologists }) => {
 			setTimeout(() => {
 				setShown(true);
 			}, 1_100);
-		}, 100000_000);
+		}, 10_000);
 
 		return () => clearInterval(interval);
 	}, []);
