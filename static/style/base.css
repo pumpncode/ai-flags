@@ -114,7 +114,7 @@ html {
 			}
 
 			& code {
-				@apply bg-neutral-500 px-1 py-0.5 rounded text-sm;
+				@apply bg-neutral-500 px-1 py-0.5 rounded text-sm break-words;
 			}
 
 			& pre {

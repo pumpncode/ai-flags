@@ -7,6 +7,7 @@ import { join } from "std/path";
 import { unified } from "unified";
 
 import VexillologistsList from "../components/features/vexillologists-list.jsx";
+import RandomFlag from "../islands/random-flag.jsx";
 
 const {
 	errors: {
@@ -197,31 +198,44 @@ const handler = {
  * @param props.data.vexillologists
  */
 const Home = ({ data: { vexillologists } }) => (
-	<section className="p-4 md:p-16 flex flex-col gap-8 items-start">
-		<h2 className="text-2xl sm:text-4xl">Flags (according to AI)</h2>
-		<span className="flex flex-col gap-1 text-lg text-cyan-300 font-medium">
-			<span>What would happen if we ask an AI to describe a flag?</span>
-			<span>What if we ask it to generate an image of a flag?</span>
-			<span>Find out here!</span>
-		</span>
-		<span className="flex flex-col gap-1 text-lg bg-neutral-700 p-4 rounded border-2 border-cyan-300">
-			<span>Click on the "Instance" boxes below to see the results of a specific setup</span>
-			<span>Click on a specific flag to view a bigger version and read the description of it</span>
-			<span>You can always get the SVG version of a flag by simply replacing the file extenstion in the URL</span>
-		</span>
+	<>
+		<section className="p-4 md:p-16 flex flex-col gap-8 items-center justify-around bg-neutral-700 h-auto md:h-[calc(100vh-6rem)] min-h-[600px]">
+			<h2 className="text-2xl sm:text-4xl md:text-6xl font-bold">Flags (according to AI)</h2>
+			<div className="flex flex-col md:flex-row gap-8 w-full items-center">
+				<div className="w-full md:w-6/12">
+					<RandomFlag {...{ vexillologists }} />
+				</div>
+				<div className="w-full md:w-6/12 flex flex-col gap-8">
+					<span className="flex flex-col gap-1 text-lg text-amber-300 font-medium items-center md:items-start">
+						<span>What would happen if we ask an AI to describe a flag?</span>
+						<span>What if we ask it to generate an image of a flag?</span>
+						<span>Find out here!</span>
+					</span>
+					<span className="flex flex-col gap-1 text-lg bg-neutral-700 rounded border border-amber-300">
+						<span className="border-b border-amber-300 p-4">Click on the "Instance" boxes below to see the results of a specific setup!</span>
+						<span className="border-b border-amber-300 p-4">Click on a specific flag to view a bigger version and read the description of it!</span>
+						<span className="p-4">You can always get the SVG version of a flag by simply replacing the file extension of the URL!</span>
+					</span>
+				</div>
 
-		<ul className="flex flex-col gap-1">
-			<li className="flex gap-2">
-				<span>🤓</span>
-				<span> - The Vexillologist - The role which describes a flag</span>
-			</li>
-			<li className="flex gap-2">
-				<span>🧑‍🎨</span>
-				<span> - The Vexillographer - The role which constructs a flag</span>
-			</li>
-		</ul>
-		<VexillologistsList {...{ vexillologists }} />
-	</section>
+			</div>
+
+		</section>
+		<section className="p-4 md:p-16 flex flex-col gap-8 items-start">
+			<ul className="flex flex-col gap-1">
+				<li className="flex gap-2">
+					<span>🤓</span>
+					<span> - The Vexillologist - The role which describes a flag</span>
+				</li>
+				<li className="flex gap-2">
+					<span>🧑‍🎨</span>
+					<span> - The Vexillographer - The role which constructs a flag</span>
+				</li>
+			</ul>
+			<VexillologistsList {...{ vexillologists }} />
+		</section>
+	</>
+
 );
 
 export { handler };

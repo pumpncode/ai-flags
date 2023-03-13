@@ -13,7 +13,8 @@ import * as $6 from "./routes/tools.jsx";
 import * as $7 from "./routes/tools/zigzagger.jsx";
 import * as $$0 from "./islands/instances-list-item.jsx";
 import * as $$1 from "./islands/mobile-menu.jsx";
-import * as $$2 from "./islands/zigzagger.jsx";
+import * as $$2 from "./islands/random-flag.jsx";
+import * as $$3 from "./islands/zigzagger.jsx";
 
 const manifest = {
   routes: {
@@ -29,7 +30,8 @@ const manifest = {
   islands: {
     "./islands/instances-list-item.jsx": $$0,
     "./islands/mobile-menu.jsx": $$1,
-    "./islands/zigzagger.jsx": $$2,
+    "./islands/random-flag.jsx": $$2,
+    "./islands/zigzagger.jsx": $$3,
   },
   baseUrl: import.meta.url,
   config,

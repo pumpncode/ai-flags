@@ -47,8 +47,8 @@ const InstancesListItem = ({
 					<>
 						<Disclosure.Button className="flex">
 							<h6 className="p-4 text-ellipsis overflow-hidden whitespace-nowrap text-xs sm:text-base flex items-center gap-2">
-								<span>Instance {instanceName}</span>
-								<span className="text-xs font-mono bg-neutral-700 px-1 py-0.5 rounded">({formattedStartDate})</span>
+								<span className="text-ellipsis overflow-hidden whitespace-nowrap">Instance {instanceName}</span>
+								<span className="hidden sm:flex text-xs font-mono bg-neutral-700 px-1 py-0.5 rounded text-ellipsis overflow-hidden whitespace-nowrap">({formattedStartDate})</span>
 							</h6>
 						</Disclosure.Button>
 						<Transition
@@ -60,7 +60,7 @@ const InstancesListItem = ({
 							leaveFrom="transform scale-100 opacity-100"
 							leaveTo="transform scale-95 opacity-0"
 						>
-							<Disclosure.Panel as="article" className="px-4 pb-4">
+							<Disclosure.Panel as="article" className="px-1 sm:px-4 pb-1 sm:pb-4">
 								<ul className="grid gap-4 grid-cols-cards">
 									{
 										flags.map(({
@@ -73,10 +73,11 @@ const InstancesListItem = ({
 															<img
 																src={asset(pngFlagPath)}
 																alt={`Flag of ${name} (according to ${instanceName})`}
+																loading="lazy"
 																className={cx`
-											max-w-full max-h-full border border-neutral-800
-											${css({ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" })}
-										`}
+																	max-w-full max-h-full border border-neutral-800
+																	${css({ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" })}
+																`}
 															/>
 														</div>
 
