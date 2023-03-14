@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7410000 3900000">
+	<rect width="7410000" height="3900000" fill="#b22234" stroke-width="1000"/>
+	<path stroke="#fff" stroke-width="300000" d="M0 450000h7410000m0 600000H0m0 600000h7410000m0 600000H0m0 600000h7410000m0 600000H0"/>
+	<rect width="2964000" height="2100000" fill="#3c3b6e" stroke-width="1000"/>
+	<g fill="#fff" stroke-width="1000">
+		<g id="d" stroke-width="1000">
+			<g id="c" stroke-width="1000">
+				<g id="e" stroke-width="1000">
+					<g id="b" stroke-width="1000">
+						<path id="a" d="M247000 90000l70534 217082-184660-134164h228253L176466 307082z" stroke-width="1000"/>
+						<use xlink:href="#a" y="420000" stroke-width="1000"/>
+						<use xlink:href="#a" y="840000" stroke-width="1000"/>
+						<use xlink:href="#a" y="1260000" stroke-width="1000"/>
+					</g>
+					<use xlink:href="#a" y="1680000" stroke-width="1000"/>
+				</g>
+				<use xlink:href="#b" x="247000" y="210000" stroke-width="1000"/>
+			</g>
+			<use xlink:href="#c" x="494000" stroke-width="1000"/>
+		</g>
+		<use xlink:href="#d" x="988000" stroke-width="1000"/>
+		<use xlink:href="#c" x="1976000" stroke-width="1000"/>
+		<use xlink:href="#e" x="2470000" stroke-width="1000"/>
+	</g>
+</svg>
