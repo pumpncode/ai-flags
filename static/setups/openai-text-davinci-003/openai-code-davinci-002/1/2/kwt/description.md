@@ -1,0 +1,1 @@
+The flag of Kuwait is a horizontally divided tricolor, with black at the hoist, white in the center, and green at the fly. The ratio of the flag is 3:2.

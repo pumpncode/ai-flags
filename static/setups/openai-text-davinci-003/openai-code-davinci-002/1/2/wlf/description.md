@@ -1,0 +1,1 @@
+The flag of Wallis and Futuna is a yellow flag with a red hoist triangle and a white vertical stripe slightly to the hoist of the triangle. The aspect ratio is 2:3.

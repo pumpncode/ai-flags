@@ -1,0 +1,1 @@
+The flag of Sweden is a Scandinavian cross design with a yellow cross on a blue background. The cross is centered on the flag, and the ratio of the width of the cross to the flag's width is 0.5.

@@ -1,0 +1,1 @@
+The flag of Nicaragua has three equal horizontal stripes of blue, white, and blue. The ratio from the top to bottom of the flag is 1:2:1.

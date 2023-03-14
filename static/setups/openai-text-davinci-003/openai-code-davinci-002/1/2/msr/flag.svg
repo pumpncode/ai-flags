@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100000 50000">
+	<path d="M0 0h100000v50000H0z" style="fill:#0031af" stroke-width="100"/>
+	<path d="M0 0h33333v20000H0z" style="fill:#b44144" stroke-width="100"/>
+	<text dominant-baseline="middle" style="fill:#fff;font-size:48px" transform="rotate(-90, 24300, 33800)" stroke-width="100">VOW AND</text>
+	<text dominant-baseline="middle" style="fill:#fff;font-size:48px" transform="rotate(-90, 18500, 38300)" stroke-width="100">DECLARE</text>
+	<text dominant-baseline="middle" style="fill:#fff;font-size:24px;text-anchor:middle" transform="rotate(-90, 25500, 22000)" stroke-width="100">MOTTO</text>
+	<path d="M0 30000h33333v20000H0z" style="fill:#00a2d2" stroke-width="100"/>
+	<text dominant-baseline="middle" style="fill:#fff;font-size:48px" transform="translate(7000, 5000)" stroke-width="100">TONY</text>
+	<text dominant-baseline="middle" style="fill:#fff;font-size:24px;text-anchor:middle" transform="translate(0, 8000)" stroke-width="100">TRAINER</text>
+	<text dominant-baseline="middle" style="fill:#fff;font-size:24px;text-anchor:middle" transform="translate(0, 12000)" stroke-width="100">SINCE 1992</text>
+	`;
+
+// export the SVG code
+export default html;
+</svg>

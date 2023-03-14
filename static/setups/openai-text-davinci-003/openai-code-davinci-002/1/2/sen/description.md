@@ -1,0 +1,1 @@
+The flag of Senegal is a vertical triband of equal size red, green, and yellow bands with a five-pointed green star at the center. The width of each of the three bands is 1/3 of the length of the flag.

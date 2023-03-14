@@ -1,0 +1,1 @@
+The flag of New Caledonia is a vertical triband of blue, red, and yellow with a width ratio of 1:2:1. In the center of the red band is a yellow five-pointed star.

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45300000 60100000">
+	<linearGradient id="a" x1="20100000" x2="20100000" y1="29950400" y2="-29615000" gradientTransform="matrix(99162 -25618 3384 99941 -2350400 59636300)" gradientUnits="userSpaceOnUse">
+		<stop offset="0" style="stop-color:#000;stop-opacity:0"/>
+		<stop offset="100000" style="stop-color:#000;stop-opacity:.75294119"/>
+	</linearGradient>
+	<path fill="url(#a)" d="M45300000 0v20000000H0L45300000 0z" stroke-width="100000"/>
+	<linearGradient id="b" x1="-10797800" x2="9002800" y1="-30005600" y2="29935800" gradientTransform="matrix(-6685 -99767 -99646 -7559 39559000 59535700)" gradientUnits="userSpaceOnUse">
+		<stop offset="0" style="stop-color:#ef2b2d;stop-opacity:.905882"/>
+		<stop offset="100000" style="stop-color:#ef2b2d;stop-opacity:0"/>
+	</linearGradient>
+	<path fill="url(#b)" d="M45300000 0v20000000H0V0h45300000z" stroke-width="100000"/>
+	<linearGradient id="c" x1="9940600" x2="9940600" y1="29852200" y2="-29620200" gradientTransform="matrix(59399 -80440 33971 88550 50168600 30670300)" gradientUnits="userSpaceOnUse">
+		<stop offset="0" style="stop-color:#43b14c;stop-opacity:.21568628"/>
+		<stop offset="100000" style="stop-color:#43b14c;stop-opacity:0"/>
+	</linearGradient>
+	<path fill="url(#c)" d="M45300000 20000000v20000000H0l45300000-20000000z" stroke-width="100000"/>
+	<path fill="#FAF0CA" d="M20677000 16392800l-2386000 1583000-2465200-1489900-2294600 1414700-7103500 2203000-4458200 2385900 293000 1832800-1529000 2167500 3416900 4775400 3416800-4775400-1501200-2115200 207600-1709000-4541000-2294500-3129300-32944500 3292600-1275800 4541000 2294500 2033800-1178600 2142600 1270700 4541000 2386000 1824200-2228600-3086000-13098800 259800-13650400-2227900-1487100-2142600 1270700-4541000 2386000-2142600-1267600-244100-13745700 3371500-1005100 14451400 68296000z m0 0" stroke-width="100000"/>
+	<linearGradient id="d" x1="63800" x2="23295900" y1="32369400" y2="-30146000" gradientTransform="matrix(20337 -76994 96155 27490 -3897800 47788400)" gradientUnits="userSpaceOnUse">
+		<stop offset="0" style="stop-color:#ef2b2d;stop-opacity:0"/>
+		<stop offset="100000" style="stop-color:#ef2b2d;stop-opacity:.905882"/>
+	</linearGradient>
+	<path fill="url(#d)" d="M45300000 0v20000000V0z" stroke-width="100000"/>
+	<linearGradient id="e" x1="-3405700" x2="30042700" y1="30150400" y2="-29650900" gradientTransform="matrix(-32960 -94435 97437 -37351 47512700 38738200)" gradientUnits="userSpaceOnUse">
+		<stop offset="0" style="stop-color:#43b14c;stop-opacity:0"/>
+		<stop offset="100000" style="stop-color:#43b14c;stop-opacity:.21568628"/>
+	</linearGradient>
+	<path fill="url(#e)" d="M45300000 20000000v20000000-20000000z" stroke-width="100000"/>
+	<path fill="url(#a)" d="M36066400 40100000h9034000-9034000z" stroke-width="100000"/>
+	<g class="st2" stroke-width="100000">
+		<path fill="url(#b)" d="M36066400 40100000h9034000-9034000z" stroke-width="100000"/>
+		<path fill="url(#c)" d="M36066400 40100000h9034000-9034000z" stroke-width="100000"/>
+	</g>
+</svg>

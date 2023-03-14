@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600000 900000">
+	<defs>
+		<linearGradient id="a" x1="0%" x2="0%" y1="0%" y2="100%">
+			<stop offset="0%" style="stop-color:#ef1111;stop-opacity:1"/>
+			<stop offset="20%" style="stop-color:#ef1111;stop-opacity:1"/>
+			<stop offset="100%" style="stop-color:red;stop-opacity:1"/>
+		</linearGradient>
+	</defs>
+	<rect width="600000" height="900000" rx="0" ry="0" style="fill:#fff;stroke-width:0;stroke:#000042" stroke-width="1000"/>
+	<path d="M0 300000h600000M0 600000h600000" style="fill:none;stroke-width:5;stroke:url(#a)" stroke-width="1000"/>
+	<circle cx="300000" cy="450000" r="100000" style="fill:#fff;stroke-width:0;stroke:#000042" stroke-width="1000"/>
+	<circle cx="300000" cy="450000" r="90000" style="fill:none;stroke-width:70;stroke:#ef1111" stroke-width="1000"/>
+	<rect width="115000" height="28000" x="118000" y="233000" rx="0" ry="0" style="fill:none;stroke-width:5;stroke:#000042" stroke-width="1000"/>
+	<path d="M233000 250000h125000" style="fill:none;stroke-width:5;stroke:#000042" stroke-width="1000"/>
+	<path d="M234583 319167h125000m-123416 69166h125000" style="fill:none;stroke-width:2;stroke:#616161" stroke-width="1000"/>
+	<circle cx="146000" cy="282000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="163000" cy="282000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="180000" cy="282000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="264500" cy="335500" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="282000" cy="335500" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="380583" cy="340417" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="407583" cy="342083" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="391167" cy="372417" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="411167" cy="371000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="149500" cy="344000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="185500" cy="344000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="150500" cy="409500" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="184500" cy="409500" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="277000" cy="381000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="293000" cy="380000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="409000" cy="398000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="388000" cy="416500" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="409583" cy="445167" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="280000" cy="410500" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="306500" cy="442500" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+	<circle cx="335000" cy="472000" r="3000" style="fill:#616161;stroke-width:0;stroke:#616161" stroke-width="1000"/>
+</svg>

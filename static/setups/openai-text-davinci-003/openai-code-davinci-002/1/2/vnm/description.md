@@ -1,0 +1,1 @@
+The flag of Vietnam is a yellow red flag with an aspect ratio of 2:3. The yellow stripe is twice as wide as the red stripe. In the center of the flag, a gold star is enclosed in a five-pointed red border.

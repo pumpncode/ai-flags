@@ -1,0 +1,1 @@
+The flag of Bouvet Island is a vertical tricolor of equal width stripes: a red stripe at the hoist side, a white stripe in the middle, and a blue stripe on the fly side. The aspect ratio of the flag is 2:3.

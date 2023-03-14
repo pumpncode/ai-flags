@@ -1,0 +1,1 @@
+The flag of San Marino is a rectangular flag with an aspect ratio of 2:3. It is a white field with two vertical red stripes to the left, each of equal width. The left stripe contains a shield in the style of the former coat of arms of San Marino in the center.

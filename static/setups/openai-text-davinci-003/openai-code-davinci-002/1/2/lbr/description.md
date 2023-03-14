@@ -1,0 +1,1 @@
+The flag of Liberia consists of 11 equal horizontal stripes of red and white. At the hoist, there is a white triangle with a blue 5-pointed star in the center. The flag has a ratio of 2:3.

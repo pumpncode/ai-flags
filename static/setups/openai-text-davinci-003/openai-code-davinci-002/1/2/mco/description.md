@@ -1,0 +1,1 @@
+The Flag of Monaco consists of two equal horizontal bands of red (top) and white, both of which have a width to length ratio of 1:2.

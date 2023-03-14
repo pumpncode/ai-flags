@@ -1,0 +1,1 @@
+The flag of Malaysia is a bicolour flag with a ratio of 2:3. The upper half is a red field, while the lower half is a half moon and 14-point star in white.

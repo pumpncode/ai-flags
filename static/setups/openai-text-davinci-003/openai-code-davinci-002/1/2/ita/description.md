@@ -1,0 +1,1 @@
+The flag of Italy is a rectangular bicolor of green over white, with an aspect ratio of 2 to 3.

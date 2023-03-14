@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="35 35 370 250">
+	<rect width="370" height="250" fill="red" rx="125" stroke-width="1"/>
+	<rect width="185" height="250" fill="#fff" rx="125" stroke-width="1"/>
+	<rect width="185" height="150" y="50" fill="#00f" rx="125" stroke-width="1"/>
+	<path d="M120 105h40v40h-40z" stroke-width="1"/>
+	<path fill="#fff" d="M215 105h40v40h-40z" stroke-width="1"/>
+	<path d="M310 105h40v40h-40z" stroke-width="1"/>
+	<circle cx="180" cy="193" r="15" fill="#fff" stroke-width="1"/>
+	<circle cx="250" cy="120" r="15" stroke-width="1"/>
+	<circle cx="320" cy="193" r="15" fill="#fff" stroke-width="1"/>
+	<circle cx="385" cy="120" r="15" stroke-width="1"/>
+	<circle cx="320" cy="50" r="15" stroke-width="1"/>
+	<circle cx="250" cy="273" r="15" stroke-width="1"/>
+	<circle cx="125" cy="120" r="15" fill="#fff" stroke-width="1"/>
+	<circle cx="55" cy="193" r="15" fill="#fff" stroke-width="1"/>
+	<circle cx="120" cy="50" r="15" stroke-width="1"/>
+	<circle cx="55" cy="120" r="15" stroke-width="1"/>
+	<circle cx="125" cy="273" r="15" fill="#fff" stroke-width="1"/>
+	<circle cx="55" cy="50" r="15" fill="#fff" stroke-width="1"/>
+</svg>

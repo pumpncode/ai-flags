@@ -1,0 +1,1 @@
+The flag of Tanzania consists of a sky blue rectangle with four horizontal black stripes equally spaced apart and two triangles on both sides of the flag. The top of the flag features an enlarged yellow triangle and the bottom features an enlarged green triangle. The flag has a 3:5 aspect ratio.

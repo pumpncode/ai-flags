@@ -1,5 +1,1 @@
-The flag of Malawi consists of three equal horizontal stripes, with a black stripe in the center and red above and below. In the center of the black stripe is a red rising sun with 31 rays emanating from it. The aspect ratio of the flag is 2:3, and its measurements are approximately 150 centimeters by 90 centimeters. The color codes for the flag are: 
-- Black: #000000
-- Red: #FF0000 
-
-The geometric properties of the flag include the color ratios between the stripes, the positioning of the sun and its rays, and the overall dimensions of the flag.
+The flag of Malawi consists of three equal vertical stripes: the left stripe is black, the middle stripe is red, and the right stripe is green. In the center of the red stripe, there is a white sun with 31 rays radiating outward. The flag has an aspect ratio of 2:3, and its colors have the following Pantone color codes: black (PMS black), red (PMS 186), green (PMS 355), and white (PMS white). The geometric properties and measurements of the flag are as follows: the height of the flag is 1.5 times its width, the width of the black stripe is 1/5 of the total width of the flag, the width of the red stripe is 2/5 of the total width, and the width of the green stripe is 2/5 of the total width. The diameter of the white sun in the center of the flag is 1/2 the width of the red stripe.

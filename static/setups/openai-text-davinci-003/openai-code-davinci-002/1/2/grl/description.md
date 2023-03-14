@@ -1,0 +1,1 @@
+The flag of Greenland is a vertical bicolour of white and dark red. The hoist side is dark red and the fly side is white. The ratio is 4:7.

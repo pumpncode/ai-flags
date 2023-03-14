@@ -1,0 +1,1 @@
+The flag of South Africa has horizontal tricolour stripes of green, gold, and red with a small blue rectangular panel at the hoist containing four mini flags with a Y-, S-, N- and T-shape. The flag has an aspect ratio of 2:3.

@@ -1,1 +1,1 @@
-The flag of Antigua and Barbuda is a red-blue-gold horizontal triband of 2:3 proportions, with the red stripe on top, the gold stripe in the center, and the blue stripe on the bottom. The national coat of arms is centered on the gold stripe.
+The flag of Antigua and Barbuda consists of three equal horizontal stripes of red, black, and white. There is a blue diagonal lattice running from the top-left corner to the bottom-right corner of the flag. The aspect ratio of the flag is 2:3.

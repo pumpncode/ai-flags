@@ -1,0 +1,1 @@
+The flag of Lithuania is a horizontal tricolour of yellow, green and red in equal stripes, with a vertical red stripe with a yellow V-shaped outline near the hoist. Its aspect ratio is 3:5.

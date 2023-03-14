@@ -1,1 +1,1 @@
-Bosnia and Herzegovina's flag is a rectangular banner with a yellow triangle symbol with a width-to-length ratio of 2:3 placed on the left hand side, a blue rectangle with a width-to-length ratio of 4:7 placed in the center and a white rectangle with a width-to-length ratio of 4:7 placed on the right hand side.
+The flag of Bosnia and Herzegovina is a horizontal tricolor of blue, white, and yellow, arranged with the colors in an equal proportion, with the blue field on top, the white field in the middle, and the yellow field on the bottom. The Aspect Ratio is 1:2.

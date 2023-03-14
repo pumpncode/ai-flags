@@ -1,0 +1,1 @@
+The flag of Northern Mariana Islands is a triband of blue, white, and gold. It has an aspect ratio of 20:27 with the white stripe taking up the middle of the flag. The blue stripes are the same size, and each make up one-third of the flag's width. The gold stripe is twice the size of the blue stripes, making it two-thirds of the flag's width.

@@ -1,0 +1,1 @@
+The flag of the Maldives has a white rectangular field with a deep red rectangle in the upper left corner. The proportion of the flag is 1:2, with the white field making up two-thirds of the total area and the red rectangle making up the other third.

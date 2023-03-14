@@ -1,0 +1,1 @@
+The flag of Vatican City is a double vertical bicolor containing two bands of equal width, a white band on the hoist side and a yellow band on the fly. The aspect ratio is 2:3.

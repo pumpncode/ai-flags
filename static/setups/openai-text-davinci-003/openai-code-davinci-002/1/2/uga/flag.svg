@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160000 80000">
+	<g fill="#060" stroke-width="1000">
+		<path d="M0 20000v20000h160000V20000z" stroke-width="1000"/>
+		<path d="M80000 20000v20000h80000V20000zM0 60000v20000h160000V60000z m0 20000v20000h160000V80000z m0-60000v20000h80000V20000z m0 20000v20000h160000V40000z" stroke-width="1000"/>
+		<path d="M40000 40000v20000h40000V40000z" stroke-width="1000"/>
+	</g>
+	<g transform="translate(60000, 75000)" stroke-width="1000">
+		<circle r="3750" fill="red" stroke-width="1000"/>
+		<path fill="#fff" d="M0-2828l707 707L0-1414zM2000-2000v1000H1000z m828 2000l-707 707L1414 0zM2000 2000H1000V1000z m-2000 828l-707-707L0 1414zM-2000 2000V1000h1000z m-828-2000l707-707 707 707z" stroke-width="1000"/>
+	</g>
+</svg>

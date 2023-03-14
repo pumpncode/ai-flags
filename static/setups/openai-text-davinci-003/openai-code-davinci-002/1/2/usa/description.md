@@ -1,0 +1,1 @@
+The flag of the United States has thirteen equal horizontal red and white stripes, and a blue canton with fifty white five-point stars arranged in nine rows. The flag has an aspect ratio of 1:1.9.

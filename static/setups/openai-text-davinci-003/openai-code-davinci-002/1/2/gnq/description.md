@@ -1,0 +1,1 @@
+The national flag of Equatorial Guinea is a horizontal tricolor flag with equal stripes of sky blue, white and green top to bottom. The width-to-length ratio of the flag is 2:3.

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900000" height="600000" fill="red" viewBox="0 0 30000 20000">
+	<path fill="#fff" d="M0 0h30000v20000H0z"/>
+	<path d="M13000 0h4000v20000h-4000zM0 8000h30000v4000H0z"/>
+	<g id="c">
+		<g id="b">
+			<path id="a" d="M5797 1954a5400 5400 0 0 0 1406 0 10400 10400 0 0 0 0 4092 5400 5400 0 0 0-1406 0 10400 10400 0 0 0 0-4092z"/>
+			<use xlink:href="#a" transform="rotate(90, 6500, 4000)"/>
+		</g>
+		<use xlink:href="#b" x="17000"/>
+	</g>
+	<use xlink:href="#c" y="12000"/>
+</svg>

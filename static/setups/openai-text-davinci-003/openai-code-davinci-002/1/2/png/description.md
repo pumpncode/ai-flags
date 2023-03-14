@@ -1,0 +1,1 @@
+The flag of Papua New Guinea consists of four equal-sized horizontal stripes of black, red, yellow, and black with a large red, five-pointed star in the centre and the emblem of the Southern Cross constellation in a white triangle at the hoist. The aspect ratio is 3:5.

@@ -1,0 +1,1 @@
+The flag of France is a tricolor with three vertical bands, blue, white and red in that order from hoist to fly. The flag has a 2:3 aspect ratio.

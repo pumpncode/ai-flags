@@ -1,0 +1,1 @@
+The flag of Macau consists of a white lotus flower, a red-bordered yellow one, and a five-petal red flower outlined in white, all on a field of green. The ratio of the width to the length is 1:2.

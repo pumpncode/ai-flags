@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin slice" viewBox="0 0 15900 23900">
+	<path fill="#09c" d="M-1000 0h15900v23900H-1000z" stroke-width="100"/>
+	<path fill="#00f" d="M7600 4459a3000 3000 20 0 0-4559 0H3000l836 1174L3000 6807h41a3000 3000 20 0 0 4559-40h-41l-836-1134 836-1174H7600z" stroke-width="100"/>
+	<path fill="#fff" d="M15521 7600A5850 5850 20 0 1 7600 7600" stroke-width="100"/>
+	<path fill="#009F00" d="M7600 2700a2400 2400 20 1 0 0 7200v1500a2500 2500 20 1 0 0-6000V2700z" stroke-width="100"/>
+	<path fill="#FFD200" d="M11949 5400a2400 2400 20 1 0 2290-2700" stroke-width="100"/>
+	<path fill="#EDF2F9" d="M2551 2700a2400 2400 20 1 0 2410 2700m6988 4500a2400 2400 20 1 0 2290 1500" stroke-width="100"/>
+	<path fill="#FFD200" d="M4961 11400a2400 2400 20 1 0-2410-1500" stroke-width="100"/>
+	<path fill="#009F00" d="M14239 2700a1100 1100 20 1 0-2290 2700" stroke-width="100"/>
+	<path fill="#09c" d="M11949 2700a2900 2900 20 1 0-6988 0" stroke-width="100"/>
+	<path fill="#009F00" d="M2551 2700a2900 2900 20 1 0 4302 0m5096 0a1100 1100 20 1 0 2290 0" stroke-width="100"/>
+	<path fill="#FFD200" d="M7600 5700a1200 1200 20 1 0 0 2800 1300 1300 20 1 0 0 400 2900 2900 20 1 0 0-400 3300 3300 20 1 0 0-400 1200 1200 20 1 0 0-2400z" stroke-width="100"/>
+	<circle cx="11900" cy="11400" r="2400" fill="#009F00" stroke-width="100"/>
+	<circle cx="11949" cy="11400" r="1350" fill="#fff" stroke-width="100"/>
+	<circle cx="11900" cy="11400" r="2200" fill="#00732A" stroke-width="100"/>
+</svg>

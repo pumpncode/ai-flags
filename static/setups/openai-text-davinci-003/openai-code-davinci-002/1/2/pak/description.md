@@ -1,0 +1,1 @@
+The flag of Pakistan consists of a dark green field containing a white crescent moon and a five-pointed white star, both pointing toward the hoist side of the flag in a vertical configuration. The ratio of the entire flag, including the canton along with the green field, is 2:3.

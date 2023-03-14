@@ -1,0 +1,1 @@
+The flag of Luxembourg consists of three horizontal stripes of red, white, and light blue with a white, five-pointed star in the middle of the white stripe. The ratio of the flag is 5:7.

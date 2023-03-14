@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -100 500 300">
+	<path d="M-50 0h150-150" style="fill:#764c28;stroke:#000" stroke-width="1"/>
+	<path d="M0 100V-50h100V0H0v100" style="fill:#c8b560;stroke:#000" stroke-width="1"/>
+	<text x="-110" y="-70" style="font-size:72;font-family:sans-serif" stroke-width="1">🇮🇶</text>
+	<path d="M-50 100L0 70v30h-50" style="fill:#dc2857" stroke-width="1"/>
+	<path d="M-50-50V0L0 100" style="fill:#fff" stroke-width="1"/>
+	<path d="M0 70l-50 30H0" style="fill:#000" stroke-width="1"/>
+	<path d="M90 135L5 185h20l65-50 60 50h40l-40-50-50 50h25l-25-50H90" style="fill:#fff;stroke:#000" stroke-width="1"/>
+</svg>

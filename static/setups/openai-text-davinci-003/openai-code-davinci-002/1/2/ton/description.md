@@ -1,0 +1,1 @@
+The national flag of Tonga is a red flag with a white rectangular canton in the upper left corner. The canton is one quarter the height of the flag and covers one third the width. It contains a red cross on a white field with four white stars in the canton's four corners.

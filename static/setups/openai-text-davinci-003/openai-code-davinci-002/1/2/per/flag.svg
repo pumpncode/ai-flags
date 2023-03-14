@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500000 12000">
+	<rect width="100%" height="100%" fill="#fff" stroke-width="1000"/>
+	<g fill="#c8102e" stroke-width="1000">
+		<rect width="100%" height="50%" stroke-width="1000"/>
+		<rect width="100%" height="50%" y="6154" stroke-width="1000"/>
+	</g>
+	<rect width="33000.333%" height="38000.462%" x="33000.333%" fill="#c8102e" stroke-width="1000"/>
+	<rect width="33000.333%" height="30000.769%" x="66000.667%" y="3000.846%" fill="#c8102e" stroke-width="1000"/>
+	<rect width="33000.333%" height="38000.462%" x="50%" y="7000.692%" fill="#fff" stroke-width="1000"/>
+	<circle cx="502986" cy="502986" r="138361" fill="#c8102e" stroke="#fff" transform="matrix(0.3125, 0, 0, -0.423, -168710, 40586)" stroke-width="1000"/>
+	<circle cx="591375" cy="591375" r="138361" fill="none" stroke="#fff" transform="matrix(0.3125, 0, 0, -0.423, -168710, 40586)" stroke-width="1000"/>
+</svg>

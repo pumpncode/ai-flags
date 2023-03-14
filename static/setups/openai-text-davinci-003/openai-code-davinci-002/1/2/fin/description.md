@@ -1,0 +1,1 @@
+The flag of Finland is a rectangular flag with two equal horizontal bars of blue and white, with the blue bar on top and the white one on the bottom. The aspect ratio is 11:18.

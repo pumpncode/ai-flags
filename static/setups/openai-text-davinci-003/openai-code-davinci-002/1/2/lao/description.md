@@ -1,0 +1,1 @@
+The flag of Laos features three horizontal stripes of red, blue, and red, positioned in a way that the width of the blue stripe is half the height of the entire flag, and both other stripes are a third of the height of the flag each.

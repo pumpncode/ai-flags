@@ -1,0 +1,1 @@
+The flag of Lesotho has a rectangular shape with an aspect ratio of 3:2. The top left, top right, and bottom right corner each contain a dark blue vertical triangle pointing up, while the bottom left quarter contains a white horizontal triangle pointing right, open side up. The remainder of the flag is a light blue field.

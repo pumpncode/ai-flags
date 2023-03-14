@@ -1,0 +1,1 @@
+The flag of French Polynesia is triband flag with a red-white-red horizontal triband. The red bands have twice the width of the white band in the middle. The proportions of the flag are 5:2:5 with the height being twice the width.

@@ -1,0 +1,1 @@
+The flag of Cambodia has a red background with a white silhouette of three temples in the center. It has an aspect ratio of 2:3.

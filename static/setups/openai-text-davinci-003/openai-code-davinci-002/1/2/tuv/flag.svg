@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12000 9000">
+	<path fill="#0061ff" d="M0 0h12000v9000H0z" class="flag" stroke-width="10"/>
+	<path fill="#fff" d="M6000 0h6000v9000H6000z" class="tower" stroke-width="10"/>
+	<g class="shield" stroke-width="10">
+		<path fill="#fecd05" d="M4180 5950l-830-2200h1030l120 310h1150l-120 300H4180z m-1640 0l-830-2200h1030l120 310h1150l-120 300H2540z" stroke-width="10"/>
+		<path fill="#fecd05" d="M6015 2600l830 2190h-1030l-120-300h-1150l120-310h1350z m2170 0L9010 4790H7984l-120-300H6705l120-310H7840z" class="tower" stroke-width="10"/>
+		<path d="M4180 6310l-830-2190h1030l120 310h1150l-120 300H4180z m-1640 0l-830-2190h1030l120 310h1150l-120 300H2540z" stroke-width="10"/>
+		<path d="M6015 2950l830 2190h-1030l-120-300h-1150l120-310h1350z m2170 0L9010 5140H7984l-120-300H6705l120-310H7840z" class="tower" stroke-width="10"/>
+		<path fill="#fecd05" d="M4180 7150c660 310 1130 160 1710 0v940c-580-160-1050-320-1710 0z" stroke-width="10"/>
+		<path fill="#fecd05" d="M6015 4800C6610 5110 7080 4960 7660 4800v-10c-580 160-1050 300-1645 0z" class="tower" stroke-width="10"/>
+		<circle cx="4180" cy="5000" r="400" stroke-width="10"/>
+		<path d="M2450 6380c0 160-280 290-620 290s-620-130-620-290c0-170 280-290 620-290s620 120 620 290z m-1640 0c0 160-280 290-620 290v760h1240v-760c-340 0-620-130-620-290z m2710 0c0 160-280 290-620 290v760h1240v-760c-340 0-620-130-620-290z" stroke-width="10"/>
+	</g>
+</svg>

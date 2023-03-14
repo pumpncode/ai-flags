@@ -1,0 +1,1 @@
+The flag of Cape Verde consists of five horizontal stripes alternating between blue, white, and red. The width of each stripe is equal, and the aspect ratio is 2:3.

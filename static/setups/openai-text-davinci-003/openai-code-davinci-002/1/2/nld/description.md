@@ -1,0 +1,1 @@
+The flag of Netherlands is a horizontal triband of Red, white, and blue with a width to length ratio of 2 to 3, respectively.

@@ -1,0 +1,1 @@
+The flag of French Guiana is a tricolour, with the three vertical bands in the colours of yellow, white and green in order from the hoist to the fly, with the width ratios of 1:2:1, respectively.

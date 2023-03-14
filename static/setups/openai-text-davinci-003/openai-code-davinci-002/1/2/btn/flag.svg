@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15000 10000">
+	<rect width="15000" height="100%" fill="orange" stroke-width="1000"/>
+	<circle r="1000" stroke-width="1000"/>
+	<circle cx="3000" r="1000" stroke-width="1000"/>
+	<circle cx="1500" cy="866" r="1000" stroke-width="1000"/>
+	<circle cx="11000" cy="3547" r="1019" transform="rotate(45, 11000, 3547)" stroke-width="1000"/>
+	<circle cx="14000" cy="5000" r="1000" stroke-width="1000"/>
+	<circle cx="8000" cy="5000" r="1000" stroke-width="1000"/>
+	<circle cx="5500" cy="866" r="931" fill="#fff" transform="rotate(-45, 5500, 8647)" stroke-width="1000"/>
+	<circle cx="3500" cy="7317" r="1019" transform="rotate(45, 3500, 7317)" stroke-width="1000"/>
+	<circle cy="10000" r="1000" stroke-width="1000"/>
+	<circle cx="3000" cy="10000" r="1000" stroke-width="1000"/>
+	<circle cx="1500" cy="9134" r="931" fill="#fff" transform="rotate(-45, 1500, 9134)" stroke-width="1000"/>
+	<path fill="#fff" d="M5000 50000h1000v20000H5000z" stroke-width="1000"/>
+	<path fill="green" d="M5000 50000v50000" stroke-width="1000"/>
+	<path fill="#ff0" d="M0 5000h15000v100000H0z" stroke-width="1000"/>
+</svg>

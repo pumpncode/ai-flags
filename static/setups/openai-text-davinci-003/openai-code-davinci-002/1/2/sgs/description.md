@@ -1,0 +1,1 @@
+The flag of South Georgia is a blue ensign with a St. Andrew's Cross, extending to the edges of the flag, with a coat of arms in the center. Its aspect ratio is 2:3.

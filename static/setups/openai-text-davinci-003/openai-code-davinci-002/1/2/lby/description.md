@@ -1,0 +1,1 @@
+The flag of Libya features three horizontal bands of equal size. The top and bottom bands are a bright red, while the middle is a plain white. The aspect ratio is 2:1.

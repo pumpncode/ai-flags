@@ -1,0 +1,1 @@
+The flag of Kosovo is a blue field (5:6 aspect ratio) with a yellow silhouette of a map of Kosovo in the centre, featuring a golden star above it. The width of the map measures 1/2 the length of the flag, and the star has 4 points that are equal in size.

@@ -1,0 +1,1 @@
+The Greek flag has a blue horizontal stripe on the top, a white horizontal stripe in the middle and a vertical red stripe on the far right side. The height to width ratio of the flag is 2:3.

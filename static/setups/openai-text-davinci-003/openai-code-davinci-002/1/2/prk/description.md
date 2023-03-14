@@ -1,0 +1,1 @@
+The flag of North Korea is a rectanular flag with an aspect ratio of 1:2, having two horizontal stripes of Blue and Red, occupying equal widths, with a white disk in the centre, having a Red Five-pointed star in it.

@@ -1,0 +1,1 @@
+The flag of Mexico is a tricolor flag with three vertical bands of equal size. The left band is green, the middle band is white, and the right band is red. In the center of the white band is the Mexican coat of arms, which is an eagle perched on a cactus consuming a snake. The aspect ratio of the flag is 4:7.

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 800 500">
+	<path fill="#1863ab" d="M0 0h800v500H0z" stroke-width="1"/>
+	<g transform="translate(0, -186) scale(6.525)" stroke-width="1">
+		<clipPath id="a"/>
+		<path fill="#a6e" d="M-200-185h1565v830H-200z" clip-path="url(#a)" stroke-width="1"/>
+	</g>
+</svg>

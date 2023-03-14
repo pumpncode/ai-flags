@@ -1,0 +1,1 @@
+The flag of Kyrgyzstan is a red field with a yellow sun in the center. The sun is made up of 40 evenly spaced rays that form a circle. The sun has a diameter of three-fourths of the hoist width and the width of each ray is one-twelfth of the hoist width. The aspect ratio of the flag is 2:3.

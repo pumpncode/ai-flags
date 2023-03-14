@@ -1,1 +1,1 @@
-The flag of Algeria is rectangular, measuring 2:3 (two units in height to three units in width). It consists of two vertical bars of equal width that divide the flag into thirds. The left bar is green and the right bar is white. At the center of the flag is a red crescent and a red five-pointed star.
+The flag of Algeria features two equal horizontal red stripes with a white star and crescent centered in the middle. The width-to-length ratio of the flag is 2:3.

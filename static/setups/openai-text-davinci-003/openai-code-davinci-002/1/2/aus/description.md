@@ -1,1 +1,1 @@
-The Australian flag is a defaced Blue Ensign with a Union Jack in the upper left corner and a white Commonwealth star in the bottom right corner, with seven points representing the six states and the territories. The main field of the flag is a bright blue and its overall proportions are 1:2.
+The flag of Australia is a blue field with the Union Jack in the canton. The fly contains the Commonwealth Star in white. The proportions of the flag are 1:2.

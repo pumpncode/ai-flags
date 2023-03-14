@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150000 100000">
+	<path fill="#00f" d="M0 0h150000v100000H0z" stroke-width="500"/>
+	<path fill="#ff0" d="M15000 30000h27000v40000H15000z" stroke-width="500"/>
+	<path fill="red" d="M23100 52500c2310 1695 3570 5700 3570 5700v1770s-1260 4005-3570 5730V52500Zm7470 3570c-1749 2349-5775 3609-7470 5640v-5640h7470Z" stroke-width="500"/>
+	<text x="6200" y="39500" fill="#fff" font-size="16000" text-anchor="middle" transform="matrix(0.6, 0, 0, 0.6, 23100, 52500)" stroke-width="500">S</text>
+</svg>

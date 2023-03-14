@@ -1,0 +1,1 @@
+The flag of Nigeria has a 1:2 aspect ratio. It consists of three equal vertical stripes, with green at the hoist, white in the center, and black at the fly. In the center is a white stripe with two white-outlined green, five-pointed stars.

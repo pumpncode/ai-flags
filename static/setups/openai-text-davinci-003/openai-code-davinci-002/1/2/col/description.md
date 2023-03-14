@@ -1,0 +1,1 @@
+The flag of Colombia consists of three horizontal bands of yellow, blue and red with the Colombian coat of arms in the center. The yellow band is double the width of the blue and red bands, and the aspect ratio is 2:3.

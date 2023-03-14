@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42800000 57200000">
+	<defs>
+		<linearGradient id="a" x1="-12080000000" x2="-12080000000" y1="120780000000" y2="120800000000" gradientTransform="matrix(610499984 0 0 4200000037 65220010100000 -359583300000)">
+			<stop offset="0" stop-color="#01b2d2"/>
+			<stop offset="0" stop-color="#01b1d0"/>
+			<stop stop-color="#0bb6e4"/>
+			<stop offset="100000" stop-color="#02b5e5"/>
+		</linearGradient>
+		<linearGradient id="b" x2="100000" y2="0" gradientTransform="translate(-50000 50000)">
+			<stop offset="0" stop-color="#fafafa"/>
+			<stop offset="100000" stop-color="#ffeda5ce-c355"/>
+		</linearGradient>
+		<linearGradient id="c" x2="100000" y2="0" gradientTransform="translate(-50000 50000)">
+			<stop offset="0" stop-color="#c0373a"/>
+			<stop offset="100000" stop-color="#fdb429"/>
+		</linearGradient>
+	</defs>
+	<path fill="url(#a)" d="M21400000 550000h21400000v28200000H21400000V550000Z" transform="translate(800000, 400000)" stroke-width="100000"/>
+	<path fill="url(#b)" d="M21400000 28750000h21400000V38900000H21400000V28750000Z" transform="translate(800000, 400000)" stroke-width="100000"/>
+	<path fill="url(#c)" d="M21400000 38900000h21400000v18300000H21400000V38900000Z" transform="translate(800000, 400000)" stroke-width="100000"/>
+</svg>

@@ -1,0 +1,1 @@
+The flag of Ghana consists of three equally-sized vertical stripes of red, gold, and green. The width of the stripes is 1/3 of the flag's total length. The gold stripe is on the hoist side, followed by the red stripe and then the green stripe on the fly side. The gold stripe is emblazoned with a five-pointed black star in its center.

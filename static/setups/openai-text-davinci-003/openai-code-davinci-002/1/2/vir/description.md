@@ -1,0 +1,1 @@
+The US Virgin Islands flag features two vertical stripes of dark blue and white. In the center is an elaborate golden eagle with spread wings clutching a yellow ribbon in its beak and a sprig of laurel in each claw. The aspect ratio is 2:3.

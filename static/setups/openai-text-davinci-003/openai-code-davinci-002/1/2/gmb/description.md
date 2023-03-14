@@ -1,0 +1,1 @@
+The flag of Gambia is a vertical tricolor with equal horizontal stripes of red, blue and green from top to bottom. It has a white five-pointed star centered in the middle of the blue stripe. The ratio is 2:3.

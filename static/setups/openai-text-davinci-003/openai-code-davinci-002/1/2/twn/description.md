@@ -1,0 +1,1 @@
+The flag of Taiwan is a red field with a white sun in its center, the sun itself having twelve triangular rays emanating from its center. The overall aspect ratio of the flag is 2:3.

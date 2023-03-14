@@ -1,0 +1,1 @@
+The flag of United States Minor Outlying Islands is a horizontal triband of light blue, white, and light blue. The top and bottom stripes are equal in proportions and are one-third of the flag's total height. The middle stripe is two-thirds of the flag's height and its color is white.

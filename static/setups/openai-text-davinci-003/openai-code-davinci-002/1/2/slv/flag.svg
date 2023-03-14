@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 20">
+	<path fill="rgba(700, 1300, 1800, 3)" d="M0 0h120v20H0z" stroke-width="10"/>
+	<path fill="rgba(0, 0, 0, 4)" d="M40 0h40v20H40z" stroke-width="10"/>
+	<path fill="rgba(0, 0, 0, 3)" d="M40 0h40v20H40z" stroke-width="10"/>
+	<path fill="rgba(0, 0, 0, 2)" d="M40 0h40v20H40z" stroke-width="10"/>
+</svg>

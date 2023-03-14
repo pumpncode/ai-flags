@@ -1,0 +1,1 @@
+The flag of Sint Maarten consists of a horizontal tricolour of red, white and blue, with two large five-pointed stars in a yellow triangle, representing the island's two main inhabitants: the collective of Dutch citizens and the collective of French and other citizens. The ratio of the flag is 2:3.

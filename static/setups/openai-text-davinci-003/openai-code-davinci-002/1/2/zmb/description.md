@@ -1,0 +1,1 @@
+The flag of Zambia has three vertical stripes of green, red, and orange, with an orange-fimbriated black chevron closest to the hoist side of the flag. The proportion of the flag is 1:2.

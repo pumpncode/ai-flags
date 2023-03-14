@@ -1,0 +1,1 @@
+The flag of Mongolia is a red vertical tricolor with a blue celestial symbol at its center. The top stripe is blue, the middle stripe is red and the bottom stripe is yellow. It has an aspect ratio of 4:7.

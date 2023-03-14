@@ -1,0 +1,1 @@
+The flag of Tuvalu is a light blue flag with a yellow emblem in the middle. The emblem is a shield with a rising sun behind it, the top of the shield shaped like a turtle, with the bottom shaped like a stylized frigate bird. The aspect ratio is 2:3.

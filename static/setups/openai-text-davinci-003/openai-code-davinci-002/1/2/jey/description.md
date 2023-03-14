@@ -1,0 +1,1 @@
+The flag of Jersey is white in color and features the red, yellow and blue shield of the arms of the island, bordered in red. The ratio of the flag is 1:2.

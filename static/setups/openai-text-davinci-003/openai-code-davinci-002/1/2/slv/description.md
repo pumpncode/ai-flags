@@ -1,0 +1,1 @@
+The flag of El Salvador features three equal horizontal bands of two blue, white, and blue. The top and bottom bands measure one-third the height of the flag, while the white band in the center measures one-third the width of the flag.

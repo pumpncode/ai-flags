@@ -1,0 +1,1 @@
+The Israeli flag is a rectangular white banner with two horizontal blue stripes near the top and bottom edges, and a Star of David centered between them. Its aspect ratio is 18:25.

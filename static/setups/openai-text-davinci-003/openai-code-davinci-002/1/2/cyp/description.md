@@ -1,1 +1,1 @@
-The national flag of Cyprus features a white silhouette of the map of the island, with two olive branches beneath it, set in a light blue field. The aspect ratio is 5:3.
+The flag of Cyprus is a rectangular flag with a width to length ratio of 2:3. It has two equal horizontal stripes, the top is white and the bottom is light blue. In the center of the flag is a copper-colored map of the island in the shape of an upside-down triangle, superimposed on two green crossed olive branches.

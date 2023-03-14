@@ -14,7 +14,7 @@ The flags of almost all states in South Asia were triangular. A French book abou
 
 The present flag of Nepal was adopted under the Nepalese constitution adopted on 16 December 1962. The modern flag seems to be the combination of ancient mustang kingdom and the ongoing flag used by the former gorkha kingdom. The colour gradients have been adopted from the mustang kingdom. Prior to 1962 both symbols on the flag, the sun and moon carried human faces in them. The constitution dedicated an entire section to the precise size and shape of the flag since people were drawing it incorrectly. This section is continued even today even though multiple constitution were introduced in the country during the period.
 
-In May 2008 during the drafting of the new constitution, various political parties demanded the change of the flag since it symbolized Hinduism and monarchy but however this proposal was rejected.
+In May 2008 during the drafting of the new constitution, various political parties demanded the change of the flag since it symbolized Hinduism and monarchy but this proposal was rejected.
 
 ## Symbolism
 

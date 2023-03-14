@@ -1,0 +1,1 @@
+The flag of the Turks and Caicos Islands is a blue ensign with a shield in the center. The shield consists of a white disc, which contains a conch shell and a Loblolly pine in alternating diagonal stripes; the top half of the disc is blue and the bottom half is green. The aspect ratio of this flag is 2:3.

@@ -1,0 +1,1 @@
+The flag of Palau has an aspect ratio of 5:7 and consists of a light blue background with a yellow horizontal strip at the bottom in the center of which is a white star with a red disc in the center.

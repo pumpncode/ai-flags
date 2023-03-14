@@ -1,0 +1,1 @@
+The flag of Poland is a white horizontal flag with a red checkered stripe at the midsection, which is two-thirds of the total flag’s height. The ratio of the width to the height is 5 to 8.

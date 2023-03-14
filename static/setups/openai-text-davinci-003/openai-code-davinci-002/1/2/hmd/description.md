@@ -1,0 +1,1 @@
+The flag of Heard Island and McDonald Islands consists of a white ball on a blue field, with the union flag in the upper left corner. The flag is a square with a ratio of 1:1.

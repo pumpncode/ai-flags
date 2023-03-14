@@ -1,0 +1,1 @@
+The flag of Namibia has a blue triangle at the hoist, a yellow triangle on the fly and two equal red stripes between the two triangles. It has an aspect ratio of 1:2.

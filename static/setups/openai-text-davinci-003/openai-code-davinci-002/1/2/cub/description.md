@@ -1,0 +1,1 @@
+The Cuban flag has five alternating blue and white stripes with a red tri-colored equilateral triangle on the left side. The width-to-length aspect ratio of the flag is 2:3.

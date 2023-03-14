@@ -1,0 +1,1 @@
+The flag of Guyana is a green flag featuring a red isosceles triangle at its hoist, with a gold five-point star in the centre and with a white arrowhead at the fly. The triangle, the star, and the arrowhead all extend to the edges of the flag. The aspect ratio is 3:5.

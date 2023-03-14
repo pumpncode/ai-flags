@@ -1,0 +1,1 @@
+The flag of Saint Pierre and Miquelon consists of a Tricolour in the proportions 2:3; the bands of blue-white-blue run horizontally, with the blue sections being twice the size of the white band in the centre.

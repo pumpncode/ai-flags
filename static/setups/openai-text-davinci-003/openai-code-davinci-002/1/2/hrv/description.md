@@ -1,0 +1,1 @@
+The flag of Croatia consists of three equal horizontal stripes, with the colors red, white, and blue (from top to bottom). The design has an aspect ratio of 1:2.

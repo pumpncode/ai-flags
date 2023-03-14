@@ -1,0 +1,1 @@
+The flag of Russia is made up of three equal-width horizontal bands of white, light blue and red. The aspect ratio of the flag is 2:3.

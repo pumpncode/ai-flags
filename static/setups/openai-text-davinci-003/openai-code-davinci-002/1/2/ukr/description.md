@@ -1,0 +1,1 @@
+The flag of Ukraine consists of two equal horizontal bands of azure (top) and golden yellow. It also features a trident, called the Tryzub, which is based on a national symbol of Ukraine and has a deep meaning for traditional Ukrainian Heraldry. It is centered in a white stripe which is placed slightly closer to the hoist side of the flag, creating a ratio of 2:3.

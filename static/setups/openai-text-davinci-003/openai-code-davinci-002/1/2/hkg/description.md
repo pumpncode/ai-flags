@@ -1,0 +1,1 @@
+The flag of Hong Kong features a white, 5-pointed star on a red field. It has an aspect ratio of 1:2.

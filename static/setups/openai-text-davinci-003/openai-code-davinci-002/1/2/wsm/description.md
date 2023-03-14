@@ -1,0 +1,1 @@
+The flag of Samoa is rectangular, with a width to length ratio of 2 to 3. The upper left corner is white with a red cross intersecting the top and bottom edges of the flag, flanked by four white five-pointed stars. The bottom right corner is blue with five white, five-pointed stars arranged in an x pattern.

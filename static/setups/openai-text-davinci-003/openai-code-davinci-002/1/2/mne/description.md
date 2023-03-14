@@ -1,0 +1,1 @@
+The flag of Montenegro has a 2:3 aspect ratio. It consists of three equal horizontal stripes of red, blue, and white. The upper red stripe represents the blood shed for liberation, the lower blue stripe represents the Montenegrin sky, and the middle white stripe symbolizes peace and unity.

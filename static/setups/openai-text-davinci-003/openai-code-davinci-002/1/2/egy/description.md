@@ -1,1 +1,1 @@
-The flag of Egypt has a 1:2 aspect ratio and is composed of three equal horizontal stripes in the colors red, white, and black. There is a gold Egyptian Eagle of Saladin in the center of the white stripe.
+The flag of Egypt is a horizontal tricolor of red, white, and black with the national emblem (eagle and shield) in the center. The aspect ratio is 1:2.

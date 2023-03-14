@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10000 19000">
+	<path fill="#00267F" d="M0 0h10000v19000H0z" stroke-width="10"/>
+	<circle cx="5000" cy="9500" r="4750" fill="#FCD116" stroke-width="10"/>
+	<g fill="#FFF" stroke-width="10">
+		<path d="M5000 2500L3548 6944h-4706l3818 2770 85 6855L5000 13007l2255 3562L6088 6054l3818-2770H5200z" stroke-width="10"/>
+		<path d="M5000 4750l-886 2722H1232l2327 1691-226 5120L5000 11361l1667 2922-682-5117 2327-1691H5430z" stroke-width="10"/>
+	</g>
+</svg>

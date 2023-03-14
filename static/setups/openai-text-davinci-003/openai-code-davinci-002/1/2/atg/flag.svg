@@ -1,14 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="140">
-	<path fill="#0047ab" d="M0 0h400v140H0z" stroke-width="4"/>
-	<path fill="#fcd116" d="M0 30h400v80H0z" stroke-width="4"/>
-	<path fill="#CF142B" d="M0 60h400v40H0z m100-16h40v16H100z m100 0h40v16H200z" stroke-width="4"/>
-	<path fill="#fcd116" stroke="#CF142B" d="M140 36h44v32H140z" stroke-width="4"/>
-	<g fill="#CF142B" stroke="#fcd116" stroke-width="4">
-		<circle cx="110" cy="46" r="10" stroke-width="6"/>
-		<circle cx="194" cy="68" r="2" stroke-width="6"/>
-		<circle cx="230" cy="68" r="3" stroke-width="4"/>
-	</g>
-	<circle cx="60" cy="46" r="2" fill="#fcd116" class="goldTip" stroke-width="4"/>
-	<circle cx="60" cy="46" r="2" fill="#CF142B" stroke-width="4"/>
-	<path stroke="#fcd116" d="M56 56v-8" stroke-width="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" style="width:200px" viewBox="0 0 25000 15003">
+	<path d="M0 0h5000v6000H0Z" stroke-width="1000"/>
+	<path fill="#fff" d="M5000 0h5000v6000H5000z" stroke-width="1000"/>
+	<path fill="red" d="M10000 0h5000v6000h-5000Z" stroke-width="1000"/>
+	<path fill="#fff" d="M10000 0l5000 6000-5000 6000Z" stroke-width="1000"/>
+	<path fill="red" d="M17657 0l-5000 6000 5000 6000Z" stroke-width="1000"/>
+	<path fill="red" d="M25000 9500H0l5000-6000Z" stroke-width="1000"/>
 </svg>

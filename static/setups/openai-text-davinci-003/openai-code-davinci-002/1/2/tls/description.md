@@ -1,0 +1,1 @@
+The flag of Timor-Leste is a horizontal bicolour of red and yellow with a black isosceles triangle at the hoist. The length of the flag is twice the width, i.e., the aspect ratio is 2:1.

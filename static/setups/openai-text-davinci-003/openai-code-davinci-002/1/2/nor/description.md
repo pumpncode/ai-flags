@@ -1,0 +1,1 @@
+The flag of Norway is a red Scandinavian cross on a white base. The width of the cross is approximately 2/3 of the height of the flag.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+	<path fill="#ff0" d="M0 0h900v500H0z" stroke-width="1"/>
+	<circle cx="60%" cy="50%" r="13%" fill="#c00" stroke="#000" stroke-width="16"/>
+	<g fill="#fff" stroke-width="1">
+		<circle cx="62%" cy="50%" r="4%" stroke-width="1"/>
+		<circle cx="58.5%" cy="50%" r="4%" stroke-width="1"/>
+		<circle cx="54.5%" cy="50%" r="4%" stroke-width="1"/>
+		<circle cx="60%" cy="46.5%" r="4%" stroke-width="1"/>
+		<circle cx="60%" cy="53.5%" r="4%" stroke-width="1"/>
+		<circle cx="52.5%" cy="46.5%" r="4%" stroke-width="1"/>
+		<circle cx="52.5%" cy="53.5%" r="4%" stroke-width="1"/>
+		<circle cx="68%" cy="50%" r="4%" stroke-width="1"/>
+		<circle cx="74%" cy="50%" r="4%" stroke-width="1"/>
+		<circle cx="54.5%" cy="46.5%" r="4%" stroke-width="1"/>
+		<circle cx="54.5%" cy="53.5%" r="4%" stroke-width="1"/>
+		<circle cx="68%" cy="46.5%" r="4%" stroke-width="1"/>
+		<circle cx="68%" cy="53.5%" r="4%" stroke-width="1"/>
+	</g>
+</svg>

@@ -1,0 +1,1 @@
+The flag of Estonia is a tricolor with a width-to-length ratio of 7:11. The top stripe is blue, the middle stripe is black and the bottom stripe is white. The hoist side has a triangle pointing inward, with its base as the hoist, that is blue and has a width-to-height ratio of 6:5.

@@ -1,0 +1,1 @@
+The flag of Gabon is a tricolor with green on the hoist side, yellow in the middle and blue on the fly side. The width of the flag is twice the height, and measured from the flag's edge, the ratio of width to height is 2:3.

@@ -1,0 +1,1 @@
+The flag of Saint Kitts and Nevis has three equal horizontal stripes of yellow, green, and red with a black-bordered 31-point white star centered in the middle stripe. The aspect ratio of the flag is 2:3.

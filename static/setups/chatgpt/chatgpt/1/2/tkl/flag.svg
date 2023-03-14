@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+	<path fill="#002147" d="M0 0h300v150H0z" stroke-width="1"/>
+	<path fill="#FCD116" d="M10 75l80-35 80 35-80 35Z" stroke-width="1"/>
+	<path fill="#D50032" d="M125 45l-5-20-5 20-20 5 20 5 5 20 5-20 20-5Z" stroke-width="1"/>
+	<path fill="#D50032" d="M125 60l-4-15-4 15-15 4 15 4 4 15 4-15 15-4Z" stroke-width="1"/>
+	<path fill="#D50032" d="M125 75l-3-10-3 10-10 3 10 3 3 10 3-10 10-3Z" stroke-width="1"/>
+	<path fill="#D50032" d="M125 90l-2-7-2 7-7 2 7 2 2 7 2-7 7-2Z" stroke-width="1"/>
+</svg>

@@ -1,0 +1,1 @@
+The flag of Jamaica is a diagonally divided green and black flag with a yellow saltire cross and four triangles in gold—two towards the top and two towards the bottom. The upper hoist triangle contains a black five-pointed star and the other three triangles each contain two joined five-pointed stars. The ratio of width to length is 2:3.

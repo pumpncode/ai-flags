@@ -1,0 +1,1 @@
+The flag of Uruguay is a horizontal bicolor in equal quarters of blue above white. It also has a yellow emblem with a red sun centered in a white circle. The aspect ratio of the flag of Uruguay is 2:3.

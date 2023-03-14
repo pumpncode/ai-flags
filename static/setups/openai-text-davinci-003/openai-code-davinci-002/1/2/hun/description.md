@@ -1,0 +1,1 @@
+The flag of Hungary is a red tricolor featuring three horizontal stripes of equal width. The top and bottom stripes are white and the center stripe is green. The aspect ratio is 2:3.

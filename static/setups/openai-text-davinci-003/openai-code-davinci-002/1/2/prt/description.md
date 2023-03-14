@@ -1,0 +1,1 @@
+The flag of Portugal is a rectangle with a width and height ratio of 2:3. It is a red field with a small green-and-red shield at the centre. The shield consists of five traditional Portuguese shields contained within a green border. Above the shield is a crest of five blue armillary spheres. To the right of the shield is a white strip, also with a width and height ratio of 2:3.

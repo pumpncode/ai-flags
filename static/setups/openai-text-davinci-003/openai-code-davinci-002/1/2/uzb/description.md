@@ -1,0 +1,1 @@
+The national flag of Uzbekistan is a tierced tricolour, divided horizontally into blue, white and green stripes with a white crescent and eight-pointed star off-centre towards the hoist side. The ratio of the flag is 2:3.

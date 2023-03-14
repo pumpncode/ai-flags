@@ -1,0 +1,1 @@
+The flag of Guatemala consists of three vertical stripes of equal size. The left and right stripes are light blue with the center stripe being white. The basic design of Guatemala's flag has an aspect ratio of 4:7.

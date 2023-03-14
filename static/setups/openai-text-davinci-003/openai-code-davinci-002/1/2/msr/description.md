@@ -1,0 +1,1 @@
+The flag of Montserrat consists of a banner of the arms of Montserrat. The banner is styled in a "pillow" shape. It has a blue background with a Union Jack in the canton. The arms of Montserrat occupy the rest of the flag, featuring a woman with a harp and a boat, divided by two red chevrons each having three white stars. The overall shape and size is 1:2.

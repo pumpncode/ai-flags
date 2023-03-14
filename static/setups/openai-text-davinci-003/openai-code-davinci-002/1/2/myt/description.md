@@ -1,0 +1,1 @@
+The flag of Mayotte is a green, vertical triband with proportions 2:3. The central stripe is white and is twice as wide as each of the green stripes, which are of equal width.

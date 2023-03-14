@@ -1,0 +1,1 @@
+The flag of Saint Helena, Ascension and Tristan da Cunha is a blue ensign, featuring the Union Flag in the canton, the coat of arms of the islands in the centre, and four smaller red crosses in the fly. It has an aspect ratio of 3:5.
