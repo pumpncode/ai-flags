@@ -206,7 +206,7 @@ const Home = ({ data: { vexillologists } }) => (
 					<RandomFlag {...{ vexillologists }} />
 				</div>
 				<div className="w-full md:w-6/12 flex flex-col gap-8">
-					<span className="flex flex-col gap-1 text-lg text-amber-300 font-medium items-center md:items-start">
+					<span className="flex flex-col gap-1 text-lg text-amber-300 font-medium items-center md:items-start text-center md:text-left">
 						<span>What would happen if we ask an AI to describe a flag?</span>
 						<span>What if we ask it to generate an image of a flag?</span>
 						<span>Find out here!</span>

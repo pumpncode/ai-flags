@@ -11,10 +11,10 @@ import { asset } from "$fresh/runtime.ts";
  * @param props.vexillologists
  */
 const RandomFlag = ({ vexillologists }) => {
-	const allFlags = Object.entries(vexillologists)
-		.filter(([name]) => name !== "wikipedia")
-		.map(([name, vexillologist]) => Object.values(vexillologist)
-			.map((vexillographer) => Object.values(vexillographer)
+	const allFlags = Object.values(vexillologists)
+		.map((vexillologist) => Object.entries(vexillologist)
+			.filter(([name]) => name !== "wikipedia")
+			.map(([name, vexillographer]) => Object.values(vexillographer)
 				.map(({ instances }) => Object.values(instances))))
 		.flat(4);
 
@@ -74,7 +74,7 @@ const RandomFlag = ({ vexillologists }) => {
 							/>
 						</div>
 
-						<figcaption className="h-[15vh] flex flex-col gap-1 items-center justify-center">
+						<figcaption className="h-[15vh] flex flex-col gap-1 items-center justify-center text-center">
 							<span className="text-2xl">Flag of {name}</span>
 							<span className="text-sm">(according to <span className="text-xs font-mono bg-neutral-700 px-1 py-0.5 rounded">{instanceName}</span>)</span>
 						</figcaption>
