@@ -7,7 +7,7 @@ import { asset } from "$fresh/runtime.ts";
  * @param props.fullName
  */
 const InstanceContent = ({ flags, fullName }) => (
-	<ul className="w-full grid gap-4 grid-cols-cards">
+	<ul className="grid w-full gap-4 grid-cols-cards">
 		{
 			flags.map((
 				{
@@ -19,7 +19,7 @@ const InstanceContent = ({ flags, fullName }) => (
 			) => (
 				<li className="w-full h-48" key={index}>
 					<a href={`/vexillologists/${fullName}/${code}`}>
-						<figure className="flex flex-col items-center justify-between w-full h-full p-2 border rounded gap-2 border-neutral-600 bg-neutral-800 hover:bg-neutral-700">
+						<figure className="flex flex-col items-center justify-between w-full h-full gap-2 p-2 border rounded border-neutral-600 bg-neutral-800 hover:bg-neutral-700">
 							<div className="flex items-center justify-center w-full p-2 rounded h-36 bg-neutral-700">
 								<img
 									src={asset(pngFlagPath)}

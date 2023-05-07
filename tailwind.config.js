@@ -1,10 +1,10 @@
 export default {
-	content: ["./**/*.jsx"],
+	content: [
+		"./routes/**/*.jsx",
+		"./components/**/*.jsx",
+		"./islands/**/*.jsx"
+	],
 	theme: {
-		// https://tailwindcss.com/docs/container#centering-by-default
-		container: {
-			center: true
-		},
 		extend: {
 			fontFamily: {
 				sans: ["\"Inter\"", "sans-serif"],

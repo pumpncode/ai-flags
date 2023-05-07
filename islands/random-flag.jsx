@@ -2,8 +2,6 @@ import { Transition } from "@headlessui/react";
 import { sample } from "lodash-es";
 import { useEffect, useState } from "preact/hooks";
 
-import { asset } from "$fresh/runtime.ts";
-
 /**
  *
  * @param props
@@ -60,10 +58,10 @@ const RandomFlag = ({ vexillologists }) => {
 				className="h-full"
 			>
 				<a href={href}>
-					<figure className="flex flex-col items-center justify-between w-full h-full p-2 border rounded gap-1 border-neutral-600 bg-neutral-800 hover:bg-neutral-700">
+					<figure className="flex flex-col items-center justify-between w-full h-full gap-1 p-2 border rounded border-neutral-600 bg-neutral-800 hover:bg-neutral-700">
 						<div className="w-full flex items-center justify-center h-[35vh] p-2 bg-neutral-700 rounded">
 							<img
-								src={asset(pngFlagPath)}
+								src={pngFlagPath}
 								alt={`Flag of ${name} (according to ${instanceName})`}
 								loading="lazy"
 								className="max-w-full max-h-full border border-neutral-800"

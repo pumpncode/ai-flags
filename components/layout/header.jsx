@@ -1,4 +1,4 @@
-import { IconBrandGithub } from "@tabler/icons-preact";
+import { TbBrandGithub } from "react-icons/tb";
 import cn from "classnames";
 import { startCase } from "lodash-es";
 
@@ -39,7 +39,7 @@ const Header = () => {
 			name: "github",
 			title: "GitHub",
 			custom: () => (
-				<Button variant="transparent" size="2xl"><IconBrandGithub /></Button>
+				<Button variant="transparent" size="2xl"><TbBrandGithub size={24} /></Button>
 			)
 		}
 	];
@@ -47,7 +47,7 @@ const Header = () => {
 	return (
 		<header className="z-10 h-24 text-white bg-neutral-900">
 			<nav aria-label="Main Navigation" className="w-full h-full">
-				<ul className="w-full h-full grid grid-cols-headerMobile sm:grid-cols-header">
+				<ul className="grid w-full h-full grid-cols-headerMobile sm:grid-cols-header">
 					{
 						navigationItems
 							.map((

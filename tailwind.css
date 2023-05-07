@@ -42,7 +42,7 @@ html {
 			@apply transition-all;
 
 			&::selection {
-				@apply bg-cyan-500 text-neutral-900;
+				@apply bg-amber-300 text-neutral-900;
 			}
 		}
 

@@ -1,4 +1,4 @@
-import { IconLink } from "@tabler/icons-preact";
+import { TbLink } from "react-icons/tb";
 
 import Button from "../input/button.jsx";
 
@@ -16,11 +16,11 @@ const VexillographersList = ({ vexillologistName, vexillographers }) => (
 			Object.entries(vexillographers)
 				.sort(([vexillographerNameA], [vexillographerNameB]) => (new Intl.Collator()).compare(vexillographerNameA, vexillographerNameB))
 				.map(([vexillographerName, variants]) => (
-					<li key={vexillographerName} className="flex flex-col p-1 border border-b-0 border-neutral-600 last:border-b sm:p-4 gap-4 first:rounded-t last:rounded-b">
+					<li key={vexillographerName} className="flex flex-col gap-4 p-1 border border-b-0 border-neutral-600 last:border-b sm:p-4 first:rounded-t last:rounded-b">
 						<div className="flex items-center justify-between">
 							<h4 className="font-mono text-lg sm:text-xl">{vexillographerName} 🧑‍🎨</h4>
 							<a href={`/vexillologists/${vexillologistName}/${vexillographerName}`}>
-								<Button variant="transparent" size="xl"><IconLink /></Button>
+								<Button variant="transparent" size="xl"><TbLink size={24} /></Button>
 							</a>
 						</div>
 						<VariantsList

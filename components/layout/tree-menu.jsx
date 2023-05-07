@@ -1,4 +1,5 @@
 import cn from "classnames";
+import { TbPlus } from "react-icons/tb";
 
 /**
  *
@@ -24,7 +25,9 @@ const TreeMenu = ({
 			<>
 				{
 					entity.children && (
-						<span className="flex items-center justify-center w-12 text-sm font-bold bg-neutral-200 text-neutral-800  shrink-0 md:w-8">+</span>
+						<span className="flex items-center justify-center w-12 text-sm font-bold bg-neutral-200 text-neutral-800 shrink-0 md:w-8">
+							<TbPlus size={24} />
+						</span>
 					)
 				}
 				<a
@@ -32,7 +35,7 @@ const TreeMenu = ({
 					className={cn(
 						"p-4 grow",
 						{
-							"bg-cyan-500 text-neutral-900": active,
+							"bg-amber-300 text-neutral-900": active,
 							"pl-12": !entity.children
 						}
 					)}
@@ -82,7 +85,7 @@ const TreeMenu = ({
 
 	return (
 		<ul {...otherProps}>
-			<li className="flex flex-col overflow-hidden border border-b-0 rounded bg-black/5 gap-4 border-neutral-200 hover:bg-black/10">
+			<li className="flex flex-col gap-4 overflow-hidden border border-b-0 rounded bg-black/5 border-neutral-200 hover:bg-black/10">
 				{recurse(rootEntity)}
 			</li>
 		</ul>

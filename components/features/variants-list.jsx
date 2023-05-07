@@ -1,4 +1,4 @@
-import { IconLink } from "@tabler/icons-preact";
+import { TbLink } from "react-icons/tb";
 
 import Button from "../input/button.jsx";
 
@@ -26,11 +26,11 @@ const VariantsList = ({
 						fullName
 					}
 				]) => (
-					<li key={variantName} className="flex flex-col p-2 border border-b-0 gap-4 border-neutral-600 last:border-b sm:p-4 first:rounded-t last:rounded-b">
+					<li key={variantName} className="flex flex-col gap-4 p-2 border border-b-0 border-neutral-600 last:border-b sm:p-4 first:rounded-t last:rounded-b">
 						<div className="flex items-center justify-between">
 							<h5 className="text-base sm:text-lg">Variant {variantName}</h5>
 							<a href={`/vexillologists/${vexillologistName}/${vexillographerName}/${variantName}`}>
-								<Button variant="transparent" size="xl"><IconLink /></Button>
+								<Button variant="transparent" size="xl"><TbLink size={24} /></Button>
 							</a>
 						</div>
 						<section className="markdown" dangerouslySetInnerHTML={{ __html: String(description) }} />

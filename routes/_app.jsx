@@ -16,7 +16,6 @@ const App = ({ Component }) => (
 			<title>AI Flags</title>
 			<FontsStyle />
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" />
-			<link href={asset("/style/base.css")} rel="stylesheet" />
 			<link href={asset("/style/tailwind.css")} rel="stylesheet" />
 			<link rel="icon" href="/favicons/icon.svg" type="image/svg+xml" />
 			<link rel="icon" href="/favicons/favicon.ico" sizes="any" />

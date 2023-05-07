@@ -1,8 +1,8 @@
 import { Menu, Transition } from "@headlessui/react";
 import {
-	IconMenu2,
-	IconX
-} from "@tabler/icons-preact";
+	TbMenu2,
+	TbX
+} from "react-icons/tb";
 import { startCase } from "lodash-es";
 
 /**
@@ -28,7 +28,7 @@ const MobileMenu = ({ items }) => (
 									leaveTo="opacity-0"
 									className="absolute"
 								>
-									<IconX />
+									<TbX size={24} />
 								</Transition>
 								<Transition
 									show={!open}
@@ -40,7 +40,7 @@ const MobileMenu = ({ items }) => (
 									leaveTo="opacity-0"
 									className="absolute"
 								>
-									<IconMenu2 />
+									<TbMenu2 size={24} />
 								</Transition>
 							</>
 

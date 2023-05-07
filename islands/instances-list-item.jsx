@@ -1,6 +1,6 @@
 import { Disclosure, Transition } from "@headlessui/react";
 import { Temporal } from "@js-temporal/polyfill";
-import { IconLink } from "@tabler/icons-preact";
+import { TbLink } from "react-icons/tb";
 import cn from "classnames";
 import { Fragment } from "preact";
 import { useState } from "preact/hooks";
@@ -48,7 +48,7 @@ const InstancesListItem = ({
 					<>
 						<Disclosure.Button className="flex w-full">
 							<div className="flex items-center justify-between w-full px-4">
-								<h6 className="flex items-center py-4 overflow-hidden text-xs text-ellipsis whitespace-nowrap sm:text-base gap-2">
+								<h6 className="flex items-center gap-2 py-4 overflow-hidden text-xs text-ellipsis whitespace-nowrap sm:text-base">
 									<span className="overflow-hidden text-ellipsis whitespace-nowrap">Instance {instanceName}</span>
 									<span className="hidden sm:flex text-xs font-mono bg-neutral-700 px-1 py-0.5 rounded text-ellipsis overflow-hidden whitespace-nowrap">({formattedStartDate})</span>
 								</h6>
@@ -58,7 +58,7 @@ const InstancesListItem = ({
 										event.stopPropagation();
 									}}
 								>
-									<Button variant="transparent" size="sm"><IconLink /></Button>
+									<Button variant="transparent" size="sm"><TbLink size={24} /></Button>
 								</a>
 							</div>
 						</Disclosure.Button>

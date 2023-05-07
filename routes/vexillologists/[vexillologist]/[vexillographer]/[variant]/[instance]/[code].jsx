@@ -3,7 +3,7 @@ import remarkBehead from "remark-behead";
 import remarkGfm from "remark-gfm";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
-import { join, relative } from "std/path";
+import { join } from "std/path";
 import { unified } from "unified";
 
 import { asset } from "$fresh/runtime.ts";
@@ -15,11 +15,8 @@ const {
 	readTextFile
 } = Deno;
 
-const config = {
-	routeOverride: "/:vexillologist([a-z0-9.-]+)/:vexillographer([a-z0-9.-]+)/:variant([a-z0-9.-]+)/:instance([a-z0-9.-]+)/:code([a-z]{3})"
-};
-
 const handler = {
+	// eslint-disable-next-line max-statements
 	GET: async (request, context) => {
 		const {
 			params: {
@@ -86,7 +83,7 @@ const handler = {
 				);
 			}
 			catch (error) {
-				if (!error instanceof NotFound) {
+				if (!(error instanceof NotFound)) {
 					throw error;
 				}
 			}
@@ -96,8 +93,8 @@ const handler = {
 				code,
 				description,
 				comments,
-				svgFlagPath: relative(setupName, svgFlagFilePath).replace("static/", ""),
-				pngFlagPath: relative(setupName, pngFlagFilePath).replace("static/", ""),
+				svgFlagPath: svgFlagFilePath.replace("static/", "/"),
+				pngFlagPath: pngFlagFilePath.replace("static/", "/"),
 				setupName
 			};
 
@@ -128,7 +125,8 @@ const handler = {
  */
 const FlagDetails = ({
 	data: {
-		content, content: {
+		content,
+		content: {
 			name, code, pngFlagPath, description, setupName, comments
 		}
 	}
@@ -149,8 +147,8 @@ const FlagDetails = ({
 				/>
 			</div>
 
-			<div className="flex flex-col w-full min-h-full p-4 rounded gap-4 bg-neutral-700">
-				<div className="flex flex-col p-4 rounded gap-4 bg-neutral-600">
+			<div className="flex flex-col w-full min-h-full gap-4 p-4 rounded bg-neutral-700">
+				<div className="flex flex-col gap-4 p-4 rounded bg-neutral-600">
 					<h3 className="text-3xl font-medium">Description</h3>
 					<section className="text-justify max-w-prose markdown"
 						dangerouslySetInnerHTML={{ __html: String(description) }}
@@ -158,7 +156,7 @@ const FlagDetails = ({
 				</div>
 
 				{comments && (
-					<div className="flex flex-col p-4 rounded gap-4 bg-neutral-600">
+					<div className="flex flex-col gap-4 p-4 rounded bg-neutral-600">
 						<h3 className="text-3xl font-medium">Comments</h3>
 						<section className="text-justify max-w-prose markdown"
 							dangerouslySetInnerHTML={{ __html: String(comments) }}
@@ -171,6 +169,6 @@ const FlagDetails = ({
 	</section>
 );
 
-export { config, handler };
+export { handler };
 
 export default FlagDetails;
