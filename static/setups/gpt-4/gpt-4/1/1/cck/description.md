@@ -1,0 +1,5 @@
+The flag of the Cocos (Keeling) Islands has an aspect ratio of 1:2. The flag consists of three equally sized horizontal stripes from top to bottom: green (Pantone 348C), white, and blue (Pantone 286C). On the left side of the flag, within the green stripe, there is a gold crescent moon (Pantone 116C) accompanied by a gold circle with a Southern Cross constellation inside it.
+
+The Southern Cross is composed of five stars forming an elongated diamond shape; at each corner, there's a star with varying sizes. The top and bottom stars have seven points each, the left and right stars have six points each, and the smaller middle star has five points.
+
+I cannot provide exact geometric properties or measurements as these details may vary depending on the specific flag reproduction. However, generally, the proportions for each element should be consistent with the overall design.

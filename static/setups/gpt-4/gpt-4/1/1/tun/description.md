@@ -1,0 +1,3 @@
+The flag of Tunisia features a red background (Pantone 186C) with a centered white circle. Within the circle, there's a five-pointed star and a red crescent (Pantone 186C). The flag has an aspect ratio of 2:3.
+
+The white circle has a diameter equal to 2/5 of the flag's height. The center of the circle is placed at 1/2 of the flag's length and 1/2 of its height. The crescent's inner circle has a radius of 1/10 of the flag's height, while its outer circle's radius is 1/8 of the height. The star, inscribed in a circle, is placed at the center of the crescent, and its points touch the circumference of an imaginary circle whose radius is equal to 1/15 of the flag's height.

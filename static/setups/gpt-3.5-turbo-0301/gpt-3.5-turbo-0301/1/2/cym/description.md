@@ -1,0 +1,4 @@
+The flag of the Cayman Islands has a blue field with the Union Jack in the upper hoist-side quadrant and the Caymanian coat of arms centered on the outer half of the flag. The coat of arms includes a shield with three green stars (representing each island) over white and blue wavy lines symbolizing the sea. The shield is supported by a golden lion on the left and a silver turtle on the right, both holding a scroll inscribed with the motto "He hath founded it upon the seas" (from Psalm 24:2a, KJV). The flag has a 1:2 aspect ratio, and the coat of arms has a height-to-width ratio of 4:3. The color codes for the flag are: 
+- Blue: Pantone 280 C / RGB 0, 47, 108 / HEX #002F6C
+- Red: Pantone 186 C / RGB 206, 17, 38 / HEX #CE1126
+- Green: Pantone 356 C / RGB 0, 157, 87 / HEX #009D57

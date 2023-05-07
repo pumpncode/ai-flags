@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 4500">
+	<rect width="100%" height="100%" fill="#FE0000"/>
+	<circle cx="600" cy="900" r="600" fill="#002A66"/>
+	<circle cx="600" cy="900" r="360" fill="#FFF"/>
+	<g fill="#002A66" transform="translate(600, 900)">
+		<path d="M291 0l82-117 105 70-54-120L540-212l-159-52-103-117-53 132-156 47 98 124L2-23l110-86z m266-128l50-18 30 48 50-18-40 48 50 19-60 49 60 49-50 19 40 48-50-18-30 48-50-18-30-49-50 19 40-49-50-18 50-54-40-19 50-48z"/>
+		<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rays" transform="scale(-1, 1)"/>
+	</g>
+</svg>

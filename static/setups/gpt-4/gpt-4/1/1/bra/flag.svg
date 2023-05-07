@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 100">
+	<rect width="100%" height="100%" fill="#009B3A"/>
+	<path fill="#FEDE00" d="M50 0l50 50-50 50L0 50Z"/>
+	<circle cx="50" cy="50" r="35" fill="#002778"/>
+	<path fill="#FFF" d="M15 45h70v10H15z"/>
+	<text x="17" y="53" fill="#009B3A" font-family="Arial" font-size="6">ORDEM E PROGRESSO</text>
+</svg>

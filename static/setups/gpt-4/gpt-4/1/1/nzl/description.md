@@ -1,0 +1,5 @@
+The flag of New Zealand has an aspect ratio of 1:2. It consists of two main features: the Union Jack in the upper hoist-side quadrant (canton) and the Southern Cross constellation on the fly half. The background is blue (#00247D), and the Union Jack comprises red (#C8102E), white (#FFFFFF), and blue (#012169) colors.
+
+The Union Jack is a combination of three flags: England's St. George's Cross, Scotland's St. Andrew's Cross, and Ireland's St. Patrick's Cross. In New Zealand's flag, the St. George's Cross includes the red cross with white fimbriation, the St. Andrew's Cross consists of a diagonal white saltire on a blue field, and the St. Patrick's Cross features a diagonal red saltire with white fimbriation.
+
+The Southern Cross constellation has four five-pointed stars with red centers (#C8102E) and white (#FFFFFF) outer edges. These stars are arranged in a diamond pattern, with the largest star, Alpha Crucis, at the bottom-right. Beta, Gamma, and Delta Crucis form the other three corners, with their sizes decreasing clockwise.

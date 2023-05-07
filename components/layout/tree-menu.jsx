@@ -24,7 +24,7 @@ const TreeMenu = ({
 			<>
 				{
 					entity.children && (
-						<span className="bg-neutral-200 text-neutral-800  flex items-center justify-center font-bold text-sm shrink-0 w-12 md:w-8">+</span>
+						<span className="flex items-center justify-center w-12 text-sm font-bold bg-neutral-200 text-neutral-800  shrink-0 md:w-8">+</span>
 					)
 				}
 				<a
@@ -46,7 +46,7 @@ const TreeMenu = ({
 		if (Object.hasOwn(entity, "children")) {
 			return (
 				<details className="open:pb-4 group" open={open} id={entity.id}>
-					<summary className="cursor-pointer flex items-stretch border-b border-neutral-200">{linkElement}</summary>
+					<summary className="flex items-stretch border-b cursor-pointer border-neutral-200">{linkElement}</summary>
 					<ul className="pl-4 pr-4">
 						{
 							[...Object.entries(entity.children)]
@@ -54,7 +54,7 @@ const TreeMenu = ({
 								.map(([id, child]) => (
 									<li
 										className={cn(
-											"bg-black/5 flex flex-col gap-4 hover:bg-black/10 border border-neutral-200 border-t-0 last-child:rounded-b overflow-hidden",
+											"bg-black/5 flex flex-col gap-4 hover:bg-black/10 border border-neutral-200 border-t-0 last:rounded-b overflow-hidden",
 											{
 												"border-b-0 group:open:border-b-1": child.children
 											}
@@ -82,7 +82,7 @@ const TreeMenu = ({
 
 	return (
 		<ul {...otherProps}>
-			<li className="bg-black/5 flex flex-col gap-4 border border-neutral-200 border-b-0 rounded overflow-hidden hover:bg-black/10">
+			<li className="flex flex-col overflow-hidden border border-b-0 rounded bg-black/5 gap-4 border-neutral-200 hover:bg-black/10">
 				{recurse(rootEntity)}
 			</li>
 		</ul>

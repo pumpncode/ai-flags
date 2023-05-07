@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14820 7800">
+	<path fill="#b22234" d="M0 0h14820v7800H0z"/>
+	<path stroke="#fff" stroke-width="1800" d="M0 900h14820m0 1200H0m0 1200h14820m0 1200H0m0 1200h14820m0 1200H0"/>
+	<path fill="#3c3b6e" d="M0 0h5928v4200H0z"/>
+	<g fill="#fff">
+		<g id="b" transform="scale(247)">
+			<path id="a" d="M-11 0L0-11 11 0 0 11zM0-22a2 2 0 1 1 0 4 2 2 0 1 1 0-4z m0 16a2 2 0 1 1 0 4 2 2 0 1 1 0-4z m0 16a2 2 0 1 1 0 4 2 2 0 1 1 0-4z m16-32a2 2 0 1 1 0 4 2 2 0 1 1 0-4z m0 16a2 2 0 1 1 0 4 2 2 0 1 1 0-4z m0 16a2 2 0 1 1 0 4 2 2 0 1 1 0-4z m16-32a2 2 0 1 1 0 4 2 2 0 1 1 0-4z m0 16a2 2 0 1 1 0 4 2 2 0 1 1 0-4z m0 16a2 2 0 1 1 0 4 2 2 0 1 1 0-4z"/>
+			<g id="c">
+				<use href="#a" transform="translate(0, -44)"/>
+				<use href="#a" transform="translate(0, 44)"/>
+			</g>
+		</g>
+		<use href="#b"/>
+		<use href="#b" transform="translate(494)"/>
+		<use href="#b" transform="translate(990)"/>
+		<use href="#b" transform="translate(1484)"/>
+		<use href="#b" transform="translate(2470)"/>
+		<use href="#b" transform="translate(2964)"/>
+		<use href="#b" transform="translate(3460)"/>
+		<use href="#b" transform="translate(3954)"/>
+		<use href="#b" transform="translate(4450)"/>
+		<use href="#b" transform="translate(4944)"/>
+		<use href="#b" transform="translate(5438)"/>
+		<g id="d">
+			<use href="#c"/>
+			<use href="#c" transform="translate(0, 72)"/>
+		</g>
+		<use href="#d" transform="translate(1976, 270)"/>
+		<use href="#d" transform="translate(3954, 270)"/>
+		<use href="#d" transform="translate(5930, 270)"/>
+		<use href="#b" transform="translate(1976, 540)"/>
+		<use href="#b" transform="translate(2470, 540)"/>
+		<use href="#b" transform="translate(2964, 540)"/>
+		<use href="#b" transform="translate(3460, 540)"/>
+		<use href="#b" transform="translate(3954, 540)"/>
+		<use href="#b" transform="translate(4450, 540)"/>
+		<use href="#b" transform="translate(4944, 540)"/>
+		<use href="#b" transform="translate(5438, 540)"/>
+		<use href="#d" transform="translate(990, 810)"/>
+		<use href="#d" transform="translate(2968, 810)"/>
+		<use href="#d" transform="translate(4944, 810)"/>
+	</g>
+</svg>

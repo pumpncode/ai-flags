@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+	<path fill="#CE1126" d="M0 0h600v300H0z"/>
+	<path fill="#FFF" d="M0 300h600v300H0z"/>
+	<path d="M0 600h600v300H0z"/>
+	<text x="180" y="430" fill="#007A3D" font-family="'Kufi','sans-serif'" font-size="150" font-weight="bold">ﷲ أَكْبَر</text>
+</svg>

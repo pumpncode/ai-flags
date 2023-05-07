@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 2500">
+	<path fill="#D52B1E" d="M0 0h2000v2500H0z"/>
+	<path fill="#003DA5" d="M2000 0h1000v2500H2000z"/>
+	<path fill="#D52B1E" d="M3000 0h2000v2500H3000z"/>
+	<g transform="translate(750, 625)">
+		<path fill="#C9A517" d="M300 0v250H0v300h300v250h300v-250h300V250h-300V0Z"/>
+		<circle cx="450" cy="400" r="100" fill="#fff"/>
+		<circle cx="450" cy="400" r="70" fill="#C9A517"/>
+		<path fill="#C9A517" d="M415 290h70v220H415z"/>
+		<path fill="#fff" d="M415 490h70v70H415z"/>
+		<path fill="#C9A517" d="M400 0h100L450 81 400 0zM0 300v100l81-50L0 300z m0 200v100l81-50L0 500z m300 300h100l-50-81L300 800z m400-300h100l-50 81-50-81z m0-200h100l-50-81L700 300z"/>
+		<path fill="#C9A517" d="M400 800H300l50-81L400 800zM0 500h100L50 419 0 500z m900-200h-100l50 81L900 300z m0 200h-100l50 81 50-81z"/>
+	</g>
+</svg>

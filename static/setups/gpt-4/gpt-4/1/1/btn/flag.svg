@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6000 9000">
+	<defs>
+		<path id="a" d="M3044 3929c-11-137-141-213-268-172L2280 3919c-127 40-203 170-192 307 11 137 141 213 268 172l496-162c100 46 203-170 192-307z"/>
+	</defs>
+	<path fill="#FFCD00" d="M0 0h6000v4500H0z"/>
+	<path fill="#F26522" d="M0 0v9000l6000-4500z"/>
+	<use fill="#FFF" href="#a" transform="matrix(3.5, 0, 0, 3.5, 2000, 3500)"/>
+</svg>

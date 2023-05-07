@@ -19,7 +19,7 @@ const Header = () => {
 			name: "index",
 			title: "Home",
 			custom: () => (
-				<h1 className="font-bold text-4xl sm:text-5xl">AI Flags</h1>
+				<h1 className="text-4xl font-bold sm:text-5xl">AI Flags</h1>
 			)
 		},
 		// {
@@ -45,9 +45,9 @@ const Header = () => {
 	];
 
 	return (
-        <header className="h-24 bg-neutral-900 text-white z-10">
-			<nav aria-label="Main Navigation" className="h-full w-full">
-				<ul className="grid grid-cols-headerMobile sm:grid-cols-header h-full w-full">
+		<header className="z-10 h-24 text-white bg-neutral-900">
+			<nav aria-label="Main Navigation" className="w-full h-full">
+				<ul className="w-full h-full grid grid-cols-headerMobile sm:grid-cols-header">
 					{
 						navigationItems
 							.map((
@@ -62,7 +62,7 @@ const Header = () => {
 							) => (
 								<li
 									className={cn(
-										"min-h-full h-full items-center justify-center first-child:justify-start",
+										"min-h-full h-full items-center justify-center first:justify-start",
 										{
 											"hidden sm:flex": index !== 0,
 											flex: index === 0
@@ -76,7 +76,7 @@ const Header = () => {
 											: <a
 												href={to}
 												target={to.match(/^https?/) ? "_blank" : "_self"}
-												className="flex justify-center items-center first-child:p-6"
+												className="flex items-center justify-center first:p-6"
 											>
 												{
 													custom
@@ -92,7 +92,7 @@ const Header = () => {
 				</ul>
 			</nav>
 		</header>
-    );
+	);
 };
 
 export default Header;

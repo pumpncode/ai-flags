@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150000 100000">
+	<path fill="#FFF" d="M0 0h150000v100000H0z"/>
+	<path fill="#0038A8" d="M0 11111h150000v11111H0z m0 22222h150000v11111H0z m0 22223h150000v11111H0z m0 22222h150000v11111H0z"/>
+	<path fill="#FFF" d="M0 0h75000v50000H0z"/>
+	<circle cx="37500" cy="25000" r="18333" fill="#FCD116"/>
+	<circle cx="37500" cy="25000" r="11667" fill="#FFF"/>
+	<circle cx="37500" cy="25000" r="8333" fill="#FCD116"/>
+	<path fill="#FCD116" d="M37500 12083l3936 8750h-9972Z"/>
+	<path fill="#FCD116" d="M37500 12083l5461 14656V16250Zm0 0l-5461 14656V16250Z"/>
+	<path fill="#FCD116" d="M37500 12083l-3936 8750h9972Z"/>
+	<path fill="#FCD116" d="M37500 12083l-5461 4167h10922Z"/>
+	<path fill="#FCD116" d="M37500 12083l-3936 14656v6803Zm0 0l3936 14656v6803Z"/>
+	<path fill="#FCD116" d="M37500 12083l5461 21459H32039Z"/>
+	<circle cx="37500" cy="25000" r="4167"/>
+</svg>

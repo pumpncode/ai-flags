@@ -1,0 +1,3 @@
+The flag of Papua New Guinea has an aspect ratio of 3:4. It is horizontally divided into two equal halves: the top half is red (#CE1126), and the bottom half is black (#000000). On the left side, a diagonal yellow (#FCD116) and white (#FFFFFF) stripe starts from the bottom left corner and extends upward at a 45-degree angle.
+
+In the upper red half, there's a yellow silhouette of the Raggiana Bird-of-paradise with open wings (same yellow as the stripe). The diagonal stripe consists of five alternating yellow and white triangles with a 1:2 proportion. The width of the stripe is 1/6 of the flag width, and each triangle has a base of 1/20 of the flag width.

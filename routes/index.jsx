@@ -1,24 +1,10 @@
-import rehypeStringify from "rehype-stringify";
-import remarkBehead from "remark-behead";
-import remarkGfm from "remark-gfm";
-import remarkParse from "remark-parse";
-import remarkRehype from "remark-rehype";
+import { IconArrowBigDownLine } from "@tabler/icons-preact";
 import { join } from "std/path";
-import { unified } from "unified";
 
 import VexillologistsList from "../components/features/vexillologists-list.jsx";
 import RandomFlag from "../islands/random-flag.jsx";
 
-const {
-	errors: {
-		NotFound
-	},
-	readDir,
-	readTextFile,
-	stat
-} = Deno;
-
-const countries = await (await fetch("https://raw.githubusercontent.com/mledoze/countries/master/countries.json")).json();
+import { getVexillologists } from "@ai-flags/utilities";
 
 const rootFolderPath = join("./");
 
@@ -28,161 +14,12 @@ const staticFolderPath = join(rootFolderPath, "static");
 
 const staticSetupsFolderPath = join(staticFolderPath, "setups");
 
-const getInstances = async ({ staticVariantFolderPath }) => {
-	const instances = {};
-
-	for await (
-		const {
-			name: instanceName,
-			isDirectory: instanceIsDirectory
-		} of readDir(staticVariantFolderPath)
-	) {
-		if (instanceIsDirectory) {
-			const instanceFolderPath = join(staticVariantFolderPath, instanceName);
-
-			const instanceContent = [];
-
-			for await (
-				const {
-					name: code,
-					isDirectory: codeIsDirectory
-				} of readDir(instanceFolderPath)
-			) {
-				if (codeIsDirectory) {
-					const countryFolderPath = join(instanceFolderPath, code);
-
-					const svgFlagFilePath = join(countryFolderPath, "flag.svg");
-					const pngFlagFilePath = join(countryFolderPath, "flag.png");
-
-					const createdAt = (new Date()).toISOString();
-
-					instanceContent.push({
-						name: countries.find(({ cca3 }) => cca3 === code.toLocaleUpperCase()).name.common,
-						code,
-						svgFlagPath: svgFlagFilePath.replace("static/", ""),
-						pngFlagPath: pngFlagFilePath.replace("static/", ""),
-						createdAt
-					});
-				}
-			}
-
-			instances[instanceName] = [...instanceContent].sort(({ name: nameA }, { name: nameB }) => (new Intl.Collator()).compare(nameA, nameB));
-		}
-	}
-
-	return instances;
-};
-
-const getVariants = async ({
-	vexillographerFolderPath, vexillologistName, vexillographerName
-}) => {
-	const variants = {};
-
-	for await (
-		const {
-			name: variantName,
-			isDirectory: variantIsDirectory
-		} of readDir(vexillographerFolderPath)
-	) {
-		if (variantIsDirectory) {
-			const variantFolderPath = join(vexillographerFolderPath, variantName);
-
-			const descriptionFilePath = join(variantFolderPath, "description.md");
-
-			const descriptionSource = await readTextFile(descriptionFilePath);
-
-			const description = String(
-				await unified()
-					.use(remarkParse)
-					.use(remarkGfm)
-					.use(() => (tree) => ({
-						...tree,
-						children: tree.children.filter(({ type, depth }) => type !== "heading" || depth > 1)
-					}))
-					.use(remarkBehead, { depth: 2 })
-					.use(remarkRehype)
-					.use(rehypeStringify)
-					.process(descriptionSource)
-			);
-
-			const fullName = [
-				vexillologistName,
-				vexillographerName,
-				variantName
-			].join("/");
-
-			const variant = {
-				description,
-				fullName
-			};
-
-			const staticVariantFolderPath = join(staticSetupsFolderPath, fullName);
-
-			const instances = await getInstances({ staticVariantFolderPath });
-
-			variants[variantName] = {
-				...variant,
-				instances
-			};
-		}
-	}
-
-	return variants;
-};
-
-const getVexillographers = async ({ vexillologistFolderPath, vexillologistName }) => {
-	const vexillographers = {};
-
-	for await (
-		const {
-			name: vexillographerName,
-			isDirectory: vexillographerIsDirectory
-		} of readDir(vexillologistFolderPath)
-	) {
-		if (vexillographerIsDirectory) {
-			const vexillographerFolderPath = join(vexillologistFolderPath, vexillographerName);
-
-			const variants = await getVariants({
-				vexillographerFolderPath,
-				vexillologistName,
-				vexillographerName
-			});
-
-			vexillographers[vexillographerName] = variants;
-		}
-	}
-
-	return vexillographers;
-};
-
-const getVexillologists = async () => {
-	const vexillologists = {};
-
-	for await (
-		const {
-			name: vexillologistName,
-			isDirectory: vexillologistIsDirectory
-		} of readDir(setupsFolderPath)
-	) {
-		if (vexillologistIsDirectory) {
-			const vexillologistFolderPath = join(setupsFolderPath, vexillologistName);
-
-			const vexillographers = await getVexillographers({
-				vexillologistFolderPath,
-				vexillologistName
-			});
-
-			vexillologists[vexillologistName] = vexillographers;
-		}
-	}
-
-	return vexillologists;
-};
-
 const handler = {
-	// eslint-disable-next-line max-statements
 	GET: async (request, context) => {
-		const vexillologists = await getVexillologists();
+		const vexillologists = await getVexillologists({
+			setupsFolderPath,
+			staticSetupsFolderPath
+		});
 
 		return context.render({
 			vexillologists
@@ -199,29 +36,30 @@ const handler = {
  */
 const Home = ({ data: { vexillologists } }) => (
 	<>
-		<section className="p-4 md:p-16 flex flex-col gap-8 items-center justify-around bg-neutral-700 h-auto md:h-[calc(100vh-6rem)] min-h-[600px]">
-			<h2 className="text-2xl sm:text-4xl md:text-6xl font-bold">Flags (according to AI)</h2>
-			<div className="flex flex-col md:flex-row gap-8 w-full items-center">
+		<section className="p-4 md:px-16 md:py-8 flex flex-col gap-8 items-center justify-around bg-neutral-700 h-auto md:h-[calc(100vh-6rem)] min-h-[600px]">
+			<h2 className="text-2xl font-bold sm:text-4xl md:text-6xl">Flags (according to AI)</h2>
+			<div className="flex flex-col items-center w-full md:flex-row gap-8">
 				<div className="w-full md:w-6/12">
 					<RandomFlag {...{ vexillologists }} />
 				</div>
-				<div className="w-full md:w-6/12 flex flex-col gap-8">
-					<span className="flex flex-col gap-1 text-lg text-amber-300 font-medium items-center md:items-start text-center md:text-left">
+				<div className="flex flex-col w-full md:w-6/12 gap-8">
+					<span className="flex flex-col items-center text-lg font-medium text-center gap-1 text-amber-300 md:items-start md:text-left">
 						<span>What would happen if we ask an AI to describe a flag?</span>
 						<span>What if we ask it to generate an image of a flag?</span>
 						<span>Find out here!</span>
 					</span>
-					<span className="flex flex-col gap-1 text-lg bg-neutral-700 rounded border border-amber-300">
-						<span className="border-b border-amber-300 p-4">Click on the "Instance" boxes below to see the results of a specific setup!</span>
-						<span className="border-b border-amber-300 p-4">Click on a specific flag to view a bigger version and read the description of it!</span>
+					<span className="flex flex-col text-lg border rounded gap-1 bg-neutral-700 border-amber-300">
+						<span className="p-4 border-b border-amber-300">Click on the "Instance" boxes below to see the results of a specific setup!</span>
+						<span className="p-4 border-b border-amber-300">Click on a specific flag to view a bigger version and read the description of it!</span>
 						<span className="p-4">You can always get the SVG version of a flag by simply replacing the file extension of the URL!</span>
 					</span>
 				</div>
-
 			</div>
-
+			<div className="shrink-0 text-amber-300 animate-bounce">
+				<IconArrowBigDownLine size={48} stroke={1} />
+			</div>
 		</section>
-		<section className="p-4 md:p-16 flex flex-col gap-8 items-start">
+		<section className="flex flex-col items-start p-4 md:p-16 gap-8">
 			<ul className="flex flex-col gap-1">
 				<li className="flex gap-2">
 					<span>🤓</span>
@@ -235,7 +73,6 @@ const Home = ({ data: { vexillologists } }) => (
 			<VexillologistsList {...{ vexillologists }} />
 		</section>
 	</>
-
 );
 
 export { handler };

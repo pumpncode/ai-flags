@@ -1,0 +1,5 @@
+The flag of Burkina Faso has two horizontal stripes of equal height, with the top stripe being red (color code: #EF2B2D) and the bottom stripe being green (color code: #009E60). In the center of the flag is a yellow five-pointed star (color code: #FCD116).
+
+The aspect ratio of the flag is 2:3, meaning its width is two-thirds of its length. The star's size and position are not strictly defined by law; however, it is typically inscribed within an invisible circle whose diameter is equal to 1/3 of the flag's height. The center of the circle lies on the axis of symmetry and is equidistant from both the top and bottom edges.
+
+As for measurements, in a flag with a width of 100 units, each horizontal stripe would be 50 units tall, and the invisible circle holding the star would have a diameter of approximately 33.3 units.

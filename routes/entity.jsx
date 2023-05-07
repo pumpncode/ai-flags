@@ -1,5 +1,4 @@
 import { join } from "std/path";
-import { css, cx } from "twind";
 
 import TreeMenu from "@ai-flags/components/layout/tree-menu.jsx";
 
@@ -128,10 +127,10 @@ const Entity = ({
 
 	return (
 		<section className="p-4 md:p-16">
-			<h2 className="text-mono h-24">Entities</h2>
+			<h2 className="h-24 text-mono">Entities</h2>
 			<div className="flex flex-col md:flex-row gap-4">
 				<TreeMenu rootEntity={earthEntity} href="/entities" className="w-full md:w-3/12" openIds={entityIds} />
-				<div className="bg-neutral-800 rounded w-full md:w-9/12 p-4 flex flex-col gap-8">
+				<div className="flex flex-col w-full p-4 rounded bg-neutral-800 md:w-9/12 gap-8">
 					<h3 className="text-6xl scroll-mt-12 md:scroll-mt-96" id={name}>{name}</h3>
 					{
 						flags && (
@@ -141,19 +140,17 @@ const Entity = ({
 										id, name: flagName, images: [flagUrl]
 									}) => (
 										<li key={id} className="w-full h-48">
-											<figure className="flex flex-col gap-2 w-full h-full justify-between items-center p-2 border border-neutral-600 rounded hover:bg-neutral-700">
-												<div className="w-full flex items-center justify-center h-36 p-2 bg-neutral-700 rounded">
+											<figure className="flex flex-col items-center justify-between w-full h-full p-2 border rounded gap-2 border-neutral-600 hover:bg-neutral-700">
+												<div className="flex items-center justify-center w-full p-2 rounded h-36 bg-neutral-700">
 													<img
 														src={flagUrl}
 														alt={flagName}
-														className={cx`
-											max-w-full max-h-full border border-neutral-800
-											${css({ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" })}
-										`}
+														className="max-w-full max-h-full border border-neutral-800"
+														style={{ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" }}
 													/>
 												</div>
 
-												<figcaption className="h-6 flex gap-2 items-center justify-center">
+												<figcaption className="flex items-center justify-center h-6 gap-2">
 													<span className="text-sm">{flagName}</span>
 													<span className="text-xs font-mono bg-neutral-700 px-1 py-0.5 rounded">({id})</span>
 												</figcaption>

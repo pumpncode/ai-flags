@@ -2,7 +2,6 @@ import DOMPurify from "dompurify";
 import { useEffect, useState } from "preact/hooks";
 import SVGPathCommander from "svg-path-commander";
 import { optimize as optimizeSvg } from "svgo";
-import { css, cx } from "twind";
 
 import addZigzag from "../utilities/add-zigzag.js";
 import traverseSvgBrowser from "../utilities/traverse-svg.js";
@@ -214,21 +213,19 @@ const Zigzagger = () => {
 
 	return (
 		<>
-			<div className="w-full flex items-center justify-center p-8 gap-8 bg-neutral-700 rounded relative">
-				<div className="relative w-full flex justify-center items-center h-full">
+			<div className="relative flex items-center justify-center w-full p-8 rounded gap-8 bg-neutral-700">
+				<div className="relative flex items-center justify-center w-full h-full">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 500 500"
-						className={cx`
-							h-full border border-neutral-800
-							${css({ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" })}
-						`}
+						className="h-full border border-neutral-800"
+						style={{ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" }}
 						dangerouslySetInnerHTML={{ __html: newSvg }}
 					/>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 500 500"
-						className="h-full absolute opacity-0 hover:opacity-50"
+						className="absolute h-full opacity-0 hover:opacity-50"
 						dangerouslySetInnerHTML={{ __html: oldSvg }}
 					/>
 				</div>
@@ -248,14 +245,14 @@ const Zigzagger = () => {
 						<label for="flip">Flip:</label>
 						<input id="flip" type="checkbox" checked={flip} onInput={({ target: { checked } }) => setFlip(checked)} />
 					</div>
-					<div className="grid grid-cols-3 gap-2 items-center">
+					<div className="items-center grid grid-cols-3 gap-2">
 						<label>Position:</label>
-						<div className="flex flex-col gap-2 items-center col-span-2">
+						<div className="flex flex-col items-center gap-2 col-span-2">
 							<div className="flex gap-1">
 								<label for="topActive">Top:</label>
 								<input id="topActive" type="checkbox" checked={topActive} onInput={({ target: { checked } }) => setTopActive(checked)} />
 							</div>
-							<div className="flex justify-between self-stretch">
+							<div className="flex self-stretch justify-between">
 								<div className="flex gap-1">
 									<label for="leftActive">Left:</label>
 									<input id="leftActive" type="checkbox" checked={leftActive} onInput={({ target: { checked } }) => setLeftActive(checked)} />
@@ -275,9 +272,9 @@ const Zigzagger = () => {
 
 			</div>
 
-			<div className="w-full flex flex-col p-2 gap-2 bg-neutral-700 h-full rounded">
-				<textarea className="w-full h-full bg-neutral-800 p-4 rounded resize-none" value={svg} onInput={({ target: { value } }) => setSvg(value)} />
-				<textarea className="w-full h-full bg-neutral-800 p-4 rounded resize-none" readonly value={newSvg} />
+			<div className="flex flex-col w-full h-full p-2 rounded gap-2 bg-neutral-700">
+				<textarea className="w-full h-full p-4 rounded resize-none bg-neutral-800" value={svg} onInput={({ target: { value } }) => setSvg(value)} />
+				<textarea className="w-full h-full p-4 rounded resize-none bg-neutral-800" readonly value={newSvg} />
 			</div>
 		</>
 	);

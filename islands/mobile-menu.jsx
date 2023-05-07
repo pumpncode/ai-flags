@@ -7,16 +7,16 @@ import { startCase } from "lodash-es";
 
 /**
  *
- * @param root0
- * @param root0.items
+ * @param props
+ * @param props.items
  */
 const MobileMenu = ({ items }) => (
-	<li className="flex sm:hidden min-h-full h-full items-center justify-center relative">
+	<li className="relative flex items-center justify-center h-full min-h-full sm:hidden">
 		<Menu>
 			{
 				({ open }) => (
 					<>
-						<Menu.Button className="w-5 h-5 flex">
+						<Menu.Button className="flex w-5 h-5">
 							<>
 								<Transition
 									show={open}
@@ -55,7 +55,7 @@ const MobileMenu = ({ items }) => (
 									to = `/${name}`,
 									title = startCase(name)
 								}) => (
-									<Menu.Item as="li" className="flex border-b first-child:border-t border-neutral-800">
+									<Menu.Item as="li" className="flex border-b first:border-t border-neutral-800">
 										{({ active }) => (
 											<a
 												href={to}

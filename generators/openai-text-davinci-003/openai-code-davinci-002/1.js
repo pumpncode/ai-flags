@@ -11,7 +11,14 @@ const {
 
 const configuration = new Configuration({
 	apiKey: env.get("OPENAI_API_KEY"),
-	baseOptions: { adapter: fetchAdapter }
+	baseOptions: {
+		adapter: (...params) => {
+			console.log("params");
+			console.log(params);
+
+			return fetchAdapter(...params);
+		}
+	}
 });
 
 const openAiClient = new OpenAIApi(configuration);

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512000 256000">
+	<path fill="#002868" d="M0 0h512000v256000H0z"/>
+	<path fill="#fff" d="M0 0l44471 25943L0 51885z"/>
+	<path fill="#cf142b" d="M0 0v51885l44471-25942z"/>
+	<path fill="#fff" d="M512000 0l-44471 25943L512000 51885z"/>
+	<path fill="#cf142b" d="M512000 0v51885l-44471-25942z"/>
+	<path fill="#fff" d="M0 256000l44471-25943L0 204115z"/>
+	<path fill="#cf142b" d="M0 256000v-51885l44471 25942z"/>
+	<path fill="#fff" d="M512000 256000l-44471-25943L512000 204115z"/>
+	<path fill="#cf142b" d="M512000 256000v-51885l-44471 25942z"/>
+	<path fill="#fff" d="M128000 0v51885l-6952-35394L90000 32000h69097L128000 0z m0 256000v-51885l-6952 35394L90000 224000h69097L128000 256000z"/>
+	<circle cx="365714" cy="73143" r="18286" fill="#fff"/>
+	<circle cx="402857" cy="94286" r="18286" fill="#fff"/>
+	<circle cx="438857" cy="109714" r="18286" fill="#fff"/>
+	<circle cx="474286" cy="131429" r="25714" fill="#fff"/>
+	<circle cx="391429" cy="164571" r="21714" fill="#fff"/>
+</svg>

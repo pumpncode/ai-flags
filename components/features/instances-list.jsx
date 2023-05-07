@@ -40,7 +40,7 @@ const InstancesList = ({ instances, fullVariantName }) => {
 		});
 
 	return (
-		<ul>
+		<ul className="w-full">
 			{
 				sortedInstancesArray
 					.map(({

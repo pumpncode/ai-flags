@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30000 20000">
+	<path d="M0 0h30000v6667H0z"/>
+	<path fill="#BF0A30" d="M0 6667h30000v6667H0z"/>
+	<path fill="#006747" d="M0 13334h30000V20000H0z"/>
+	<path fill="#FFF" d="M0 6267h30000v800H0z m0 6667h30000v800H0z"/>
+	<circle cx="15000" cy="10000" r="4000" fill="#BF0A30"/>
+	<circle cx="15000" cy="10000" r="3200"/>
+	<circle cx="15000" cy="10000" r="2800" fill="#BF0A30"/>
+	<path fill="#FFF" d="M13900 9000h2200v2000h-2200z"/>
+	<path fill="#FFF" d="M11800 10000h6400v600h-6400z"/>
+	<path stroke="#FFF" stroke-width="400" d="M15000 6000v8000m-2000-6000h4000"/>
+	<path fill="#FFF" d="M14600 6000l400-1000 400 1000z m0 8000l400 1000 400-1000z m-1600-6400l-1000 400 1000 400z m4000 0l1000 400-1000 400z"/>
+</svg>

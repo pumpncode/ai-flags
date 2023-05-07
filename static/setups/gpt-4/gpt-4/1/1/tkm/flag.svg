@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+	```
+
+3. Create the main green field:
+
+```html
+	<path fill="#00843D" d="M0 0h1000v500H0z"/>
+	```
+
+4. Add the red stripe:
+
+```html
+	<path fill="#C8102E" d="M0 0h250v500H0z"/>
+	```
+
+5. Draw the crescent moon and five stars using the 'path' element. You'll need to carefully define their paths based on their shapes, positions, and sizes.
+
+6. Draw the five carpet guls using the 'path' element, which might be intricate and requires attention to detail. Consider finding existing SVGs of Turkmenistan's flag to use as a reference for accurate designs.
+
+7. Draw the two olive branches using the 'path' element with gold color (#85754E).
+
+8. Close the SVG tag:
+
+```html
+</svg>

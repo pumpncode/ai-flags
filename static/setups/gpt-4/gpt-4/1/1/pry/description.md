@@ -1,0 +1,3 @@
+The flag of Paraguay is rectangular in shape with an aspect ratio of 3:5. It consists of three horizontal stripes of equal height, with the colors red (#D52B1E), white (#FFFFFF), and blue (#0038A8) from top to bottom.
+
+In the center of the white stripe, there is a circle with a diameter equal to half the height of the white band. The circle has a white background and contains the coat of arms of Paraguay. Details such as color codes or measurements specific to the coat of arms are not provided here as they pertain to the symbolism of the flag.

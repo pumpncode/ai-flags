@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+	<path fill="#C8102E" d="M0 0h1200v600H0z"/>
+	<path fill="#002868" d="M0 0h300v150H0Z"/>
+	<path fill="#fff" d="M0 0l20 30h40L40 60l40 30-40 30 20 30H20L0 120l20-30L0 60l20-30z m300 0l-20 30h-40l20 30-40 30 40 30-20 30h40l20-30-20-30 20-30-20-30zM0 150l20 30h40l-20 30 40 30-40 30 20 30H20L0 270l20-30-20-30 20-30z m300 0l-20 30h-40l20 30-40 30 40 30-20 30h40l20-30-20-30 20-30-20-30z"/>
+	<circle cx="900" cy="300" r="200" fill="#FFF"/>
+	<text x="820" y="270" fill="#C8102E" font-family="Arial" font-size="40">🦁</text>
+	<text x="915" y="340" fill="#C8102E" font-family="Arial" font-size="40">⛵</text>
+</svg>

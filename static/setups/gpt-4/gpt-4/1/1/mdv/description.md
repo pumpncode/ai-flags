@@ -1,0 +1,3 @@
+The flag of Maldives has an aspect ratio of 2:3. It consists of a red background (#D21034) with a green rectangle (#007E3A) in the center. Inside the green rectangle, there's a white crescent moon (#FFFFFF) with its horns facing towards the hoist side.
+
+The red field has a width equal to the full length (2 units) and height (3 units) of the flag. The green rectangle is centered both vertically and horizontally on the flag, with a width of 4/6 or 2/3 of the flag's length and a height of 1/2 of the flag's height. The white crescent moon is centered within the green rectangle.

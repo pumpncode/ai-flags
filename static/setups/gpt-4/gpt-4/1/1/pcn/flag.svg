@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+	<path fill="#012169" d="M0 0h1200v600H0z"/>
+	<path fill="#C8102E" d="M0 260h480v80H0z"/>
+	<path fill="#C8102E" d="M200 0h80v480h-80z"/>
+	<path fill="#FFF" d="M0 240h480v100H0z"/>
+	<path fill="#FFF" d="M180 0h100v480H180z"/>
+	<path fill="#C8102E" d="M0 0h60l180 180v-40L60 0 0 60z m480 0h-60L240 180v-40L420 0l60 60zM0 480h60l180-180v40L60 480 0 420z m480 0h-60L240 300v40l180 140 60-60z"/>
+	<path fill="#FFF" d="M0 0h90l180 180h-60L0 90z"/>
+	<path fill="#FFF" d="M480 0h-90L210 180h60l210-90zM0 480h90l180-180h-60L0 410z"/>
+	<path fill="#FFF" d="M480 480h-90L210 300h60l210 110z"/>
+	<path fill="#FDB813" d="M800 200h200v200H800z"/>
+</svg>

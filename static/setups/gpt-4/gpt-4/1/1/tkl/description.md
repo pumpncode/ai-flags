@@ -1,0 +1,5 @@
+The flag of Tokelau is a non-rectangular flag with an aspect ratio of 1:2. It features a blue field (#00247D) with the Union Jack in the canton and a large yellow Southern Cross on the fly. The Union Jack consists of a red St. George's Cross (#CF142B) edged in white (#FFFFFF), overlaying a white diagonal St. Andrew's Cross and a white-edged red diagonal St. Patrick's Cross.
+
+The Southern Cross consists of four five-pointed stars, with the star closest to the Union Jack being considerably larger than the other three. The stars are arranged in a diamond pattern, representing the Southern Cross constellation. The color of the stars is Pantone Yellow C (#FFD100).
+
+There are no specific measurements for the geometric properties of the flag, but when recreated or resized, the proportions should be maintained to ensure accuracy.

@@ -1,0 +1,3 @@
+The flag of Norfolk Island is a rectangular banner with an aspect ratio of 1:2. It consists of three vertical stripes in green (#007A3D), white, and green, with the white stripe being wider than the green ones. The green stripes are each 1/7th of the flag's width, while the white stripe takes up 5/7ths of the width.
+
+Centered on the white stripe is a large Norfolk Island Pine tree emblem in green (#007A3D). The tree has 15 branches (five on each side, five on the top) and is depicted within a width equal to 1/3rd of the flag's overall width. At the base of the pine tree, there is a narrow horizontal white space representing the ground.

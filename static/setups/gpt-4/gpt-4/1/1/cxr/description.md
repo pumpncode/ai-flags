@@ -1,0 +1,3 @@
+The flag of Christmas Island is rectangular, with an aspect ratio of 1:2. The flag features a green (Pantone 3415) and blue (Pantone 286) background, which are divided diagonally from the bottom hoist-side corner to the top fly-side corner.
+
+In the upper hoist-side quadrant, there is a yellow Southern Cross constellation; each star has seven points. The Pantone color code for the stars is Yellow 109. In the lower fly-side quadrant, a golden bosun bird is displayed in flight. The Pantone color code for the bird is Gold 1235.

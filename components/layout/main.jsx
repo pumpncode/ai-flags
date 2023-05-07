@@ -1,10 +1,10 @@
 /**
  *
- * @param root0
- * @param root0.children
+ * @param props
+ * @param props.children
  */
 const Main = ({ children }) => (
-	<main className="flex flex-col flex-grow flex-shrink-0 w-full z-0 bg-neutral-800 text-white">
+	<main className="z-0 flex flex-col w-full text-white grow shrink-0 bg-neutral-800">
 		{children}
 	</main>
 );

@@ -1,12 +1,17 @@
 {
 	"imports": {
-		"fresh/": "https://deno.land/x/fresh@1.1.4/",
-		"$fresh/": "https://deno.land/x/fresh@1.1.4/",
-		"preact": "https://esm.sh/preact@10.11.0",
-		"preact/": "https://esm.sh/preact@10.11.0/",
-		"preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.6?dev",
-		"twind": "https://esm.sh/twind@1.0.1",
-		"twind/": "https://esm.sh/twind@1.0.1/",
+		"$fresh/": "https://deno.land/x/fresh@1.1.5/",
+		"preact": "https://esm.sh/preact@10.13.1",
+		"preact/": "https://esm.sh/preact@10.13.1/",
+		"preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.6",
+		"@preact/signals": "https://esm.sh/*@preact/signals@1.1.3",
+		"@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.2.3",
+		"@headlessui/react": "https://esm.sh/*@headlessui/react?bundle",
+		"react": "https://esm.sh/preact@10.13.1/compat",
+		"react-dom": "https://esm.sh/preact@10.13.1/compat",
+		"client-only": "https://esm.sh/client-only",
+		"twind": "https://esm.sh/@twind/core",
+		"twind/": "https://esm.sh/@twind/core/",
 		"@twind/preset-tailwind": "https://esm.sh/@twind/preset-tailwind@1.0.0-next.38",
 		"xml": "https://deno.land/x/xml/mod.ts",
 		"std/dotenv/load": "https://deno.land/std@0.167.0/dotenv/load.ts",
@@ -29,7 +34,6 @@
 		"@": "https://deno.land/x/puppeteer_extra@0.1.0/mod.ts",
 		"@/": "https://deno.land/x/puppeteer_extra@0.1.0/",
 		"imagescript": "https://deno.land/x/imagescript@1.2.15/mod.ts",
-		"@headlessui/react": "https://esm.sh/@headlessui/react@1.7.7?alias=react:preact/compat,react-dom:preact/compat,@types/react:preact/compat&deps=preact@10.11.0",
 		"classnames": "https://esm.sh/classnames@2.3.2",
 		"remark-behead": "https://esm.sh/remark-behead@3.1.0",
 		"svgo": "https://unpkg.com/svgo@3.0.2/dist/svgo.browser.js",
@@ -55,7 +59,8 @@
 		"@tabler/icons-preact": "https://esm.sh/@tabler/icons-preact@2.10.0",
 		"@js-temporal/polyfill": "https://esm.sh/@js-temporal/polyfill@0.4.3",
 		"cliffy": "https://deno.land/x/cliffy@v0.25.7/mod.ts",
-		"chatgpt": "./patches/chatgpt@5.0.10/deno/chatgpt.development.js",
-		"@haverstack/axios-fetch-adapter": "https://esm.sh/@haverstack/axios-fetch-adapter@0.5.0"
+		"get_pixels": "https://deno.land/x/get_pixels@v1.1.0/mod.ts",
+		"https://deno.land/x/puppeteer@16.2.0/vendor/puppeteer-core/puppeteer/common/IsolatedWorld.js": "./patches/puppeteer/vendor/puppeteer-core/puppeteer/common/IsolatedWorld.js",
+		"https://deno.land/x/puppeteer@16.2.0/vendor/puppeteer-core/puppeteer/common/ElementHandle.js": "./patches/puppeteer/vendor/puppeteer-core/puppeteer/common/ElementHandle.js"
 	}
 }

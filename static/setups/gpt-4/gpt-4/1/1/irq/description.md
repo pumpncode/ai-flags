@@ -1,0 +1,5 @@
+The flag of Iraq consists of three horizontal stripes, with the top stripe being red (#CE1126), the middle one white (#FFFFFF), and the bottom one black (#000000). In the center of the white stripe is the Takbir ("Allahu Akbar," meaning "God is the greatest") written in green Kufic script (#007A3D).
+
+The aspect ratio of the flag is 2:3, which means that the width of the flag is two-thirds of its length. Each of the stripes has an equal height, dividing the flag into three parts, with each part being one-third of the flag's total height.
+
+While the flag does not explicitly specify geometric properties and measurements, you can find them by dividing the flag into equal parts according to its aspect ratio. For example, if the length is 90 cm, the width would be 60 cm, and each stripe would have a height of 20 cm (since there are three equal stripes).

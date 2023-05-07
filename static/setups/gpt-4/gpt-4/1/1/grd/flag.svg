@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6000 3600">
+	<path fill="#007A5E" d="M0 0h6000v3600H0z"/>
+	<path fill="#ce1126" d="M0 0h6000L3000 1800z m0 3600h6000L3000 1800z"/>
+	<path fill="#fcd116" d="M1000 1200h1000L1500 300Z"/>
+	<circle cx="3000" cy="1800" r="1000" fill="#ce1126" stroke="#fcd116" stroke-width="240"/>
+	<g fill="#fcd116" transform="translate(3000, 1800)">
+		<circle cy="-760" r="200"/>
+		<circle cx="389" cy="620" r="200"/>
+		<circle cx="-389" cy="620" r="200"/>
+		<circle cx="680" cy="-240" r="200"/>
+		<circle cx="-680" cy="-240" r="200"/>
+		<circle cx="680" cy="240" r="200"/>
+		<circle cx="-680" cy="240" r="200"/>
+	</g>
+	<circle cx="3000" cy="600" r="300" fill="#fcd116"/>
+</svg>

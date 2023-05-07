@@ -1,0 +1,3 @@
+The flag of Anguilla has a blue field (Pantone 300) with the Union Jack in the upper hoist-side quadrant and a white disk shifted slightly towards the bottom fly-side corner featuring three orange dolphins arranged in a circular pattern. The aspect ratio of the flag is 1:2.
+
+The Union Jack in the canton occupies 1/4 of the total flag area, while the rest of the flag is dedicated to the blue field. The white disk in the fly side has a diameter equal to 3/5 of the flag's width. The orange dolphins (Pantone 158) are depicted leaping in a clockwise direction with their heads facing outwards. Each dolphin is separated from the others by an angle of 120 degrees.

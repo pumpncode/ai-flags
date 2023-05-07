@@ -4,7 +4,6 @@ import remarkGfm from "remark-gfm";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import { join, relative } from "std/path";
-import { css, cx } from "twind";
 import { unified } from "unified";
 
 import { asset } from "$fresh/runtime.ts";
@@ -17,17 +16,27 @@ const {
 } = Deno;
 
 const config = {
-	routeOverride: "/{:setupName([a-z0-9-]+[/])}+:code([a-z]{3})"
+	routeOverride: "/:vexillologist([a-z0-9.-]+)/:vexillographer([a-z0-9.-]+)/:variant([a-z0-9.-]+)/:instance([a-z0-9.-]+)/:code([a-z]{3})"
 };
 
 const handler = {
 	GET: async (request, context) => {
 		const {
 			params: {
-				setupName,
+				vexillologist,
+				vexillographer,
+				variant,
+				instance,
 				code
 			}
 		} = context;
+
+		const setupName = [
+			vexillologist,
+			vexillographer,
+			variant,
+			instance
+		].join("/");
 
 		const countries = await (await fetch("https://raw.githubusercontent.com/mledoze/countries/master/countries.json")).json();
 
@@ -106,16 +115,16 @@ const handler = {
 
 /**
  *
- * @param root0
- * @param root0.data
- * @param root0.data.content
- * @param root0.data.content
- * @param root0.data.content.name
- * @param root0.data.content.code
- * @param root0.data.content.pngFlagPath
- * @param root0.data.content.description
- * @param root0.data.content.setupName
- * @param root0.data.content.comments
+ * @param props
+ * @param props.data
+ * @param props.data.content
+ * @param props.data.content
+ * @param props.data.content.name
+ * @param props.data.content.code
+ * @param props.data.content.pngFlagPath
+ * @param props.data.content.description
+ * @param props.data.content.setupName
+ * @param props.data.content.comments
  */
 const FlagDetails = ({
 	data: {
@@ -125,35 +134,33 @@ const FlagDetails = ({
 	}
 }) => (
 	<section className="p-4 md:p-16 min-h-[calc(100vh-12rem)]">
-		<h2 className="flex gap-2 items-center h-24">
+		<h2 className="flex items-center h-24 gap-2">
 			<span>{name}</span>
 			<span className="text-base font-mono bg-neutral-700 px-1 py-0.5 rounded">({code})</span>
 		</h2>
 
 		<section className="flex flex-col sm:flex-row gap-4 min-h-[calc(100vh-26rem)]">
-			<div className="w-full flex items-start justify-center p-2 bg-neutral-700 rounded min-h-full">
+			<div className="flex items-start justify-center w-full min-h-full p-2 rounded bg-neutral-700">
 				<img
 					src={asset(pngFlagPath)}
 					alt={`Flag of ${name} (according to ${setupName})`}
-					className={cx`
-							max-w-full max-h-[max(16rem,calc(100vh-23rem))] border border-neutral-800
-							${css({ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" })}
-						`}
+					className="max-w-full max-h-[max(16rem,calc(100vh-23rem))] border border-neutral-800"
+					style={{ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" }}
 				/>
 			</div>
 
-			<div className="w-full flex flex-col gap-4 p-4 bg-neutral-700 min-h-full rounded">
-				<div className="flex flex-col gap-4 p-4 bg-neutral-600 rounded">
+			<div className="flex flex-col w-full min-h-full p-4 rounded gap-4 bg-neutral-700">
+				<div className="flex flex-col p-4 rounded gap-4 bg-neutral-600">
 					<h3 className="text-3xl font-medium">Description</h3>
-					<section className="max-w-prose text-justify markdown"
+					<section className="text-justify max-w-prose markdown"
 						dangerouslySetInnerHTML={{ __html: String(description) }}
 					/>
 				</div>
 
 				{comments && (
-					<div className="flex flex-col gap-4 p-4 bg-neutral-600 rounded">
+					<div className="flex flex-col p-4 rounded gap-4 bg-neutral-600">
 						<h3 className="text-3xl font-medium">Comments</h3>
-						<section className="max-w-prose text-justify markdown"
+						<section className="text-justify max-w-prose markdown"
 							dangerouslySetInnerHTML={{ __html: String(comments) }}
 						/>
 					</div>

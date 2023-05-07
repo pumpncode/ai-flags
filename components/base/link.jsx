@@ -13,7 +13,7 @@ const Link = ({
 			...props
 		}}
 		target="_blank"
-		className="text-cyan-500 underline hover:no-underline"
+		className="underline text-cyan-500 hover:no-underline"
 	>
 		{children}
 	</a>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000000 500000">
+	<path fill="#BA0C2F" d="M0 0v500000l889000-250000z"/>
+	<path fill="#00A651" d="M0 0l889000 250000H0z"/>
+	<path fill="#002664" d="M0 500000l889000-250000H0z"/>
+	<g fill="#FCD116" transform="matrix(86, 0, 0, 86, 222000, 250000)">
+		<circle r="500"/>
+		<path d="M0-1000l-173 500H500z"/>
+		<use transform="rotate(30)"/>
+		<use transform="rotate(60)"/>
+		<use transform="rotate(90)"/>
+		<use transform="rotate(120)"/>
+		<use transform="rotate(150)"/>
+		<use transform="rotate(180)"/>
+		<use transform="rotate(210)"/>
+		<use transform="rotate(240)"/>
+		<use transform="rotate(270)"/>
+		<use transform="rotate(300)"/>
+		<use transform="rotate(330)"/>
+	</g>
+</svg>

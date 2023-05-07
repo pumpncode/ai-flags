@@ -1,0 +1,3 @@
+The flag of Latvia consists of a horizontal triband, with two carmine red (#9E3039) stripes at the top and bottom and a white stripe in the middle. The aspect ratio of the flag is 1:2, meaning the width is twice the length.
+
+The unique geometric property of the flag is the width of the stripes: the width of each red stripe is equal to 2/5 of the flag's width, while the white stripe is 1/5 of the width. This results in the proportion 2:1:2 for the height of the red and white stripes respectively.

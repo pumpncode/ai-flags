@@ -13,7 +13,7 @@ const tools = [
  */
 const Tools = () => (
 	<section className="p-4 md:p-16">
-		<h2 className="flex gap-2 items-center h-24">Tools</h2>
+		<h2 className="flex items-center h-24 gap-2">Tools</h2>
 
 		<section className="flex gap-4">
 			<ul className="grid grid-cols-cards gap-4">
@@ -21,8 +21,8 @@ const Tools = () => (
 					tools.map(({ name, description }, index) => (
 						<li className="w-full" key={index}>
 							<a href={`./tools/${name}`}>
-								<figure className="flex flex-col gap-2 w-full h-full justify-between items-center p-2 border border-neutral-600 rounded hover:bg-neutral-700">
-									<div className="w-full flex flex-col items-center justify-center h-5/6 p-2 bg-neutral-700 rounded">
+								<figure className="flex flex-col items-center justify-between w-full h-full p-2 border rounded gap-2 border-neutral-600 hover:bg-neutral-700">
+									<div className="flex flex-col items-center justify-center w-full p-2 rounded h-5/6 bg-neutral-700">
 										<img
 											src={asset(`./images/logos/tools/${name}.png`)}
 											alt={`${name} logo`}
@@ -31,7 +31,7 @@ const Tools = () => (
 										<span className="text-lg font-bold h-1/6">{name}</span>
 									</div>
 
-									<figcaption className="h-1/6 flex gap-2 items-center justify-center">
+									<figcaption className="flex items-center justify-center h-1/6 gap-2">
 										<span className="text-sm">{description}</span>
 									</figcaption>
 								</figure>

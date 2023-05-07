@@ -1,0 +1,3 @@
+The flag of the Central African Republic has an aspect ratio of 2:3. It consists of four horizontal stripes and one vertical stripe. The horizontal stripes, from top to bottom, are blue (#007FFF), white (#FFFFFF), green (#009900), and yellow (#FECB00). Each stripe is of equal height. The vertical stripe is red (#FF0000) and positioned along the left-hand side of the flag, with a width equal to the height of each of the four horizontal stripes.
+
+In the upper left corner, within the blue stripe, a yellow five-pointed star is centered in the red stripe's width. The distance between the star's points and the surrounding edges is roughly equal, ensuring that it fits snugly within the red stripe.

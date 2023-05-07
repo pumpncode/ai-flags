@@ -1,0 +1,5 @@
+The flag of French Polynesia is a horizontal tricolor consisting of three equally sized stripes: red (#BF0A30), white (#FFFFFF), and red (#BF0A30). In the center of the white stripe, there is a stylized emblem consisting of a circle with radiating lines and five interconnected horizontal stripes. The circle and lines are red (#BF0A30) and the horizontal stripes are white (#FFFFFF).
+
+The flag's aspect ratio is 2:3, meaning the width is twice the height. Exact dimensions for the flag may vary depending on the specific use or setting, but all versions will have the same ratio.
+
+The geometric properties include equal-width horizontal stripes and a centrally placed emblem that is symmetric along the vertical axis. The emblem's circle has a diameter equal to 1/5 of the flag's height, while the five horizontal stripes inside the emblem each measure 1/40 of the height. The space between the horizontal stripes is also equal to 1/40 of the flag's height.

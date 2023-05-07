@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900000 600000">
+	<path fill="#007FFF" d="M0 0h900000v600000H0z"/>
+	<path fill="#CE1126" d="M0 0h300000l600000 600000H600000z"/>
+	<path fill="gold" d="M30000 0h300000l600000 600000H630000z"/>
+	<path fill="gold" d="M0 60000V30000l870000 570000h-30000z"/>
+	<circle cx="180000" cy="120000" r="60000" fill="none" stroke="gold" stroke-width="30000"/>
+	<path fill="gold" d="M180000 60000l28978 111761h115216l-91802 46123 28978 111761L180000 273522l-81370 56123 28978-111761-91802-46123h115216z"/>
+</svg>

@@ -1,6 +1,7 @@
 import { join } from "std/path";
 import { optimize as optimizeSvg } from "svgo";
 
+import isCompletelyTransparent from "./is-completely-transparent.js";
 import isSvgValid from "./is-svg-valid.js";
 import simplifySvg from "./simplify-svg.js";
 import svgToPng from "./svg-to-png.js";
@@ -38,7 +39,10 @@ const {
  * @param countryCodes
  * @param iteratee
  */
+// eslint-disable-next-line max-statements
 const loopOverCountries = async (setupName, countryCodes, iteratee) => {
+	const setupLogger = (...data) => console.log(`[${setupName}]`, ...data);
+
 	const sortedCountries = new Set(
 		[
 			...countries
@@ -70,25 +74,34 @@ const loopOverCountries = async (setupName, countryCodes, iteratee) => {
 		try {
 			let alreadyProcessed = false;
 
+			const completelyTransparentErrorMessage = `[${setupName}] Completely transparent PNG for ${name} (${code})`;
+
 			try {
 				await stat(descriptionFilePath);
 				await stat(svgFlagFilePath);
 				await stat(pngFlagFilePath);
 
+				if (await isCompletelyTransparent(pngFlagFilePath)) {
+					throw new Error(completelyTransparentErrorMessage);
+				}
+
 				alreadyProcessed = true;
 			}
 			catch (error) {
-				if (!(error instanceof NotFound)) {
+				if (
+					!(error instanceof NotFound) &&
+					error.message !== completelyTransparentErrorMessage
+				) {
 					throw error;
 				}
 			}
 
 			if (alreadyProcessed) {
-				console.log(`Already processed ${name} (${code})`);
+				setupLogger(`Already processed ${name} (${code})`);
 				continue;
 			}
 
-			console.log(`Processing ${name} (${code})...`);
+			setupLogger(`Processing ${name} (${code})...`);
 
 			const { description, svg } = await iteratee(
 				{
@@ -108,7 +121,17 @@ const loopOverCountries = async (setupName, countryCodes, iteratee) => {
 				throw new Error(`Invalid SVG code for ${name} (${code})`);
 			}
 
-			const { data: optimizedSvg } = optimizeSvg(svg, svgoConfig);
+			let optimizedSvg = svg;
+
+			try {
+				({ data: optimizedSvg } = optimizeSvg(svg, svgoConfig));
+			}
+			catch (error) {
+				if (error.name === "SvgoParserError") {
+					setupLogger(error);
+					setupLogger(error.message);
+				}
+			}
 
 			const simplifiedSvg = simplifySvg(optimizedSvg);
 
@@ -117,8 +140,8 @@ const loopOverCountries = async (setupName, countryCodes, iteratee) => {
 			await svgToPng(svgFlagFilePath, pngFlagFilePath);
 		}
 		catch (error) {
-			console.error(`Failed to process ${name} (${code})`);
-			console.error(error);
+			setupLogger(`Failed to process ${name} (${code})`);
+			setupLogger(error);
 		}
 	}
 };
