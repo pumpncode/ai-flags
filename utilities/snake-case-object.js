@@ -1,4 +1,4 @@
-import { snakeCase } from "npm:lodash-es";
+import { snakeCase } from "lodash-es";
 
 /**
  *
