@@ -1,0 +1,31 @@
+# fly.toml app configuration file generated for ai-flags on 2023-05-08T01:42:17+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "ai-flags"
+kill_signal = "SIGINT"
+kill_timeout = "5s"
+primary_region = "ams"
+
+[build]
+
+[env]
+  PORT = "8000"
+  PRIMARY_REGION = "ams"
+
+[experimental]
+  auto_rollback = true
+  cmd = ["run", "-A", "--unstable", "./main.js"]
+
+[[services]]
+  internal_port = 8000
+  protocol = "tcp"
+
+  [[services.ports]]
+    handlers = ["http"]
+    port = "80"
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = "443"
