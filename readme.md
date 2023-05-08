@@ -365,6 +365,8 @@ Each new setup has to have a description markdown file at [`setups/{vexillologis
 
 Currently the setups only loop over all countries of the world (or to be precise, any entity that has an ISO 3166-1 alpha-3 code), but the plan is to change this to loop over all entities defined in [static/entities.json](./static/entities.json).
 
+Keep in mind instances of setups should rarely change and should rather be seen as "snapshots". If one comes up with a better prompt or a better method to parse AI output, it should be a new instance. One exception from this is the "reference dataset", the wikipedia setup, which will only ever have one setup and one instance and should be updated in the future, For example, at the moment, descriptions aren't parsed perfectly.
+
 ## Related Work
 
 - [This Flag Does Not Exist](https://thisflagdoesnotexist.com/)
