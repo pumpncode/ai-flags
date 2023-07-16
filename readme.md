@@ -1,16 +1,23 @@
 # ai-flags
 
-This is code for [ai-flags.com](https://ai-flags.com/) and a collection of experiments and tools for working with
-SVG, flags and AI.
+This is code for [ai-flags.com](https://ai-flags.com/) and a collection of experiments and tools for working with SVG, flags and AI.
 
 ## Get Started
 
+These instructions will guide you on how to install and run the project on your local machine for development and testing purposes.
+
 ### Prerequisites
 
-- [Deno](https://deno.land/)
-- [Node.js](https://nodejs.org/en/) (to use eslint while developing)
+The following software is required to get started with the project:
+
+- [Deno](https://deno.land/): A secure runtime for JavaScript and TypeScript.
+- [Node.js](https://nodejs.org/en/): A JavaScript runtime to use eslint for development.
+
+Please ensure you have them installed on your system before proceeding.
 
 ### Installation
+
+Clone the repository and install the required Node.js dependencies by following these steps:
 
 ```bash
 git clone https://github.com/pumpncode/ai-flags.git
@@ -50,10 +57,12 @@ I got the idea for this project back when the first usable text-to-image generat
 
 Considering all of that, it shouldn't come as a surprise that generators like Stable Diffusion or Midjourney are really terrible at generating flat images of flags. To be honest, "really terrible" here is an understatement, because regardless of how you structure your prompt, neither the simple ["myanmar flag"](https://huggingface.co/spaces/stabilityai/stable-diffusion/discussions/13961), nor the more verbose ["flag of myanmar, flat, svg"](https://huggingface.co/spaces/stabilityai/stable-diffusion/discussions/13960), nor the attempt at telling the AI where specifically the reference image is, like ["flat image of the flag of myanmar, svg, high res, wikimedia commons"](https://huggingface.co/spaces/stabilityai/stable-diffusion/discussions/13962) produce acceptable results. A literal 4 year old could do better after hearing a short description of the flag. I mean, not even ["a horizontal tricolour flag of yellow, green, and red charged with a five-pointed white star in the centre of the field, flat, svg, flag of myanmar"](https://huggingface.co/spaces/stabilityai/stable-diffusion/discussions/13963) does the trick.
 
-| !["myanmar flag"](https://s3.amazonaws.com/moonup/production/uploads/1678497994507-noauth.jpeg) | !["flag of myanmar, flat, svg"](https://s3.amazonaws.com/moonup/production/uploads/1678497933654-noauth.jpeg) | !["flat image of the flag of myanmar, svg, high res, wikimedia commons"](https://s3.amazonaws.com/moonup/production/uploads/1678498139869-noauth.jpeg) | !["a horizontal tricolour flag of yellow, green, and red charged with a five-pointed white star in the centre of the field, flat, svg, flag of myanmar"](https://s3.amazonaws.com/moonup/production/uploads/1678498272563-noauth.jpeg) |
+| !["myanmar flag"](https://cdn-uploads.huggingface.co/production/uploads/1678497994507-noauth.jpeg) | !["flag of myanmar, flat, svg"](https://cdn-uploads.huggingface.co/production/uploads/1678497933654-noauth.jpeg) | !["flat image of the flag of myanmar, svg, high res, wikimedia commons"](https://cdn-uploads.huggingface.co/production/uploads/1678498139869-noauth.jpeg) | !["a horizontal tricolour flag of yellow, green, and red charged with a five-pointed white star in the centre of the field, flat, svg, flag of myanmar"](https://cdn-uploads.huggingface.co/production/uploads/1678498272563-noauth.jpeg) |
 | --- | --- | --- | --- |
 
-At this point I gave up on the idea that models like these were capable of generating flags at all. I know it's controversial to call something "an understanding" of things in this context, but while you could argue that these models have somewhat of an understanding of how faces, animals, structures or buildings should look like and what's possible to change about them creatively, without destroying their fundamental structure, they simply have no feeling for basic shapes or sharp, clean edges. They are spitting out pixels based on the words you give them, and it seems like it's just the format of the output that is the actual problem here. I thought, what if you could somehow ask them to tell you what they **think** they are doing as opposed to what they are actually doing? What if you could split the whole process into two tasks, one for figuring out how a flag should look like and one to create an image of it? So I did (sort of).
+I concluded that while these models might have a vague "understanding" of complex structures like faces or buildings, they lack a sense for basic shapes or clean edges. The output seems dictated by the format rather than the content.
+
+This led me to question if the approach could be broken down into two separate tasks - one to interpret the flag's design and another to create the image. And so, I embarked on this project.
 
 ### Text to Text to Image
 
@@ -62,16 +71,14 @@ Separating these two tasks was the first step in the right direction. No longer 
 In this split up process, we can define three "roles":
 
 - The questioner: This can only be a human, although this role could seek AI assistance on how to phrase their question. The questioner asks the **vexillologist** to describe a flag.
-- The vexillologist: This can be either a human or an AI. The vexillologist describes a flag to the **vexillographer** as accurate as possible and asks them to create an image of it.
+- The vexillologist: This can be either a human or an AI. The vexillologist describes a flag to the **vexillographer** as accurately as possible and asks them to create an image of it.
 - The vexillographer: This can be either a human or an AI as well. The vexillographer takes the description of the flag and creates an image of it.
 
-In the experiments above, the last two tasks were both done by AI, but to really find out where AI struggles the most and why, we as humans can jump in and play one of the two roles while the AI plays the other one, or at least inspect the two roles. This can be done in a few different ways using a few different tools of course, but we also shouldn't underestimate the importance of the first role, the questioner. In fact, the way the questioner frames the question can have a significant impact on the AI's ability to provide accurate and relevant responses. As humans, we have the ability to analyze and understand the context of a question and ask follow-up questions to clarify any ambiguities. This is something that AI tools like ChatGPT still struggle with, as it often relies on pre-existing patterns and data sets to generate responses. Especially ChatGPT can sometimes exhibit a tendency to rather provide wrong answers without seeking clarification or additional information instead of telling that it doesn't know or doesn't have enough information.
+In the aforementioned experiments, the last two tasks were performed by AI. However, to identify where AI struggles most, we can have a human assume one role while an AI takes the other, or at least closely examine both roles. Different combinations and tools can be explored, but the importance of the questioner's role should not be overlooked. The way a question is framed significantly impacts the AI's response accuracy. Unlike humans, AI tools like ChatGPT struggle with contextual understanding and tend to generate responses based on existing patterns and datasets, often giving incorrect answers without seeking clarification.
 
-The experiments described below involve ChatGPT exclusively in the designated roles, but it should be noted that there are numerous alternative setups that could be employed. Specifically, when it comes to generating SVG markup, one might argue that a specialized text-to-code model like `code-davinci-002` or GitHub Copilot would be better suited for the task.
+Though the following experiments involve ChatGPT in specific roles, it's worth noting that there are many potential alternatives. For instance, when generating SVG markup, a specialized text-to-code model like `code-davinci-002` or GitHub Copilot may be better suited.
 
-It's also noted that whenever I speak of a "human" slipping into one of the roles, this of course can also just mean text written assisted by AI or the internet or code. For example, if we are the **vexillologist** and are asked to describe a flag of a country accurately, we can just look it up on Wikipedia and copy the description written by another human, not just using content we came up with. Although even Wikipedia isn't accurate enough in some cases, relying on images of construction sheets or too general descriptions a vexillologist might understand but a non-vexillologist might struggle with. However, to keep comparisons "fair", so to speak, I will always try to stay in the scope of the conversation without a lot of outside help, sometimes even actively ignoring my own knowledge of a flag, just to see how far AI can get on its own, since this is basically the whole reason for this project and the main point of interest here. Also keep in mind the randomness of ChatGPT. The selected examples below are just the first results I got, if the goal was to find the best result, asking the same thing multiple times and picking the best answer would be necessary.
-
-Oh and before anyone tries to
+Note: When I refer to a "human" assuming a role, this can mean text generated with AI or internet assistance. For instance, if we're the **vexillologist**, we could look up a flag description on Wikipedia written by another human. However, even Wikipedia descriptions can lack accuracy, relying too much on construction sheet images or generalized descriptions. To maintain fair comparisons, I'll endeavor to stay within the scope of the conversation without much outside assistance, even if that means ignoring my own knowledge of a flag. The aim is to gauge how far AI can go autonomously. Remember, ChatGPT's responses involve a degree of randomness; the examples below are my first results. To get the best results, repeated questioning and cherry-picking the best responses may be necessary.
 
 #### Human Text to AI Text to Human Image
 
