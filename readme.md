@@ -358,7 +358,7 @@ A nice side effect of all the research done here would be a modern, open source,
 
 ## Comparisons
 
-Another goal I have is to implement an image comparison tool on the webapp, using [pixelmatch](https://github.com/mapbox/pixelmatch). You can track my progress on that at [experiments/pixelmatch](./experiments/pixelmatch). It would be awesome if we could then give every setup a score based on how similar its generated flags are to the actual flags. A nice slider thingy on the web app sounds awesome too.
+Another goal I have is to implement an image comparison tool on the webapp, using [pixelmatch](https://github.com/mapbox/pixelmatch). You can track my progress on that at [experiments/pixelmatch](./utilities/local/diff.js). It would be awesome if we could then give every setup a score based on how similar its generated flags are to the actual flags. A nice slider thingy on the web app sounds awesome too.
 
 ## Contributing
 
