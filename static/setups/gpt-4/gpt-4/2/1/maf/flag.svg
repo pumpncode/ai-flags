@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+	<path fill="#D21034" d="M0 0h1800v600H0z"/>
+	<path fill="#21468B" d="M0 600h1800v600H0z"/>
+	<path fill="#FFF" d="M0 0l900 600L0 1200z"/>
+	<g transform="matrix(0.6, 0, 0, 0.6, 225, 360)">
+		<circle cx="450" cy="450" r="450" fill="#F6AE15"/>
+		<circle cx="450" cy="450" r="390" fill="#FFF"/>
+		<circle cx="450" cy="450" r="330" fill="#F6AE15"/>
+		<path fill="#21468B" d="M450 120l90 570h-180z"/>
+		<path fill="#D21034" d="M450 120l-90 570h180z"/>
+		<path fill="#F6AE15" d="M450 120l90 570h-90z"/>
+		<path fill="#FFF" d="M450 120l-90 570h90z"/>
+		<circle cx="450" cy="450" r="150" fill="#21468B"/>
+		<circle cx="450" cy="450" r="120" fill="#FFF"/>
+		<circle cx="450" cy="450" r="90" fill="#F6AE15"/>
+		<path fill="#FFF" d="M450 180a270 270 0 0 1 0 540"/>
+		<path fill="#F6AE15" d="M450 210a240 240 0 0 1 0 480"/>
+		<g fill="#FFF">
+			<circle cx="450" cy="450" r="60"/>
+			<circle cx="450" cy="450" r="30" fill="#F6AE15"/>
+		</g>
+		<text x="450" y="840" fill="#F6AE15" font-family="Arial" font-size="180" text-anchor="middle">SEMPER</text>
+		<text x="450" y="1050" fill="#F6AE15" font-family="Arial" font-size="180" text-anchor="middle">PROGREDIENS</text>
+	</g>
+</svg>

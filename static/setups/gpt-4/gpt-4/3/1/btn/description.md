@@ -1,0 +1,3 @@
+The flag of Bhutan has a 2:3 aspect ratio. It is divided diagonally, forming two triangles. The upper triangle is yellow (color code: #FFD520) and the lower triangle is orange (color code: #DA251D). At the center, there's a white dragon (color code: #FFFFFF) facing right, with its limbs spread across both triangles.
+
+Exact geometric properties and measurements may vary depending on the specific instance of the flag, as they are not standardized.

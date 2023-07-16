@@ -1,0 +1,3 @@
+The flag of French Polynesia consists of three horizontal stripes of red (#ED2939), white (#FFFFFF), and red, with the white stripe being twice the width of each red stripe. In the center of the white band is a circular emblem featuring a canoe, sea, sun, and five stars.
+
+The aspect ratio of the flag is 2:3, meaning it is twice as long as it is wide. The exact geometric properties and measurements are not standardized, but typically the emblem in the center takes up about 50% of the height of the white stripe.

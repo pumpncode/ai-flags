@@ -1,0 +1,3 @@
+The flag of Panama has an aspect ratio of 2:3. It consists of four equal-sized rectangles arranged in a 2x2 grid. The top-left and bottom-right rectangles are white (#FFFFFF), while the top-right rectangle is blue (#005293) and the bottom-left rectangle is red (#D21034). In the center of the white rectangles, there are two five-pointed stars: one blue star in the top-left white rectangle and one red star in the bottom-right white rectangle.
+
+The flag doesn't have specific measurements for its size, as it can be scaled proportionally based on the desired dimensions, maintaining the 2:3 aspect ratio.

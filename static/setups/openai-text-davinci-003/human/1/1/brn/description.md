@@ -1,0 +1,1 @@
+The flag of Brunei is 1:2 in aspect ratio, with a yellow field and two horizontal stripes of white and black, the top stripe is half the height of the flag and the bottom is one third the height. In the center is a red and white crescent with a red and white tipped spear below it pointing upwards.

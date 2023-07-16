@@ -1,0 +1,3 @@
+The flag of Martinique is not officially recognized, but the most commonly used design features a blue field with a centered white cross dividing it into four quadrants. In each quadrant, there is a white snake facing outward. The aspect ratio of the flag is 2:3.
+
+Unfortunately, I cannot provide specific color codes, geometric properties, or measurements for the flag of Martinique, as they are not standardized due to its unofficial status.

@@ -1,0 +1,3 @@
+The flag of El Salvador has an aspect ratio of 189:335. It consists of three horizontal stripes: the top and bottom stripes are blue (Pantone 286C, Hex #0038A8, RGB 0,56,168), while the middle stripe is white (Pantone White, Hex #FFFFFF, RGB 255,255,255). The blue stripes are each 1/4th of the flag's width, and the white stripe is 1/2 of the flag's width.
+
+In the center of the white stripe, there is a coat of arms that spans about half of the stripe's height. The coat of arms features a triangle with a volcano and a landscape inside, surrounded by five flags on each side, and topped by a red Phrygian cap on a staff.

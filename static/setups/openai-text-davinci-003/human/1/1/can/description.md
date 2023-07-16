@@ -1,0 +1,1 @@
+The flag of Canada is a red on white vertical bicolor with a red maple leaf centered in the white field. The ratio is 1:2.

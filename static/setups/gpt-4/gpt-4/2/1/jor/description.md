@@ -1,0 +1,3 @@
+The flag of Jordan has an aspect ratio of 1:2. It consists of three horizontal stripes and a red equilateral triangle at the hoist side. The top stripe is black (color code: #000000), the middle stripe is white (color code: #FFFFFF), and the bottom stripe is green (color code: #007A3D). The red triangle (color code: #CE1126) extends from the hoist to the center of the flag, with its base along the hoist edge and its apex touching the free edge.
+
+The width of each horizontal stripe is equal, taking up one-third of the flag's height. The red triangle's height is equal to the flag's height, and its base is equal to half the flag's height.

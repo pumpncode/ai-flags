@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+	<rect width="600" height="400" fill="#006847"/>
+	<path fill="#FFF" d="M300 120q20-40 40 0l-10 10q-10-20-20 0z"/>
+	<circle cx="320" cy="120" r="10" fill="#FFF"/>
+	<path fill="#FFF" d="M300 160l20-20 20 20-20 20z m-10 30h60l-30 50z"/>
+	<polygon fill="#FFF" points="280,260 360,260 320,320"/>
+	<circle cx="320" cy="340" r="20" fill="#FDCB00"/>
+</svg>

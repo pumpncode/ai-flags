@@ -1,1 +1,0 @@
-The flag of Angola has two horizontal bands of red and black with an emblem centered in the middle. The red is at the top, with a ratio of 1:2, and the black is at the bottom with a ratio of 2:3. The emblem consists of a yellow-bordered machete and hoe crossed in the middle, with a star above them in a yellow cog wheel. The emblem has a ratio of 1:3.

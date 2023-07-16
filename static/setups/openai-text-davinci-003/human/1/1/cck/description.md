@@ -1,0 +1,1 @@
+The flag of Cocos (Keeling) Islands features a blue background with a yellow six-pointed star centered in the middle. It has an aspect ratio of 4:5.

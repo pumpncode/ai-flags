@@ -1,0 +1,3 @@
+The flag of Uzbekistan has an aspect ratio of 1:2. It consists of three horizontal stripes and a vertical stripe on the hoist side. The horizontal stripes are blue (#1EB53A), white (#FFFFFF), and green (#009B4E) in descending order, with the white stripe being twice as narrow as the other two. There is a thin red (#CE1126) fimbriation separating the blue and white stripes, as well as the white and green stripes.
+
+The vertical stripe on the hoist side is red (#CE1126) and occupies one-fourth of the flag's width. Within this red stripe, there is a white crescent moon and twelve white, five-pointed stars arranged in three rows of 2-4-2 stars. The stars form a regular hexagon around the crescent moon.

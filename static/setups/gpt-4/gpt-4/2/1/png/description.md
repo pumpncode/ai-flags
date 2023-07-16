@@ -1,0 +1,3 @@
+The flag of Papua New Guinea has an aspect ratio of 3:4. It is divided diagonally from the top hoist-side corner to the bottom fly-side corner, creating two triangles. The top triangle is red (#CE1126) and features a yellow (#FCD116) five-pointed star. The bottom triangle is black (#000000) and contains a yellow bird-of-paradise silhouette.
+
+Exact geometric properties and measurements are not standardized for national flags, as they can vary depending on the specific flag's production or intended use.

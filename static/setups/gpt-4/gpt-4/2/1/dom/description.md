@@ -1,0 +1,3 @@
+The flag of the Dominican Republic has an aspect ratio of 2:3. It consists of a white cross dividing the flag into four rectangles, with alternating blue (#002D62) and red (#CE1126) colors. The top left and bottom right rectangles are blue, while the top right and bottom left rectangles are red. The white cross is 1/5th the width of the flag.
+
+In the center of the white cross, there is a coat of arms that occupies 50% of the height of the flag. The coat of arms features a shield with six alternating blue and red sections, a white ribbon above it, and a palm branch and bay laurel branch on either side.

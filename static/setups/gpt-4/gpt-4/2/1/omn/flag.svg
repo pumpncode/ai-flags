@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100000 50000">
+	<rect width="25000" height="50000" fill="#D91016"/>
+	<rect width="75000" height="16667" x="25000" fill="#FFF"/>
+	<rect width="75000" height="16667" x="25000" y="16667" fill="#D91016"/>
+	<rect width="75000" height="16667" x="25000" y="33333" fill="green"/>
+	<path fill="#FFF" d="M18750 12500h2500q1250 1250 0 2500h-2500q-1250-1250 0-2500m-2500 2500h7500q1250 1250 0 2500h-7500q-1250-1250 0-2500m1250 5000h5000q1250 1250 0 2500h-5000q-1250-1250 0-2500"/>
+</svg>

@@ -1,0 +1,3 @@
+The flag of Mozambique has an aspect ratio of 2:3. It consists of three horizontal stripes and a red isosceles triangle on the hoist side. The horizontal stripes are green (#007168), white, and black from top to bottom, with thin white stripes separating them. The red triangle (#D21034) extends from the hoist to the center of the flag.
+
+On the red triangle, there is a yellow-bordered white star (#FCD116), a book, and a crossed hoe and AK-47 rifle. The star has five points, and its diameter is 1/6th of the flag's width. The book, hoe, and AK-47 are centered on the star and are proportionally sized to fit within it.

@@ -1,0 +1,3 @@
+The flag of New Caledonia has an aspect ratio of 3:2. It consists of three horizontal stripes and a vertical band on the hoist side. The top and bottom stripes are blue (#002395) and red (#ED1C24), respectively, while the middle stripe is green (#007A53). The vertical band is also blue (#002395) and contains a yellow circle with a diameter equal to 2/3 of the band's width. Inside the circle, there is a black flèche faîtière symbol.
+
+The horizontal stripes have equal heights, each occupying 1/3 of the flag's height. The vertical band takes up 1/3 of the flag's width.

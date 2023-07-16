@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28000 16000">
+	<rect width="28000" height="5333" fill="green"/>
+	<rect width="28000" height="5333" y="5333" fill="#FFF"/>
+	<rect width="28000" height="5333" y="10667" fill="red"/>
+	<path fill="green" d="M0 5333l1272 1109L0 7551Z"/>
+	<path fill="red" d="M0 10667l1272-1109L0 8449Z"/>
+	<g id="a" transform="translate(14000, 5333)">
+		<path d="M0 0c1083-1750 2166-2625 3250-2625S5417-1750 6500 0L3250 3500Z"/>
+		<use href="#a" transform="rotate(60, 3250, 0)"/>
+		<use href="#a" transform="rotate(120, 3250, 0)"/>
+		<use href="#a" transform="rotate(180, 3250, 0)"/>
+		<use href="#a" transform="rotate(240, 3250, 0)"/>
+		<use href="#a" transform="rotate(300, 3250, 0)"/>
+	</g>
+	<use href="#a" transform="scale(-1, 1)"/>
+	<g id="b" transform="translate(1272, 5333)">
+		<path fill="#FFF" d="M0 0l364-625L0-1250h728l364 625L728 0Z"/>
+		<use href="#b" transform="translate(1380)"/>
+		<use href="#b" transform="translate(2760)"/>
+		<use href="#b" transform="translate(4140)"/>
+		<use href="#b" transform="translate(5520)"/>
+		<use href="#b" transform="translate(6900)"/>
+		<use href="#b" transform="translate(8280)"/>
+		<use href="#b" transform="translate(9660)"/>
+		<use href="#b" transform="translate(11040)"/>
+		<use href="#b" transform="translate(12420)"/>
+		<use href="#b" transform="translate(13800)"/>
+		<use href="#b" transform="translate(15180)"/>
+	</g>
+	<use href="#b" transform="scale(-1, 1)"/>
+</svg>

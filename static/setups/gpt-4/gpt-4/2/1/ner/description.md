@@ -1,0 +1,3 @@
+The flag of Niger consists of three horizontal stripes and an orange circle in the center. The top stripe is orange (#E05206), the middle stripe is white (#FFFFFF), and the bottom stripe is green (#009543). The orange circle in the middle of the white stripe has a diameter equal to 4/9 of the stripe's height.
+
+The aspect ratio of the flag is 2:3, meaning its width is 1.5 times its height. If the height is denoted as 'h', then the width would be 1.5h. Each horizontal stripe has an equal height of h/3.

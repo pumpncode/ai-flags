@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000000 500000">
+	<rect width="100%" height="100%" fill="#fff"/>
+	<path fill="#C8102E" d="M0 50000h1000000v100000H0Z"/>
+	<path fill="#C8102E" d="M50000 0v500000h100000V0Z"/>
+	<path stroke="#C8102E" stroke-width="25000" d="M165677 0L0 165677m0 168646L165677 500000M834323 0L1000000 165677m0 168646L834323 500000"/>
+	<path stroke="#FFCD00" stroke-width="50000" d="M175677 0L0 175677m0 148646L175677 500000M824323 0L1000000 175677m0 148646L824323 500000"/>
+</svg>

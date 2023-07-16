@@ -1,0 +1,1 @@
+The flag of Indonesia consists of two horizontal stripes of equal size. The top stripe is red (color code: #FF0000), and the bottom stripe is white (color code: #FFFFFF). The flag has an aspect ratio of 2:3, meaning its width is two-thirds of its length. There are no specific geometric properties or measurements beyond the equal-sized stripes and the aspect ratio.

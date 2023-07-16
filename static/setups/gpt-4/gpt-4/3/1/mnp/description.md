@@ -1,0 +1,3 @@
+The flag of the Northern Mariana Islands has an aspect ratio of 1:2, meaning it is twice as long as it is tall. The flag consists of three main colors: blue (#0033A0), white (#FFFFFF), and red (#C8102E). It features a blue field with a white star in the center, surrounded by a red latte stone shape (a type of traditional Chamorro house foundation) and decorative wreath.
+
+Exact geometric properties and measurements for the flag are not standardized, but generally, the latte stone and wreath take up about half of the flag's height and are centered both vertically and horizontally.

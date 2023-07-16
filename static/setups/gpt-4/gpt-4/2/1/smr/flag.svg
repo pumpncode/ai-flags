@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+	<rect width="300" height="200" fill="#FFF"/>
+	<rect width="300" height="200" y="200" fill="#5499C7"/>
+	<g transform="matrix(0.6, 0, 0, 0.6, 50, 60)">
+		<circle cx="100" cy="100" r="100" fill="#FFF" stroke="#000" stroke-width="4"/>
+		<path d="M100 20l40 40-40 40-40-40Zm0 160l40-40-40-40-40 40Z"/>
+		<path d="M20 100l40-40 40 40-40 40Zm160 0l-40-40-40 40 40 40Z"/>
+		<circle cx="100" cy="100" r="80" fill="none" stroke="#000" stroke-width="4"/>
+		<path d="M100 40l20 20-20 20-20-20Zm0 120l20-20-20-20-20 20Zm-60-60l20-20 20 20-20 20Zm120 0l-20-20-20 20 20 20Z"/>
+	</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30000 20000">
+	<rect width="30000" height="6667" fill="#002395"/>
+	<rect width="30000" height="6667" y="6667" fill="#007A53"/>
+	<rect width="30000" height="6667" y="13333" fill="#ED1C24"/>
+	<rect width="10000" height="20000" fill="#002395"/>
+	<circle cx="5000" cy="10000" r="3333" fill="#FCD116"/>
+	<path fill="none" stroke="black" stroke-width="600" d="M5000 4000l1000 3000H4000Zm0 12000l1000-3000H4000Zm0-9000v6000"/>
+</svg>

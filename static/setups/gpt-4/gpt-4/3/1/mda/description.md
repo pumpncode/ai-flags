@@ -1,0 +1,3 @@
+The flag of Moldova has a vertical tricolor design with equal stripes of blue (#0046AE), yellow (#FFD900), and red (#CE1126) from the hoist side. The aspect ratio is 1:2, meaning the width is twice the length. In the center of the yellow stripe lies the Moldovan coat of arms, which includes an eagle holding a shield, a scepter, and an orb.
+
+Exact measurements or geometric properties are not standardized for national flags, as they can vary depending on specific use cases. However, the coat of arms is typically scaled to occupy around 50% of the height of the yellow stripe.

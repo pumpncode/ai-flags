@@ -1,0 +1,1 @@
+The flag of France, also known as the Tricolore, consists of three vertical stripes of equal width. The colors are blue (#002395), white (#FFFFFF), and red (#ED2939), from left to right. The flag has an aspect ratio of 2:3, meaning its width is 1.5 times its height. There are no specific measurements for the flag, as it can be scaled proportionally to fit various sizes.

@@ -1,0 +1,3 @@
+The flag of Denmark, known as the Dannebrog, has an aspect ratio of 28:37. It features a red background (Pantone 186C) with a white Scandinavian cross that extends to the edges of the flag. The vertical bar of the cross is shifted towards the hoist side, dividing the flag into four rectangles.
+
+The width of the cross arms is 1/14 of the flag's height, while the length of the vertical arm is 3/7 of the flag's length, and the horizontal arm is 6/7 of the flag's length. The distance from the hoist to the vertical arm is 2/7 of the flag's length.

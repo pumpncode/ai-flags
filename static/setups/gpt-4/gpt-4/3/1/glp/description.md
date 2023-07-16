@@ -1,0 +1,3 @@
+The flag of Guadeloupe is not standardized, as Guadeloupe is an overseas region of France and officially uses the French tricolor flag. However, the unofficial local flag often associated with Guadeloupe features a black and white horizontal stripe at the top and bottom, a green and yellow V-shaped pattern in the middle, and a red square containing a yellow sun and green sugar cane symbol in the center.
+
+Unfortunately, due to its unofficial status, there are no specific color codes, aspect ratio, or measurements provided for this flag.

@@ -1,0 +1,3 @@
+The flag of Paraguay has an aspect ratio of 3:5. It consists of three horizontal stripes of equal width, with the top stripe being red (#D52B1E), the middle stripe white (#FFFFFF), and the bottom stripe blue (#0038A8). In the center of the white stripe, there is a circular emblem with a diameter of half the height of the white stripe.
+
+The emblem features a yellow-bordered red circle with a white five-pointed star in the center. Surrounding the red circle is a blue ring with two inscriptions: "República del Paraguay" at the top and "Paz y Justicia" at the bottom, both in white capital letters. The blue ring is bordered by two green wreaths on either side, which are connected at the bottom by a yellow ribbon.

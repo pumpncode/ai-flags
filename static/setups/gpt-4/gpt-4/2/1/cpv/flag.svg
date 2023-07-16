@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900000 600000">
+	<path fill="#003893" d="M0 0h900000v400000H0z"/>
+	<path fill="#FFF" d="M0 400000h900000v100000H0z"/>
+	<path fill="#CE1126" d="M0 500000h900000v100000H0z"/>
+	<g transform="translate(450000, 200000)">
+		<circle r="150000" fill="none" stroke="#FFCD00" stroke-width="2000"/>
+		<g fill="#FFCD00">
+			<path d="M0-120000l34641 82918-62943 25902L-8660 41180l49110-17098-28090 36369-30038-31369h-39404l25000-36164-25000-36163h39404l30039-35370 28090 36368L-8660-16348l-19642 52360 62943-23930z"/>
+			<use href="#star" transform="rotate(36)"/>
+			<use href="#star" transform="rotate(72)"/>
+			<use href="#star" transform="rotate(108)"/>
+			<use href="#star" transform="rotate(144)"/>
+			<use href="#star" transform="rotate(180)"/>
+			<use href="#star" transform="rotate(216)"/>
+			<use href="#star" transform="rotate(252)"/>
+			<use href="#star" transform="rotate(288)"/>
+			<use href="#star" transform="rotate(324)"/>
+		</g>
+	</g>
+</svg>

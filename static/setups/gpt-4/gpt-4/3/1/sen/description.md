@@ -1,0 +1,3 @@
+The flag of Senegal consists of three vertical stripes of equal width in the following order from left to right: green (#008000), yellow (#FFD700), and red (#CE1126). In the center of the yellow stripe, there is a green, five-pointed star (#008000). The aspect ratio of the flag is 2:3, meaning its width is two-thirds of its length.
+
+The geometric properties of the flag include the division of the flag into three equal parts by the vertical stripes, and the positioning of the star in the center of the middle stripe. The star's size and position are not standardized, but it is typically inscribed within an invisible circle with a diameter approximately half the width of the yellow stripe.

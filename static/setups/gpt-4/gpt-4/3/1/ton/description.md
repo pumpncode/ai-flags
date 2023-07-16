@@ -1,0 +1,3 @@
+The flag of Tonga has an aspect ratio of 1:2. It consists of two colors: red (#C60C30) and white (#FFFFFF). The flag is divided into two parts: a larger red field and a smaller white canton in the top-left corner.
+
+The white canton is a square with sides equal to half the height of the flag. Inside the canton, there is a red cross. The cross consists of four rectangles, each with a width equal to 1/5th the side length of the canton. The horizontal arm of the cross is centered vertically, while the vertical arm is centered horizontally within the canton.

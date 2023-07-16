@@ -1,0 +1,3 @@
+The flag of Argentina consists of three horizontal bands of light blue (top and bottom) and white (middle). The blue color code is #75AADB, while the white color code is #FFFFFF. In the center of the white band, there is a golden yellow Sun of May with a face, which has a color code of #FDB813.
+
+The flag's aspect ratio is 9:14, meaning its width is 1.556 times its height. The width of each horizontal band is equal, dividing the flag's height into three equal parts. The Sun of May is placed at the center of the middle white band and has a diameter that spans approximately 5/6 of the white band's height.

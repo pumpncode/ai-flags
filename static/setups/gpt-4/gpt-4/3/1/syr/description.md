@@ -1,0 +1,3 @@
+The flag of Syria features three horizontal stripes and two five-pointed stars. The aspect ratio is 2:3. The top stripe is red (#CE1126), the middle stripe is white (#FFFFFF), and the bottom stripe is black (#000000). Each stripe occupies one-third of the flag's height. 
+
+In the middle white stripe, there are two green (#007A3D) five-pointed stars, placed side by side with a small gap between them. The stars are positioned slightly above the centerline of the white stripe, and their diameter is approximately one-eighth of the flag's width.

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 30000">
+	<rect width="60000" height="30000" fill="#0033a0"/>
+	<g transform="matrix(0.6, 0, 0, 0.6, 30000, 12000)">
+		<path fill="#009e49" d="M0 0h5000L2500 4330Z"/>
+		<path fill="white" stroke="white" stroke-width="350" d="M1750 875h3500L3500 3906Z"/>
+		<path fill="black" d="M0 0h5000L2500-4330Z"/>
+		<circle cx="1750" cy="-2150" r="1000" fill="#c8102e"/>
+		<circle cx="3250" cy="-2150" r="1000" fill="#c8102e"/>
+	</g>
+</svg>

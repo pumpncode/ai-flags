@@ -1,0 +1,1 @@
+The flag of Poland consists of two horizontal stripes of equal size. The top stripe is white (color code: #FFFFFF), and the bottom stripe is red (color code: #DC143C). The flag has an aspect ratio of 5:8, meaning its width is 5 units and its height is 8 units. There are no other symbols or geometric properties on the flag.

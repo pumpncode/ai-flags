@@ -1,0 +1,3 @@
+The flag of Switzerland is a square with an aspect ratio of 1:1. It has a red background (Pantone 485 C) and features a white cross in the center. The cross consists of a horizontal and vertical band, each with equal width, intersecting at their midpoints. The arms of the cross are of equal length, extending to the edges of the flag.
+
+Each arm of the cross is divided into two equal rectangles, creating a total of four rectangles per arm. The width of the cross arms is 1/6th the height of the flag. The distance between the rectangles on the same arm is also 1/6th the height of the flag.

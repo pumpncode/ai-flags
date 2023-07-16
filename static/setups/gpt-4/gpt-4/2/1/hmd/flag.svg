@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5120000 2560000">
+	<rect width="5120000" height="2560000" fill="#00247d"/>
+	<polygon fill="#fff" points="0,0 0,1280000 5120000,1280000 5120000,0"/>
+	<polygon fill="#ff0101" points="0,0 0,640000 5120000,640000 5120000,0"/>
+	<polygon fill="#fff" points="0,0 0,320000 5120000,320000 5120000,0"/>
+	<polygon fill="#ff0101" points="0,0 0,160000 5120000,160000 5120000,0"/>
+	<polygon fill="#fff" points="0,0 640000,0 640000,2560000 0,2560000"/>
+	<polygon fill="#ff0101" points="0,0 320000,0 320000,2560000 0,2560000"/>
+	<polygon fill="#fff" points="0,0 160000,0 160000,2560000 0,2560000"/>
+	<polygon fill="#ff0101" points="0,0 80000,0 80000,2560000 0,2560000"/>
+	<g transform="matrix(1.6, 0, 0, 1.6, 800000, 400000)">
+		<circle r="240000" fill="#fff"/>
+		<circle r="200000" fill="#00247d"/>
+		<circle r="160000" fill="#fff"/>
+		<circle r="120000" fill="#ff0101"/>
+		<g fill="#fff">
+			<polygon points="0,-160000 69282,-49641 69282,49641"/>
+			<polygon points="0,160000 -69282,49641 -69282,-49641"/>
+			<polygon points="-160000,0 -49641,-69282 49641,-69282"/>
+			<polygon points="160000,0 49641,69282 -49641,69282"/>
+		</g>
+	</g>
+	<g transform="rotate(-90, 1920000, -640000)">
+		<polygon fill="#fff" points="0,0 640000,0 640000,320000 0,320000"/>
+		<polygon fill="#ff0101" points="0,0 640000,0 640000,160000 0,160000"/>
+		<polygon fill="#fff" points="0,0 320000,0 320000,640000 0,640000"/>
+		<polygon fill="#ff0101" points="0,0 160000,0 160000,640000 0,640000"/>
+	</g>
+</svg>

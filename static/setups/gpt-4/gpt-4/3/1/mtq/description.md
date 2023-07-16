@@ -1,0 +1,3 @@
+The flag of Martinique doesn't have an official design, but the most commonly used unofficial flag is known as the "snake flag" or "Serpentinite." It features a blue field with a white cross dividing it into four rectangles. In the top-left corner, there's a white snake on a blue background. The aspect ratio is 2:3.
+
+Unfortunately, I cannot provide color codes, geometric properties, measurements, and other specific information, as these details are not standardized for this unofficial flag.

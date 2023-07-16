@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
+	<rect width="60000" height="40000" fill="#007168"/>
+	<rect width="60000" height="3333" y="13333" fill="white"/>
+	<rect width="60000" height="6667" y="16667" fill="black"/>
+	<rect width="60000" height="3333" y="23333" fill="white"/>
+	<rect width="60000" height="13333" y="26667" fill="#007168"/>
+	<polygon fill="#D21034" points="0,0 30000,20000 0,40000"/>
+	<circle cx="12000" cy="20000" r="5000" fill="#FCD116" stroke="white" stroke-width="1000"/>
+	<path fill="white" d="M12000 15000l2000 2000h-4000Z"/>
+	<rect width="2000" height="4000" x="11000" y="17000" fill="white"/>
+	<path fill="white" d="M9500 19000h5000l-2500 4000Z"/>
+	<path fill="black" d="M13000 18000l500 1500h1500l-1000 1000 500 1500-1500-1000-1500 1000 500-1500-1000-1000h1500Zm-4000 2000l-1000 4000h2000Z"/>
+	<path fill="black" d="M15000 20000l1000 4000h-2000Z"/>
+</svg>

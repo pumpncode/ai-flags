@@ -1,0 +1,3 @@
+The flag of Micronesia has an aspect ratio of 10:19. It consists of a light blue background with four white, five-pointed stars arranged in a diamond pattern. The color code for the light blue background is #75B2DD.
+
+The flag doesn't have specific measurements for its geometric properties, but the stars are typically equidistant from each other and centered on the flag. Each star represents one of the four states in the Federated States of Micronesia: Yap, Chuuk, Pohnpei, and Kosrae.

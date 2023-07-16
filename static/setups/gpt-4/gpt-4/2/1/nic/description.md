@@ -1,0 +1,3 @@
+The flag of Nicaragua has an aspect ratio of 3:5. It consists of three horizontal stripes of equal width, with the top and bottom stripes being blue (#0038A8) and the middle stripe being white (#FFFFFF). In the center of the white stripe, there is a circular emblem that features a triangle, volcanoes, a rainbow, and other elements.
+
+Unfortunately, I cannot provide specific measurements or geometric properties for the emblem as they are not standardized.

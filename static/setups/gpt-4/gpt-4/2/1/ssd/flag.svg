@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600000 300000">
+	<rect width="600000" height="50000"/>
+	<rect width="600000" height="50000" y="50000" fill="#CE1126"/>
+	<rect width="600000" height="50000" y="100000" fill="#007A4D"/>
+	<rect width="600000" height="5000" y="150000" fill="#CE1126"/>
+	<rect width="600000" height="40000" y="155000" fill="#FFF"/>
+	<rect width="600000" height="5000" y="195000" fill="#007A4D"/>
+	<rect width="600000" height="50000" y="200000" fill="#FCD116"/>
+	<polygon fill="#0F47AF" points="0,0 0,300000 300000,150000"/>
+	<path fill="#FCD116" d="M150000 87500l34549 48041 55451 7000-38882 34541L210000 225000l-60000-25000-60000 25000 8882-47918L60000 142541l55451-7000Z"/>
+</svg>

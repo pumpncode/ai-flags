@@ -1,0 +1,3 @@
+The flag of Antarctica, known as the Graham Bartram design, has an aspect ratio of 2:3. It features a white map of the continent centered on a blue background (Pantone 300), with two white stripes at the top and bottom and an orange (Pantone 137) stripe in between the white stripes and blue field. The exact dimensions of the stripes are not standardized, but they are generally depicted as being equal in width.
+
+The flag does not have specific geometric properties and measurements beyond its aspect ratio, as the shape of the continent's map is irregular.

@@ -1,0 +1,1 @@
+The flag of Bouvet Island has two equal vertical stripes, the left stripe is red and the right stripe is blue. The aspect ratio of the flag is 2:3.

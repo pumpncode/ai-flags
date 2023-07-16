@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+	<rect width="600" height="300" fill="#C6363D"/>
+	<rect width="600" height="300" y="300" fill="#0C4076"/>
+	<rect width="600" height="300" y="600" fill="#FFF"/>
+	<g transform="matrix(0.5, 0, 0, 0.5, 85, 270)">
+		<path fill="#FECB00" d="M100 0l100 50v100l-100 50L0 150V50Z"/>
+		<circle cx="100" cy="100" r="60" fill="#002395"/>
+		<circle cx="100" cy="100" r="50" fill="#FFF"/>
+		<path fill="#C6363D" d="M100 50l30 45H70Z"/>
+		<path fill="#0C4076" d="M100 50l30 45h30l-60 55-60-55h30Z"/>
+		<path fill="#FFF" d="M100 150l30-55H70Z"/>
+		<path fill="#FECB00" d="M100 50L70 95H40l60 55 60-55h-30Z"/>
+	</g>
+</svg>

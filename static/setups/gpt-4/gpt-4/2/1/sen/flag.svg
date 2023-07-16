@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
+	<rect width="20000" height="40000" fill="green"/>
+	<rect width="20000" height="40000" x="20000" fill="gold"/>
+	<rect width="20000" height="40000" x="40000" fill="red"/>
+	<polygon fill="green" points="35000,20000 33309,23309 30000,23309 32218,26691 30000,30000 33309,30000 35000,33309 36691,30000 40000,30000 37782,26691 40000,23309 36691,23309"/>
+</svg>

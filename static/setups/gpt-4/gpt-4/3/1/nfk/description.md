@@ -1,0 +1,3 @@
+The flag of Norfolk Island has an aspect ratio of 1:2. It features three vertical stripes, with the left and right stripes being green (#007A3D) and the middle stripe being white. The green stripes are each 1/7th of the flag's width, while the white stripe is 5/7ths of the width.
+
+In the center of the white stripe, there is a green Norfolk Island Pine tree silhouette, which is 3/5ths of the flag's height. Surrounding the pine tree, there is a green circle with a diameter that is 4/5ths of the flag's height. Inside the circle, a white border is present, having a width equal to 1/60th of the flag's height.

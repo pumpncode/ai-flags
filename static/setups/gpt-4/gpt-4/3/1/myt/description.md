@@ -1,0 +1,1 @@
+The flag of Mayotte does not have an official design since it is an overseas department and region of France. As a result, it uses the French national flag, also known as the Tricolore or Tricolor. The flag features three vertical stripes of equal width in blue (#0055A4), white (#FFFFFF), and red (#EF4135). Its aspect ratio is 2:3, meaning the length is 1.5 times the height.

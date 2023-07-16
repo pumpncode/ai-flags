@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+	<path d="M0 0h500v40H0z"/>
+	<path fill="#fff" d="M0 260h500v40H0z"/>
+	<path fill="green" d="M0 40l250 220H0z"/>
+	<path fill="#ff0" d="M500 40L250 260h250z"/>
+	<path fill="red" d="M200 90h100v100H200z"/>
+	<circle cx="250" cy="140" r="30" fill="#ff0"/>
+	<path stroke="green" stroke-width="4" d="M250 110v60"/>
+</svg>

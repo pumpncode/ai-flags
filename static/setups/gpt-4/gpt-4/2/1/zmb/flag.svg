@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+	<rect width="900" height="600" fill="#007168"/>
+	<rect width="300" height="100" x="600" y="100" fill="#FF8200"/>
+	<rect width="300" height="100" x="600" y="200"/>
+	<rect width="300" height="100" x="600" y="300" fill="#CE1126"/>
+	<rect width="300" height="2" x="600" y="99" fill="#FFF"/>
+	<rect width="300" height="2" x="600" y="199" fill="#FFF"/>
+	<rect width="300" height="2" x="600" y="299" fill="#FFF"/>
+	<path fill="#FFF" d="M540 300l60-100 60 100Z"/>
+	<path fill="#FFF" d="M555 270q15-40 30 0t30 0 30 0"/>
+	<path d="M540 300q30-60 60 0t60 0"/>
+</svg>

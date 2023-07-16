@@ -1,0 +1,1 @@
+The flag of Central African Republic is a rectangular triband of blue, white, and green, of proportions 2:3. The top and bottom bands are blue, the central is white, and the middle to bottom stripe is green.

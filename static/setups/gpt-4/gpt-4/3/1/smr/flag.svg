@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+	<rect width="600" height="400" fill="#FFF"/>
+	<rect width="600" height="400" y="400" fill="#5EB6E4"/>
+	<g transform="translate(75, 150)">
+		<path fill="#FFCD00" d="M225 0L450 150l-225 150L0 150Z"/>
+		<path fill="#FFF" d="M225 30L420 150l-195 120L30 150Z"/>
+		<rect width="60" height="120" x="105" y="90" fill="#FFF" rx="10" ry="10"/>
+		<rect width="60" height="120" x="165" y="90" fill="#FFF" rx="10" ry="10"/>
+		<rect width="60" height="120" x="225" y="90" fill="#FFF" rx="10" ry="10"/>
+		<path fill="#FFF" d="M120 90l30-30 30 30m0 0l30-30 30 30m0 0l30-30 30 30"/>
+		<path fill="#FFCD00" d="M135 30q90-60 180 0m-240 270q150 60 300 0"/>
+		<text x="225" y="320" font-family="serif" font-size="40" text-anchor="middle">LIBERTAS</text>
+	</g>
+</svg>

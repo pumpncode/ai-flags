@@ -1,0 +1,3 @@
+The flag of Rwanda has an aspect ratio of 2:3. It consists of three horizontal stripes and a yellow sun with 24 rays in the top right corner. The stripe colors are blue (Pantone 286 C), yellow (Pantone 123 C), and green (Pantone 355 C). The top blue stripe covers half of the flag's height, while the yellow and green stripes cover one-quarter each.
+
+The sun is placed in the upper right corner of the blue stripe, with its center at a distance of one-sixteenth of the flag's length from the top and right edges. The sun's diameter is also one-sixteenth of the flag's length. The sun is yellow (Pantone 123 C) with 24 rays extending outwards, alternating between triangular and wavy shapes.

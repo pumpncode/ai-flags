@@ -1,0 +1,3 @@
+The flag of Palau has an aspect ratio of 5:8. It consists of a light blue background with color code #4AADD6, and a large yellow circle positioned slightly off-center towards the hoist (left) side. The yellow circle's color code is #FFDE00. 
+
+The diameter of the circle is approximately half of the flag's height, and its center is about one-third of the flag's length away from the hoist. Exact measurements may vary depending on the size of the flag produced; however, the proportions remain consistent.

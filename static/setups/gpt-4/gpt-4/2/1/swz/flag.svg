@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+	<rect width="300" height="28" fill="#0070C0"/>
+	<rect width="300" height="18" y="28" fill="gold"/>
+	<rect width="300" height="60" y="46" fill="#CE1126"/>
+	<rect width="300" height="18" y="106" fill="gold"/>
+	<rect width="300" height="28" y="124" fill="#0070C0"/>
+	<path d="M100 80l10-10 10 10-10 10Z"/>
+	<path fill="#FFF" d="M110 70v20l20-10Z"/>
+	<path d="M110 80h20l10-10v20Z"/>
+	<path fill="#FFF" d="M140 70v20l20-10Z"/>
+	<path fill="gold" d="M110 80h20l-10 15Z"/>
+</svg>

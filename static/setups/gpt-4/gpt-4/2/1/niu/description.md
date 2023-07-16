@@ -1,0 +1,5 @@
+The flag of Niue has an aspect ratio of 1:2. It consists of two main colors: yellow (#FFD700) and blue (#0000FF). The flag is divided into two parts: the upper left corner features the Union Jack, while the right side is a solid blue field.
+
+The Union Jack itself contains three colors: red (#C8102E), white (#FFFFFF), and blue (#012169). It occupies one-fourth of the flag's area and is positioned in the canton. The blue field takes up the remaining three-fourths of the flag.
+
+In the center of the blue field, there is a yellow circle with a diameter equal to half the height of the flag. Inside the yellow circle, there are 24 small white five-pointed stars arranged in a circle, each with a diameter equal to one-twelfth of the flag's height. The distance between the outer edge of the yellow circle and the tips of the stars is equal to one twenty-fourth of the flag's height.

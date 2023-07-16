@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4500000 3300000">
+	<defs>
+		<symbol id="a" overflow="visible" viewBox="0 0 105146 100000">
+			<path d="M0-50000L32492 50000l-85065-61803H52573l-85065 61803z"/>
+		</symbol>
+	</defs>
+	<path fill="green" d="M0 0h4500000v3300000H0z"/>
+	<path fill="#ff0" d="M2250000 660000l1350000 990000-1350000 990000-1350000-990000z"/>
+	<circle cx="2250000" cy="1650000" r="800000" fill="#00f"/>
+	<use width="52573" height="50000" x="2498000" y="1378000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2386000" y="1514000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2162000" y="1530000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2058000" y="2098000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="1898000" y="2186000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2834000" y="2042000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2746000" y="1466000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2586000" y="1354000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2650000" y="1386000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2386000" y="1618000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2146000" y="1554000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2130000" y="1586000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="1866000" y="2138000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2850000" y="1890000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="1994000" y="1522000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="1978000" y="1858000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2698000" y="1298000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2106000" y="1546000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="1834000" y="2218000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2122000" y="1594000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2522000" y="1354000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2466000" y="1426000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2722000" y="1314000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2114000" y="1602000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2042000" y="1554000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2682000" y="1394000" fill="#fff" href="#a"/>
+	<use width="52573" height="50000" x="2866000" y="1874000" fill="#fff" href="#a"/>
+</svg>

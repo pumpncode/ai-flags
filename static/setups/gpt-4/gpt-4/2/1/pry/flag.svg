@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300000 180000">
+	<rect width="300000" height="60000" fill="#D52B1E"/>
+	<rect width="300000" height="60000" y="60000" fill="#FFF"/>
+	<rect width="300000" height="60000" y="120000" fill="#0038A8"/>
+	<circle cx="150000" cy="90000" r="30000" fill="#0038A8"/>
+	<circle cx="150000" cy="90000" r="27000" fill="#FFF"/>
+	<circle cx="150000" cy="90000" r="24000" fill="#0038A8"/>
+	<circle cx="150000" cy="90000" r="21000" fill="#D52B1E"/>
+	<circle cx="150000" cy="90000" r="18000" fill="#FCD116"/>
+	<circle cx="150000" cy="90000" r="15000" fill="#D52B1E"/>
+	<polygon fill="#FFF" points="150000,75000 154082,79236 160901,80901 155764,84618 156472,91345 150000,88618 143528,91345 144236,84618 139099,80901 145918,79236"/>
+	<path fill="none" stroke="#FCD116" stroke-width="6000" d="M150000 63000a27000 27000 0 0 1 0 54000"/>
+	<path fill="none" stroke="#28AE66" stroke-width="6000" d="M150000 63000a27000 27000 0 0 0 0 54000"/>
+	<text x="150000" y="96000" fill="#FFF" font-family="Arial" font-size="10000" text-anchor="middle">REPÚBLICA DEL PARAGUAY</text>
+	<text x="150000" y="84000" fill="#FFF" font-family="Arial" font-size="10000" text-anchor="middle">PAZ Y JUSTICIA</text>
+</svg>

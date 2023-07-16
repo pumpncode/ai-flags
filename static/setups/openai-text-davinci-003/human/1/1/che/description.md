@@ -1,0 +1,1 @@
+The flag of Switzerland consists of a red banner with a white cross in the center that takes up the entire length and width of the flag and has arms which are equal in width. The top and bottom arms of the cross are one fifth of the flag's length in width, while the outer arms are one fourth of the flag's length in width. The flag's aspect ratio is 1:1.5.

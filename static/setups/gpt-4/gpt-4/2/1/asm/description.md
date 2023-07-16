@@ -1,0 +1,3 @@
+The flag of American Samoa consists of a red field (#BF0A30) with a white triangle (#FFFFFF) pointing towards the hoist side, and a blue triangle (#002868) at the top. The white triangle has a bald eagle clutching a Samoan war club (uatogi) and fly-whisk (fue) in its talons. The aspect ratio of the flag is 1:2.
+
+Unfortunately, specific geometric properties, measurements, and other detailed information about the flag are not readily available.

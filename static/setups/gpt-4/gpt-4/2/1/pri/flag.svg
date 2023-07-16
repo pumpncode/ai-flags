@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 2000">
+	<rect width="3000" height="400" fill="red"/>
+	<rect width="3000" height="400" y="800" fill="red"/>
+	<rect width="3000" height="400" y="1600" fill="red"/>
+	<rect width="3000" height="400" y="400" fill="#FFF"/>
+	<rect width="3000" height="400" y="1200" fill="#FFF"/>
+	<path fill="#00247D" d="M0 0v2000l1500-1000Z"/>
+	<polygon fill="#FFF" points="750,500 875,683 1083,683 938,826 1000,1034 750,900 500,1034 562,826 417,683 625,683"/>
+</svg>

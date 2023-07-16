@@ -1,0 +1,5 @@
+The flag of Kenya has a horizontal tricolor design with black (#000000) on top, red (#BF0A30) in the middle, and green (#006747) at the bottom. These stripes are separated by two narrow white stripes. In the center of the flag is a red-white-black Maasai shield and two crossed white spears.
+
+The aspect ratio of the flag is 2:3, meaning its width is two units while its height is three units. The three main color bands (black, red, and green) are equal in size, occupying one-third of the flag's height each. The two white stripes separating the color bands have a smaller width, typically around 1/20th of the flag's height.
+
+The Maasai shield is placed in the middle of the red stripe and covers a significant portion of the flag's height, while the two crossed white spears extend vertically from the top to the bottom of the shield.

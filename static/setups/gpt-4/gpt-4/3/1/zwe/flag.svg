@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 2500">
+	<rect width="5000" height="2500" fill="#009E49"/>
+	<rect width="5000" height="357" y="357" fill="#FFD200"/>
+	<rect width="5000" height="357" y="714" fill="#E00032"/>
+	<rect width="5000" height="357" y="1071"/>
+	<rect width="5000" height="357" y="1428" fill="#E00032"/>
+	<rect width="5000" height="357" y="1785" fill="#FFD200"/>
+	<polygon fill="#FFF" points="0,0 2500,1250 0,2500"/>
+	<circle cx="875" cy="1250" r="375" fill="#E00032"/>
+	<path fill="#FFD200" d="M875 670l175 335-335-200h320l-335 200Z"/>
+	<path fill="#FFD200" d="M875 925q100 200 200 0t200 0q-100 200-200 0t-200 0Z"/>
+</svg>

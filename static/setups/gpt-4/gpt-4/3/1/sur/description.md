@@ -1,0 +1,3 @@
+The flag of Suriname has an aspect ratio of 2:3. It consists of five horizontal stripes, with green (#377E3F) on the top and bottom, white (#FFFFFF) in the middle, and red (#B40A2D) between the green and white stripes. The green stripes are each 1/6th of the flag's height, while the white stripe is 1/6th and the red stripes are each 2/15ths.
+
+In the center-left of the red band, there is a large yellow star (#ECC81D) with five points. The distance from the hoist side to the center of the star is 1/3rd of the flag's length. The star's diameter is equal to the height of the white stripe.

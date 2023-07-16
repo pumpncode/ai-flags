@@ -1,0 +1,3 @@
+The flag of Solomon Islands has a 1:2 aspect ratio. It consists of two diagonal bands divided by a thin yellow stripe, with the upper triangle being blue (Pantone 286C) and the lower triangle being green (Pantone 347C). In the top left corner of the flag is a white (Pantone White) fimbriated five-pointed star formation, representing the five main island groups.
+
+The thin yellow stripe has a width of 1/48 of the flag's length. The five stars have a diameter equal to 1/12 of the flag's width and are arranged in an isosceles triangle with its apex at the midpoint of the hoist side. The stars' center-to-center distance forms a circle with a diameter equal to 1/6 of the flag's width.

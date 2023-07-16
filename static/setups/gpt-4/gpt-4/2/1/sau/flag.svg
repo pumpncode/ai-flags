@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+	<rect width="600" height="400" fill="#006C35"/>
+	<path fill="white" d="M150 200v30l150-15Z"/>
+	<text x="160" y="210" fill="white" font-family="Arial" font-size="60" transform="matrix(1, 0, 0, -1, 0, 400)">
+    لَا إِلٰهَ إِلَّا ٱلله مُحَمَّدٌ رَسُولُ ٱلله
+  </text>
+</svg>

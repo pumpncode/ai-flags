@@ -1,0 +1,1 @@
+As of my knowledge cutoff date in September 2021, Heard Island and McDonald Islands do not have an official flag. These islands are Australian external territories, so they typically use the Australian national flag.

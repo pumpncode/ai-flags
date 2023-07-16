@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+	<rect width="1200" height="600" fill="#012169"/>
+	<path fill="#c8102e" d="M0 0l300 300L0 600Z"/>
+	<path fill="#c8102e" d="M0 0h600L300 300Zm0 600h600L300 300ZM1200 0L900 300l300 300Z"/>
+	<rect width="100" height="100" x="100" y="250" fill="#fff"/>
+	<rect width="100" height="100" x="100" y="350" fill="#fff"/>
+	<rect width="100" height="100" x="200" y="250" fill="#fff"/>
+	<rect width="100" height="100" x="200" y="350" fill="#fff"/>
+	<circle cx="150" cy="300" r="50" fill="#006a4e"/>
+	<circle cx="250" cy="300" r="50" fill="#006a4e"/>
+	<circle cx="150" cy="400" r="50" fill="#006a4e"/>
+	<circle cx="250" cy="400" r="50" fill="#006a4e"/>
+	<circle cx="200" cy="350" r="50" fill="#006a4e"/>
+</svg>

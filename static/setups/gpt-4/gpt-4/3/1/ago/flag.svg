@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
+	<path fill="#CE1126" d="M0 0h60000v20000H0z"/>
+	<path d="M0 20000h60000v20000H0z"/>
+	<g transform="translate(30000, 20000)">
+		<circle r="6000" fill="#FCD116"/>
+		<path d="M-4897 1268l2492-4318h4810L-87 1268Z"/>
+		<path fill="#CE1126" d="M-3687 233l1645-2842h3284L-403 233Z"/>
+		<path d="M-1754-814l-598 1035h-1196Z"/>
+		<path fill="#CE1126" d="M-2216-914l395-683h790Z"/>
+		<path d="M-2467-3774l454 784h-908Z"/>
+		<path fill="#CE1126" d="M-2091-3485l299-517h598Z"/>
+		<path d="M-4146-2994h908l-454-784Z"/>
+		<path fill="#CE1126" d="M-3770-2705h598l-299 517Z"/>
+	</g>
+</svg>

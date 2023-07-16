@@ -1,0 +1,3 @@
+The flag of Ethiopia consists of three horizontal stripes and a central emblem. The aspect ratio is 1:2. The stripes are green (#008000) on top, yellow (#FCD116) in the middle, and red (#CE1126) at the bottom, each occupying one-third of the flag's height.
+
+The central emblem features a blue circle (#0101DF) with a diameter of half the flag's height, centered on the middle stripe. Inside the circle is a yellow star with equally spaced rays, forming a regular pentagram. The star's circumscribed circle has a diameter equal to four-fifths of the blue circle's diameter.

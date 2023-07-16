@@ -1,0 +1,1 @@
+The flag of Bhutan is rectangular and has an aspect ratio of 2:3. It is diagonally divided from top-left to bottom-right. The upper triangle is orange and the lower one is yellow. The center of the flag also holds a large white and orange Dharmachakra or "Wheel of Law" with two dragons facing each other.

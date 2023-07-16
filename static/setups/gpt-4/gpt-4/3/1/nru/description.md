@@ -1,0 +1,3 @@
+The flag of Nauru has an aspect ratio of 1:2 and consists of a blue field (#002B7F) with a thin yellow stripe (#FCD116) running horizontally through the middle. The stripe is 1/24th of the flag's width. In the lower hoist (left) quadrant, there's a white 12-pointed star (#FFFFFF). Each point of the star represents one of the 12 original tribes of Nauru.
+
+The diameter of the circumscribed circle around the star is equal to half the height of the flag. The distance from the hoist edge to the center of the star is equal to one-sixth of the flag's length.

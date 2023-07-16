@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
+	<rect width="60000" height="6667"/>
+	<rect width="60000" height="6667" y="6667" fill="#FCD116"/>
+	<rect width="60000" height="6667" y="13334" fill="#CE1126"/>
+	<rect width="60000" height="6667" y="20000"/>
+	<rect width="60000" height="6667" y="26667" fill="#FCD116"/>
+	<rect width="60000" height="6667" y="33334" fill="#CE1126"/>
+	<circle cx="30000" cy="20000" r="10000" fill="#FFF"/>
+	<path fill="gray" d="M30000 15000l-1000 2000h2000Zm0 2000q-1000 1000 0 2000 1000-1000 0-2000m-500 2000h1000l-500 2000Z"/>
+	<circle cx="30000" cy="16000" r="1000" fill="gray"/>
+</svg>

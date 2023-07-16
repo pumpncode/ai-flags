@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250500 125250">
+	<path fill="#CE1126" d="M0 0h250500v125250H0Z"/>
+	<g transform="matrix(30, 0, 0, 30, 62750, 62500)">
+		<g id="a">
+			<path fill="#FFF" d="M0 0l433 250 433-250v500L433 750l433 250v500L433 1250 0 1500V1000l433-250L0 500z"/>
+			<circle cy="-96" r="64" fill="#CE1126"/>
+		</g>
+		<use href="#a" transform="rotate(72)"/>
+		<use href="#a" transform="rotate(144)"/>
+		<use href="#a" transform="rotate(216)"/>
+		<use href="#a" transform="rotate(288)"/>
+	</g>
+</svg>

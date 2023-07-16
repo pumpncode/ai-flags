@@ -1,0 +1,3 @@
+The flag of Sri Lanka has an aspect ratio of 1:2. It consists of two vertical stripes on the left and a larger rectangular area on the right. The leftmost stripe is orange (#FF9933) and measures 1/7th of the flag's length, while the adjacent green (#009900) stripe is also 1/7th of the flag's length. The remaining 5/7ths of the flag is a maroon (#8D2029) rectangle with four yellow (#FFCC00) bo leaves in each corner.
+
+Inside the maroon rectangle, there is a yellow-bordered crimson circle (diameter: 4/15 of the flag's height) centered vertically and horizontally. Within this circle, there is a golden lion facing left, holding a sword in its right front paw. The lion and sword are also outlined in yellow.

@@ -1,0 +1,3 @@
+The flag of Venezuela has an aspect ratio of 2:3. It consists of three horizontal stripes of equal width, with the top stripe being yellow (Pantone 116 C), the middle stripe blue (Pantone 286 C), and the bottom stripe red (Pantone 485 C). On the blue stripe, there are eight five-pointed white stars arranged in a semi-circle, representing the provinces that formed the Venezuelan Republic.
+
+The flag does not have fixed geometric properties or measurements, as it can be scaled up or down while maintaining its aspect ratio and design elements.

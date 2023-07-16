@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+	<rect width="600" height="100"/>
+	<rect width="600" height="100" y="100" fill="#BF0A30"/>
+	<rect width="600" height="100" y="200" fill="#006747"/>
+	<rect width="600" height="10" y="95" fill="#FFF"/>
+	<rect width="600" height="10" y="195" fill="#FFF"/>
+	<g transform="translate(270, 75)">
+		<path fill="#BF0A30" stroke="#FFF" stroke-width="5" d="M30 0l30 50H0Z"/>
+		<path fill="#BF0A30" stroke="#000" stroke-width="3" d="M30 0l30 50H0Z"/>
+		<circle cx="30" cy="25" r="20" fill="#FFF" stroke="#000" stroke-width="3"/>
+		<circle cx="30" cy="25" r="12" fill="#BF0A30" stroke="#000" stroke-width="2"/>
+		<circle cx="30" cy="25" r="4"/>
+		<line x1="30" x2="30" y2="50" stroke="#000" stroke-width="3"/>
+		<line x2="60" y1="50" y2="50" stroke="#000" stroke-width="3"/>
+		<line x1="-20" x2="-20" y2="100" stroke="#FFF" stroke-width="5"/>
+		<line x1="80" x2="80" y2="100" stroke="#FFF" stroke-width="5"/>
+	</g>
+</svg>

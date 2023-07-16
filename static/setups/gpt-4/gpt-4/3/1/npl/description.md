@@ -1,0 +1,3 @@
+The flag of Nepal is unique, as it is the only non-rectangular national flag. It consists of two overlapping right-angled triangles, with the upper triangle being smaller than the lower one. The triangles are crimson red (hex color code: #DC143C) with a blue border (hex color code: #003893). The flag doesn't have a fixed aspect ratio, but its width to length ratio is approximately 1:1.219.
+
+The geometric construction of the flag starts with a rectangle of dimensions 24x60 units, which is then divided into three sections of 20 units each. The lower triangle has a base of 24 units and a height of 20 units, while the upper triangle has a base of 12 units and a height of 20 units. The blue border has a uniform width of 2 units around the triangles.

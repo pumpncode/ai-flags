@@ -1,0 +1,3 @@
+The flag of Iran has an aspect ratio of 4:7. It consists of three horizontal stripes of equal width, with the colors green (#008000) on top, white (#FFFFFF) in the middle, and red (#FF0000) at the bottom. The national emblem, a stylized representation of the word "Allah," is centered on the white stripe and has a red color (#FF0000). The emblem measures 1/6th of the flag's width.
+
+On the inner edges of the green and red stripes, there are 22 copies of the phrase "Allahu Akbar" (God is the greatest) written in Kufic script, forming a continuous line. The script is white (#FFFFFF) on the green stripe and red (#FF0000) on the white stripe. The height of each "Allahu Akbar" is 1/12th of the flag's width.

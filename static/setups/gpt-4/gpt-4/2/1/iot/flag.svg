@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1200">
+	<rect width="2400" height="1200" fill="#012169"/>
+	<rect width="1200" height="40" y="580" fill="#C8102E"/>
+	<rect width="40" height="1200" x="580" fill="#C8102E"/>
+	<rect width="1200" height="80" y="540" fill="#FFF"/>
+	<rect width="80" height="1200" x="540" fill="#FFF"/>
+	<polygon fill="#C8102E" points="0,0 120,0 0,120"/>
+	<polygon fill="#C8102E" points="1200,0 1080,0 1200,120"/>
+	<polygon fill="#C8102E" points="0,1200 120,1200 0,1080"/>
+	<polygon fill="#C8102E" points="1200,1200 1080,1200 1200,1080"/>
+	<polygon fill="#FFF" points="0,0 160,0 0,160"/>
+	<polygon fill="#FFF" points="1200,0 1040,0 1200,160"/>
+	<polygon fill="#FFF" points="0,1200 160,1200 0,1040"/>
+	<polygon fill="#FFF" points="1200,1200 1040,1200 1200,1040"/>
+	<rect width="720" height="480" x="1440" y="360" fill="#C8102E" opacity="1"/>
+</svg>

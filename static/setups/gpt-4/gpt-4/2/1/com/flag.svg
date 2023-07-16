@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 36000">
+	<path fill="gold" d="M0 0h60000v36000H0z"/>
+	<path fill="#FFF" d="M0 9000h60000v9000H0z"/>
+	<path fill="red" d="M0 18000h60000v9000H0z"/>
+	<path fill="#00F" d="M0 27000h60000v9000H0z"/>
+	<path fill="green" d="M0 0v36000L60000 0Z"/>
+	<path fill="#FFF" d="M15500 14000a6000 6000 0 1 1-1 1M15500 8000l2000 4000h-4000z"/>
+	<path fill="#FFF" d="M11500 16000l2000 4000h-4000z m8000 0l2000 4000h-4000z m-4000 8000l2000 4000h-4000z"/>
+</svg>

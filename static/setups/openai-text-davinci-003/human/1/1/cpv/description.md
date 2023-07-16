@@ -1,0 +1,1 @@
+The flag of Cape Verde features five blue and white horizontal stripes, with a large green triangle at the hoist. The stripes start from the top with one blue stripe, followed by four white stripes and ending with one blue stripe. At the hoist is a green triangle, pointing downwards. The flag has an aspect ratio of 2:3.

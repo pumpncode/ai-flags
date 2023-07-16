@@ -1,0 +1,3 @@
+The flag of Burundi has an aspect ratio of 3:5. It consists of a white saltire, which divides the flag into four sections. The upper and lower sections are red (color code: #BF0A30), while the left and right sections are green (color code: #007E3A). In the center of the flag is a white circle with three six-pointed stars in a triangular arrangement. The stars are outlined in green (color code: #007E3A) and filled with red (color code: #BF0A30).
+
+The diameter of the central white circle is 2/5 of the flag's width. Each star measures 1/10 of the flag's width from point to point, and they are equidistant from each other and the edge of the circle.

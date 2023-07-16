@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900000 600000">
+	<rect width="900000" height="600000" fill="#FFF"/>
+	<rect width="900000" height="66667" y="66667" fill="#0038A8"/>
+	<rect width="900000" height="66667" y="133333" fill="#FFF"/>
+	<rect width="900000" height="66667" y="200000" fill="#0038A8"/>
+	<rect width="900000" height="66667" y="266667" fill="#FFF"/>
+	<rect width="900000" height="66667" y="333333" fill="#0038A8"/>
+	<rect width="900000" height="66667" y="400000" fill="#FFF"/>
+	<rect width="900000" height="66667" y="466667" fill="#0038A8"/>
+	<rect width="900000" height="66667" y="533333" fill="#FFF"/>
+	<rect width="450000" height="300000" fill="#FFF"/>
+	<circle cx="225000" cy="150000" r="73333" fill="#FCD116"/>
+	<path d="M225000 76667l19534 46666h48767l-40000 26667 20000 46667-48301-30000-48301 30000 20000-46667-40000-26667h48767Z"/>
+</svg>

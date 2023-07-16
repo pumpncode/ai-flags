@@ -1,0 +1,3 @@
+The flag of the United Arab Emirates has an aspect ratio of 1:2. It consists of four colors arranged in three vertical stripes and one horizontal stripe. From the hoist side, the first vertical stripe is green (Pantone 349 C), followed by a white stripe (Pantone White) and a black stripe (Pantone Black). The red horizontal stripe (Pantone 186 C) is parallel to the top edge of the flag, extending from the hoist side into the other two stripes, covering 1/4 of the flag's length.
+
+In terms of geometric properties, the width of each vertical stripe is equal to 1/6 of the flag's total width. The horizontal red stripe's height is equal to half the flag's total height.

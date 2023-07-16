@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+	<rect width="1000" height="200" fill="#D90000"/>
+	<rect width="1000" height="100" y="200" fill="#FFF"/>
+	<rect width="1000" height="200" y="300" fill="#009000"/>
+	<path fill="#FFC700" d="M500 210l-20 35h40Z"/>
+	<circle cx="500" cy="180" r="8" fill="#FFC700"/>
+	<circle cx="482" cy="195" r="8" fill="#FFC700"/>
+	<circle cx="518" cy="195" r="8" fill="#FFC700"/>
+	<circle cx="465" cy="215" r="8" fill="#FFC700"/>
+	<circle cx="535" cy="215" r="8" fill="#FFC700"/>
+	<circle cx="450" cy="240" r="8" fill="#FFC700"/>
+	<circle cx="550" cy="240" r="8" fill="#FFC700"/>
+</svg>

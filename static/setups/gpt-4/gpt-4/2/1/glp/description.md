@@ -1,0 +1,1 @@
+The flag of Guadeloupe does not have an official design, as it is an overseas region of France and uses the French flag. The French flag has a 2:3 aspect ratio and consists of three vertical stripes of equal width. The colors are blue (#002395), white (#FFFFFF), and red (#ED2939) from left to right.

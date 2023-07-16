@@ -1,0 +1,3 @@
+The flag of Egypt has a horizontal tricolor design with three equal bands. The top band is red (#CE1126), the middle band is white (#FFFFFF), and the bottom band is black (#000000). In the center of the white band, there is the Egyptian national emblem, the Eagle of Saladin, which is gold in color.
+
+The aspect ratio of the flag is 2:3, meaning its width is two-thirds of its length. The height of each band is one-third of the total height of the flag. The Eagle of Saladin is centered on the white band and has a height that is approximately half of the white band's height.

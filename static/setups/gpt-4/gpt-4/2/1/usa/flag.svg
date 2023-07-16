@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190000 100000">
+	<rect width="190000" height="100000" fill="#B22234"/>
+	<path fill="#FFF" d="M0 0h190000v7692H0z m0 15385h190000v7692H0z m0 15384h190000v7693H0z m0 15385h190000v7692H0z m0 15384h190000v7693H0z m0 15385h190000v7692H0z m0 15385h190000V100000H0z"/>
+	<rect width="76000" height="53846" fill="#3C3B6E"/>
+	<g fill="#FFF">
+		<g id="c">
+			<g id="b">
+				<g id="a">
+					<circle cx="3077" cy="3077" r="3077"/>
+					<circle cx="11539" cy="3077" r="3077"/>
+					<circle cx="20000" cy="3077" r="3077"/>
+					<circle cx="28462" cy="3077" r="3077"/>
+					<circle cx="36923" cy="3077" r="3077"/>
+				</g>
+				<use y="7692" href="#a"/>
+				<use y="15385" href="#a"/>
+			</g>
+			<use y="30769" href="#b"/>
+		</g>
+		<use y="61538" href="#c"/>
+		<use y="123077" href="#b"/>
+	</g>
+</svg>

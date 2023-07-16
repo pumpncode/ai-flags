@@ -1,0 +1,1 @@
+The flag of Romania consists of three vertical stripes of equal width, arranged from left to right in the following colors: blue (#002B7F), yellow (#FCD116), and red (#CE1126). The aspect ratio of the flag is 2:3, meaning its width is two-thirds of its length. There are no specific geometric properties or measurements beyond the equal width of the stripes and the aspect ratio.

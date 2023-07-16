@@ -1,0 +1,3 @@
+The flag of Comoros has a 3:5 aspect ratio. It consists of four horizontal stripes and a green isosceles triangle on the hoist side. The stripes are, from top to bottom: yellow (#FFD700), white (#FFFFFF), red (#FF0000), and blue (#0000FF). The green triangle (#008000) contains a white crescent with four five-pointed stars along its convex side.
+
+Exact measurements or geometric properties for the crescent and stars are not standardized, but the triangle's height is equal to the flag's width, and its base runs along the entire length of the flag.
