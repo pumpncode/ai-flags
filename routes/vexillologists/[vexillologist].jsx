@@ -1,7 +1,7 @@
 import { join } from "std/path";
 
 import VexillographersList from "@/components/features/vexillographers-list.jsx";
-import { getVexillographers } from "@/utilities/server.js";
+import { getDbVexillographers } from "@/utilities/server.js";
 
 const {
 	readTextFile
@@ -37,11 +37,8 @@ const handler = async (request, context) => {
 	const detailsFilePath = join(vexillologistDiffsFolderPath, "details.json");
 	const details = JSON.parse(await readTextFile(detailsFilePath));
 
-	const vexillographers = await getVexillographers({
-		vexillologistFolderPath,
-		vexillologistName,
-		staticSetupsFolderPath,
-		vexillologistDiffsFolderPath
+	const vexillographers = await getDbVexillographers({
+		vexillologistName
 	});
 
 	return context.render({

@@ -3,16 +3,12 @@ import InstancesListItem from "../../islands/instances-list-item.jsx";
 /**
  *
  * @param props
- * @param props.vexillologistName
- * @param props.vexillographerName
- * @param props.variantName
  * @param props.instances
+ * @param props.fullVariantName
  */
 const InstancesList = ({
-	vexillologistName,
-	vexillographerName,
-	variantName,
-	instances
+	instances,
+	fullVariantName
 }) => (
 	<ul className="w-full bg-white bg-opacity-5">
 		{
@@ -25,9 +21,7 @@ const InstancesList = ({
 					<InstancesListItem
 						key={instanceName}
 						{...{
-							vexillologistName,
-							vexillographerName,
-							variantName,
+							fullVariantName,
 							instanceName,
 							score,
 							flags

@@ -10,29 +10,20 @@ import Button from "../components/input/button.jsx";
 /**
  *
  * @param props
- * @param props.vexillologistName
- * @param props.vexillographerName
- * @param props.variantName
+ * @param props.fullVariantName
  * @param props.instanceName
  * @param props.score
  * @param props.flags
  */
 const InstancesListItem = ({
-	vexillologistName,
-	vexillographerName,
-	variantName,
+	fullVariantName,
 	instanceName,
 	score,
 	flags
 }) => {
 	const [disclosureOpen, setDisclosureOpen] = useState(false);
 
-	const fullName = [
-		vexillologistName,
-		vexillographerName,
-		variantName,
-		instanceName
-	].join("/");
+	const fullName = [fullVariantName, instanceName].join("/");
 
 	return (
 		<Disclosure

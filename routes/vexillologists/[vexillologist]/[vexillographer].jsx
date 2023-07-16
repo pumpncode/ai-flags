@@ -1,7 +1,7 @@
 import { join } from "std/path";
 
 import VariantsList from "@/components/features/variants-list.jsx";
-import { getVariants } from "@/utilities/server.js";
+import { getDbVariants } from "@/utilities/server.js";
 
 const {
 	readTextFile
@@ -36,12 +36,9 @@ const handler = {
 		const detailsFilePath = join(vexillographerDiffsFolderPath, "details.json");
 		const details = JSON.parse(await readTextFile(detailsFilePath));
 
-		const variants = await getVariants({
-			vexillographerFolderPath,
+		const variants = await getDbVariants({
 			vexillologistName,
-			vexillographerName,
-			staticSetupsFolderPath,
-			vexillographerDiffsFolderPath
+			vexillographerName
 		});
 
 		return context.render({

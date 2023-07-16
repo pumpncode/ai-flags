@@ -1,7 +1,7 @@
 import { join } from "std/path";
 
 import InstancesList from "@/components/features/instances-list.jsx";
-import { getInstances } from "@/utilities/server.js";
+import { getDbInstances } from "@/utilities/server.js";
 
 const rootFolderPath = join("./");
 
@@ -43,9 +43,10 @@ const handler = {
 			variantName
 		);
 
-		const instances = await getInstances({
-			staticVariantFolderPath,
-			variantDiffsFolderPath
+		const instances = await getDbInstances({
+			vexillologistName,
+			vexillographerName,
+			variantName
 		});
 
 		return context.render({
