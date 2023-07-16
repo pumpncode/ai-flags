@@ -9,6 +9,11 @@ import "std/dotenv/load";
 await start(
 	manifest,
 	{
-		plugins: [prefetchPlugin({ throttle: 4 })]
+		plugins: [
+			prefetchPlugin({
+				throttle: 4,
+				strategy: "opt-out"
+			})
+		]
 	}
 );

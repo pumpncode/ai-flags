@@ -12,12 +12,7 @@ const {
 const configuration = new Configuration({
 	apiKey: env.get("OPENAI_API_KEY"),
 	baseOptions: {
-		adapter: (...params) => {
-			console.log("params");
-			console.log(params);
-
-			return fetchAdapter(...params);
-		}
+		adapter: (...params) => fetchAdapter(...params)
 	}
 });
 

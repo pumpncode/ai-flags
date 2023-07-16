@@ -4,7 +4,7 @@ import { Temporal } from "npm:@js-temporal/polyfill";
 import { ChatGPTAPI } from "npm:chatgpt";
 import { retry } from "std/async";
 
-import { snakeCaseObject } from "@ai-flags/utilities";
+import { snakeCaseObject } from "@/utilities/local.js";
 
 const {
 	env

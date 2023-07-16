@@ -3,8 +3,7 @@ import { useEffect, useState } from "preact/hooks";
 import SVGPathCommander from "svg-path-commander";
 import { optimize as optimizeSvg } from "svgo";
 
-import addZigzag from "../utilities/add-zigzag.js";
-import traverseSvgBrowser from "../utilities/traverse-svg.js";
+import { addZigzag, traverseSvg } from "@/utilities/client.js";
 
 const svgoConfig = {
 	multipass: true,
@@ -13,15 +12,18 @@ const svgoConfig = {
 		indent: "\t"
 	},
 	plugins: [
-		"preset-default",
 		{
-			name: "removeViewBox",
-			active: false
-		},
-		{
-			name: "convertShapeToPath",
+			name: "preset-default",
 			params: {
-				convertArcs: true
+				overrides: {
+					removeViewBox: false,
+					convertShapeToPath: {
+						convertArcs: true
+					},
+					convertColors: {
+						names2hex: false
+					}
+				}
 			}
 		}
 	]
@@ -30,7 +32,7 @@ const svgoConfig = {
 /**
  *
  */
-const Zigzagger = () => {
+const ZigzaggerIsland = () => {
 	// <rect width="250" height="500" fill="black" />
 	// <rect x="100" y="100" width="200" height="200" fill="black" />
 	// <circle cx="300" cy="300" r="100" fill="red" />
@@ -166,7 +168,7 @@ const Zigzagger = () => {
 					svgoConfig
 				);
 
-				const zigzaggedSvg = traverseSvgBrowser(
+				const zigzaggedSvg = traverseSvg(
 					`<svg>${sanitizedSvg}</svg>`,
 					(element) => {
 						if (element.tagName === "path" && element.hasAttribute("d")) {
@@ -213,7 +215,7 @@ const Zigzagger = () => {
 
 	return (
 		<>
-			<div className="relative flex items-center justify-center w-full p-8 rounded gap-8 bg-neutral-700">
+			<div className="relative flex items-center justify-center w-full gap-8 p-8 rounded bg-neutral-700">
 				<div className="relative flex items-center justify-center w-full h-full">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -245,9 +247,9 @@ const Zigzagger = () => {
 						<label for="flip">Flip:</label>
 						<input id="flip" type="checkbox" checked={flip} onInput={({ target: { checked } }) => setFlip(checked)} />
 					</div>
-					<div className="items-center grid grid-cols-3 gap-2">
+					<div className="grid items-center grid-cols-3 gap-2">
 						<label>Position:</label>
-						<div className="flex flex-col items-center gap-2 col-span-2">
+						<div className="flex flex-col items-center col-span-2 gap-2">
 							<div className="flex gap-1">
 								<label for="topActive">Top:</label>
 								<input id="topActive" type="checkbox" checked={topActive} onInput={({ target: { checked } }) => setTopActive(checked)} />
@@ -272,12 +274,12 @@ const Zigzagger = () => {
 
 			</div>
 
-			<div className="flex flex-col w-full h-full p-2 rounded gap-2 bg-neutral-700">
-				<textarea className="w-full h-full p-4 rounded resize-none bg-neutral-800" value={svg} onInput={({ target: { value } }) => setSvg(value)} />
-				<textarea className="w-full h-full p-4 rounded resize-none bg-neutral-800" readonly value={newSvg} />
+			<div className="flex flex-col w-full h-full gap-2 p-2 rounded bg-neutral-700">
+				<textarea className="w-full h-full p-4 font-mono rounded resize-none bg-neutral-800" value={svg} onInput={({ target: { value } }) => setSvg(value)} />
+				<textarea className="w-full h-full p-4 font-mono rounded resize-none bg-neutral-800" readonly value={newSvg} />
 			</div>
 		</>
 	);
 };
 
-export default Zigzagger;
+export default ZigzaggerIsland;

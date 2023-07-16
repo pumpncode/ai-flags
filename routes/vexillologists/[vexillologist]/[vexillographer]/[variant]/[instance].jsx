@@ -1,7 +1,7 @@
 import { join } from "std/path";
 
-import InstanceContent from "@ai-flags/components/features/instance-content.jsx";
-import { getInstanceContent } from "@ai-flags/utilities";
+import InstanceContent from "@/components/features/instance-content.jsx";
+import { getInstanceContent } from "@/utilities/server.js";
 
 const rootFolderPath = join("./");
 
@@ -10,6 +10,8 @@ const setupsFolderPath = join(rootFolderPath, "setups");
 const staticFolderPath = join(rootFolderPath, "static");
 
 const staticSetupsFolderPath = join(staticFolderPath, "setups");
+
+const staticDiffsFolderPath = join(staticFolderPath, "diffs");
 
 const handler = {
 	GET: async (request, context) => {
@@ -37,9 +39,17 @@ const handler = {
 			variantName
 		);
 
+		const instanceDiffsFolderPath = join(
+			staticDiffsFolderPath,
+			vexillologistName,
+			vexillographerName,
+			variantName
+		);
+
 		const instanceContent = await getInstanceContent({
 			staticVariantFolderPath,
-			instanceName
+			instanceName,
+			instanceDiffsFolderPath
 		});
 
 		return context.render({

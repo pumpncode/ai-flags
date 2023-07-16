@@ -1,6 +1,6 @@
 import { join } from "std/path";
 
-import TreeMenu from "@ai-flags/components/layout/tree-menu.jsx";
+import TreeMenu from "@/components/layout/tree-menu.jsx";
 
 const {
 	readDir,

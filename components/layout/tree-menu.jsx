@@ -48,19 +48,22 @@ const TreeMenu = ({
 
 		if (Object.hasOwn(entity, "children")) {
 			return (
-				<details className="open:pb-4 group" open={open} id={entity.id}>
-					<summary className="flex items-stretch border-b cursor-pointer border-neutral-200">{linkElement}</summary>
-					<ul className="pl-4 pr-4">
+				<details className="open:pb-4" open={open} id={entity.id}>
+					<summary
+						className={cn(
+							"flex items-stretch border-b-0 cursor-pointer border-neutral-200"
+						)}
+					>
+						{linkElement}
+					</summary>
+					<ul className="pl-4 pr-4 border-t border-neutral-200">
 						{
 							[...Object.entries(entity.children)]
 								.sort(([idA, { name: nameA }], [idB, { name: nameB }]) => Intl.Collator().compare(nameA, nameB))
 								.map(([id, child]) => (
 									<li
 										className={cn(
-											"bg-black/5 flex flex-col gap-4 hover:bg-black/10 border border-neutral-200 border-t-0 last:rounded-b overflow-hidden",
-											{
-												"border-b-0 group:open:border-b-1": child.children
-											}
+											"bg-black/5 flex flex-col gap-4 hover:bg-black/10 border border-neutral-200 border-t-0 last:rounded-b overflow-hidden"
 										)}
 									>
 										{
@@ -85,7 +88,7 @@ const TreeMenu = ({
 
 	return (
 		<ul {...otherProps}>
-			<li className="flex flex-col gap-4 overflow-hidden border border-b-0 rounded bg-black/5 border-neutral-200 hover:bg-black/10">
+			<li className="flex flex-col gap-4 overflow-hidden border rounded bg-black/5 border-neutral-200 hover:bg-black/10">
 				{recurse(rootEntity)}
 			</li>
 		</ul>

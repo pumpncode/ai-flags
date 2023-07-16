@@ -6,7 +6,8 @@ ENV DENO_DEPLOYMENT_ID=${GIT_REVISION}
 WORKDIR /app
 
 COPY . .
-RUN deno cache main.js --import-map=import-map.json
+RUN deno task install.js
+RUN deno cache main.js --reload --import-map=import-map.json
 
 EXPOSE 8000
 

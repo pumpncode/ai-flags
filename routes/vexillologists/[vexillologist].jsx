@@ -1,12 +1,10 @@
 import { join } from "std/path";
 
-import VexillographersList from "@ai-flags/components/features/vexillographers-list.jsx";
-import { getVexillographers } from "@ai-flags/utilities";
+import VexillographersList from "@/components/features/vexillographers-list.jsx";
+import { getVexillographers } from "@/utilities/server.js";
 
 const {
-	errors: {
-		NotFound
-	}
+	readTextFile
 } = Deno;
 
 const rootFolderPath = join("./");
@@ -16,6 +14,8 @@ const setupsFolderPath = join(rootFolderPath, "setups");
 const staticFolderPath = join(rootFolderPath, "static");
 
 const staticSetupsFolderPath = join(staticFolderPath, "setups");
+
+const staticDiffsFolderPath = join(staticFolderPath, "diffs");
 
 /**
  *
@@ -32,16 +32,22 @@ const handler = async (request, context) => {
 	const vexillologistName = vexillologist;
 
 	const vexillologistFolderPath = join(setupsFolderPath, vexillologistName);
+	const vexillologistDiffsFolderPath = join(staticDiffsFolderPath, vexillologistName);
+
+	const detailsFilePath = join(vexillologistDiffsFolderPath, "details.json");
+	const details = JSON.parse(await readTextFile(detailsFilePath));
 
 	const vexillographers = await getVexillographers({
 		vexillologistFolderPath,
 		vexillologistName,
-		staticSetupsFolderPath
+		staticSetupsFolderPath,
+		vexillologistDiffsFolderPath
 	});
 
 	return context.render({
 		vexillologistName,
-		vexillographers
+		vexillographers,
+		details
 	});
 };
 

@@ -15,20 +15,18 @@ const App = ({ Component }) => (
 		<Head className="dark" lang="en">
 			<title>AI Flags</title>
 			<FontsStyle />
-			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" />
 			<link href={asset("/style/tailwind.css")} rel="stylesheet" />
 			<link rel="icon" href="/favicons/icon.svg" type="image/svg+xml" />
 			<link rel="icon" href="/favicons/favicon.ico" sizes="any" />
 			<link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
 			<link rel="manifest" href="/favicons/manifest.webmanifest" />
+			<img src={asset("/favicons/icon.svg")} style="display:none" />
 		</Head>
 		<Header />
 		<Main>
 			<Component />
 		</Main>
 		<Footer />
-
-		<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js" />
 	</>
 );
 

@@ -4,6 +4,7 @@ import { startCase } from "lodash-es";
 
 import MobileMenu from "../../islands/mobile-menu.jsx";
 import Button from "../input/button.jsx";
+import { asset } from "$fresh/runtime.ts";
 
 const {
 	env
@@ -19,8 +20,13 @@ const Header = () => {
 			name: "index",
 			title: "Home",
 			custom: () => (
-				<h1 className="text-4xl font-bold sm:text-5xl">AI Flags</h1>
-			)
+				<>
+					<h1 className="text-4xl font-bold sm:text-5xl sr-only">AI Flags</h1>
+					<img src={asset("/images/logos/ai-flags-wordmark.svg")} className="hidden sm:block h-full" />
+					<img src={asset("/images/logos/ai-flags-icon.svg")} className="block sm:hidden h-full" />
+				</>
+			),
+			customClassName: "h-full"
 		},
 		// {
 		// 	name: "setups"
@@ -56,7 +62,8 @@ const Header = () => {
 									to = `/${name}`,
 									title = startCase(name),
 									custom,
-									customLink
+									customLink,
+									customClassName
 								},
 								index
 							) => (
@@ -76,7 +83,7 @@ const Header = () => {
 											: <a
 												href={to}
 												target={to.match(/^https?/) ? "_blank" : "_self"}
-												className="flex items-center justify-center first:p-6"
+												className={cn("flex items-center justify-center first:p-6", customClassName)}
 											>
 												{
 													custom

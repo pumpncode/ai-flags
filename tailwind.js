@@ -1,5 +1,6 @@
 import postcss from "npm:postcss@8.4.22";
 import tailwindcss from "npm:tailwindcss@3.3.1";
+import autoprefixer from "npm:autoprefixer";
 
 const {
 	readTextFile,
@@ -36,8 +37,7 @@ const dev = async (
 	};
 
 	const processor = postcss([
-		tailwindcss(config)
-		// autoprefixer(),
+		tailwindcss(config), autoprefixer()
 		// cssnano({ preset: ["default", { cssDeclarationSorter: false }] })
 	]);
 

@@ -1,5 +1,10 @@
-import puppeteer from "puppeteer";
 import { toFileUrl } from "std/path";
+
+import browser from "./browser.js";
+
+const {
+	Command
+} = Deno;
 
 // SVGElement.pauseAnimations() to stop animation
 // SVGAnimationElement.setCurrentTime() to set time
@@ -10,24 +15,41 @@ import { toFileUrl } from "std/path";
  *
  * @param svgPath
  * @param pngPath
+ * @param options
+ * @param options.resizeWidth
+ * @param options.resizeHeight
+ * @param options.compress
  */
-const svgToPng = async (svgPath, pngPath) => {
-	const browser = await puppeteer.launch();
+const svgToPng = async (
+	svgPath,
+	pngPath,
+	{
+		resizeWidth = null,
+		resizeHeight = null,
+		compress = true
+	} = {
+		resizeWidth: 4000,
+		resizeHeight: null,
+		compress: true
+	}
+) => {
+	const svgFileUrl = toFileUrl(svgPath);
+
+	const page = await browser.newPage();
+
+	await page.goto(svgFileUrl, { waitUntil: "networkidle0" });
+
+	await page.waitForSelector("svg", { timeout: 5000 });
+
+	page.on("console", (message) => {
+		console.log(message.text());
+	});
+
+	let width;
+	let height;
 
 	try {
-		const svgFileUrl = toFileUrl(svgPath);
-
-		const page = (await browser.pages())[0];
-
-		await page.goto(svgFileUrl, { waitUntil: "networkidle0" });
-
-		await page.waitForSelector("svg");
-
-		page.on("console", (message) => {
-			console.log(message.text());
-		});
-
-		const { width, height } = await page.evaluate(() => {
+		({ width, height } = await page.evaluate(() => {
 			const svgElement = document.querySelector("svg");
 
 			const viewBoxString = svgElement.getAttribute("viewBox");
@@ -42,42 +64,72 @@ const svgToPng = async (svgPath, pngPath) => {
 			const [
 				x,
 				y,
-				width,
-				height
+				viewBoxWidth,
+				viewBoxHeight
 			] = viewBoxString?.split(" ") ?? [];
 
-			if (width && height && document.querySelector("parsererror") === null) {
+			if (viewBoxWidth && viewBoxHeight && document.querySelector("parsererror") === null) {
 				return {
-					width: Number(width),
-					height: Number(height)
+					width: Number(viewBoxWidth),
+					height: Number(viewBoxHeight)
 				};
 			}
 
-			throw new Error("SVG viewBox attribute is missing or malformed or SVG code is invalid");
+			console.error("SVG viewBox attribute is missing or malformed or SVG code is invalid");
+		}));
+	}
+	catch {
+		// do nothing
+	}
+
+	if (width && height) {
+		if (resizeWidth !== null && resizeHeight !== null) {
+			await page.setViewport({
+				width: resizeWidth,
+				height: resizeHeight
+			});
+		}
+		else if (resizeWidth && resizeHeight === null) {
+			await page.setViewport({
+				width: resizeWidth,
+				height: Math.round(height * (resizeWidth / width))
+			});
+		}
+		else if (resizeWidth === null && resizeHeight) {
+			await page.setViewport({
+				width: Math.round(width * (resizeHeight / height)),
+				height: resizeHeight
+			});
+		}
+
+		await page.screenshot({
+			path: pngPath,
+			fullPage: true,
+			omitBackground: true,
+			captureBeyondViewport: false
 		});
 
-		if (width && height) {
-			await page.setViewport({
-				width: 4000,
-				height: Math.round(height * (4000 / width))
-			});
+		await page.close();
 
-			await page.screenshot({
-				path: pngPath,
-				fullPage: true,
-				omitBackground: true,
-				captureBeyondViewport: false
-			});
-		}
-		else {
-			throw new Error("SVG viewBox attribute is missing or malformed");
+		if (compress) {
+			const compressCommand = new Command(
+				"oxipng",
+				{
+					args: [
+						"-o",
+						"6",
+						"--strip",
+						"safe",
+						pngPath
+					]
+				}
+			);
+
+			await compressCommand.output();
 		}
 	}
-	catch (error) {
-		throw error;
-	}
-	finally {
-		await browser.close();
+	else {
+		throw new Error("SVG viewBox attribute is missing or malformed");
 	}
 };
 

@@ -1,7 +1,7 @@
 import { Command } from "cliffy";
 import { join } from "std/path";
 
-import { getVexillologists } from "@ai-flags/utilities";
+import { getVexillologists } from "@/utilities/local.js";
 
 const {
 	args
@@ -14,6 +14,8 @@ const setupsFolderPath = join(rootFolderPath, "setups");
 const staticFolderPath = join(rootFolderPath, "static");
 
 const staticSetupsFolderPath = join(staticFolderPath, "setups");
+
+const staticDiffsFolderPath = join(staticFolderPath, "diffs");
 
 const { options: { format } } = await new Command()
 	.name("get-vexillologists")
@@ -28,7 +30,8 @@ const { options: { format } } = await new Command()
 
 const vexillologists = await getVexillologists({
 	setupsFolderPath,
-	staticSetupsFolderPath
+	staticSetupsFolderPath,
+	staticDiffsFolderPath
 });
 
 switch (format) {

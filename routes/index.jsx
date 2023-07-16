@@ -1,10 +1,9 @@
 import { TbArrowBigDownLine } from "react-icons/tb";
 import { join } from "std/path";
 
-import VexillologistsList from "../components/features/vexillologists-list.jsx";
-import RandomFlag from "../islands/random-flag.jsx";
-
-import { getVexillologists } from "@ai-flags/utilities";
+import VexillologistsList from "@/components/features/vexillologists-list.jsx";
+import RandomFlag from "@/islands/random-flag.jsx";
+import { getDbVexillologists } from "@/utilities/server.js";
 
 const rootFolderPath = join("./");
 
@@ -14,12 +13,11 @@ const staticFolderPath = join(rootFolderPath, "static");
 
 const staticSetupsFolderPath = join(staticFolderPath, "setups");
 
+const staticDiffsFolderPath = join(staticFolderPath, "diffs");
+
 const handler = {
 	GET: async (request, context) => {
-		const vexillologists = await getVexillologists({
-			setupsFolderPath,
-			staticSetupsFolderPath
-		});
+		const vexillologists = await getDbVexillologists();
 
 		return context.render({
 			vexillologists
@@ -36,11 +34,14 @@ const handler = {
  */
 const Home = ({ data: { vexillologists } }) => (
 	<>
-		<section className="p-4 md:px-16 md:py-8 flex flex-col gap-8 items-center justify-around bg-neutral-700 h-auto md:h-[calc(100vh-6rem)] min-h-[600px]">
+		<section className="p-4 md:px-16 md:py-8 flex flex-col gap-8 items-center justify-around bg-neutral-700 h-auto md:h-[calc(100vh-6rem)] min-h-[600px] relative backdrop-brightness-100 overflow-hidden">
 			<h2 className="text-2xl font-bold sm:text-4xl md:text-6xl">Flags (according to AI)</h2>
 			<div className="flex flex-col items-center w-full gap-8 md:flex-row">
 				<div className="w-full md:w-6/12">
-					<RandomFlag {...{ vexillologists }} />
+					<RandomFlag
+						{...{ vexillologists }}
+						delay={10_000}
+					/>
 				</div>
 				<div className="flex flex-col w-full gap-8 md:w-6/12">
 					<span className="flex flex-col items-center gap-1 text-lg font-medium text-center text-amber-300 md:items-start md:text-left">
@@ -56,10 +57,28 @@ const Home = ({ data: { vexillologists } }) => (
 				</div>
 			</div>
 			<div className="shrink-0 text-amber-300 animate-bounce">
-				<TbArrowBigDownLine size={48} stroke={1} />
+				<TbArrowBigDownLine size={48} className="stroke-1 text-amber-300" />
+			</div>
+			<div className="absolute w-[300%] h-[200%] -z-10 opacity-25 grid grid-cols-8 grid-rows-6 animate-slide-around">
+				{
+					Array(48)
+						.fill()
+						.map((empty, index) => (
+							<div className="flex justify-center items-center w-full h-full border border-neutral-800">
+								<RandomFlag
+									className="h-12"
+									layout="minimal"
+									interval={60_000}
+									delay={index * 10_000}
+									key={index}
+									{...{ vexillologists }}
+								/>
+							</div>
+						))
+				}
 			</div>
 		</section>
-		<section className="flex flex-col items-start gap-8 p-4 md:p-16">
+		<section className="flex flex-col items-start gap-8 p-4 md:p-16 bg-neutral-800 z-0">
 			<ul className="flex flex-col gap-1">
 				<li className="flex gap-2">
 					<span>🤓</span>

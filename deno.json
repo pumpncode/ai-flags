@@ -1,11 +1,16 @@
 {
 	"tasks": {
 		"start": "deno run -A --no-check --unstable --watch=routes/,components/,setups/,tailwind.css ./dev.js",
-		"generate": "deno run -A --unstable ./generate.js",
+		"generate": "deno run -A --unstable ./scripts/generate.js",
 		"is-completely-transparent": "deno run -A --unstable ./scripts/is-completely-transparent.js",
 		"get-vexillologists": "deno run -A --unstable ./scripts/get-vexillologists.js",
-		"fix-svg": "deno run -A --unstable ./fix-svg.js",
-		"favicon": "deno run --unstable --allow-read --allow-write --allow-ffi \"https://deno.land/x/faviconize/cmd.ts\" -i \"favicon.svg\" -o \"static/\""
+		"generate-entities": "deno run -A --unstable ./scripts/generate-entities.js",
+		"fix-svg": "deno run -A --unstable ./scripts/fix-svg.js",
+		"svg-to-png": "deno run -A --unstable ./scripts/svg-to-png.js",
+		"install": "deno run -A --unstable ./scripts/install.js",
+		"fill-database": "deno run -A --unstable ./scripts/fill-database.js",
+		"print": "deno run -A --unstable ./scripts/print.js",
+		"find-grid": "deno run -A --unstable ./scripts/find-grid.js"
 	},
 	"importMap": "./import-map.json",
 	"lint": {

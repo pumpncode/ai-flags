@@ -1,6 +1,5 @@
 import { Disclosure, Transition } from "@headlessui/react";
-import { Temporal } from "@js-temporal/polyfill";
-import { TbLink } from "react-icons/tb";
+import { TbLink, TbRosetteFilled } from "react-icons/tb";
 import cn from "classnames";
 import { Fragment } from "preact";
 import { useState } from "preact/hooks";
@@ -8,27 +7,32 @@ import { useState } from "preact/hooks";
 import InstanceContent from "../components/features/instance-content.jsx";
 import Button from "../components/input/button.jsx";
 
-const {
-	ZonedDateTime
-} = Temporal;
-
 /**
  *
  * @param props
- * @param props.name
+ * @param props.vexillologistName
+ * @param props.vexillographerName
+ * @param props.variantName
+ * @param props.instanceName
+ * @param props.score
  * @param props.flags
- * @param props.fullName
- * @param props.startDate
  */
 const InstancesListItem = ({
-	name: instanceName,
-	fullName,
-	flags,
-	startDate
+	vexillologistName,
+	vexillographerName,
+	variantName,
+	instanceName,
+	score,
+	flags
 }) => {
 	const [disclosureOpen, setDisclosureOpen] = useState(false);
 
-	const formattedStartDate = ZonedDateTime.from(startDate).toInstant().toString({ smallestUnit: "second" });
+	const fullName = [
+		vexillologistName,
+		vexillographerName,
+		variantName,
+		instanceName
+	].join("/");
 
 	return (
 		<Disclosure
@@ -48,9 +52,20 @@ const InstancesListItem = ({
 					<>
 						<Disclosure.Button className="flex w-full">
 							<div className="flex items-center justify-between w-full px-4">
-								<h6 className="flex items-center gap-2 py-4 overflow-hidden text-xs text-ellipsis whitespace-nowrap sm:text-base">
+								<h6 className="relative flex items-center gap-2 py-4 text-xs text-ellipsis whitespace-nowrap sm:text-base">
 									<span className="overflow-hidden text-ellipsis whitespace-nowrap">Instance {instanceName}</span>
-									<span className="hidden sm:flex text-xs font-mono bg-neutral-700 px-1 py-0.5 rounded text-ellipsis overflow-hidden whitespace-nowrap">({formattedStartDate})</span>
+									<span className="relative flex items-center justify-center w-12 font-mono">
+										<TbRosetteFilled
+											size={48}
+											className="absolute text-amber-300"
+											style={{
+												filter: `drop-shadow(0 0 10px #fcd34d40) saturate(${score}) `
+											}}
+										/>
+										<span className="absolute text-xs font-bold text-neutral-800">
+											{score * 1000}
+										</span>
+									</span>
 								</h6>
 								<a
 									href={`/vexillologists/${fullName}`}

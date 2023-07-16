@@ -1,6 +1,6 @@
 import { join } from "std/path";
 
-import TreeMenu from "@ai-flags/components/layout/tree-menu.jsx";
+import TreeMenu from "@/components/layout/tree-menu.jsx";
 
 const {
 	errors: {
@@ -127,21 +127,21 @@ const Entity = ({
 
 	return (
 		<section className="p-4 md:p-16">
-			<h2 className="h-24 text-mono">Entities</h2>
+			<h2 className="text-mono h-28">Entities</h2>
 			<div className="flex flex-col md:flex-row gap-4">
 				<TreeMenu rootEntity={earthEntity} href="/entities" className="w-full md:w-3/12" openIds={entityIds} />
 				<div className="flex flex-col w-full p-4 rounded bg-neutral-800 md:w-9/12 gap-8">
 					<h3 className="text-6xl scroll-mt-12 md:scroll-mt-96" id={name}>{name}</h3>
 					{
 						flags && (
-							<ul className="grid grid-cols-cards gap-4">
+							<ul className="grid grid-cols-cards-lg gap-4">
 								{
 									flags.map(({
 										id, name: flagName, images: [flagUrl]
 									}) => (
-										<li key={id} className="w-full h-48">
+										<li key={id} className="w-full h-56">
 											<figure className="flex flex-col items-center justify-between w-full h-full p-2 border rounded gap-2 border-neutral-600 hover:bg-neutral-700">
-												<div className="flex items-center justify-center w-full p-2 rounded h-36 bg-neutral-700">
+												<div className="flex items-center justify-center w-full p-2 rounded h-42 bg-neutral-700">
 													<img
 														src={flagUrl}
 														alt={flagName}
@@ -150,7 +150,7 @@ const Entity = ({
 													/>
 												</div>
 
-												<figcaption className="flex items-center justify-center h-6 gap-2">
+												<figcaption className="flex items-center justify-center h-7 gap-2">
 													<span className="text-sm">{flagName}</span>
 													<span className="text-xs font-mono bg-neutral-700 px-1 py-0.5 rounded">({id})</span>
 												</figcaption>

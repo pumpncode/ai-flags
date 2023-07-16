@@ -1,7 +1,11 @@
 import { join } from "std/path";
 
-import VariantsList from "@ai-flags/components/features/variants-list.jsx";
-import { getVariants } from "@ai-flags/utilities";
+import VariantsList from "@/components/features/variants-list.jsx";
+import { getVariants } from "@/utilities/server.js";
+
+const {
+	readTextFile
+} = Deno;
 
 const rootFolderPath = join("./");
 
@@ -10,6 +14,8 @@ const setupsFolderPath = join(rootFolderPath, "setups");
 const staticFolderPath = join(rootFolderPath, "static");
 
 const staticSetupsFolderPath = join(staticFolderPath, "setups");
+
+const staticDiffsFolderPath = join(staticFolderPath, "diffs");
 
 const handler = {
 	GET: async (request, context) => {
@@ -25,17 +31,23 @@ const handler = {
 		const vexillographerName = vexillographer;
 
 		const vexillographerFolderPath = join(setupsFolderPath, vexillologistName, vexillographerName);
+		const vexillographerDiffsFolderPath = join(staticDiffsFolderPath, vexillologistName, vexillographerName);
+
+		const detailsFilePath = join(vexillographerDiffsFolderPath, "details.json");
+		const details = JSON.parse(await readTextFile(detailsFilePath));
 
 		const variants = await getVariants({
 			vexillographerFolderPath,
 			vexillologistName,
 			vexillographerName,
-			staticSetupsFolderPath
+			staticSetupsFolderPath,
+			vexillographerDiffsFolderPath
 		});
 
 		return context.render({
 			vexillologistName,
 			vexillographerName,
+			details,
 			variants
 		});
 	}
