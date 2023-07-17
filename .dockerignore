@@ -186,6 +186,7 @@ $RECYCLE.BIN/
 /scrapes
 /psds
 /notes
+/data
 
 **/.git
 fly.toml
