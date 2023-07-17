@@ -10,7 +10,8 @@
 		"install": "deno run -A --unstable ./scripts/install.js",
 		"fill-database": "deno run -A --unstable ./scripts/fill-database.js",
 		"print": "deno run -A --unstable ./scripts/print.js",
-		"find-grid": "deno run -A --unstable ./scripts/find-grid.js"
+		"find-grid": "deno run -A --unstable ./scripts/find-grid.js",
+		"set-secrets": "deno run -A --unstable ./scripts/set-secrets.js"
 	},
 	"importMap": "./import-map.json",
 	"lint": {
