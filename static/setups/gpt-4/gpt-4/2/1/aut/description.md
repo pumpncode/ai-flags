@@ -1,1 +1,0 @@
-The flag of Austria consists of three horizontal stripes of equal width. The top and bottom stripes are red (color code: #ED2939), while the middle stripe is white (color code: #FFFFFF). The aspect ratio of the flag is 2:3, meaning its width is 1.5 times its height. There are no specific geometric properties or measurements beyond the equal-width stripes and aspect ratio.

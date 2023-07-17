@@ -1,1 +1,0 @@
-The flag of Fiji is a light blue horizontal triband with a narrow red stripe in the centre and two wider white stripes. Its aspect ratio is 1:2.

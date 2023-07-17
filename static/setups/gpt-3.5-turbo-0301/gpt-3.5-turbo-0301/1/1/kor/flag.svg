@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30000 20000">
-	<rect width="100%" height="100%" fill="#FFF" stroke-width="100"/>
-	<circle cx="15000" cy="10000" r="7000" fill="#00F" stroke-width="100"/>
-	<path fill="red" d="M15000 10000V3000a7000 7000 0 0 1 6914 3464L17657 10000Z" stroke-width="100"/>
-	<path d="M15000 10000l2657 3600A7000 7000 0 0 1 15000 17000v-7000Z" stroke-width="100"/>
-	<path fill="#00F" d="M15000 10000l6914 3536a7000 7000 0 0 1 0-7072Z" stroke-width="100"/>
-	<path d="M15000 10000l2657-3664A7000 7000 0 0 1 15000 3000v7000Z" stroke-width="100"/>
-</svg>

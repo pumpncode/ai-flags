@@ -1,1 +1,0 @@
-The flag of Hungary is a horizontal tricolor, consisting of three equal bands: red (#CD2A3E) on top, white (#FFFFFF) in the middle, and green (#436F4D) at the bottom. The aspect ratio of the flag is 1:2, meaning its width is twice its height. The flag does not feature any complex geometric properties or measurements beyond the equal division of the three bands.

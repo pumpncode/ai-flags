@@ -1,3 +1,0 @@
-The flag of the Marshall Islands has an aspect ratio of 10:19. It features a blue background with two diagonal stripes in the upper hoist-side corner, one orange and one white. The blue background color code is #003893, the orange stripe color code is #FF7F00, and the white stripe color code is #FFFFFF.
-
-The orange stripe is 1/30th of the flag's width and the white stripe is 1/60th of the flag's width. Both stripes run from the lower hoist-side corner to the upper fly-side corner, with the orange stripe above the white stripe. In the upper hoist-side corner, there is a large white star with 24 points, representing the 24 electoral districts of the Marshall Islands. The diameter of the circumscribed circle of the star is 1/6th of the flag's width.

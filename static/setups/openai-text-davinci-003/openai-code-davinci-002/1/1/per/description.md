@@ -1,1 +1,0 @@
-The flag of Peru is a vertical triband, consisting of three equal-sized red bands separated by two equal-sized white bands. The ratio of the flag's width to its height is 2:3.

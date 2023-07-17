@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600000 400000">
-	<rect width="600000" height="133330" fill="#003082"/>
-	<rect width="600000" height="133330" y="133330" fill="#FFF"/>
-	<rect width="600000" height="133330" y="266670" fill="#009543"/>
-	<path d="M300000 166665l-15000 43333h90000z"/>
-	<polygon points="285000,209998 315000,209998 300000,166665"/>
-	<path d="M300000 143332l-7500 21666h15000z"/>
-	<polygon points="292500,165000 307500,165000 300000,143332"/>
-</svg>

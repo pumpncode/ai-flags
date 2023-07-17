@@ -1,1 +1,0 @@
-The Mexican flag is a vertical tricolor of three equal horizontal bands of green, white, and red with a coat of arms centered in the white stripe. The aspect ratio of the flag is 4:7.

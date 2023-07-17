@@ -1,1 +1,0 @@
-The flag of Andorra is a 3:5 ratio with a field of sky blue divided in the center by a vertical yellow band. The yellow band has the lower third of a white triangle extending from either side of its center. The center of the triangle is at the hoist side of the flag, and it extends diagonally just below the vertical yellow band.

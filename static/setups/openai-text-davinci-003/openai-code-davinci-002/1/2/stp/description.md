@@ -1,1 +1,0 @@
-The flag of São Tomé and Príncipe is a rectangular banner with an aspect ratio of 2:3. The upper half is green, while the lower half is divided horizontally red and yellow with a narrow black triangle at the hoist. In the center of the flag is an emblem depicting the destination of an ascending dove holding an olive branch.

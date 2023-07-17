@@ -1,1 +1,0 @@
-The flag of Cameroon features three equal vertical stripes: green (#007A5E), red (#CE1126), and yellow (#FCD116). Centered on the red stripe, there is a five-pointed yellow star. The aspect ratio of the flag is 2:3. Specific geometric properties or measurements aren't standardized for national flags; they depend on the specific use case and size of the flag being produced.

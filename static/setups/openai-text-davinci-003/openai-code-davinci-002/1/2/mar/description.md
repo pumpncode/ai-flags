@@ -1,1 +1,0 @@
-The flag of Morocco consists of a green pentagram surrounded by a red field with a vertical gold vertical stripe in the center. The flag has an aspect ratio of 2:3.

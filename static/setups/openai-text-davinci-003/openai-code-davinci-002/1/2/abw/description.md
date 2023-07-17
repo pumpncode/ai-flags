@@ -1,1 +1,0 @@
-The flag of Aruba consists of two equally sized horizontal stripes of blue and red, with a white four-pointed star outlined in a thin yellow border in the upper hoist corner. The top stripe is blue, and the bottom stripe is red. The aspect ratio of the flag is 2:3.

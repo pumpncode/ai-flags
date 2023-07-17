@@ -1,1 +1,0 @@
-The flag of the British Indian Ocean Territory consists of a blue field with six white wavy lines in the middle and a Dulux lemon yellow disc in the canton corner. The proportions are 1:2.

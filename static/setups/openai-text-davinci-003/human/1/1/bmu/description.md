@@ -1,1 +1,0 @@
-The flag of Bermuda has an aspect ratio of 1:2. It consists of a red triangle on the hoist side, bordered by two thin white stripes. The rest of the flag is divided into two parts, the top being a bright blue and the bottom part being a lighter blue. In the centre of the flag is a large white badge with a lion holding a shield, with a helmet above and two crossed flags behind it.

@@ -1,1 +1,0 @@
-The flag of Haiti consists of two equal horizontal bands of blue and red with a centered white rectangle bearing the coat of arms. The aspect ratio of the Haitian flag is 2:1.

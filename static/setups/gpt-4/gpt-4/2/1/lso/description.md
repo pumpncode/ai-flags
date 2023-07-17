@@ -1,3 +1,0 @@
-The flag of Lesotho has a horizontal tri-band design with an aspect ratio of 3:2. The three bands are blue (#003082), white (#FFFFFF), and green (#009543) in equal proportions. In the center of the white band, there is a black Basotho hat (mokorotlo) symbol.
-
-The exact geometric properties and measurements of the flag elements are not standardized, but the mokorotlo symbol should be centered within the white band and sized proportionally to the flag's dimensions.

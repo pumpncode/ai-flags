@@ -1,1 +1,0 @@
-The flag of Martinique is a tricolor flag with a ratio of 2:3. The top stripe is blue, the middle stripe is white, and the bottom stripe is red.

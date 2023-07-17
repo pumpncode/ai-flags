@@ -1,1 +1,0 @@
-The flag of Nigeria has three vertical stripes, green, white and green, in the proportions of 2:3:2 with an orange-brown centered symbol in the white stripe. The symbol is described as a horse's head facing left, above a black shield bearing a white disk with an eagle on a green field of earth divided by four horizontal stripes. It has an aspect ratio of 2:3.

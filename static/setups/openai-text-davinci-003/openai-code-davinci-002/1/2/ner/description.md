@@ -1,1 +1,0 @@
-The flag of Niger consists of three equal horizontal stripes of orange, white, and green. The orange stripe is at the top, the white stripe is in the middle, and the green stripe is at the bottom. The aspect ratio of the flag is 3:2.

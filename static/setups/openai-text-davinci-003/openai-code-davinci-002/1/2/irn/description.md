@@ -1,1 +1,0 @@
-The flag of Iran consists of three horizontal stripes. The top stripe is green, the middle stripe is white, and the bottom stripe is red. The proportions of the flag are 2:3, with the green stripe being one-third of the flag, the white stripe being one-third of the flag, and the red stripe being one-third of the flag.

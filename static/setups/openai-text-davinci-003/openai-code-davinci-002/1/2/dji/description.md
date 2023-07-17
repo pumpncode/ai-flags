@@ -1,1 +1,0 @@
-The flag of Djibouti is an equal-sided (~2:2) horizontal tricolor of blue, white, and green, with two thin yellow diagonals extending from the mast side to the fly side.

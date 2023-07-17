@@ -1,1 +1,0 @@
-The flag of Cyprus is a white canvas with a copper-red silhouette of the map of the island, with two olive branches below it. The aspect ratio of the flag is 1:2.

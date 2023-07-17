@@ -1,16 +1,18 @@
 import { join } from "std/path";
 
+import upload from "./fill-database/upload.js";
+
 import { getVexillologists, supabase } from "@/utilities/local.js";
 
 const rootFolderPath = join("./");
 
 const setupsFolderPath = join(rootFolderPath, "setups");
 
-const staticFolderPath = join(rootFolderPath, "static");
+const staticFolderPath = join(rootFolderPath, "data");
 
-const staticSetupsFolderPath = join(staticFolderPath, "setups");
+const staticSetupsFolderPath = join(staticFolderPath, "vexillologists");
 
-const staticDiffsFolderPath = join(staticFolderPath, "diffs");
+const staticDiffsFolderPath = join(rootFolderPath, "data", "vexillologists");
 
 const vexillologists = await getVexillologists({
 	setupsFolderPath,
@@ -38,6 +40,8 @@ const { data: dbVexillologists, error: vexillologistsError } = await supabase
 if (vexillologistsError) {
 	throw vexillologistsError;
 }
+
+const uploadPromises = [];
 
 for (const { id: vexillologistId, name: vexillologistName } of dbVexillologists) {
 	console.log("filling vexillographers of", vexillologistName);
@@ -123,6 +127,45 @@ for (const { id: vexillologistId, name: vexillologistName } of dbVexillologists)
 					)
 					.select();
 
+				for (const { code } of dbFlags) {
+					const flagPngFilePath = join(
+						staticSetupsFolderPath,
+						vexillologistName,
+						vexillographerName,
+						variantName,
+						instanceName,
+						code,
+						"flag.png"
+					);
+
+					const flagSvgFilePath = flagPngFilePath.replace(/\.png$/u, ".svg");
+
+					const diffPngFilePath = flagPngFilePath
+						.replace(/flag\.png$/u, "diff.png");
+
+					const folderPathOnBucket = join(
+						"vexillologists",
+						vexillologistName,
+						vexillographerName,
+						variantName,
+						instanceName,
+						code
+					);
+
+					const filePathsWithFilePathsOnBucket = [
+						[flagPngFilePath, join(folderPathOnBucket, "flag.png")],
+						[flagSvgFilePath, join(folderPathOnBucket, "flag.svg")],
+						[diffPngFilePath, join(folderPathOnBucket, "diff.png")]
+					];
+
+					for (const [filePath, filePathOnBucket] of filePathsWithFilePathsOnBucket) {
+						uploadPromises.push(upload({
+							filePath,
+							filePathOnBucket
+						}));
+					}
+				}
+
 				console.log("filled flags of", vexillologistName, vexillographerName, variantName, instanceName);
 			}
 			console.log("filled instances of", vexillologistName, vexillographerName, variantName);
@@ -131,3 +174,5 @@ for (const { id: vexillologistId, name: vexillologistName } of dbVexillologists)
 	}
 	console.log("filled vexillographers of", vexillologistName);
 }
+
+await Promise.all(uploadPromises);

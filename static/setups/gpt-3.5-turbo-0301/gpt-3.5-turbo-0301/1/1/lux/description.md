@@ -1,1 +1,0 @@
-The flag of Luxembourg has a proportion of 3:5 (width to length) and is composed of three horizontal stripes, with the top and bottom stripe colored red (Pantone 032C), and the center stripe colored light blue (Pantone 299C). The height of each stripe is equal to one-third of the flag's total height.

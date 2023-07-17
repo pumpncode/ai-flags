@@ -1,1 +1,0 @@
-The flag of Egypt is a horizontal tricolor of red, white, and black with the national emblem (eagle and shield) in the center. The aspect ratio is 1:2.

@@ -1,1 +1,0 @@
-The flag of Guinea has three horizontal stripes of green, yellow, and red. The top stripe is green, the middle is yellow and the bottom is red. The ratio of the flag is 1:2.

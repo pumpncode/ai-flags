@@ -1,3 +1,0 @@
-The flag of Lebanon features a horizontal tricolor design with red (#ED1C24) stripes on the top and bottom, a white (#FFFFFF) stripe in the middle, and a green cedar tree in the center of the white stripe. The aspect ratio is 2:3.
-
-The width of each red stripe is equal to one-sixth the length of the flag, while the width of the white stripe is double the width of the red stripes (i.e., one-third the length of the flag). The green cedar tree has its height equal to one-third of the flag's width and its width equal to one-fifth of the flag's length. It is placed at the center of the white stripe, with its top touching the upper red stripe and its base touching the lower red stripe.

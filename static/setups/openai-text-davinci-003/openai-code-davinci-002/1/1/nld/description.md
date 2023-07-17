@@ -1,1 +1,0 @@
-The flag of the Netherlands consists of three horizontal stripes of equal size, the top stripe being bright red, the middle a white, and the bottom one a light blue. It has a 2:3 ratio.

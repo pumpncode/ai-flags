@@ -1,1 +1,0 @@
-The flag of Bulgaria consists of three equal-width horizontal bands of white (top), green, and red and a yellow-outlined red star and curved ribbon of white and green at the canton. The aspect ratio of the flag is 2:3.

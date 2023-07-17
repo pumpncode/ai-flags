@@ -1,1 +1,0 @@
-The flag of Mauritania has a width to height ratio of 2:3. The background of the flag is green, with a yellow Islamic crescent centered in the middle. Immediately above the crescent is a yellow five-pointed star.

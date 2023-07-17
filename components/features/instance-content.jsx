@@ -1,7 +1,5 @@
 import cn from "classnames";
 
-import { asset } from "$fresh/runtime.ts";
-
 /**
  *
  * @param props
@@ -19,7 +17,7 @@ const InstanceContent = ({ flags, fullName }) => (
 				},
 				index
 			) => {
-				const pngFlagPath = `/setups/${fullName}/${code}/flag.png`;
+				const pngFlagPath = `/vexillologists/${fullName}/${code}/flag.png`;
 
 				return (
 					<li className="w-full h-48" key={index}>
@@ -34,7 +32,7 @@ const InstanceContent = ({ flags, fullName }) => (
 							>
 								<div className="flex items-center justify-center w-full p-2 rounded h-36 bg-neutral-700">
 									<img
-										src={asset(pngFlagPath)}
+										src={pngFlagPath}
 										alt={`Flag of ${name} (according to ${fullName})`}
 										loading="lazy"
 										className="max-w-full max-h-full border border-neutral-800"

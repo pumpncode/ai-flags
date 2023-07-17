@@ -1,1 +1,0 @@
-The flag of Macau features a blue background with a white lotus flower in the center, and a yellow-bordered red rice-ear-shaped emblem above the lotus flower. The flag has an aspect ratio of 2:3.

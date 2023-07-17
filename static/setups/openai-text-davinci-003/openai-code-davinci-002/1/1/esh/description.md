@@ -1,1 +1,0 @@
-The flag of Western Sahara consists of two equal horizontal stripes, red (at the top) and green (at the bottom). A black star is centered on the red stripe. The aspect ratio is 2:3.

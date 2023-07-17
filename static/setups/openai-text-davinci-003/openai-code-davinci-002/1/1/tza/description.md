@@ -1,1 +1,0 @@
-The flag of Tanzania is a simple but striking design featuring three horizontal stripes in the colors black, green, and blue. The topmost stripe is black, followed by a green stripe which occupies the middle of the flag, and finally a blue stripe that is the bottom stripe. The flag has an aspect ratio of 2:3.

@@ -1,1 +1,0 @@
-The flag of South Korea, also known as the Taegukgi, is a white field with four black trigrams on it, each with a yin and yang symbol inside. The proportions of the flag are 2:3.

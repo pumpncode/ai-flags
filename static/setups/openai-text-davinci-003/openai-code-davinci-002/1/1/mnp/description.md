@@ -1,1 +1,0 @@
-The flag of the Northern Mariana Islands is a red stripe at the top and bottom, with a white stripe between them and a blue triangle to the left. The overall aspect ratio of the flag is 2:3.

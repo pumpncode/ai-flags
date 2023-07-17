@@ -1,3 +1,0 @@
-The flag of Mongolia has a 1:2 aspect ratio, consisting of three vertical stripes. The two outer stripes are red (Pantone 186 C), and the middle stripe is blue (Pantone 300 C). The width of each stripe is equal, making them one-third of the flag's width.
-
-On the hoist-side red stripe, there is a golden-yellow emblem called the Soyombo symbol. The height of the Soyombo symbol is approximately 80% of the red stripe's width, and it is centered vertically within the stripe. The Soyombo consists of various geometric shapes, including triangles, rectangles, and circles.

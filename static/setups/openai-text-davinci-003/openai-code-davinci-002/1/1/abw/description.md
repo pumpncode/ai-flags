@@ -1,1 +1,0 @@
-The flag of Aruba has an aspect ratio of 2:3 and consists of two equal horizontal bands of blue (top) and red (bottom) with a four-pointed white-fimbriated star in the center.

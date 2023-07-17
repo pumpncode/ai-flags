@@ -1,1 +1,0 @@
-The flag of Ireland is a tricolor flag. It is composed of three vertical stripes, with the colors of green, white and orange from left to right. The width ratio of the stripes is 1:2:1 and the aspect ratio of the whole flag is 1:2.

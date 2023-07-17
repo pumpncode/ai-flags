@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 100">
-	<path fill="green" d="M10 0h20v100H10z" stroke-width="1"/>
-	<path fill="gold" d="M30 0h20v100H30z" stroke-width="1"/>
-	<path fill="red" d="M50 0h20v100H50z" stroke-width="1"/>
-	<circle cx="35" cy="50" r="3" fill="#ff0" stroke-width="1"/>
-</svg>

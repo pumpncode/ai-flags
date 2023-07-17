@@ -1,5 +1,0 @@
-The flag of Aruba has an aspect ratio of 2:3. It is comprised of a blue background (#3C9BDF) with two narrow parallel horizontal stripes in yellow (#FFD600) at the bottom and a red four-pointed star (#B40E1F) outlined in white in the upper hoist-side corner.
-
-The blue field measures the full height and length of the flag (2 units high by 3 units wide). The yellow stripes are each 1/16th of the flag's height, with a separation between them equal to another 1/16th of the flag's height, creating a total combined height of 3/16ths of the flag's height for the yellow striped area.
-
-The red star has an interior angle of 108 degrees at each point, and its vertical axis is aligned with the centerline of the white fimbriation. Its overall height is equal to half of the flag's height (1 unit), and the distance from the hoist side to the tip of the star's rightmost point equals 1.5 times the star's height. The white fimbriation outlining the star has a width equal to 1/48th of the flag's height.

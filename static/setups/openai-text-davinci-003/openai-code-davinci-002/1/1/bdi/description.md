@@ -1,1 +1,0 @@
-The flag of Burundi features three equal horizontal stripes of red, white, and green, with a single black charger centered within the white stripe. The aspect ratio is 2:3.

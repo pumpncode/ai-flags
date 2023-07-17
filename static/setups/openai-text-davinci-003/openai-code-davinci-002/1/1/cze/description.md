@@ -1,1 +1,0 @@
-The flag of Czechia is a horizontally divided tricolor in proportions 2:3, with blue on the top, white in the middle, and red on the bottom.

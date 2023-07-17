@@ -1,1 +1,0 @@
-The flag of Burundi consists of a divided tricolor of blue, yellow, and green. The upper blue stripe is double the height of the lower stripes. The yellow stripe is sandwiched between the blue and green. All stripes are of equal width and the flag has an aspect ratio of 3 to 2.

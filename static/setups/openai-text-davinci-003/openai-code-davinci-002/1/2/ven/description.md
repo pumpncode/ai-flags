@@ -1,1 +1,0 @@
-The flag of Venezuela features three equal vertical stripes, arranging from left to right; yellow, blue, and red. The yellow and red are the same width, and the blue is double the width of the other two. The aspect ratio is 2:3.

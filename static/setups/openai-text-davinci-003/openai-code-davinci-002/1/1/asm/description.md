@@ -1,1 +1,0 @@
-The flag of American Samoa is a simple blue and white field with a wide red stripe in the canton. The ratio is 1:2, with the blue and white field taking up two-thirds of the width of the flag, and the red stripe taking up the remaining one-third.

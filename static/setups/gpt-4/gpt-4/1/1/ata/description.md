@@ -1,1 +1,0 @@
-The flag of Antarctica, known as the Graham Bartram's design, features a plain white background (color code: #FFFFFF) with an orange map of the Antarctic continent (color code: #FF9900). The aspect ratio of the flag is 2:3. Exact measurements and geometric properties depend on the size of the flag being produced.

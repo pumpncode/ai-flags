@@ -1,1 +1,0 @@
-The flag of Algeria features two equal horizontal red stripes with a white star and crescent centered in the middle. The width-to-length ratio of the flag is 2:3.

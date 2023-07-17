@@ -1,1 +1,0 @@
-The flag of Singapore has a white crescent moon and five stars on a red background with a ratio of 2:3. The red background symbolizes equality, and the crescent and stars represent the multicultural diversity of the nation. The white crescent and stars are arranged on a horizontal plane, the crescent is above the stars.

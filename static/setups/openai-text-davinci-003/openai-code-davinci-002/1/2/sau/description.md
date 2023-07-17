@@ -1,1 +1,0 @@
-The flag of Saudi Arabia has green, white, and black horizontal stripes. The width of the stripes is in a 2:3:2:3:2 ratio, with the white stripe in the center. The color green symbolizes the faith of Islam, white stands for peace and neutrality, and black expresses the religious duty of the citizens.

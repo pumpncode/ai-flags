@@ -1,3 +1,0 @@
-The flag of Puerto Rico has an aspect ratio of 2:3. It consists of five horizontal stripes alternating between red (#FF0000) and white (#FFFFFF), with the top and bottom stripes being red. The left side of the flag features a blue isosceles triangle (#00247D) with its base along the hoist and its vertex at the midpoint of the opposite side. Inside the triangle, there is a white five-pointed star (#FFFFFF).
-
-The three red stripes and two white stripes are equal in width, each occupying 1/5th of the flag's height. The blue triangle's height is equal to the flag's height, and its base is equal to half of the flag's width. The white star is placed equidistant from the triangle's sides and the midpoint of its base, with its points equally spaced around a circle.

@@ -1,1 +1,0 @@
-The flag of Andorra is a vertical tricolor of blue, yellow and red, with a ratio of 7:10. The blue band is closest to the hoist and is two-fifths of the total width. The yellow band is one-third of the total width, in the middle. The red band is the remaining two-fifths of the flag and is adjacent to the fly.

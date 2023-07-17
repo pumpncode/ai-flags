@@ -1,3 +1,0 @@
-The flag of Guatemala has an aspect ratio of 5:8. It consists of three vertical stripes in equal proportions: blue (#4997D0), white (#FFFFFF), and blue (#4997D0) from left to right. In the center of the white stripe lies the Guatemalan coat of arms.
-
-The blue stripes have a hexadecimal color code of #4997D0, while the white stripe has a color code of #FFFFFF. No specific measurements are provided for the coat of arms, but it is typically scaled to fit appropriately within the white stripe.

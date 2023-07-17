@@ -1,1 +1,0 @@
-The flag of Denmark is a red flag with a white cross, which extends to all of the flag's edges. Its aspect ratio is 22:18.

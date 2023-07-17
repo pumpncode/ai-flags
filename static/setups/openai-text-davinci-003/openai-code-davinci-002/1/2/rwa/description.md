@@ -1,1 +1,0 @@
-The flag of Rwanda has an aspect ratio of 3:2 and consists of three equal horizontal stripes of sky blue (top), green, and yellow. Centered on the green stripe is a sun with 24 rays that are equally spaced between each other, each ray alternating colors of blue, yellow, black, and red from top to bottom.

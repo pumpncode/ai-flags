@@ -1,1 +1,0 @@
-The flag of Slovakia consists of a white and blue horizontal bicolor. The proportions of the flag are 2:3. The top stripe is blue while the bottom stripe is white.

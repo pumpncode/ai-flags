@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 297">
-	<style>
-		:root{--red:#9a0e0e;--blue:#0e4dac;--orange:#e76a05}
-	</style>
-	<path fill="var(--red)" d="M0 0h210v100H0z" stroke-width="1"/>
-	<path fill="var(--blue)" d="M0 100h210v100H0z" stroke-width="1"/>
-	<path fill="var(--orange)" d="M0 200h210v97H0z" stroke-width="1"/>
-</svg>

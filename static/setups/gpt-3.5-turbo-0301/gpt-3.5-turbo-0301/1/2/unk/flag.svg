@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 98">
-	<path fill="#00437f" d="M0 0h70v98H0z" stroke-width="2"/>
-	<path fill="#ffc800" d="M35 17l-11 10h22z" stroke-width="2"/>
-	<path fill="#fff" d="M35 17l11 10v40l-11 10-11-10v-40z" stroke-width="2"/>
-	<path fill="#ffc800" d="M35 37l6 5-2 7 6-4L46 52l2-7 6 4-2-7 1-7z" stroke-width="2"/>
-	<path fill="#fff" d="M35 45l5-4 5 4-1-6 4-2-6-1-7-4-3 7-6-1 4 2z" stroke-width="2"/>
-</svg>

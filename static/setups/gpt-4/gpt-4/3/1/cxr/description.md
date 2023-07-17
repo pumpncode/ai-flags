@@ -1,3 +1,0 @@
-The flag of Christmas Island has an aspect ratio of 1:2. It consists of a green (Pantone 355C) and blue (Pantone 300C) background, separated by a narrow gold stripe (Pantone 123C). The green portion is on the upper half, while the blue portion is on the lower half. The gold stripe is placed diagonally from the lower hoist to the upper fly.
-
-On the upper hoist side, there is a white circle with a diameter equal to 1/4 of the flag's width. Inside the circle, there is a golden bosun bird (Pantone 123C) with a wingspan equal to 1/2 of the circle's diameter.

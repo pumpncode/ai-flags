@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" style="height: 200px; width: 300px; border: 1px solid #000;">
-		<g style="paint-order: stroke markers;">
-			<rect width="500" height="100" style="fill: #4da809;" />
-			<rect y="100" width="500" height="100" style="fill: #fedc32;" />
-			<rect y="200" width="500" height="100" style="fill: #ce1126;" />
-		</g></svg>

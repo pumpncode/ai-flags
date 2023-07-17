@@ -1,1 +1,0 @@
-The national flag of Guinea-Bissau is a 4:5 ratio rectangular tricolor of green, yellow, and red, with the design consisting of a horizontal yellow stripe at the top, a vertical red stripe on the left, and a horizontal green stripe at the bottom.

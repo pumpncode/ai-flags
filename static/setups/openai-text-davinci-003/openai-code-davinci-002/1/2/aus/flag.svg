@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400">
-	<text x="50" y="250" style="font-size:10%" stroke-width="1">ViewBox="0 0 1000 400"</text>
-	<path d="M50 0h904v400H50z" style="fill:#311904;stroke-width:.616;stroke:#6e91c2" stroke-width="1"/>
-	<text x="250" y="140" style="font-size:12%" stroke-width="1">Text</text>
-	<path d="M1 31l903 45v288L1 310z" style="fill:none;stroke-width:3" stroke-width="1"/>
-</svg>

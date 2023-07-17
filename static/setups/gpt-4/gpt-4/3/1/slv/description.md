@@ -1,5 +1,0 @@
-The flag of El Salvador has an aspect ratio of 189:335. It consists of three horizontal stripes of equal width: the top and bottom stripes are cobalt blue (Pantone 286 C) while the middle stripe is white (Pantone White).
-
-In the center of the white stripe, there is a coat of arms which consists of a round emblem that encloses a landscape with five volcanoes, a blue sky, and the Pacific Ocean. Above the volcanoes, there is a red Phrygian cap on a staff and a rainbow arc. Encircling the landscape, there is a golden amber (Pantone 130 C) parchment scroll inscribed with "REPUBLICA DE EL SALVADOR EN LA AMERICA CENTRAL" in black capital letters. The coat of arms is surrounded by 14 small amber (Pantone 130 C) stars arranged in a semicircle.
-
-The height of the coat of arms is half the height of the white stripe.

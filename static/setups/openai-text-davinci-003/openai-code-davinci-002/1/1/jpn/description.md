@@ -1,1 +1,0 @@
-The flag of Japan consists of a white rectangular panel featuring a red disc in the centre with a white border. The ratio of the width of the flag to its height is two to three.

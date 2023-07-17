@@ -1,3 +1,0 @@
-The flag of the Republic of the Congo has a 2:3 aspect ratio and consists of a diagonal tricolor design. It features a yellow diagonal band running from the lower hoist-side corner to the upper fly-side corner, dividing the flag into two triangles. The upper triangle is green (Pantone 347 C), and the lower triangle is red (Pantone 186 C). The yellow band (Pantone 116 C) has a width equal to one-fifth of the flag's length.
-
-Unfortunately, I cannot provide an image or the exact measurements of the flag, as they depend on the specific instance of the flag being produced.

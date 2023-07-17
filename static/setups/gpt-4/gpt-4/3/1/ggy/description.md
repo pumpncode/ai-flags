@@ -1,3 +1,0 @@
-The flag of Guernsey has an aspect ratio of 1:2. It features a white field with a red St. George's Cross and a gold Norman cross in the canton. The St. George's Cross is made up of two equally wide red stripes (Pantone 186C) intersecting at the center, dividing the flag into four quadrants. The Norman cross consists of two yellow (Pantone 116C) diagonal lines that form an "X" shape and are bordered by thinner red (Pantone 186C) lines.
-
-The width of each arm of the St. George's Cross is 1/10th of the flag's height, while the width of the gold diagonal lines of the Norman cross is 1/20th of the flag's height. The red bordering lines of the Norman cross are 1/40th of the flag's height.

@@ -1,3 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
-		<rect width="480" height="100" fill="black"/><rect x="0" y="100" width="480" height="100" fill="red"/><rect x="0" y="200" width="480" height="100" fill="green"/>
-		<path d="M0 75 L480 75 L480 225 L0 225 L0 75 C0 75 240 185 240 245 C240 306 0 306 0 306 L0 75" fill="white"/></svg>

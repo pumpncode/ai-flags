@@ -1,1 +1,0 @@
-The flag of Guinea consists of three vertical stripes of equal width. The left and right stripes are colored red (#CE1126) and the center stripe is yellow (#FFD700). The ratio of the flag's height to its width is 2:3. There are no other geometric properties or measurements specified for the flag.

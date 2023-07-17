@@ -1,1 +1,0 @@
-The flag of the Falkland Islands is a defaced blue ensign with the British Union Jack in the canton, with a white South Atlantic Ocean-facing Falkland Islands coat of arms consisting of a ram, shield, and sailing ship centered on a grassy hilltop. The aspect ratio of the flag is 1:2.

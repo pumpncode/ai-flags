@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
-	<path fill="red" d="M0 0h300v200H0z" stroke-width="1"/>
-	<path fill="navy" d="M0 0h100v140H0z" stroke-width="1"/>
-	<g transform="translate(50, 30)" stroke-width="1">
-		<circle r="42" fill="#FFF" stroke-width="1"/>
-		<path stroke="navy" stroke-width="12" d="M0-42v-28m24 46l36-36M42 0h28M24 24l36 36M0 42v28m-24-46l-36 36m18-60h-28m46-24l-36-36"/>
-	</g>
-</svg>

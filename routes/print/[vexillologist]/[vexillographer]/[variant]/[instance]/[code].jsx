@@ -30,7 +30,7 @@ const handler = {
 
 		const countries = JSON.parse(await readTextFile(join(cwd(), "static", "countries.json")));
 
-		const pngFlagPath = `/setups/${setupName}/${code}/flag.png`;
+		const pngFlagPath = `/vexillologists/${setupName}/${code}/flag.png`;
 
 		try {
 			return context.render({

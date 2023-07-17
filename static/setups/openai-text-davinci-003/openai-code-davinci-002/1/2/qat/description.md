@@ -1,1 +1,0 @@
-The flag of Qatar is a red rectangle with a white serrated triangle at its hoist, with the ratio of its length to its width being 11:28.

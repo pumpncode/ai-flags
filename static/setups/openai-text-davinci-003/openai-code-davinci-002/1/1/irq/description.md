@@ -1,1 +1,0 @@
-The flag of Iraq has a green, white and black tricolor design with a red triangle containing the takbir along the hoist. Its aspect ratio is 2:3.

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
-	<path fill="#00247d" d="M0 0h200v400H0z" stroke-width="1"/>
-	<path fill="#fcd116" d="M200 0h200v400H200z" stroke-width="1"/>
-	<path fill="#007a33" d="M400 0h200v400H400zM300 100L200 200l100 100 100-100z" stroke-width="1"/>
-	<path fill="#007a33" d="M300 100l100 100-100 100-100-100z" stroke-width="1"/>
-	<path fill="#fcd116" d="M300 75l-75 125h150z" stroke-width="1"/>
-</svg>

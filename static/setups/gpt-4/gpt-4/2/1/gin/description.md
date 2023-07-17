@@ -1,1 +1,0 @@
-The flag of Guinea consists of three vertical stripes of equal width. The colors, from left to right, are red (#CE1126), yellow (#FCD116), and green (#009E60). The aspect ratio of the flag is 2:3, meaning its width is two-thirds of its length. There are no specific geometric properties or measurements beyond the equal-width stripes and aspect ratio.

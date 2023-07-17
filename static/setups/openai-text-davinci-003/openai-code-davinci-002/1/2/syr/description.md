@@ -1,1 +1,0 @@
-The flag of Syria has three equal horizontal stripes of red (top), white (middle), and black (bottom). The flag has an aspect ratio of 2:3.

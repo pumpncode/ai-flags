@@ -1,1 +1,0 @@
-The flag of Malaysia is a rectangular design featuring 14 equal, horizontal stripes of alternating red and white, with a blue canton in the upper left corner containing a yellow crescent and a yellow 14-pointed star. The ratio of width to height is 2:3.

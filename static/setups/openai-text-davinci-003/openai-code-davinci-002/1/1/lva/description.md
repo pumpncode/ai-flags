@@ -1,1 +1,0 @@
-The flag of Latvia is a tricolor consisting of three equal horizontal bands of maroon, white, and maroon. The aspect ratio is 1:2.

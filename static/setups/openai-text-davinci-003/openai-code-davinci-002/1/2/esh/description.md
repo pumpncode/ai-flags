@@ -1,1 +1,0 @@
-The flag of Western Sahara is a horizontally divided flag with two equal bands of dark blue and green. The aspect ratio is 2:3.

@@ -1,1 +1,0 @@
-The flag of Peru is a vertical triband with alternating red and white bands and a centered coat of arms. The top band is red, the middle white, and the bottom red. The width of each band is 1/13 of the flag's height, and the coat of arms has a height of 7/13 of the flag's height.

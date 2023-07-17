@@ -1,1 +1,0 @@
-As of my knowledge cutoff date in September 2021, Bouvet Island does not have an official flag. Bouvet Island is a remote, uninhabited, subantarctic volcanic island located in the South Atlantic Ocean. It is a dependency of Norway and thus would be represented by the flag of Norway if needed.

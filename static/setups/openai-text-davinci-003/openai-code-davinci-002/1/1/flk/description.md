@@ -1,1 +1,0 @@
-The Flag of Falkland Islands has a proportion of 1:2 and consists of a white-fimbriated state Blue Ensign defaced with a badge depicting a ram. The badge occupies the fly half of the flag and features a yellow figure of a ram facing away from the hoist and a scroll marked with the word “Falkland Islands” in yellow capital lettering.

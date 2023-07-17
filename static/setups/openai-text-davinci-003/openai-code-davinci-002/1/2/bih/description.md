@@ -1,1 +1,0 @@
-The flag of Bosnia and Herzegovina is a horizontal tricolor of blue, white, and yellow, arranged with the colors in an equal proportion, with the blue field on top, the white field in the middle, and the yellow field on the bottom. The Aspect Ratio is 1:2.

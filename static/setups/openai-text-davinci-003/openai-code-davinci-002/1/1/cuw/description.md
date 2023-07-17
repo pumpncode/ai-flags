@@ -1,1 +1,0 @@
-The flag of Curaçao is rectangular and is 2:3 in aspect ratio. The field of the flag is a light blue, and it features two white, five-pointed stars in the center and a yellow stripe along the bottom with a black line near the hoist.

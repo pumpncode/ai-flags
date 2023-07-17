@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="800" height="600">
-	<rect id="canvas" width="500" x="0" y="0" height="300" fill="#fff" stroke="black" stroke-width="1"/>
-	<rect width="500" x="0" y="0" height="100" fill="red"/>
-	<rect width="500" x="0" y="100" height="100" fill="blue"/>
-	<path id="sun" fill="yellow" d="M 25,25 l 20,-20 v 40 z" transform="translate(225, 50)" /></svg>

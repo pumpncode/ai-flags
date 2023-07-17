@@ -1,1 +1,0 @@
-The flag of Uzbekistan consists of a deep blue field with a white crescent moon and 12 white five-pointed stars in the center. The aspect ratio of the flag is 2:3.

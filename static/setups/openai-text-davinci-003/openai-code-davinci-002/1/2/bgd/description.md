@@ -1,1 +1,0 @@
-The flag of Bangladesh is a rectangularly shaped bicolor banner composed of a red field on the top paling to a dark green in the lower half. The ratio of the flag's width to its length is 1:2.

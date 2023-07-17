@@ -1,5 +1,0 @@
-The flag of Aruba has an aspect ratio of 2:3. It consists of a field of light blue (Pantone 297C) with two narrow parallel horizontal stripes of yellow (Pantone 116C) at the bottom, and a red four-pointed star (Pantone 186C) with a white fimbriation in the upper hoist-side corner.
-
-The light blue field covers the entire flag, while the yellow stripes are placed near the bottom edge. The top stripe is twice as wide as the bottom one. The red star's points are equidistant from each other, and its vertices touch an invisible circle, creating a regular geometric shape. The white fimbriation surrounding the star is of equal width on all sides.
-
-Exact measurements or proportions for the elements of the flag are not provided in official sources, but they can be approximated based on the overall flag dimensions.

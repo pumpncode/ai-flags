@@ -1,1 +1,0 @@
-The flag of Heard Island and McDonald Islands consists of a green triangle with a white five-pointed star in its center, pointing up, and with two curved sides. A blue horizontal bar divides the upper and lower halves of the triangle, and the bottom of the triangle extends beyond the blue bar slightly. The aspect ratio is 5:3.

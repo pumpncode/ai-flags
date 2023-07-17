@@ -1,1 +1,0 @@
-The flag of Kiribati is a horizontal bicolor of sky blue and red, with a sunburst of fourteen rays of bright yellow between the two stripes. The aspect ratio is 3:2.

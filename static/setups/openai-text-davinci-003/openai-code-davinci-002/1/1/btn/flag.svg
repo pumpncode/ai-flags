@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="100%" height="100%">
-		<rect fill="#ffc61e" width="200" height="300"></rect>
-		<rect fill="#db1a23" width="200" height="150" y="150"></rect>
-		<path fill="#fff" d="M45 0L42 70L20 70L0 75L1 85L64 90L125 95L140 45L160 45L160 25L185 15L185 70L105 100L155 150L145 160L175 270L145 275L140 285L120 290L70 280L35 255L1 222L1 267L45 272L65 250L10 240L50 190L35 175L30 135L3 145L1 130L25 140L45 125L15 120L45 80z"></path>
-		<path fill="#db1a23" d="M120 220L110 220L90 230L45 230L60 215L65 220L55 230L95 240L70 235L4 200l5-5L126 183l2 12 6 3h5l5-5z"></path>
-		<path fill="#fff" d="M60 215L70 220L66 225L85 240L75 238L90 250L50 225L60 215z"></path>
-		<path fill="#db1a23" d="M170 250L200 270L195 280l15-7L210 270z"></path>
-		<path fill="#fff" d="M180 275L165 260L210 270z"></path></svg>

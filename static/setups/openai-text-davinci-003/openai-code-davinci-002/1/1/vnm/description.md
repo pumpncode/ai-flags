@@ -1,1 +1,0 @@
-The current flag of Vietnam is a red horizontal flag with a five-pointed gold star in the middle. The flag has an aspect ratio of 2:3.

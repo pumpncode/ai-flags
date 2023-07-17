@@ -1,1 +1,0 @@
-The Sierra Leone flag has a ratio of 2:3, with three vertical stripes in green, white and blue, which are of equal width. The green stripe is at the hoist and the blue stripe is at the fly. The white stripe is in the middle of the two. There is a dark blue five-pointed star in the center at the intersection of the green, white and blue stripes.

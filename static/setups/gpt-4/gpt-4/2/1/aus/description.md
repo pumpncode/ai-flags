@@ -1,3 +1,0 @@
-The flag of Australia has a blue field (Pantone 280C) with three main elements: the Union Jack in the upper hoist quarter, the Commonwealth Star below the Union Jack, and the Southern Cross constellation on the fly side. The aspect ratio is 1:2.
-
-The Union Jack occupies 1/4 of the flag's area and is composed of red (Pantone 186C) and white (Pantone White) crosses. The Commonwealth Star has seven points, with the diameter of the star being 3/20 of the flag's width. The Southern Cross consists of five white stars, one 5-pointed and four 7-pointed, with varying diameters: α Crucis (7-pointed) is 1/7 of the flag's width, β Crucis (7-pointed) is 1/12, γ Crucis (7-pointed) is 1/14, δ Crucis (7-pointed) is 1/14, and ε Crucis (5-pointed) is 1/12.

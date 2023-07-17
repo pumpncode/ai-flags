@@ -1,1 +1,0 @@
-The national flag of Belarus is a vertical triband of red, green and red with a white, red-framed decorative ornament on the hoist side. The overall aspect ratio of the flag is 1:2.

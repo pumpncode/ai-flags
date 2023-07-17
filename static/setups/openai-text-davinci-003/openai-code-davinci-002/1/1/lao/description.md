@@ -1,1 +1,0 @@
-The flag of Laos is a vertical triband of red, blue and red, each equal in width and twice as wide as it is tall. The blue band has a white circle placed at its center.

@@ -1,1 +1,0 @@
-The flag of Mali is a tricolor featuring three equal vertical bands of green (hoist side), gold and red with a single five-pointed yellow star centered in the gold band. Its aspect ratio is 2:3.

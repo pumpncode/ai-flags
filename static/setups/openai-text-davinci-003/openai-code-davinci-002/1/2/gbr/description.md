@@ -1,1 +1,0 @@
-The flag of the United Kingdom is a blue ensign with the Union Jack in the canton, made of a red cross of St. George charged over a white cross of St. Andrew, with a red saltire of St. Patrick in the fly. Its aspect ratio is 1:2.

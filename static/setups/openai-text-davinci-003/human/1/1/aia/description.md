@@ -1,1 +1,0 @@
-The Anguilla flag is a horizontal triband with an upper strip of blue, a center strip of white and a bottom strip of light blue. It has a ratio of 1:2 and a Saint David's cross in the center of the white stripe.

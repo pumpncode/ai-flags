@@ -1,1 +1,0 @@
-The flag of Turkmenistan is a vertical tricolor composed of a green stripe at the hoist, a white stripe in the middle, and a red stripe at the fly. The aspect ratio of the flag of Turkmenistan is 1:2.

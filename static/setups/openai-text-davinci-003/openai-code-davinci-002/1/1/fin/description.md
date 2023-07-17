@@ -1,1 +1,0 @@
-The flag of Finland consists of a red rectangular field with a blue Nordic Cross in the center. The length of the flag is twice its width, making the aspect ratio of the flag 2:1.

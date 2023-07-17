@@ -1,1 +1,0 @@
-The national flag of Tunisia is a red and white tricolor in a ratio of 2:3. The upper stripe is red, the middle stripe is white and the bottom stripe is red.

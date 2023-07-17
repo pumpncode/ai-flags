@@ -1,1 +1,0 @@
-The flag of India has a rectangular shape with an aspect ratio of 2:3. It features three horizontal stripes of saffron, white, and green of equal width with a navy-blue wheel with 24 spokes centered in the middle of the white stripe.

@@ -1,1 +1,0 @@
-The flag of Chile has an aspect ratio of 2:3, with a white field on the top two-thirds of the flag and a red field on the bottom one-third. In the center is a blue square with a white star inside.

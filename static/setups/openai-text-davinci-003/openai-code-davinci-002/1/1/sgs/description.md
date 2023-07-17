@@ -1,1 +1,0 @@
-The flag of South Georgia is a blue bicolor with a large white St. Andrew's Cross with a 4:5 aspect ratio. The top-left and bottom-right quadrants are blue, with the top-right and bottom-left quadrants being white.

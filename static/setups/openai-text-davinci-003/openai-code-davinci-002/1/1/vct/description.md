@@ -1,1 +1,0 @@
-The national flag of Saint Vincent and the Grenadines is a blue ensign flag with a green triangle on the hoist charged with three yellow stars. It has an aspect ratio of 2:3.

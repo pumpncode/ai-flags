@@ -1,1 +1,0 @@
-The flag of South Sudan is a horizontal tricolour of black, white, and red with a yellow triangle outlining the hoist side. The ratio of the flag is 2:3 with the width of the flag twice as long as its height.

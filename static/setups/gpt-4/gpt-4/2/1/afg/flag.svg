@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 90">
-	<path d="M0 0h20v90H0z"/>
-	<path fill="#BF0A30" d="M20 0h20v90H20z"/>
-	<path fill="#00966E" d="M40 0h20v90H40z"/>
-	<circle cx="30" cy="45" r="10" fill="#FFF"/>
-	<text x="30" y="45" dy=".3em" font-family="Arial" font-size="8" text-anchor="middle">Emblem</text>
-</svg>

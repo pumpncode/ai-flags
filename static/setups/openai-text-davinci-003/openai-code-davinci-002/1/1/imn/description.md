@@ -1,1 +1,0 @@
-The flag of the Isle of Man is a red ensign, which has a rectangular dark blue field containing three white legs, which join in the centre at the top of the flag and each have a golden sprig of Shamrock at their lower end; a gold crown sits in the centre of the legs. The aspect ratio is 1:2.

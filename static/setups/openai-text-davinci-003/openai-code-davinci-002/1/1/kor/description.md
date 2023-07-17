@@ -1,1 +1,0 @@
-The flag of South Korea consists of a white horizontal bicolor with a central red Korean Taeguk in the center. The flag has an aspect ratio of 3:2.

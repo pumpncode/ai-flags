@@ -1,1 +1,0 @@
-The flag of Spain is composed of three horizontal stripes of equal width in the colors red, yellow, and red. The overall aspect ratio is 2:3.

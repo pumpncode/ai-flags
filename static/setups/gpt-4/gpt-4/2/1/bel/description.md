@@ -1,1 +1,0 @@
-The flag of Belgium consists of three vertical stripes of equal width. The colors are black (#000000), yellow (#FDDA24), and red (#EF3340), from left to right. The flag has an aspect ratio of 13:15, meaning its width is 13 units and its height is 15 units. The flag does not have any specific geometric properties or measurements beyond the equal-width stripes and aspect ratio.

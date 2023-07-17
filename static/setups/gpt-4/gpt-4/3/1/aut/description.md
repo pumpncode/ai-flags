@@ -1,1 +1,0 @@
-The flag of Austria consists of three horizontal bands of equal width. The top and bottom bands are red (color code: #FF0000), while the middle band is white (color code: #FFFFFF). The flag has an aspect ratio of 2:3, meaning its width is 1.5 times its height. There's no specific geometric properties or measurements other than the equal width of the bands.

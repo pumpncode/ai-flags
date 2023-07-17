@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18000 12000">
-	<rect width="18000" height="2000" fill="blue"/>
-	<rect width="18000" height="2000" y="2000" fill="white"/>
-	<rect width="18000" height="2000" y="4000" fill="white"/>
-	<rect width="18000" height="2000" y="6000" fill="white"/>
-	<rect width="18000" height="2000" y="8000" fill="white"/>
-	<rect width="18000" height="2000" y="10000" fill="blue"/>
-	<polygon fill="green" points="0,0 2250,12000 4500,0"/>
-</svg>

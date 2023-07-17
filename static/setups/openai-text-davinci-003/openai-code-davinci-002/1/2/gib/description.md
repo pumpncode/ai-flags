@@ -1,1 +1,0 @@
-The flag of Gibraltar is a red field with two horizontal white bands at the top and bottom edges and a three-towered castle in the central band, each tower with a golden key in its forepeak. The width of the white bands are one sixth of the flag’s height, and the tower has a width equal to one quarter of the flag's height.

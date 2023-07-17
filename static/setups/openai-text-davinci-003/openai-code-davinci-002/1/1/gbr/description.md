@@ -1,1 +1,0 @@
-The flag of the United Kingdom is a white-blue-red tricolor, with the blue occupying the upper hoist, the red occupying the full fly, and the white occupying the upper fly. The overall aspect ratio is 3:5.

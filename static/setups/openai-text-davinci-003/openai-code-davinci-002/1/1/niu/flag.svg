@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
-		<defs>
-			<path id="b" fill="blue" d="M10 20H0V0h1v19.9L17.1 5h1L9.9 0z" />
-			<path id="y" fill="yellow" d="M10 3.1A2.76 2.76 0 007.25 0 2.76 2.76 0 004.5 3.1c0 1.49.73 2.75 2 2.75s2-1.26 2-2.75z"></path>
-		</defs>
-		<use href="#b" width="10" height="5" x="0" y="0" />
-		<use href="#b" width="5" height="5" x="-2.5" y="-7.5" />
-		<use href="#y" width="5" height="5" x="5" y="-7.5" /></svg>

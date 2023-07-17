@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20">
-		<title>Flag</title>
-		<rect fill="skyblue" width="40" height="20"/>
-		<rect fill="whitesmoke" x="0" width="40" height="10" />
-		<rect fill="skyblue" x="0" width="40" height="4"/>
-		<circle cx="20" cy="5" r="3.5" fill="blue"/></svg>

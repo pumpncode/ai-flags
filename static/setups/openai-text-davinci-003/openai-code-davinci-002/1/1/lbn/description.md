@@ -1,1 +1,0 @@
-The flag of Lebanon is composed of two horizontal stripes of equal width, the top one being red and the bottom one being white. The Lebanese cedar tree is featured in the middle of the flag and is green with brown contours. The aspect ratio of the Lebanese flag is 2:3.

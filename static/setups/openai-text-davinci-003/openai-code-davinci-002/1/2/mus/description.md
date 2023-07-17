@@ -1,1 +1,0 @@
-The flag of Mauritius has an aspect ratio of 4:3 and consists of four equal horizontal stripes of red, blue, yellow, and green. In the centre of the flag, there is a white disk with a red border, which encloses a yellow lion holding a white flag with a red border and, behind the lion, four yellow and four blue rays extending to the edges of the flag.

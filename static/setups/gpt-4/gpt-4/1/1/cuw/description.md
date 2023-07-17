@@ -1,5 +1,0 @@
-The flag of Curaçao consists of a blue field with a horizontal yellow stripe slightly below the midpoint and two white, five-pointed stars in the upper-left corner (canton). The blue field has the Pantone color code 286C, while the yellow stripe uses Pantone 116C.
-
-The aspect ratio of the flag is 2:3, meaning it is two units wide and three units tall. The yellow stripe has a height of 1/6th of the flag's total height. The two stars are placed on an imaginary square with a size of 1/3rd of the flag's width and height, located at the upper hoist side of the flag.
-
-As for the stars' dimensions, their points reach out from an inner circle with a radius of 1/24th the flag's height to an outer circle with a radius of 1/16th the flag's height. The distance between the centers of the stars is equal to the radius of the outer circle.

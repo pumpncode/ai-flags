@@ -1,5 +1,0 @@
-The flag of Portugal has a 2:3 aspect ratio and is divided into two vertical fields. The hoist (left) side is green, occupying 2/5 of the flag's length, with color code #006633. The fly (right) side is red, covering the remaining 3/5 of the flag's length, with color code #FF0000.
-
-At the boundary between the green and red fields, there is a coat of arms centered on the dividing line. The coat of arms consists of a white shield with five blue escutcheons (color code #003399), each containing five white bezants in a quincunx pattern. Surrounding the shield is a red border featuring seven gold castles (color code #FFCC00). The shield is set on top of a golden armillary sphere (color code #FFCC00).
-
-Exact measurements and geometric properties may vary depending on the specific flag production, but the general design remains consistent.

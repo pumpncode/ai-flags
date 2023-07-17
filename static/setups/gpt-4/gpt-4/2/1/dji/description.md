@@ -1,3 +1,0 @@
-The flag of Djibouti has an aspect ratio of 2:3. It consists of two horizontal stripes and a triangle on the hoist side. The top stripe is light blue (#00209F) and the bottom stripe is green (#007A3D). The isosceles triangle on the hoist side is red (#C8102E) with its base along the hoist edge and its apex at the center of the flag. Inside the triangle, there is a white five-pointed star (#FFFFFF) centered on the red field.
-
-The width of each horizontal stripe is half the height of the flag. The triangle's height is equal to the flag's height, and its base is equal to half the flag's length. The star's diameter is approximately one-third of the triangle's base.

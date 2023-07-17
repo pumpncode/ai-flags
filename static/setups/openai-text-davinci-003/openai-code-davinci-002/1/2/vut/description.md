@@ -1,1 +1,0 @@
-The flag of Vanuatu is a two-dimensional, red-blue-green tricolour in the ratio 1:2. The red stripe is equidistant from the other two stripes and runs along the hoist. The blue stripe is the topmost stripe, followed by the red stripe and then the green stripe.

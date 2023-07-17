@@ -1,5 +1,0 @@
-The flag of Saint Helena, Ascension and Tristan da Cunha is a British Blue Ensign with an aspect ratio of 1:2. It features a blue field (Pantone 280C) with the Union Jack in the canton and the territory's coat of arms on the fly side.
-
-The coat of arms consists of a shield divided into three sections, each representing one of the islands. The top left section has a green field (Pantone 355C) with a golden-yellow (Pantone 116C) representation of Saint Helena's plover. The top right section has a black field (Pantone Black C) with a green sea turtle on it. The bottom section has a blue field (Pantone 300C) with a yellow Tristan da Cunha rock lobster. Above the shield, there's a sailing ship, and below it, there's a white scroll with the territory's motto "Our faith is our strength" written in black.
-
-Exact geometric properties and measurements are not standardized for this flag, as they can vary depending on the manufacturer or specific use case.

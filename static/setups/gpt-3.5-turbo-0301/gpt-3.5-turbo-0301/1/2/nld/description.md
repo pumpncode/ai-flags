@@ -1,1 +1,0 @@
-The flag of the Netherlands, also known as the "Prince's Flag", has a horizontal tricolor design with equal bands of bright vermilion (Pantone 485 C), white, and cobalt blue (Pantone 286 C) from top to bottom. The aspect ratio of the flag is 2:3, meaning its width is 1.5 times its height. The flag has no specific geometric properties or measurements other than the aspect ratio.

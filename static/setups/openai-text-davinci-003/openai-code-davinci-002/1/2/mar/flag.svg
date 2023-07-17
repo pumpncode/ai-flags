@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 3000">
-	<path fill="#C12" d="M0 0h2000v3000H0z" stroke-width="10"/>
-	<path fill="#fff" d="M0 3000h2000v-353z" stroke-width="10"/>
-	<g class="main" stroke-width="10">
-		<path fill="#C12" stroke="#fff" stroke-width=".5pt" d="M-1 333A333 333 0 0 1 126 68L897 1A333 333 0 0 1 1038 670l-800 837-550 550-847-848L-1 333z"/>
-		<path fill="#5694ac" d="M903 1A333 333 0 0 0 762 670l170 171-114 114a333 333 12.5 0 1 10-472" stroke-width="10"/>
-		<path fill="#fff" d="M842 333A333 333 0 1 0 955 90a333 333 0 0 0-113 243z m-509 895a333 333 0 1 0 239 113 333 333 0 0 0-239-113z" stroke-width="10"/>
-	</g>
-</svg>

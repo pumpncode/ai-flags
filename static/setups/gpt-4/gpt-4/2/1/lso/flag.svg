@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
-	<rect width="900" height="200" fill="#003082"/>
-	<rect width="900" height="200" y="200" fill="#FFF"/>
-	<rect width="900" height="200" y="400" fill="#009543"/>
-	<path d="M450 250l-40 70h80Z"/>
-	<path d="M450 250l-40 70q40-30 80 0Z"/>
-</svg>

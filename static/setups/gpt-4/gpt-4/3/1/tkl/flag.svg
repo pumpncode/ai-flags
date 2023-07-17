@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200000 600000">
-	<rect width="1200000" height="600000" fill="#0038a8"/>
-	<path fill="gold" d="M200000 100000v150000l33333-75000Z"/>
-	<circle cx="366667" cy="133333" r="50000" fill="#fff"/>
-	<circle cx="483333" cy="133333" r="50000" fill="#fff"/>
-	<circle cx="416667" cy="200000" r="50000" fill="#fff"/>
-	<circle cx="533333" cy="200000" r="50000" fill="#fff"/>
-</svg>

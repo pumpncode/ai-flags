@@ -1,1 +1,0 @@
-The flag of Kenya has three equal horizontal stripes; black, red and green, with a white shield and two crossed spears in the middle. The aspect ratio of the flag is 1:2.

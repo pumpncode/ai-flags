@@ -1,1 +1,0 @@
-The flag of Romania is a tricolour flag with three vertical bands of equal width. The bands are crimson, yellow, and blue from top to bottom. The aspect ratio is 2:3.

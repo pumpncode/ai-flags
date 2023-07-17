@@ -1,1 +1,0 @@
-The flag of Réunion is rectangular, with an aspect ratio of 2:3 and consists of three vertical bands of equal width, with blue on the left, yellow in the middle and red on the right.

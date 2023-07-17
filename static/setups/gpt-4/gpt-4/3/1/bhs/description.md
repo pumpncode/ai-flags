@@ -1,3 +1,0 @@
-The flag of the Bahamas has an aspect ratio of 1:2 and consists of three horizontal stripes and a black equilateral triangle. The top and bottom stripes are aquamarine (Pantone 312C), while the middle stripe is gold (Pantone 116C). The triangle, which is on the hoist side, is black (Pantone Black C).
-
-The width of each horizontal stripe is equal to 1/6 of the flag's height, and the height of the triangle is equal to the flag's height. The base of the triangle along the hoist side is equal to 1/4 of the flag's length.

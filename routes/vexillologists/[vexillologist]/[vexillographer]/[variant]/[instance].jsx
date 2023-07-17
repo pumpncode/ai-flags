@@ -1,17 +1,5 @@
-import { join } from "std/path";
-
 import InstanceContent from "@/components/features/instance-content.jsx";
 import { getDbFlags } from "@/utilities/server.js";
-
-const rootFolderPath = join("./");
-
-const setupsFolderPath = join(rootFolderPath, "setups");
-
-const staticFolderPath = join(rootFolderPath, "static");
-
-const staticSetupsFolderPath = join(staticFolderPath, "setups");
-
-const staticDiffsFolderPath = join(staticFolderPath, "diffs");
 
 const handler = {
 	GET: async (request, context) => {
@@ -31,20 +19,6 @@ const handler = {
 		const variantName = variant;
 
 		const instanceName = instance;
-
-		const staticVariantFolderPath = join(
-			staticSetupsFolderPath,
-			vexillologistName,
-			vexillographerName,
-			variantName
-		);
-
-		const instanceDiffsFolderPath = join(
-			staticDiffsFolderPath,
-			vexillologistName,
-			vexillographerName,
-			variantName
-		);
 
 		const instanceContent = await getDbFlags({
 			vexillologistName,
@@ -86,7 +60,7 @@ const Home = ({
 	const fullName = `${vexillologistName}/${vexillographerName}/${variantName}/${instanceName}`;
 
 	return (
-		<section className="flex flex-col items-start p-4 md:p-16 gap-8">
+		<section className="flex flex-col items-start gap-8 p-4 md:p-16">
 			<h2>Instance: {fullName}</h2>
 			<InstanceContent
 				{...{

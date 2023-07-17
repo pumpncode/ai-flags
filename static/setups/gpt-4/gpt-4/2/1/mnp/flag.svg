@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
-	<rect width="60000" height="40000" fill="#0033A0"/>
-	<circle cx="30000" cy="20000" r="6667" fill="#8C8C8C"/>
-	<polygon fill="white" points="30000,11500 33410,23090 45710,23090 35450,28410 38860,40000 30000,32320 21140,40000 24550,28410 14290,23090 26590,23090"/>
-	<path fill="none" stroke="white" stroke-width="1000" d="M15000 13333h30000v13334H15000Z"/>
-	<path fill="none" stroke="white" stroke-width="1000" d="M23333 5000v30000h13334V5000Z"/>
-</svg>

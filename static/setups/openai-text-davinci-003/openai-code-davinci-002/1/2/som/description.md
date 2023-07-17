@@ -1,1 +1,0 @@
-The flag of Somalia is a light blue ensign, its width two-thirds of its length. It features a white star in the center, superimposed by a white crescent moon. Both the star and crescent are slightly stylized, wrapping closely around the corners of an equilateral triangle.

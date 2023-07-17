@@ -1,1 +1,0 @@
-The national flag of Botswana is a horizontal tricolor of light blue, white and light green. The ratios of the stripes are 1:2:1.

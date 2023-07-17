@@ -1,1 +1,0 @@
-The flag of Estonia consists of three horizontal stripes: blue (#002395), black (#000000), and white (#FFFFFF). The aspect ratio of the flag is 7:11. Each stripe is equal in size, occupying one-third of the flag's height. No additional symbols or elements are on the flag.

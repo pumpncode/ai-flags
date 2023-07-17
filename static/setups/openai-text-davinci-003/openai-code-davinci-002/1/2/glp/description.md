@@ -1,1 +1,0 @@
-The flag of Guadeloupe is a French tricolor consisting of three vertical stripes of equal width. The left stripe is blue, in the middle is white, and the right stripe is red. The aspect ratio of this flag is 2:3.

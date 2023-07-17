@@ -1,1 +1,0 @@
-As of my knowledge cutoff date in September 2021, Heard Island and McDonald Islands (HIMI) do not have a specific flag representing the territories. The islands are an Australian external territory, and therefore they use the Australian flag as their official flag.

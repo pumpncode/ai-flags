@@ -1,1 +1,0 @@
-The flag of Hong Kong has a red background and features a white, stylized, five-petal Bauhinia flower in the center. The ratio of the flag's height to its length is 2:3. The flower has a diameter of 5/12 the length of the flag, and each petal has an angle of 72 degrees. The color codes for the flag are Pantone 032C (red) and Pantone White.

@@ -1,1 +1,0 @@
-The flag of Portugal consists of two vertical bands of green and red with the national coat of arms in a central oval. The aspect ratio is 2:3.

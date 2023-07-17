@@ -1,1 +1,0 @@
-The flag of Mali consists of three vertical stripes of equal width. From left to right, the colors are green (#32CD32), yellow (#FDC82F), and red (#CE1126). The aspect ratio of the flag is 2:3, meaning the width is half of the length. There are no specific geometric properties or measurements beyond these features.

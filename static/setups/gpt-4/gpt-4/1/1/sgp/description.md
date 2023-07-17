@@ -1,3 +1,0 @@
-The flag of Singapore consists of two horizontal stripes and a white crescent moon with five white stars in the upper hoist-side corner. The top stripe is red (#ED2939) and the bottom stripe is white (#FFFFFF). The aspect ratio of the flag is 2:3.
-
-The crescent moon has a radius of 1/60th the width of the flag, while the five stars have a diameter equal to 1/25th of the flag's width. They form an equilateral pentagon around an invisible circle with a radius equal to 1/40th of the flag's width. The distance between the center of each star is 1/24th of the flag's width. The crescent moon and the stars are all located within a square that takes up the upper left (hoist side) quadrant of the flag.

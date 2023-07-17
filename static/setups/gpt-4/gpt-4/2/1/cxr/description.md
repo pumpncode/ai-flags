@@ -1,1 +1,0 @@
-The flag of Christmas Island has not been standardized with specific color codes, aspect ratio, or precise geometric properties. However, it generally features a blue and green background divided diagonally, with a white Southern Cross constellation in the upper hoist (blue) section and a golden Bosun Bird in the lower fly (green) section.

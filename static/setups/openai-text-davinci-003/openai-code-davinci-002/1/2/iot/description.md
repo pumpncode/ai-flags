@@ -1,1 +1,0 @@
-The British Indian Ocean Territory flag is light blue with a white trapezoid in the middle, taking up two-thirds of the height of the flag, resting upon a horizontal white stripe that penetrates the upper hoist corner. Above this is a white British Union Jack, and beneath it is a palm tree outlined in white. Aspect ratio 2:3.

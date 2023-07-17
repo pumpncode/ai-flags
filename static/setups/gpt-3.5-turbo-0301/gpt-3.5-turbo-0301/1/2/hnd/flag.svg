@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30000 15000">
-	<path fill="#0073cf" d="M0 0h30000v5000H0z m0 10000h30000v5000H0z" stroke-width="100"/>
-	<path fill="#fff" d="M0 5000h30000v5000H0z" stroke-width="100"/>
-	<circle cx="15000" cy="7500" r="1667" fill="#0073cf" stroke-width="100"/>
-	<circle cx="12500" cy="10000" r="1667" fill="#0073cf" stroke-width="100"/>
-	<circle cx="17500" cy="10000" r="1667" fill="#0073cf" stroke-width="100"/>
-	<circle cx="10000" cy="12500" r="1667" fill="#0073cf" stroke-width="100"/>
-	<circle cx="20000" cy="12500" r="1667" fill="#0073cf" stroke-width="100"/>
-</svg>

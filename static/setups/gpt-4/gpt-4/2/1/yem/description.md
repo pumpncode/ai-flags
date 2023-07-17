@@ -1,1 +1,0 @@
-The flag of Yemen consists of three horizontal stripes of equal width. The top stripe is red (#FF0000), the middle stripe is white (#FFFFFF), and the bottom stripe is black (#000000). The flag has an aspect ratio of 2:3, meaning its width is two-thirds of its length. There are no specific geometric properties or measurements beyond the equal-width stripes and the aspect ratio.

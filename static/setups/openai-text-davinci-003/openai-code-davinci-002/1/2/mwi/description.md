@@ -1,1 +1,0 @@
-The flag of Malawi has a width to length ratio of 1:2. It has three rectangles equally spaced horizontally, the top and bottom rectangles are black, with a third red rectangle in the middle. The red rectangle is bordered on all four sides by a thin white strip. In the centre of the flag is a white rising sun with a red and black outlined triangle on either side.

@@ -1,3 +1,0 @@
-The flag of Cuba has an aspect ratio of 1:2. It consists of five horizontal stripes, alternating between blue (#002A8F) and white (#FFFFFF). There are three blue stripes and two white stripes. The blue stripes are equal in width, as are the white stripes. On the left side of the flag, there is a red equilateral triangle (#CE1126) with its base along the hoist.
-
-The height of each stripe is 1/5th of the flag's total height, while the triangle's height is equal to the flag's height. The length of the triangle's base is equal to half the height of the flag.

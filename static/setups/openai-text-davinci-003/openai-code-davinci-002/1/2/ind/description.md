@@ -1,1 +1,0 @@
-The national flag of India is a horizontal tricolour with a width-to-length aspect ratio of precisely 2:3. The flag has a deep saffron-colored band at the top, a white band in the middle and a green band at the bottom. In the center of the white band, there is a navy blue wheel with 24 spokes.

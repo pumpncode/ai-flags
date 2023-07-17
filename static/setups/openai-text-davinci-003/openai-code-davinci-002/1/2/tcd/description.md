@@ -1,1 +1,0 @@
-The national flag of Chad is rectangular and has a ratio of 2:3. It is tricolor with a blue, yellow, and red vertical sequence from the left to the right. The vertical blue stripe is double the size of the red one. In the center of the flag, there is a yellow five pointed star.

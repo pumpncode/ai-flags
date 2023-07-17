@@ -1,1 +1,0 @@
-The flag of Slovenia consists of three equal horizontal bars of white, blue and red in that order, with the national coat of arms affixed in the center. The aspect ratio is 1:2.

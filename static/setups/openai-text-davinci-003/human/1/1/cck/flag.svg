@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500000 1200000">
-	<defs>
-		<symbol id="a" overflow="visible" viewBox="0 0 86602 100000">
-			<path d="M0-50000l14434 25000h28867L28867 0l14434 25000H14434L0 50000l-14434-25000h-28867l14434-25000-14434-25000h28867z"/>
-		</symbol>
-	</defs>
-	<path fill="#00f" d="M0 0h1500000v1200000H0z"/>
-	<use width="433010" height="500000" x="750000" y="600000" fill="#ff0" stroke="#fff" stroke-width="0" href="#a"/>
-</svg>

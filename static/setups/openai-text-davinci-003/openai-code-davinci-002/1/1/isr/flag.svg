@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 102">
-		<rect width="168" height="102" fill="#fff" />
-		<rect x="6" y="6" width="156" height="90" fill="#fff" stroke="#000" stroke-width="12" />
-		<g transform="translate(147 10) ">
-			<polygon points="0 0 8 64 0 64" fill="#000" stroke="#fff" stroke-width="4" />
-			<polygon points="8 0 16 64 8 64" fill="#000" stroke="#fff" stroke-width="4" />
-		</g>
-		<path d="M 0 47 v 5.5 h 37.235 v 5.4 H 0 v 5.4 h 37.235 v 5.4 H 0 v 5.75 L 25 72.5 L 0 79.25 v 5.7 h 37.24 v 5.7 H 0 v 5.7 h 37.24 v 5.7 H 0 v 5.75 L 25 101 l 25 -22.25 v -5.75 H 64 v -5.76 H 26.26 v -5.68 H 64 v -5.72 H 26.26 v -5.68 H 64 v -5.72 H 26.26 v -5.68 H 64 v -5.75 L 86.75 72.5 L 64 77 V 71.3 H 101.24 v -5.7 H 63.5 v -5.7 H 101.25 v -5.7 H 63.5 v -5.7 H 101.25 v -5.7 H 63.5 v -5.72 H 101.25 v -5.76 H 63.5 v -5.75 L 86.75 47 Z"
-			stroke = "cyan" stroke-width = "2" fill = "blue" /></svg>

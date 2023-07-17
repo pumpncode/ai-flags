@@ -1,1 +1,0 @@
-The flag of Luxembourg has three horizontal stripes of equal height. The colors, from top to bottom, are red (#ED2939), white (#FFFFFF), and light blue (#00A1DE). The aspect ratio of the flag is 1:2, meaning its width is twice its height. There are no specific geometric properties, measurements, or other elements beyond the horizontal stripes and their respective colors.

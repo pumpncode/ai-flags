@@ -1,1 +1,0 @@
-The flag of Argentina has three horizontal stripes of equal width. The top stripe is sky blue, the middle is white, and the bottom is light blue. The width to length aspect ratio is 2:3.

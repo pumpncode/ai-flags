@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
-	<rect width="100%" height="100%" fill="#C40308"/>
-	<rect width="950" height="450" x="25" y="25" fill="none" stroke="#DAA520" stroke-width="10"/>
-	<g transform="translate(500, 250)">
-		<path fill="#DAA520" d="M-120-80q10 10 20 0t20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0 20 0"/>
-		<rect width="90" height="120" x="-45" y="-30" fill="#090" stroke="#DAA520" stroke-width="5"/>
-		<path fill="#DAA520" d="M-15 30L0 0l15 30"/>
-	</g>
-</svg>

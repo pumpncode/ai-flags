@@ -1,1 +1,0 @@
-The flag of Palau has a simple rectangular design with an aspect ratio of 1:2. It consists of a blue field with a full-width yellow stripe at the top, representing the transition from the sea to the land, and a white star with five points in the canton.

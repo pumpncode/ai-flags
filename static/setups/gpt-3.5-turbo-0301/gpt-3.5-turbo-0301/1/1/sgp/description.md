@@ -1,1 +1,0 @@
-The flag of Singapore consists of two equal horizontal halves, with the upper half being red (#ED2939) and the lower half being white (#FFFFFF). The aspect ratio is 2:3, and the flag has a rectangular shape. The red half of the flag measures 2/5 of the total height, while the white half measures 3/5 of the total height.

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" viewBox="0 0 360 540">
-	<rect width="360" height="360" y="90" fill="#fff" ry="20" stroke-width="10"/>
-	<path stroke="#000" stroke-linejoin="bevel" stroke-width="22" d="M7 185h106v106H7z m266 0h85v106h-85zM7 455h106V540H7z m266 0h85V540h-85z"/>
-	<circle cx="55" cy="55" r="55" stroke-width="10"/>
-	<circle cx="305" cy="55" r="55" stroke-width="10"/>
-	<circle cx="55" cy="305" r="55" stroke-width="10"/>
-	<circle cx="305" cy="305" r="55" stroke-width="10"/>
-</svg>

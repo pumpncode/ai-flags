@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 5">
-	<path d="M0 0h3v1H0z" stroke-width="1"/>
-	<path fill="red" d="M0 1h3v1H0z" stroke-width="1"/>
-	<path fill="gold" d="M0 2h3v1H0z" stroke-width="1"/>
-</svg>

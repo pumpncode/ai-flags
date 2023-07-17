@@ -1,1 +1,0 @@
-The flag of Mozambique is horizontally divided in two. The top portion of the flag is green and the bottom portion of the flag is black. Both portions of the flag are equal in size. The flag has a white isosceles triangle pointing to the left side on thehoist side. Inside the triangle is a red fivepointed star. The aspect ratio of the flag is 2:3.

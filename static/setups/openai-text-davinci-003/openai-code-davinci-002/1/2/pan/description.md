@@ -1,1 +1,0 @@
-The flag of Panama bears four quarters, with a blue field in the upper hoist, a red triangle in the upper fly, a white field in the bottom hoist, and a white triangle pointed downward in the bottom fly. It has an aspect ratio of 3:5.

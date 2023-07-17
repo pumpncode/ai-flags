@@ -1,1 +1,0 @@
-The flag of Paraguay consists of three equal horizontal stripes of red, white and blue, separated by two thin white fimbriations. The aspect ratio is 9:14.

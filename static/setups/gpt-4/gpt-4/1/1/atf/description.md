@@ -1,3 +1,0 @@
-The flag of the French Southern and Antarctic Lands consists of a horizontal tricolor design with three equal bands: blue (#0055A4) on the top, white (#FFFFFF) in the middle, and red (#EF4135) at the bottom. In the white band, there is a small version of the French flag in the canton (upper hoist-side corner), with dimensions of 1/3 the width of the white stripe. Beside the French flag, there is the territory's coat of arms, which takes up approximately half the height of the white stripe.
-
-The aspect ratio of the flag is 2:3, meaning it is twice as wide as it is tall. Unfortunately, exact geometric properties and measurements are not readily available for this flag.

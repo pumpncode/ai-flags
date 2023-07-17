@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
-	<path fill="#006d48" d="M0 0h60000v40000H0z" stroke-width="100"/>
-	<path fill="#fff" d="M0 13333h60000v13333H0z" stroke-width="100"/>
-	<path fill="#006d48" d="M0 26667h60000V40000H0z" stroke-width="100"/>
-	<circle cx="30000" cy="20000" r="5000" fill="#0033a0" stroke-width="100"/>
-	<path fill="#ffc900" d="M28750 20000h2500L30000 21400z" stroke-width="100"/>
-	<path fill="#ce1126" d="M6500 16667h47000v6667H6500z" stroke-width="100"/>
-	<text x="30000" y="29700" fill="#fff" font-family="Arial" font-size="6000" font-weight="bold" text-anchor="middle" stroke-width="100">Unidad, Paz, Justicia</text>
-</svg>

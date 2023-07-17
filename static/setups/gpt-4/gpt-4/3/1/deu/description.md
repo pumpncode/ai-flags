@@ -1,1 +1,0 @@
-The flag of Germany consists of three horizontal stripes of equal width. The colors, from top to bottom, are black (#000000), red (#FF0000), and gold (#FFCC00). The aspect ratio of the flag is 3:5, meaning its width is 1.67 times its height. As a simple tricolor design, there are no other specific geometric properties or measurements.

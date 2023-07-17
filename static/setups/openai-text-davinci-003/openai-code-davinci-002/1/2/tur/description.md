@@ -1,1 +1,0 @@
-The flag of Turkey is a red horizontal rectangle with a white crescent and five-pointed star in the center. It has an aspect ratio of 2:3.

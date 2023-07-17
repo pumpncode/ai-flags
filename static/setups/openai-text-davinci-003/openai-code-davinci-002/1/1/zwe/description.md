@@ -1,1 +1,0 @@
-The flag of Zimbabwe is a horizontal tricolour, with a red stripe at the top, a black stripe at the bottom, and a green stripe in between. The width of the flag is a ratio of two to three, which means it is two units wide, and three units high.

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="200" viewBox="0 0 10000 20000">
-	<path fill="#00247d" d="M0 0h10000v20000H0z" stroke-width="100"/>
-	<circle cx="5000" cy="10000" r="3000" fill="#ffb300" stroke-width="100"/>
-	<path fill="#006b3f" d="M5000 10000V7000a3000 3000 0 0 1 4239 5618l-1217-1217A1500 1500 0 0 0 6500 8500v1500H5000Z" stroke-width="100"/>
-	<path stroke="gold" stroke-width="300" d="M5000 4100v800m0 10200v800M3100 9100h800m2200 0h800M3600 6400l770 770M6400 13600l-770-770M3600 13600l770-770M6400 6400l-770 770"/>
-</svg>

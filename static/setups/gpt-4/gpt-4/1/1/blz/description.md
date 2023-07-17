@@ -1,3 +1,0 @@
-The flag of Belize has an aspect ratio of 3:5, meaning it measures 3 units in height and 5 units in width. The flag features a blue field (Pantone 286C) with two red horizontal stripes (Pantone 186C), each measuring 1/10th the length of the flag, running along the top and bottom edges. In the center of the flag is a white circle with a diameter equal to half the flag's height. Inside the circle is the national Coat of Arms, which consists of various colors and intricate details.
-
-While I cannot provide precise measurements for every element within the Coat of Arms due to its complexity, you can refer to the official government sources or high-resolution images of the flag for more detailed information.

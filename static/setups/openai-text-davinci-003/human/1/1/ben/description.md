@@ -1,1 +1,0 @@
-The flag of Benin consists of a red vertical triband with a yellow five-pointed star in the center. The flag has a width-to-length ratio of 2:3.

@@ -1,1 +1,0 @@
-The flag of Saint Martin is a 2:3 rectangular flag with a blue base adorned with a gold skirt around the border, with a red disc in the center bearing a yellow five-pointed star.

@@ -1,1 +1,0 @@
-The flag of Serbia consists of three equal horizontal stripes of red, blue, and white, in that order from the top down. The proportions of the flag are 2:3.

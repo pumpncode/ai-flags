@@ -1,1 +1,0 @@
-The national flag of Bhutan is rectangular in shape with a ratio of three to two (3:2). The top half of the flag is orange-red with a black and white dragon facing left to right. The bottom half of the flag is divided into two portions with a white line in the middle: the portion on the left is yellow and the one on the right is orange-red.

@@ -1,3 +1,0 @@
-The flag of Mexico features a vertical tricolor design with green (#006847), white (#FFFFFF), and red (#CE1126) stripes of equal width. In the center of the white stripe is the national coat of arms, which depicts an eagle perched on a cactus while holding a snake in its beak and talon.
-
-The flag has an aspect ratio of 4:7. If the flag's width is given as 'w', then each vertical stripe measures 'w/3' in width, and the length of the flag would measure '4w/7'. The dimensions of the coat of arms are not standardized, but it typically occupies around two-thirds of the height of the white stripe.

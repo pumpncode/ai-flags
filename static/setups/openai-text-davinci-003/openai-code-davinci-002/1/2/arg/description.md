@@ -1,1 +1,0 @@
-The flag of Argentina is a triband of three equal width horizontal bands of sky blue and white, and azure blue; the central band is twice as wide as each of the other two bands. Its aspect ratio is 2:3.

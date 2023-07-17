@@ -1,1 +1,0 @@
-The flag of the Republic of the Congo is 3:2 in aspect ratio, and is composed of three equal vertical stripes, green and yellow, with a red diagonal band.

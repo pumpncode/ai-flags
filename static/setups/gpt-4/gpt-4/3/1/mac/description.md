@@ -1,3 +1,0 @@
-The flag of Macau has an aspect ratio of 2:3. It consists of a green field (#006847) with a white lotus flower at the center. Above the lotus, there is a stylized Governor Nobre de Carvalho Bridge in grey (#8B8680). Below the lotus, there is a white scroll with the words "Macau" in black (#000000) and five gold (#FFD700) stars that form an arc.
-
-Exact geometric properties or measurements are not standardized for the flag's elements, but they are typically depicted proportionally to maintain visual balance.

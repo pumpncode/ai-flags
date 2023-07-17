@@ -1,1 +1,0 @@
-The flag of Iceland is a white-blue-red tricolor in a 3:5 rectangular shape with two equal sized blue and red fields separated by a white cross that is two-thirds the size of the flag and extends into each blue and red field.

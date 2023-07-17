@@ -1,1 +1,0 @@
-The flag of Togo is a horizontal triband composed of five equal horizontal stripes, colored from top to bottom in green, yellow, red, yellow, and green. The aspect ratio is 2:3.

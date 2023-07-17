@@ -1,3 +1,0 @@
-The flag of Trinidad and Tobago has an aspect ratio of 3:5. It consists of a red field with a black diagonal band edged in white, running from the top left corner to the bottom right corner. The red color code is #CE1126, the black color code is #000000, and the white color code is #FFFFFF.
-
-The width of the black band is 1/6th of the flag's length, while the white edges are each 1/30th of the flag's length. The total width of the black band and white edges combined is 1/5th of the flag's length.

@@ -1,1 +1,0 @@
-The flag of Myanmar is a horizontal rectangular tricolor of yellow, green, and red with a large blue five pointed star in the center of the yellow stripe. The ratio of the flag's width to length is 2:3.

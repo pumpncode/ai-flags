@@ -1,1 +1,0 @@
-The flag of Myanmar is a horizontal bicolor with three equal bands of yellow, green and red. The aspect ratio is 2:3.

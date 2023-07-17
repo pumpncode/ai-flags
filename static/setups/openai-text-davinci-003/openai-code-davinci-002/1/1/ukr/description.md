@@ -1,1 +1,0 @@
-The flag of Ukraine is a bicolor flag consisting of two equal horizontal bands of azure and golden yellow. The aspect ratio of the flag is 2:3.

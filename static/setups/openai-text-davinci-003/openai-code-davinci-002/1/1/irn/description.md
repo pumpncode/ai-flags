@@ -1,1 +1,0 @@
-The flag of Iran has three horizontal stripes in equal widths of green, white and red from top to bottom, with a stylized red emblem above the centre stripe. The aspect ratio of this flag is 2:3.

@@ -1,1 +1,0 @@
-The flag of Bahamas consists of a triband of three equally wide horizontal stripes of aquamarine, gold and aquamarine, with a black equilateral triangle at the hoist. The aspect ratio of the flag of Bahamas is 3:5.

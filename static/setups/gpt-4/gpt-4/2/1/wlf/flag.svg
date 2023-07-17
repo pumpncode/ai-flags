@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
-	<rect width="60000" height="40000" fill="#ED2939"/>
-	<rect width="60000" height="6667" y="6667" fill="#FFF"/>
-	<rect width="6667" height="40000" x="20000" fill="#FFF"/>
-	<rect width="6667" height="16000" fill="#002395"/>
-	<rect width="6667" height="16000" x="6667" fill="#FFF"/>
-	<rect width="6667" height="16000" x="13333" fill="#ED2939"/>
-</svg>

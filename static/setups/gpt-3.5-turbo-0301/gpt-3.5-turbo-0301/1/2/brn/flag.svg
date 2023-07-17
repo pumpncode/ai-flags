@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1000">
-	<path fill="#FCD116" d="M0 0h2000v1000H0z" stroke-width="1000"/>
-	<path stroke="#000" stroke-width="50" d="M0 0l2000 1000M0 1000l2000-1000"/>
-	<circle cx="1000" cy="500" r="167" fill="#CE1126" stroke-width="1000"/>
-	<path fill="#FFF" stroke="#FFF" stroke-width="50" d="M1000 400V100m0 500v300M800 500h400M1000 300q125 200 0 400M800 500Q1000 500 800 300"/>
-</svg>

@@ -1,3 +1,0 @@
-The flag of Kuwait has an aspect ratio of 1:2 and consists of three horizontal stripes and a black trapezoid. The top stripe is green (Pantone 349 C), the middle stripe is white, and the bottom stripe is red (Pantone 186 C). The black trapezoid is on the hoist side.
-
-The width of each stripe is equal to one-third of the flag's height. The trapezoid's parallel sides are equal to the flag's height and half its length. The non-parallel sides connect the top left corner of the flag to the bottom of the green stripe and the bottom left corner of the flag to the top of the red stripe.

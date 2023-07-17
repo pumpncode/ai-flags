@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12000 9000">
-	<path fill="#CE1126" d="M0 0h12000v4500H0z"/>
-	<path d="M0 4500h12000v4500H0z"/>
-	<path fill="#FCD116" d="M0 9000L4000 0h500L2000 9000z"/>
-	<path fill="#FFF" d="M500 0l4500 9000h500L1000 0z"/>
-	<path fill="#FCD116" d="M1000 0l4500 9000h500L1500 0z"/>
-	<path fill="#FFF" d="M1500 0l4500 9000h500L2000 0z"/>
-	<path fill="#FCD116" d="M2000 0l4500 9000h500L2500 0z m307 1735l151-87-109-179H2460l-108 1 152-87-203 35-70-199-70 199-203-35L2110 1470l-109 179h221Z"/>
-</svg>

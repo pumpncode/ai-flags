@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 14">
-	<path d="M0 0v14l14-7z" class="triangle" stroke-width="1"/>
-	<path d="M0 0h28v14H0z" class="stripe" stroke-width="1"/>
-</svg>

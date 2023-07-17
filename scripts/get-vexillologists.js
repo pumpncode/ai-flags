@@ -11,11 +11,11 @@ const rootFolderPath = join("./");
 
 const setupsFolderPath = join(rootFolderPath, "setups");
 
-const staticFolderPath = join(rootFolderPath, "static");
+const staticFolderPath = join(rootFolderPath, "data");
 
-const staticSetupsFolderPath = join(staticFolderPath, "setups");
+const staticSetupsFolderPath = join(staticFolderPath, "vexillologists");
 
-const staticDiffsFolderPath = join(staticFolderPath, "diffs");
+const staticDiffsFolderPath = join(rootFolderPath, "data", "vexillologists");
 
 const { options: { format } } = await new Command()
 	.name("get-vexillologists")

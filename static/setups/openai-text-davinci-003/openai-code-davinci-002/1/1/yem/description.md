@@ -1,1 +1,0 @@
-The flag of Yemen is a tricolor consisting of three equal horizontal stripes of red at the top, white in the middle, and black at the bottom. The aspect ratio of the flag is 2:3.

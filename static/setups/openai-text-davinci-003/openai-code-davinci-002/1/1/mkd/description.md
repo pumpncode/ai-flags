@@ -1,1 +1,0 @@
-The flag of North Macedonia is a four-sided, yellow-fimbriated, triband tricolour. The top and bottom stripes are red, while the middle stripe is of a deeper crimson. The ratio of the flag is 1:2.

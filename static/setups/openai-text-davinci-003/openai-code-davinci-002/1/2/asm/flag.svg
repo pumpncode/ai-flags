@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1065" height="530" viewBox="0 0 240 120">
-	<path d="M0 0h240v120H0z" style="fill:navy;stroke:navy" stroke-width="5"/>
-	<path d="M120 0l120 120H0z" style="fill:#fff;stroke:#fff" stroke-width="5"/>
-	<circle cx="120" cy="60" r="4" style="fill:#000;stroke:#000" stroke-width="5"/>
-	<path d="M120 60H40V40l20-5 15 5h20l-5 10h15v20h-10l-20 10-10-10 5 5 15 10-5 10" style="fill:#fff;stroke:#fff" stroke-width="5"/>
-</svg>

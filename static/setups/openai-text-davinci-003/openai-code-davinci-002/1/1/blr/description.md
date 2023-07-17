@@ -1,1 +1,0 @@
-The flag of Belarus has two horizontal stripes, white on top and red on the bottom, with a red vertical triband on the left of the flag, with a white vertical line on the left. The flag has an aspect ratio of 1:2.

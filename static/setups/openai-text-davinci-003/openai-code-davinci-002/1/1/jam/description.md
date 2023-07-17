@@ -1,1 +1,0 @@
-The flag of Jamaica is a green, yellow and black triband, with green on the hoist and black on the fly, and a yellow triangle with a white, black-outlined saltire on its hoist side, with a shoulder-to-shoulder ratio of 1:2.

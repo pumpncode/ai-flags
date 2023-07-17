@@ -1,1 +1,0 @@
-The flag of Tunisia is a red and white horizontal bicolor. The width to length ratio is 2:3. The top and bottom stripes are red and the middle stripe is white.

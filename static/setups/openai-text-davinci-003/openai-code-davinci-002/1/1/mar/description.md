@@ -1,1 +1,0 @@
-The flag of Morocco is a green-red-green triband with a single white crescent and five-pointed star centered. The proportions of the flag are 2:3.

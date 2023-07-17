@@ -1,5 +1,0 @@
-The flag of Portugal has an aspect ratio of 2:3. It consists of two vertical bands and a coat of arms centered on the boundary between them. The left band is green (RGB: 0, 102, 0 or Hex: #006600) and occupies 2/5 of the flag's width. The right band is red (RGB: 255, 0, 0 or Hex: #FF0000) and occupies the remaining 3/5 of the width.
-
-The coat of arms features a white shield with five blue escutcheons (RGB: 0, 85, 164 or Hex: #0055A4), each containing five small white dots arranged in a cross pattern. The white shield is surrounded by a red border (RGB: 186, 12, 47 or Hex: #BA0C2F) with seven yellow castles (RGB: 255, 204, 0 or Hex: #FFCC00). The coat of arms is placed over a larger yellow armillary sphere (RGB: 255, 204, 0 or Hex: #FFCC00).
-
-The height of the coat of arms is equal to half the flag's height, and it is centered both vertically and horizontally on the boundary between the green and red bands.

@@ -1,1 +1,0 @@
-The flag of Libya is a tricolor design consisting of three horizontal stripes colored red, black and green with a white crescent and star centered on the black stripe. The aspect ratio is 1:2.

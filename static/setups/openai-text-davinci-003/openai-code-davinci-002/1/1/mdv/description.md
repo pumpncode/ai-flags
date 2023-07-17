@@ -1,1 +1,0 @@
-The flag of the Maldives is a green rectangle with a white crescent and two stars at the center. The width-to-length aspect ratio is 1:2.

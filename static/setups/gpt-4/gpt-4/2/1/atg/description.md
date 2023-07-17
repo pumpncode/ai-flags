@@ -1,3 +1,0 @@
-The flag of Antigua and Barbuda has an aspect ratio of 2:3. It consists of five horizontal stripes, with the top and bottom stripes being light blue (#00247D) and the middle stripe being white (#FFFFFF). The middle white stripe is twice the width of each light blue stripe. A red (#CE1126) equilateral triangle is placed at the hoist side, extending to half the length of the flag.
-
-In the center of the triangle, there are two interlocking shapes: a black (#000000) half-sun with nine rays and a golden-yellow (#FCD116) half-circle below it. The sun's diameter is equal to 2/5 of the triangle's height, while the circle's diameter is equal to 1/2 of the sun's diameter.

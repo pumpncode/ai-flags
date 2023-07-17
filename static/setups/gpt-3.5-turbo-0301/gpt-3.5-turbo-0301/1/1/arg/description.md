@@ -1,3 +1,0 @@
-The flag of Argentina consists of three horizontal stripes of equal width, with the top and bottom stripes colored light blue (#75AADB) and the middle stripe white. The flag has an aspect ratio of 9:14, which means that its width is 9/14 of its length. The center of the flag features a golden sun with a face, called the "Sun of May," which is positioned slightly off-center towards the hoist side. The sun has 32 rays, among which are 16 straight and 16 wavy ones.
-
-The height of the sun in the center is 2/5 of the height of the white stripe, and its diameter is 4/9 of the width of the flag. The distance from the sun to the hoist side of the flag is 3/20 of the width of the flag. The flag has no official geometric properties or measurements beyond its aspect ratio.

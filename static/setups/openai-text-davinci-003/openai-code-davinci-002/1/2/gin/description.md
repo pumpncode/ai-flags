@@ -1,1 +1,0 @@
-The flag of Guinea is 2:3 in aspect ratio and consists of three equal horizontal bands of red, yellow, and green of equal size with a centered black five-pointed star.

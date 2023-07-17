@@ -1,19 +1,6 @@
-import rehypeStringify from "rehype-stringify";
-import remarkBehead from "remark-behead";
-import remarkGfm from "remark-gfm";
-import remarkParse from "remark-parse";
-import remarkRehype from "remark-rehype";
 import { join } from "std/path";
-import { unified } from "unified";
 
-import { asset } from "$fresh/runtime.ts";
-
-const {
-	errors: {
-		NotFound
-	},
-	readTextFile
-} = Deno;
+import { getDbFlags } from "@/utilities/server.js";
 
 const handler = {
 	// eslint-disable-next-line max-statements
@@ -28,6 +15,30 @@ const handler = {
 			}
 		} = context;
 
+		const vexillologistName = vexillologist;
+
+		const vexillographerName = vexillographer;
+
+		const variantName = variant;
+
+		const instanceName = instance;
+
+		const flagCode = code;
+
+		const [
+			{
+				name,
+				descriptionHtml,
+				commentsHtml
+			}
+		] = await getDbFlags({
+			vexillologistName,
+			vexillographerName,
+			variantName,
+			instanceName,
+			flagCode
+		});
+
 		const setupName = [
 			vexillologist,
 			vexillographer,
@@ -35,78 +46,20 @@ const handler = {
 			instance
 		].join("/");
 
-		const countries = await (await fetch("https://raw.githubusercontent.com/mledoze/countries/master/countries.json")).json();
+		const pngFlagFilePath = join("/vexillologists", setupName, code.toLocaleLowerCase(), "flag.png");
 
-		const countryFolderPath = join("./", "static", "setups", setupName, code.toLocaleLowerCase());
+		const content = {
+			name,
+			code,
+			description: descriptionHtml,
+			comments: commentsHtml,
+			pngFlagPath: pngFlagFilePath.replace(/^data\//u, "/"),
+			setupName
+		};
 
-		const descriptionFilePath = join(countryFolderPath, "description.md");
-		const commentsFilePath = join(countryFolderPath, "comments.md");
-		const svgFlagFilePath = join(countryFolderPath, "flag.svg");
-		const pngFlagFilePath = join(countryFolderPath, "flag.png");
-
-		try {
-			let description;
-
-			try {
-				const descriptionSource = await readTextFile(descriptionFilePath);
-
-				description = String(
-					await unified()
-						.use(remarkParse)
-						.use(remarkGfm)
-						.use(() => (tree) => ({
-							...tree,
-							children: tree.children.filter(({ type, depth }) => type !== "heading" || depth > 1)
-						}))
-						.use(remarkBehead, { depth: 2 })
-						.use(remarkRehype)
-						.use(rehypeStringify)
-						.process(descriptionSource)
-				);
-			}
-			catch (error) {
-				console.error(error);
-			}
-
-			let comments;
-
-			try {
-				const commentsSource = await readTextFile(commentsFilePath);
-
-				comments = String(
-					await unified()
-						.use(remarkParse)
-						.use(remarkGfm)
-						.use(remarkRehype)
-						.use(rehypeStringify)
-						.process(commentsSource)
-				);
-			}
-			catch (error) {
-				if (!(error instanceof NotFound)) {
-					throw error;
-				}
-			}
-
-			const content = {
-				name: countries.find(({ cca3 }) => cca3 === code.toLocaleUpperCase()).name.common,
-				code,
-				description,
-				comments,
-				svgFlagPath: svgFlagFilePath.replace("static/", "/"),
-				pngFlagPath: pngFlagFilePath.replace("static/", "/"),
-				setupName
-			};
-
-			return context.render({
-				content
-			});
-		}
-		catch (error) {
-			return new Response("Not found", {
-				status: 404
-			});
-		}
+		return context.render({
+			content
+		});
 	}
 };
 
@@ -125,9 +78,13 @@ const handler = {
  */
 const FlagDetails = ({
 	data: {
-		content,
 		content: {
-			name, code, pngFlagPath, description, setupName, comments
+			name,
+			code,
+			pngFlagPath,
+			description,
+			setupName,
+			comments
 		}
 	}
 }) => (
@@ -140,7 +97,7 @@ const FlagDetails = ({
 		<section className="flex flex-col sm:flex-row gap-4 min-h-[calc(100vh-26rem)]">
 			<div className="flex items-start justify-center w-full min-h-full p-2 rounded bg-neutral-700">
 				<img
-					src={asset(pngFlagPath)}
+					src={pngFlagPath}
 					alt={`Flag of ${name} (according to ${setupName})`}
 					className="max-w-full max-h-[max(16rem,calc(100vh-23rem))] border border-neutral-800"
 					style={{ background: "repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 20px 20px" }}

@@ -1,3 +1,0 @@
-The flag of Haiti has an aspect ratio of 3:5. It consists of two horizontal stripes, with the top stripe being blue (#00209F) and the bottom stripe red (#D21034). In the center of the flag, there is a white square with a width equal to the height of the blue and red stripes combined. Inside the white square is the Haitian coat of arms, which features various elements such as palm trees, cannons, and flags.
-
-Please note that specific geometric properties and measurements for the coat of arms are not readily available.

@@ -1,1 +1,0 @@
-The flag of Cayman Islands is a royal blue field with a British Union Jack occupying the canton (upper left corner) of the flag. The width to length ratio of the flag is 1:2.

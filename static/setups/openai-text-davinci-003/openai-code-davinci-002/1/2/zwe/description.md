@@ -1,1 +1,0 @@
-The flag of Zimbabwe is a rectangular, horizontal triband with green, yellow, and red bands, divided by a white triangle containing the black Zimbabwe bird. The width, height and aspect ratio are 3:2.

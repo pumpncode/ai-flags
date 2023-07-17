@@ -1,1 +1,0 @@
-The flag of Algeria is a green, white and red horizontal tricolour. It has a ratio of 2:3, with the green stripe being twice as wide as the white and red stripes.

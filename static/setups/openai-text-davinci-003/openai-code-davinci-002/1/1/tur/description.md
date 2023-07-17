@@ -1,1 +1,0 @@
-The flag of Turkey consists of a white crescent moon and star on a red background. The crescent is facing the hoist side, with the linear part of the crescent pointing downwards towards the fly side. The aspect ratio of the flag is 2:3.

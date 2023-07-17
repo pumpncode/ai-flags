@@ -1,1 +1,0 @@
-The flag of Cameroon is a vertical tricolor with the Pan-African colors of green, red, and yellow. The green stripe is at the hoist, the red is in the middle, and yellow is at the fly. The ratio is 2:3.

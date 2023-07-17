@@ -1,1 +1,0 @@
-The flag of Liechtenstein has two horizontal stripes of blue, the top being slightly wider than the bottom. The ratio of the stripes is 3:2, with the upper stripe being one unit wide, and the lower stripe two thirds of a unit. The top stripe is blue and lighter than the bottom one, which is a slightly darker shade. At the hoist is a crowned gold crown.

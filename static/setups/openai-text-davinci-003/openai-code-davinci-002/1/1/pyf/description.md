@@ -1,1 +1,0 @@
-The flag of French Polynesia is a blue, white, and red horizontal triband, with the blue stripe on top, the white stripe in the middle, and the red stripe on bottom. The ratio of the flag is 2:3.

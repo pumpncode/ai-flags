@@ -1,1 +1,0 @@
-The national flag of Ethiopia is a tri-band flag, made up of three equal horizontal stripes of green, yellow, and red. The flag has an aspect ratio of 2:3.

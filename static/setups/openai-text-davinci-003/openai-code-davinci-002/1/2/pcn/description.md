@@ -1,1 +1,0 @@
-The flag of the Pitcairn Islands is a blue and gold ensign with the badge of the islands at the center and four white five pointed stars, arranged in a diamond pattern, along the dividing line between the colors. The ratio of the width to the length is 3:5.

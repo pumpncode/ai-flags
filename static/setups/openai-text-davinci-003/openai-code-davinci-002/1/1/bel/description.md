@@ -1,1 +1,0 @@
-The Flag of Belgium consists of three equal horizontal bands of black, yellow, and red. The aspect ratio of the flag is 13:15.

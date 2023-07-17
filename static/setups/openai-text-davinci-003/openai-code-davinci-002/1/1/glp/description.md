@@ -1,1 +1,0 @@
-The flag of Guadeloupe consists of two equal-size vertical red panels separated by a narrow white band. The ratio of the red panels to the white band is 5:1. The overall flag's aspect ratio is 2:3.

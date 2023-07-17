@@ -1,1 +1,0 @@
-The official flag of Saint Vincent and the Grenadines consists of a blue ensign with the state badge in the centre on a disc and blue-edged yellow border. The flag has an aspect ratio of 1:2.

@@ -1,1 +1,0 @@
-The flag of the Cayman Islands has an aspect ratio of 1:2 (width:length). It consists of a British Blue Ensign with the Flag of the United Kingdom in the upper hoist canton, and a badge based on the coat of arms of the Cayman Islands in the fly.

@@ -1,1 +1,0 @@
-The flag of Colombia is a horizontal tricolor of equal size, consisting of three bands of yellow (top), blue (middle) and red (bottom). The width-to-height aspect ratio is 2:1.

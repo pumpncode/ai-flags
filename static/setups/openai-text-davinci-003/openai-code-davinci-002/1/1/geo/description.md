@@ -1,1 +1,0 @@
-The flag of Georgia consists of a white rectangle with a small red cross in the canton, a wide red cross with four narrow red stripes extending from it at a 45 degree angle. The overall flag is rectangular with an aspect ratio of 2:3.

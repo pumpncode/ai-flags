@@ -1,1 +1,0 @@
-The flag of Saint Barthélemy is a white horizontal triband with two equal blue bands on the top and bottom and a yellow in the center. The flag has an aspect ratio of 2:3.

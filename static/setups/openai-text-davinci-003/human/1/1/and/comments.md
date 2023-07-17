@@ -1,1 +1,0 @@
-Yeah, GPT-3 can't do basic maths (2/5 + 1/3 + 2/5 = 17/15 > 1). Yes, the outer stripes are actually two fifths wide, the middle stripe is just above them. I could've placed the stripes in the order they are described, but then the middle stripe wouldn't really be in the "middle" anymore.

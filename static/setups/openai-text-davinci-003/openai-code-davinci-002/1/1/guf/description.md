@@ -1,1 +1,0 @@
-The flag of French Guiana consists of three equal horizontal stripes of blue, red and yellow. The aspect ratio is 2:3.

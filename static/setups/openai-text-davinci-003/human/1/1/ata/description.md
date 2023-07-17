@@ -1,1 +1,0 @@
-The flag of Antarctica is blue, with a horizontal wavy white line in the middle. The upper section is solid blue. The upper and lower sections of the flag have an equal width. The width-to-length aspect ratio of the flag of Antarctica is 1:2.

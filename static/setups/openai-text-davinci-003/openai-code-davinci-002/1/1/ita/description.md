@@ -1,1 +1,0 @@
-The flag of Italy is a vertical tricolor composed of the three vertical stripes in the following order: green, white, red, with the ratio of the stripes being 2:3:2 respectively.

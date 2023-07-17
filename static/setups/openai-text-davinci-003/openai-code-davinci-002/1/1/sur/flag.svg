@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-	  <!--TOP RED STRIPE-->
-	  <rect x="0" y="0" width="800" height="400" style="fill:red;" />
-	  <!--BOTTOM GREEN STRIPE-->
-	  <rect x="0" y="400" width="800" height="200" style="fill:green;" />
-	  <!--CENTRAL TRIANGLE-->
-	  <polygon points="0,200 400,400 0,400" style="fill:white;stroke:black;stroke-width:3px" />
-	  <!--YELLOW STAR--></svg>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60000 40000">
-	<path fill="#002395" d="M0 0h60000v13333H0z"/>
-	<path fill="#FFF" d="M0 13333h60000v13333H0z"/>
-	<path fill="#ED2939" d="M0 26667h60000V40000H0z"/>
-	<g transform="translate(6000, 13333)">
-		<circle cx="6667" cy="6667" r="6667" fill="#FFF" stroke="#000" stroke-width="500"/>
-		<path d="M6667 1000l667 1000H6000l667-1000zM5000 2667l667 1000H4334l666-1000z m3334 0l666 1000H7667l667-1000z m-5000 2000l666 1000H2667l667-1000z m6666 0l667 1000H9334l666-1000zM6667 6000l667 1000H6000l667-1000z"/>
-	</g>
-</svg>

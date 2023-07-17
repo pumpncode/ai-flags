@@ -1,1 +1,0 @@
-The flag of Mali consists of three equal vertical stripes. From left to right, the colors are green, gold, and red. The aspect ratio is 2:3. The green stripe has a color code of #009E60, the gold stripe has a color code of #FDB813, and the red stripe has a color code of #CE1126. The flag has no geometric properties or measurements specified in its design.

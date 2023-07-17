@@ -1,1 +1,0 @@
-The flag of Gabon is a vertical tricolor of green, yellow, and blue. The yellow occupies the top third, the green the middle third, and the blue the bottom third, with a ratio of 2:3.

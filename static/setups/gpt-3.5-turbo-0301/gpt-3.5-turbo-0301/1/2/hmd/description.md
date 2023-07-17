@@ -1,1 +1,0 @@
-Heard Island and McDonald Islands do not have an official flag. As a territory of Australia, it uses the Australian flag as its de facto flag.

@@ -1,1 +1,0 @@
-The flag of Bulgaria consists of three horizontal stripes in the following colors: white (#FFFFFF), green (#00966E), and red (#D62612). The aspect ratio of the flag is 3:5, meaning its width is 3 units and length is 5 units. The stripes are equal in size, each occupying one-third of the flag's total area.

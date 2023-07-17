@@ -1,1 +1,0 @@
-The flag of Namibia is a horizontal tricolor with blue, red, and green stripes. The proportion of the three stripes is 1:2:1. The blue stripe is at the top, the red stripe is in the middle and the green stripe is at the bottom.

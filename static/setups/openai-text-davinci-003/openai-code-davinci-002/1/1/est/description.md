@@ -1,1 +1,0 @@
-The flag of Estonia is a tricolor flag of horizontal bands of blue, black, and white. It has an aspect ratio of 5:7. The flag is packaged in three equal horizontal bands, the top one being blue, the middle one being black, and the bottom one being white.

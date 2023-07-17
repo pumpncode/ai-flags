@@ -1,1 +1,0 @@
-The flag of Cuba is a horizontal tricolour consisting of three equal bands of blue, white and red. It has an aspect ratio of 2:1.

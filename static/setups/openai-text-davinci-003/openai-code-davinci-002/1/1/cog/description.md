@@ -1,1 +1,0 @@
-The flag of the Republic of the Congo is a 2:3 ratio rectangular triband with a green field in the hoist, a yellow field in the center and a red field in the fly. It also features a yellow star centered in the center yellow stripe.

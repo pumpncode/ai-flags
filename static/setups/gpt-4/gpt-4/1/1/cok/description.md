@@ -1,3 +1,0 @@
-The flag of the Cook Islands has an aspect ratio of 1:2. It consists of a blue field (#00247D) with the Union Jack in the canton (upper hoist-side corner) and a circle of 15 white five-pointed stars surrounding it. The Union Jack itself is composed of red (#C8102E) and white (#FFFFFF) stripes and the St. George's Cross.
-
-The circle's diameter is half the width of the flag, while each star's diameter is 1/24th of the flag's width. The stars are equally spaced along the circle, representing the 15 islands that make up the Cook Islands. They are displayed in a way that their points face outward from the circle's center.

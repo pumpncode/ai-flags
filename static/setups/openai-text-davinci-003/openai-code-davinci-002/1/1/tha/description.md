@@ -1,1 +1,0 @@
-The flag of Thailand is a rectangular horizontal bicolour with a crimson red outer field and a central white field with a blue and white disc positioned off center. The width-to-length aspect ratio of the flag is 2:3.

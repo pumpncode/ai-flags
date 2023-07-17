@@ -1,1 +1,0 @@
-The flag of Nepal consists of a crimson-red triangular pennant superimposed on a larger double triangular pennant in navy blue. The aspect ratio is 2:3.

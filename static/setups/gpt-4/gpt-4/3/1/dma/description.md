@@ -1,3 +1,0 @@
-The flag of Dominica has an aspect ratio of 1:2 and features a green background with three vertical stripes in the center. The central stripe is yellow (#FCD116) and is bordered by black (#000000) and white (#FFFFFF) stripes on each side. A red (#CE1126) circle is positioned at the center, containing a Sisserou Parrot facing left, surrounded by ten lime green stars.
-
-The green field's color code is #006B3F. The width of the central yellow stripe is equal to half the height of the flag, while the black and white stripes are 1/24th of the flag's height each. The diameter of the red circle is 2/5ths of the flag's height, and the stars' diameter is 1/16th of the flag's height. The parrot inside the circle is proportionally sized to fit within the circle.

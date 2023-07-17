@@ -1,1 +1,0 @@
-The national flag of Uruguay has an aspect ratio of 8:5 (height to length). It consists of nine equal horizontal stripes, alternating white over blue, with a white canton on the upper hoist-side corner bearing a yellow Sun of May with 16 rays.

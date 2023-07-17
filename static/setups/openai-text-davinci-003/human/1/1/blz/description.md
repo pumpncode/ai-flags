@@ -1,1 +1,0 @@
-The flag of Belize consists of a royal blue background with a red stripe in the center. The red stripe is wider than the two thinner stripes of white on either side of it. The overall aspect ratio of the Belizean flag is 1:2.

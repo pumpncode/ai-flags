@@ -1,1 +1,0 @@
-The flag of Niue is a blue base with the Union Flag in the upper hoist-side quadrant and a yellow five-pointed star in the lower hoist-side quadrant. Its aspect ratio is 1:2.

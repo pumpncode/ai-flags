@@ -1,1 +1,0 @@
-The flag of Venezuela has three equal horizontal bands of yellow, blue, and red; centered in the blue band is a wide white eight-pointed star known as the "Stella Caracas". The ratio of the width to the length of the flag is 1:2.

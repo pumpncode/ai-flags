@@ -1,1 +1,0 @@
-The flag of Isle of Man consists of a red lion on a white and gold background with a yellow-bordered red cross placed centrally. It has an aspect ratio of 1:2.

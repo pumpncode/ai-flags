@@ -1,5 +1,0 @@
-The flag of the Philippines has a rectangular design with an aspect ratio of 1:2. It consists of two horizontal bands of equal size, with the top band being royal blue (#0038A8) and the bottom band being scarlet red (#CE1126). On the left side (hoist side), there is a white equilateral triangle with its base along the entire length of the hoist.
-
-Inside the white triangle, there is a golden-yellow sun with eight primary rays, each containing three individual rays. The sun's diameter is 1/5 of the width of the flag. At each vertex of the triangle, there is a five-pointed golden-yellow star, with each star's diameter being 3/8 of the width of the triangle's base.
-
-The flag's overall dimensions are typically measured in units, where one unit corresponds to the width of a stripe. Therefore, the flag's width is 2 units, and its length is 4 units.

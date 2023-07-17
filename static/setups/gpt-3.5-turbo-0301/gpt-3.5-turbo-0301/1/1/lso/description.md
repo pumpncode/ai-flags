@@ -1,5 +1,0 @@
-The flag of Lesotho consists of three horizontal stripes: a blue stripe at the top and bottom, with a white stripe in the middle. The blue stripes represent Lesotho's rain and water, while the white stripe represents peace. In the center of the white stripe is a black mokorotlo, a traditional Basotho hat. 
-
-The aspect ratio of the flag is 2:3, meaning that its width is twice its height. The flag's geometric properties include a total of six rectangles, with each color representing two rectangles. The blue stripes are the same shade of dark blue, with a color code of #0072C6, while the white stripe is pure white (#FFFFFF). The mokorotlo in the center of the flag is black (#000000).
-
-The measurements of the Lesotho flag are not specified in the official description, but it is typically produced in sizes ranging from small handheld flags to large outdoor flags.

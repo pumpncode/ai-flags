@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000000 500000">
-	<rect width="1000000" height="83330" fill="#024FA2"/>
-	<rect width="1000000" height="83330" y="416670" fill="#024FA2"/>
-	<rect width="1000000" height="20000" y="83330" fill="#FFF"/>
-	<rect width="1000000" height="20000" y="396670" fill="#FFF"/>
-	<rect width="1000000" height="260000" y="103330" fill="#ED1C27"/>
-	<circle cx="250000" cy="250000" r="100000" fill="#FFF"/>
-	<path fill="#ED1C27" d="M250000 150000l67534 157082-127083-114164h119098L182466 307082Z"/>
-</svg>

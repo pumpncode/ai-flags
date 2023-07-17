@@ -1,1 +1,0 @@
-The flag of Uganda is a rectangular tricolor with a Black stripe at the hoist, a yellow stripe in the middle, and a Red stripe at the fly end. The aspect ratio is 1:2.

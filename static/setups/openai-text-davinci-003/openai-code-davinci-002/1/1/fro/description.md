@@ -1,1 +1,0 @@
-The flag of Faroe Islands has a ratio of 1:2 with a white Scandinavian cross extending to the edges of the flag, centered on a deep red field.

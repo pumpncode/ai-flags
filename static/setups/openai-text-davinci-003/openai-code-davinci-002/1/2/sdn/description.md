@@ -1,1 +1,0 @@
-The flag of Sudan is a tricolor with a central green band that is twice as wide as the adjacent white and red bands. The red band is twice as wide as the white band. The tricolor is bordered by a yellow triangle with a gold star at its center. The aspect ratio of the flag is 3:2.

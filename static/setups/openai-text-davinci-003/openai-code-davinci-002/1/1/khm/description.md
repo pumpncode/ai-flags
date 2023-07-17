@@ -1,1 +1,0 @@
-The flag of Cambodia is a horizontal triband design of blue, red, and blue with the red band being twice as wide as the other two. The ratio of width to length is 2:3.

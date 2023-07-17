@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-15 -15 30 30">
-	<path d="M0 0h10v30H0z" style="fill:red" stroke-width="1"/>
-	<path d="M10 0h10v30H10z" style="fill:#ff0" stroke-width="1"/>
-	<path d="M20 0h10v30H20z" style="fill:red" stroke-width="1"/>
-	<path d="M0-5h30v3H0z" onclick="alert(\'I am Spain!\')" onmouseout="this.style.fill=\'white\'" onmouseover="this.style.fill=\'lightgrey\'" style="fill:#fff;stroke-width:.5;stroke:#000" stroke-width="1"/>
-</svg>

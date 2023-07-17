@@ -78,7 +78,7 @@ const loopOverCountries = async (setupName, countryCodes, iteratee) => {
 		officialName,
 		code
 	} of sortedCountries) {
-		const folderPath = join(cwd(), "static", "setups", setupName, code);
+		const folderPath = join(cwd(), "data", "vexillologists", setupName, code);
 
 		const descriptionFilePath = join(folderPath, "description.md");
 		const svgFlagFilePath = join(folderPath, "flag.svg");

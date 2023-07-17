@@ -1,1 +1,0 @@
-The flag of Indonesia is an evenly-divided red and white horizontal bicolour of equal width, with a blue base canton which contains a white five-pointed star and two white stripes in the upper and lower parts. The canton's aspect ratio is 2:3 while the total flag's aspect ratio is 2:3.

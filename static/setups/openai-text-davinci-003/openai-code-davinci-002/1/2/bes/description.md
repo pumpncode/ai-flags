@@ -1,1 +1,0 @@
-The flag of the Caribbean Netherlands is a yellow-blue-white tricolor with the width of the flag double the height. The top stripe is yellow, the middle stripe is blue, and the bottom stripe is white. The yellow stripe has a height of one-third of the total flag height and the blue and white stripes each have a height of one-sixth the total flag height.

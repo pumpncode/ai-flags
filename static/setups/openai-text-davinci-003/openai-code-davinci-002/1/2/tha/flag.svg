@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 850">
-	<path d="M0 0h1700v850H0z" style="stroke:#0f0;fill:tomato" stroke-width="10"/>
-	<path d="M1350 97a90 20 0 1 1-80-130l-350 110 640 360 640-360-350-110a90 20 0 0 1-90 90 86 8 0 0 1-76-55 86 8 0 0 1 0-99l68-68a190 90 0 0 0 22-158l-110-350L1310 32M820 40" style="fill:#fff;stroke:#b22222;stroke-width:1.3;fill-opacity:.9" stroke-width="10"/>
-</svg>

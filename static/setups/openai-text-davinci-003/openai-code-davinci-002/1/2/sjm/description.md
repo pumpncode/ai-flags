@@ -1,1 +1,0 @@
-The national flag of Svalbard and Jan Mayen is a rectangle with an aspect ratio of 2:3. The top two-thirds of the flag is red and the lower one-third is white.

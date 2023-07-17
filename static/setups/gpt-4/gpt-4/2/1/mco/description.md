@@ -1,1 +1,0 @@
-The flag of Monaco consists of two horizontal stripes of equal size. The top stripe is red (#CE1126), and the bottom stripe is white (#FFFFFF). The flag has an aspect ratio of 4:5, meaning its width is 1.25 times its height. There are no specific geometric properties or measurements beyond these details.

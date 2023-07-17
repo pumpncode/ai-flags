@@ -1,3 +1,0 @@
-The flag of Libya consists of three horizontal stripes of equal height. The top stripe is red (#E70013), the middle one is black (#000000) with a white crescent and star in the center, and the bottom stripe is green (#008C45). The aspect ratio is 1:2, meaning the flag's width is twice its height.
-
-The crescent and the five-pointed star are both geometric shapes. The crescent has two circular arcs connected at their endpoints, while the star comprises five straight lines intersecting to form a pentagram. Both the crescent and the star are white (#FFFFFF), and they are centered in the middle black stripe. Since the flag features horizontal stripes of equal height, each stripe occupies one third of the flag's total height.

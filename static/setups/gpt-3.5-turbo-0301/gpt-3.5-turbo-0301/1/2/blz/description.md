@@ -1,7 +1,0 @@
-The flag of Belize has a blue field with a narrow red stripe along the top and bottom edges and a large white circle in the center. Inside the circle is the coat of arms of Belize, which depicts a shield flanked by two woodcutters holding an axe and a paddle, with a mahogany tree in the center. Above the shield is a helmet with a crest featuring a rising sun, representing a new dawn for Belize.
-
-The colors used in the flag are specified as follows: Blue (Pantone 300C), Red (Pantone 186C), and White. The aspect ratio of the flag is 2:3, meaning that its width is 1.5 times its height. The diameter of the white circle in the center is two-thirds the height of the blue field.
-
-The geometric properties of the flag include two rectangular fields of color (blue and red) and a circular emblem (white and multicolored) centered on the flag. The blue and red stripes are each one-twentieth the height of the flag. The coat of arms in the center of the flag has a maximum height of seven-tenths the height of the flag.
-
-The flag was adopted on September 21, 1981, when Belize gained independence from Britain. It was designed by a committee of Belizean citizens led by educator and activist Eva Longsworth.

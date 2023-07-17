@@ -1,1 +1,0 @@
-The flag of Eritrea consists of three horizontal bars of equal height and width, with the colors red, green, and blue in order from the top down. The aspect ratio is 2:3.

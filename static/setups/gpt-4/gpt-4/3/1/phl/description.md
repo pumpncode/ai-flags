@@ -1,3 +1,0 @@
-The flag of the Philippines has a rectangular shape with an aspect ratio of 1:2. It consists of two horizontal stripes, each occupying half of the flag's width. The top stripe is blue (#0038A8), and the bottom stripe is red (#CE1126). On the left side, there is a white equilateral triangle (#FFFFFF) with its vertices touching the middle of the blue and red stripes and extending to the hoist side.
-
-At the center of the white triangle, there is a golden-yellow sun with eight primary rays, each containing three individual rays. The sun's diameter is one-fifth of the flag's width. Surrounding the sun are three five-pointed golden-yellow stars, one at each vertex of the triangle, with their points facing outward. Each star's diameter is one-tenth of the flag's width.

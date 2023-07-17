@@ -1,1 +1,0 @@
-The Kenyan flag has a two-to-three ratio (2:3) with a black background and two horizontal bands in bright red and green. The central white band has two crossed traditional Masai spears, with the blue color of the Kenyan shield in the middle.

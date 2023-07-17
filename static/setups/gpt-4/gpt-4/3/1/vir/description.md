@@ -1,3 +1,0 @@
-The flag of the United States Virgin Islands has an aspect ratio of 2:3. It consists of three horizontal stripes with equal widths. The top stripe is white (color code #FFFFFF), the middle stripe is yellow (color code #FFD700), and the bottom stripe is green (color code #008000). In the center of the flag, there is a simplified version of the U.S. Great Seal's eagle emblem.
-
-Unfortunately, I do not have precise geometric properties or measurements for the emblem on the flag.

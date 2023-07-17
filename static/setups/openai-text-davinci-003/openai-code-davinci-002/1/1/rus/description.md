@@ -1,1 +1,0 @@
-The flag of Russia is a tricolor flag consisting of three horizontal fields of equal size - white on the top, blue in the middle, and red on the bottom. The aspect ratio is 2:3.

@@ -1,1 +1,0 @@
-The flag of Christmas Island is a blue bicolour with the Coat of Arms superimposed in front of a golden yellow border. The flag has an aspect ratio of 1:2.

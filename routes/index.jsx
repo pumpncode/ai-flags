@@ -1,19 +1,8 @@
 import { TbArrowBigDownLine } from "react-icons/tb";
-import { join } from "std/path";
 
 import VexillologistsList from "@/components/features/vexillologists-list.jsx";
 import RandomFlag from "@/islands/random-flag.jsx";
 import { getDbVexillologists } from "@/utilities/server.js";
-
-const rootFolderPath = join("./");
-
-const setupsFolderPath = join(rootFolderPath, "setups");
-
-const staticFolderPath = join(rootFolderPath, "static");
-
-const staticSetupsFolderPath = join(staticFolderPath, "setups");
-
-const staticDiffsFolderPath = join(staticFolderPath, "diffs");
 
 const handler = {
 	GET: async (request, context) => {
@@ -64,7 +53,7 @@ const Home = ({ data: { vexillologists } }) => (
 					Array(48)
 						.fill()
 						.map((empty, index) => (
-							<div className="flex justify-center items-center w-full h-full border border-neutral-800">
+							<div className="flex items-center justify-center w-full h-full border border-neutral-800">
 								<RandomFlag
 									className="h-12"
 									layout="minimal"
@@ -78,7 +67,7 @@ const Home = ({ data: { vexillologists } }) => (
 				}
 			</div>
 		</section>
-		<section className="flex flex-col items-start gap-8 p-4 md:p-16 bg-neutral-800 z-0">
+		<section className="z-0 flex flex-col items-start gap-8 p-4 md:p-16 bg-neutral-800">
 			<ul className="flex flex-col gap-1">
 				<li className="flex gap-2">
 					<span>🤓</span>

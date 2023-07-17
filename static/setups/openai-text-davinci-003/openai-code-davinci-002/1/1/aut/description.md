@@ -1,1 +1,0 @@
-The flag of Austria is a horizontal tricolor of red, white, and red, each band measuring one-third of the flag's length. The middle band, white, bears a triband flag of black, red, and gold. The ratio of the flag is 3:2.

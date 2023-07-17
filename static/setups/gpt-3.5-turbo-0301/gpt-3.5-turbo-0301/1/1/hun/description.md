@@ -1,1 +1,0 @@
-The flag of Hungary consists of three equal horizontal stripes: the top and bottom stripes are red, while the middle stripe is white. The aspect ratio of the flag is 2:1. The color codes for the flag are Pantone 186 C for the red stripes, and Pantone White for the white stripe. The flag does not contain any other geometric properties or measurements beyond its aspect ratio.

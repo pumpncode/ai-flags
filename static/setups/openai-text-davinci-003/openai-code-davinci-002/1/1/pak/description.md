@@ -1,1 +1,0 @@
-The flag of Pakistan has an aspect ratio of 3:2. It consists of a green rectangular field with a white vertical stripe at the hoist, and a white crescent moon and five-pointed star at the center. The width of the stripe is one-fourth the length of the flag.

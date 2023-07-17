@@ -1,5 +1,0 @@
-The flag of Vanuatu has an aspect ratio of 3:2. It consists of two horizontal stripes, with the top stripe being red (#D21034) and the bottom stripe being green (#007B48). On the left side, there is a black triangle (#000000) with its base on the hoist side and its apex at the center of the flag. Within the black triangle, there is a yellow-bordered black emblem called a Y-shape or boomerang shape.
-
-The emblem's border is yellow (#FCD116), and it starts from the lower-left corner of the triangle, goes up to the center, and then splits into two branches that extend to the upper-left and upper-right corners of the triangle. Inside the black triangle, there are two yellow-bordered black circles placed horizontally next to each other, representing the chain of islands in Vanuatu.
-
-Exact measurements and geometric properties may vary depending on the specific flag manufacturer or official guidelines.

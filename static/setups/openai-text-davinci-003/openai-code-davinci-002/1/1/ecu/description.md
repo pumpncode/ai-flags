@@ -1,1 +1,0 @@
-The flag of Ecuador is a horizontal bicolour of equal width, with a yellow stripe at the top and a red stripe at the bottom. It has a coat of arms in the centre, with a width and length of one-sixth of the total flag length. The aspect ratio of the flag of Ecuador is 2:3.

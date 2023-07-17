@@ -1,4 +1,0 @@
-The flag of American Samoa has a blue field with a white triangle on the hoist side, outlined in red. Inside the triangle is a bald eagle holding a war club and fly-whisk, with its talons clutching three Samoan symbols representing wisdom, courage, and strength. The eagle faces towards the hoist side of the flag. The ratio of the flag's height to width is 1:2. The exact measurements of the flag may vary, but it typically measures 54 inches (137 cm) in height and 108 inches (274 cm) in length. The color codes for the flag are:
-- Blue: Pantone 286 C or 287 U
-- White: Not applicable (natural color of the fabric)
-- Red: Pantone 186 C or 187 U

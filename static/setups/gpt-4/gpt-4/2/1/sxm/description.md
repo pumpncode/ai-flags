@@ -1,3 +1,0 @@
-The flag of Sint Maarten has an aspect ratio of 2:3. It is horizontally divided into two equal bands. The top band is red (#D21034) and the bottom band is blue (#002B7F). On the left side, there is a white equilateral triangle with its base along the hoist side. Inside the triangle, there is the coat of arms of Sint Maarten, which I won't describe as per your request.
-
-Unfortunately, specific geometric properties and measurements for the flag elements are not readily available.

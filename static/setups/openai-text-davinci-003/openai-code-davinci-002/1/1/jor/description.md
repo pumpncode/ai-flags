@@ -1,1 +1,0 @@
-The flag of Jordan is horizontal and in the proportions 1:2. It has three equal-sized horizontal stripes, two black ones and one white one in the middle. There is a red triangle and a white star in the upper left corner.

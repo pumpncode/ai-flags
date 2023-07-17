@@ -1,1 +1,0 @@
-The flag of French Southern and Antarctic Lands consists of a French Tricolor with a small stylized representation of the continent and a yellow banner below containing the words "Terres Australes et Antarctiques Françaises" in black lettering. The flag has an aspect ratio of 2:3.

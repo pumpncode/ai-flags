@@ -93,9 +93,9 @@ const RandomFlag = ({
 
 	const fullInstanceName = flagPathArray.slice(0, -1).join("/");
 
-	const href = `/${fullName}`;
+	const href = `/vexillologists/${fullName}`;
 
-	const pngFlagPath = `/setups/${fullName}/flag.png`;
+	const pngFlagPath = `/vexillologists/${fullName}/flag.png`;
 
 	return (
 		<div

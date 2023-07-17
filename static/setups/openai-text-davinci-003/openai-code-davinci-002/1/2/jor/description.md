@@ -1,1 +1,0 @@
-The flag of Jordan is a horizontally buffered tricolour with black, white, and green stripes. The black stripe is at the top and has an aspect ratio of 2:3. The white stripe follows and has a width equal to one-third of the flag's width. The green stripe is at the bottom and extends the full length of the flag.

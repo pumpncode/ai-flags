@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11000 20000">
-	<path fill="red" d="M0 0h11000v20000H0z" stroke-width="1000"/>
-	<path fill="#FFF" d="M0 6667h11000v6667H0z" stroke-width="1000"/>
-	<g transform="translate(5500, 10000)" stroke-width="1000">
-		<circle r="3333" fill="#FF0" stroke-width="1000"/>
-		<path fill="green" d="M0-3333v6666L2000 2000l1333-2000L2000-2000 0-3333Z" stroke-width="1000"/>
-		<path fill="red" d="M0-4000l-4000 4000 4000 4000 4000-4000-4000-4000Z" stroke-width="1000"/>
-	</g>
-</svg>

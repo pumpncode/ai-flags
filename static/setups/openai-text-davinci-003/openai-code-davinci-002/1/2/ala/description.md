@@ -1,1 +1,0 @@
-The flag of Åland Islands is a Nordic cross flag consisting of a blue field with a darker blue Scandinavian cross extending to the edges of the flag. The ratio of the width to length of the flag is 2:3.

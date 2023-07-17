@@ -1,1 +1,0 @@
-The flag of Saint Pierre and Miquelon is a 1:2 ratio vertical triband of white, blue, and red with a white-bordered blue lozenge centered in the white band.

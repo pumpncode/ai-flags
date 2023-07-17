@@ -1,1 +1,0 @@
-The flag of French Southern and Antarctic Lands is divided into two equal horizontal bands, the top band is blue (Pantone 286C) and the bottom band is white. The height-to-length ratio is 2:3. There are no geometric properties or measurements specified for this flag.

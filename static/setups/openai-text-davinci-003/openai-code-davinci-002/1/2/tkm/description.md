@@ -1,1 +1,0 @@
-The flag of Turkmenistan is green, with a white crescent moon and five white stars in the center. The flag has a 2:3 aspect ratio.

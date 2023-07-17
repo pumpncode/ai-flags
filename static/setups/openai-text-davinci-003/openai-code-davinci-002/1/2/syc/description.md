@@ -1,1 +1,0 @@
-The flag of Seychelles has a white background on the top half and a red background on the bottom half. The ratio of the flag is 3:4, with a blue diagonal band with yellow borders on either side. The ratio of the central blue diagonal band is 1:2, making the white and red area equal in size.

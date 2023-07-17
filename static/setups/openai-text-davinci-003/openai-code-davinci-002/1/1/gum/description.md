@@ -1,1 +1,0 @@
-The flag of Guam is a horizontal triband of navy blue, white and red. It represents the colors of the U.S. flag (background of the Seal of Guam), with its width to length ratio being 1:2.

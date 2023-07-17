@@ -1,1 +1,0 @@
-The flag of Gambia is a horizontal rectangular tricolour comprising three equal, vertical stripes of green, blue, and red. The width of the flag is twice its height, with the proportions 2:1.

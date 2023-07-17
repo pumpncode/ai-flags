@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
-	<circle cx="100" cy="50" r="20" fill="yellow"/>
-	<text x="100" y="70" fill="#fff" font-family="ArialNarrow" font-size="16" text-anchor="middle" transform="rotate(180, 100, 20)">
-			"He korokō mou, e tūmatauenga"
-		</text>
-	<path fill="#fff" d="M100 20l12 40v-18l-12 18-12-18"/>
-	<circle cx="124" cy="48" r="3" stroke="#333" stroke-width="2"/>
-</svg>

@@ -1,1 +1,0 @@
-The flag of Belize is an horizontal triband. The colors of the flag are blue at the top, white in the middle and red at the bottom. The aspect ratio is 1:2.

@@ -1,5 +1,0 @@
-The flag of Kosovo features a blue background with a gold map of Kosovo and six white stars. The aspect ratio is 5:7. In the Pantone color system, the blue is Pantone 286 C (Hex code: #0044AA), and the gold is Pantone 116 C (Hex code: #FFCC00). The white stars have no specific Pantone or Hex code, but they are standard white.
-
-The flag consists of a blue field with a golden silhouette of Kosovo centered on it. Above the map, there's an arc of six white, five-pointed stars starting from lower left and ending at lower right, arched in such a way that the center stars are higher up than the end stars. The distance between each adjacent pair of stars is equal, and their dimensions are identical.
-
-However, for more precise geometric properties and measurements, it would be best to consult official documentation, as these details may not be easily available online.

@@ -1,1 +1,0 @@
-The flag of Paraguay has a ratio of 9:14. It consists of three equal vertical stripes, blue, white and red. In the centre of the white stripe is a yellow five-pointed star located inside a circular blue and red ornament.

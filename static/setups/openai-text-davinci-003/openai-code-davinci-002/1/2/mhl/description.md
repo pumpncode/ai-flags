@@ -1,1 +1,0 @@
-The flag of the Marshall Islands consists of a blue and yellow triangle divided horizontally and pointing in an outward manner, with the blue triangle in the upper portion and the yellow triangle occupying the bottom part of the flag. The width of the flag is twice its length, with an aspect ratio of 2:1.

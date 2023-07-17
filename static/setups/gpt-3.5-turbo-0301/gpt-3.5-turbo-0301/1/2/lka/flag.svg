@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
-	<path fill="#8B0000" d="M0 0h300v150H0z" stroke-width="10"/>
-	<path fill="gold" d="M130 75h50v30h-50z m50 0h30v-10C210 51 199 40 185 40S160 51 160 65v10h20Zm0 30h30v10c0 14-11 25-25 25S160 129 160 115v-10h20Zm47-59L270 75l-43 29c-5-4-11-7-17-9v-30c6-2 12-5 17-9L270 25l-43 21ZM60 75h50v30H60z m0 0H30v-10C30 51 41 40 55 40S80 51 80 65v10H60Zm0 30H30v10C30 129 41 140 55 140S80 129 80 115v-10H60Z" stroke-width="10"/>
-	<path fill="gold" d="M23 46L-20 75l43 29c5-4 11-7 17-9v-30c-6-2-12-5-17-9L-20 25l43 21Z" stroke-width="10"/>
-	<path fill="green" d="M130 75l-15 10v10l15 10 15-10v-10z" stroke-width="10"/>
-</svg>

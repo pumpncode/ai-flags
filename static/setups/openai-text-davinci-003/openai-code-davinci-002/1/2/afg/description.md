@@ -1,1 +1,0 @@
-The flag of Afghanistan has a white horizontal stripe at the top, a red stripe in the center, and a black stripe at the bottom. It has a ratio of 2:3, with the width being 2 and the height being 3.

@@ -1,1 +1,0 @@
-The flag of Sierra Leone consists of three equal horizontal stripes of green, white, and blue. It's aspect ratio is 1:2, with the green stripe being at the top and the blue stripe being at the bottom.

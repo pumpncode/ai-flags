@@ -1,1 +1,0 @@
-The flag of Costa Rica consists of five horizontally striped alternately blue, white and red, with a red equilateral triangle at the hoist side and a white-capped blue Latin cross within it. The whole flag has a width-to-length ratio of 1:2.

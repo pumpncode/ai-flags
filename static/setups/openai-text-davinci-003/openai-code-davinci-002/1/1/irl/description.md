@@ -1,1 +1,0 @@
-The flag of Ireland is rectangular in shape and has a ratio of 1:2. It consists of three vertical stripes. The left stripe is green, the middle stripe is white, and the right stripe is orange. In the center of the white stripe is a dark blue saltire.

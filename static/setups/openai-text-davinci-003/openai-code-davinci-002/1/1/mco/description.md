@@ -1,1 +1,0 @@
-The national flag of Monaco consists of two equal horizontal bands of red (top) and white. The aspect ratio is 2:3.

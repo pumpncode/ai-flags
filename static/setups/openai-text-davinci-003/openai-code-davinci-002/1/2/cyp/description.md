@@ -1,1 +1,0 @@
-The flag of Cyprus is a rectangular flag with a width to length ratio of 2:3. It has two equal horizontal stripes, the top is white and the bottom is light blue. In the center of the flag is a copper-colored map of the island in the shape of an upside-down triangle, superimposed on two green crossed olive branches.

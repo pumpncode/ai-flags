@@ -1,1 +1,0 @@
-The flag of Armenia features a horizontally tricolored red, blue, and orange field with a white armenian apostolic church cross featured in the center of it. The flag has an aspect ratio of 1:2.

@@ -1,1 +1,0 @@
-The flag of Eswatini is a tricolor flag with vertical stripes of blue, yellow, and green in that order. The ratio of the flag is 5:3.

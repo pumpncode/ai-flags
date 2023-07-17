@@ -1,1 +1,0 @@
-The flag of Thailand is a horizontal rectangular bicolor with a width to length ratio of 1:2. It features a red background and a bold white elephant in the center.

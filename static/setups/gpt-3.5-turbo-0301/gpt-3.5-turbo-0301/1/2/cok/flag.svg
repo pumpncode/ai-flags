@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150000 75000">
-	<path fill="#00247d" d="M0 0h150000v75000H0z" stroke-width="1000"/>
-	<circle cx="75000" cy="37500" r="25000" fill="#fff" stroke-width="1000"/>
-	<path d="M73500 24500l25000 25000-13000 13000-25000-25000Z" stroke-width="1000"/>
-	<circle cx="75000" cy="37500" r="20000" fill="#00247d" stroke-width="1000"/>
-	<circle cx="75000" cy="37500" r="15000" fill="#fff" stroke-width="1000"/>
-	<path fill="#fff" d="M75000 11500L61641 33641H87360z m0 52000L61641 41359H87360z" stroke-width="1000"/>
-	<path d="M36500 34000L75000 11500 113500 34000 75000 56500z" stroke-width="1000"/>
-</svg>

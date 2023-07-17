@@ -1,3 +1,0 @@
-The flag of Saint Lucia has an aspect ratio of 1:2. It features a cerulean blue background (#002868) with yellow (#FCD116) and black triangles in the center forming a stylized representation of the island's iconic volcanic twin peaks, the Pitons. The black triangle is equilateral, while the two yellow triangles are right-angled isosceles triangles.
-
-The height of the black triangle is half the width of the flag. The black triangle is centrally aligned and extends to the center of the flag. The yellow triangles have their right angles located at the top left and bottom left corners of the flag, and their hypotenuses form the two sides of the black triangle.

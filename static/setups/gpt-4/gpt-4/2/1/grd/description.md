@@ -1,5 +1,0 @@
-The flag of Grenada has an aspect ratio of 3:5. It consists of four horizontal stripes, with the top and bottom stripes being red (#CE1126) and the middle two stripes being yellow (#FCD116). The yellow stripes are twice as wide as the red stripes. A green (#007A5E) isosceles triangle borders the left side of the flag, with its base along the hoist and its apex at the center of the flag.
-
-In the center of the flag, there is a red circle with a diameter equal to half the height of the flag. Inside the circle, there is a yellow-bordered seven-pointed star with a diameter equal to one-third of the flag's height. The star is centered within the circle.
-
-On the outer edge of the red circle, there are six smaller yellow five-pointed stars arranged in a hexagonal pattern. Each small star has a diameter equal to one-twelfth of the flag's height. The distance between the centers of adjacent small stars is equal to one-sixth of the flag's height.

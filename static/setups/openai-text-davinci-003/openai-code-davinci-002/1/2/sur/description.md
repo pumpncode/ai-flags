@@ -1,1 +1,0 @@
-The flag of Suriname consists of five horizontal bands of green, white, red, white and green, each with a ratio of 1:2:1:2:1. The white band contains a red 5-pointed star.

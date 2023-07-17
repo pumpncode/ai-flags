@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
-	<path fill="#fdd216" d="M0 15v170h240V15H0" stroke-width="1"/>
-	<path fill="#300086" d="M240 15H0v55h240V15" stroke-width="1"/>
-	<circle cx="180" cy="100" r="30" fill="#fff" stroke-width="1"/>
-	<circle cx="60" cy="100" r="30" fill="#fff" stroke-width="1"/>
-	<path fill="808080" d="M120 100l16 5 20 10 14 20 10 15v-50l-10-15-14-20-20 10-16 25" stroke-width="1"/>
-</svg>

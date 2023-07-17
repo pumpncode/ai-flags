@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40" >
-	  <polygon points="0,0 80,0 40,40"/>
-	  <ellipse cx="40" cy="20" rx="8" ry="8" fill="white"/>
-	  <polygon points="50,12 50,28 30,20" fill="white" />
-	  <star points="20,20" length="12" fill="white" onevent="popstar"/></svg>

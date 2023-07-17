@@ -1,3 +1,0 @@
-The flag of South Georgia and the South Sandwich Islands is a British Blue Ensign with the Union Flag (also known as the Union Jack) in the canton. The field color is blue (#00247D). The flag has an aspect ratio of 1:2.
-
-On the right side of the flag, there is a badge featuring a shield with a white background. The shield contains a golden lion rampant holding a torch. Above the shield is a reindeer, and below it are two Macaroni Penguins supporting the shield. The motto "Leo Terram Propriam Protegat" appears on a scroll beneath the shield. Colors on the badge include gold (#FFD700), orange (#FFA500), brown (#964B00), and black (#000000).

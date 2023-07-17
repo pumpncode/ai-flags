@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
-        <rect x="0.5" y="0.5" width="199" height="99" fill="#00996f" rx="50"/> <!-- green -->
-        <polyline points="0.5 49.5 199.5 0.5" fill="none" stroke="#ffde00" stroke-width="1.5"/> <!-- yellow -->
-        <polyline points="0.5 0.5 199.5 49.5" fill="none" stroke="#df162c" stroke-width="1.5"/> <!-- red --></svg>

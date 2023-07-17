@@ -1,1 +1,0 @@
-Trinidad and Tobago's flag is a red rectangle witha white diagonal band descending from the upper left to the lower right corner. The band is 1/3 of the height of the flag, and halfway across the width. At the centre of the white band is a black five point star with a red border.

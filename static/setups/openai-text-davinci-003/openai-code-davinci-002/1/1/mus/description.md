@@ -1,1 +1,0 @@
-The flag of Mauritius consists of four different coloured bands. Starting from the top are bands of red, blue, yellow and finally green. The flag has an aspect ratio of 2:3.

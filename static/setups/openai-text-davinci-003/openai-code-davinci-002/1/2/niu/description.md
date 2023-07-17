@@ -1,1 +1,0 @@
-The flag of Niue is a yellow flag with an overall aspect ratio of 1:2. The design consists of a red star centered on a white crescent moon emerging from the bottom left of the flag, in the upper hoist quarter. The crescent moon is narrowed by a white border. There is a golden border along the bottom part of the flag.

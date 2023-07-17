@@ -1,1 +1,0 @@
-The flag of Germany is a tricolor flag which features three equal horizontal stripes of black (top), red (middle), and gold (bottom). The flag has an aspect ratio of 3:5.

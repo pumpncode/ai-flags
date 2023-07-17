@@ -1,1 +1,0 @@
-The flag of Somalia consists of a light blue field with a white five-pointed star centered. The ratio of its width to its length is 1:2.

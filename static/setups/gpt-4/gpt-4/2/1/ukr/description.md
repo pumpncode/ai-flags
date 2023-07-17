@@ -1,1 +1,0 @@
-The flag of Ukraine consists of two horizontal stripes of equal size. The top stripe is blue (Pantone 2935 C) and the bottom stripe is yellow (Pantone 116 C). The aspect ratio of the flag is 2:3, meaning its width is 1.5 times its height. There are no specific geometric properties or measurements beyond the aspect ratio and the arrangement of the two horizontal stripes.

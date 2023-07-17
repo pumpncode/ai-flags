@@ -1,1 +1,0 @@
-The flag of Greenland consists of two equal horizontal bands of white (top) and red with a large disk slightly to the hoist side of centre. The top half of the disk is red, the bottom half is white.

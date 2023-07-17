@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000000 500000">
-	<path fill="#FFF" d="M0 0h1000000v500000H0z"/>
-	<path fill="#CE1126" d="M0 333333h1000000V500000H0z m200000-166666h200000V250000l-100000-50000-100000 50000z m50000-50000h100000v50000H250000z"/>
-	<circle cx="300000" cy="116667" r="12500" fill="#D0AE3D"/>
-	<path stroke="#D0AE3D" stroke-width="25000" d="M300000 129167v166666"/>
-</svg>

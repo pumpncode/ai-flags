@@ -1,1 +1,0 @@
-The flag of Moldova consists of three vertical stripes of equal width - the leftmost stripe is blue, followed by yellow and red. The aspect ratio is 1:2.

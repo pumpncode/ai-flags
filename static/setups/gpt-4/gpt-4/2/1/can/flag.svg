@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
-	<path fill="red" d="M0 0h1000v500H0z"/>
-	<path fill="#FFF" d="M250 0h500v500H250z"/>
-	<path fill="red" d="M500 125l-15 50h-60l40 40-20 60 55-40 55 40-20-60 40-40h-60Z"/>
-	<path fill="red" d="M375 175h50l-10 50h40z m250 0h-50l10 50h-40zM395 275h110l-20 50z"/>
-	<path fill="red" d="M605 275H495l20 50z"/>
-</svg>

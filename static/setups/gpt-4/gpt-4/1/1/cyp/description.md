@@ -1,3 +1,0 @@
-The flag of Cyprus has an aspect ratio of 3:2. It features a white background (color code #FFFFFF) with an outline of the island of Cyprus depicted in copper-orange (color code #D57840) placed in the center. Positioned underneath the map, there are two green olive branches (color code #00933B) crossed horizontally.
-
-The exact geometric properties and measurements may vary slightly depending on the individual flag's manufacturing specifications.

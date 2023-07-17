@@ -1,1 +1,0 @@
-The flag of Guernsey is a white cross on a blue field, with a red escutcheon at its centre. It has an aspect ratio of 3:5.

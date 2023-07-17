@@ -1,1 +1,0 @@
-The Suriname flag has a  ratio of 2:3 and consists of five horizontal bands of green, white, red, white, and green. The green color is Pantone 355 C, the red color is Pantone 186 C, and the white color is Pantone White. The flag's geometric center is vertically positioned on the hoist side of the flag, with each band occupying an equal portion of the width.

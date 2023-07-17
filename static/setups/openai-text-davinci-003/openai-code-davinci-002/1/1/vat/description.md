@@ -1,1 +1,0 @@
-The flag of Vatican City is square, with a yellow and white background. On the center of the flag is the symbol of the Papal Keys, in yellow and white. The aspect ratio of the flag is 1:1.

@@ -1,1 +1,0 @@
-The flag of Luxembourg is a vertical tricolor of three unequal horizontal stripes, white on top, red in the center, and blue on the bottom. It has an aspect ratio of 1:2.

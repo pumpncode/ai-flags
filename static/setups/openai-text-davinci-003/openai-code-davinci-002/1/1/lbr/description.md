@@ -1,1 +1,0 @@
-The flag of Liberia is a horizontal triband design of red, white, and blue with a white star in the canton. The proportion of the flag is 2:3, with the red and blue stripes equally sized at 1/5 of the flag's length, and the white stripe occupying the remaining 3/5 of the flag's length.

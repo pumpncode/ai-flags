@@ -1,1 +1,0 @@
-The national flag of Indonesia is a simple bicolour consisting of two horizontal bands of equal size, the top in red, and the bottom in white. The ratio of the flag is 2:3.

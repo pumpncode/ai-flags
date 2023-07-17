@@ -1,5 +1,0 @@
-The flag of San Marino consists of two horizontal stripes of the same width, with the top stripe colored white (#FFFFFF) and the bottom stripe light blue (#5091CD). In the center-left of the flag is the country's coat of arms, which has a detailed design. The flag's aspect ratio is 3:4, meaning it is 3 units in height for every 4 units in width. 
-
-Regarding geometric properties and measurements, since the flag features two equally sized horizontal stripes, each stripe occupies 50% of the flag's total height. The coat of arms is centered vertically; horizontally, its left edge is placed at 1/8 (12.5%) of the flag's width from the hoist side.
-
-Other specific measurements, like the size or placement of individual elements within the coat of arms, are not universally standardized and may vary depending on the manufacturer or context in which the flag is used.

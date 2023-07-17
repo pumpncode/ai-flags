@@ -1,1 +1,0 @@
-The flag of the Democratic Republic of the Congo is a tricolour rectangular flag with a central bar of blue, red and yellow, arranged horizontally. The blue bar is twice as thick as each of the other two bands and each of the outer bands are of equal size. The ratio of the flag is 2:3.

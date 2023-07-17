@@ -1,1 +1,0 @@
-The flag of Saint Lucia consists of a blue background with a gold isosceles triangle on the hoist side. In the center of the triangle are three green diamonds arranged in a vertical line. The aspect ratio is 1:2.

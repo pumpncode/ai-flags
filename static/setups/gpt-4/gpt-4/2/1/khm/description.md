@@ -1,5 +1,0 @@
-The flag of Cambodia has a horizontal tricolor design with three bands. The top and bottom bands are blue (#003A9D) and equal in size, while the middle band is red (#E21B1F) and twice the height of the blue bands. In the center of the red band, there is a depiction of Angkor Wat in white (#FFFFFF).
-
-The aspect ratio of the flag is 2:3, meaning its width is two-thirds of its length. The geometric properties include the division of the flag into three horizontal bands, with the middle band being twice the height of the other two.
-
-As for measurements, if the flag's length is 180 cm, then its width would be 120 cm. Each blue band would be 30 cm in height, and the red band would be 60 cm in height. The white Angkor Wat emblem is centered within the red band and scaled proportionally to fit within it.

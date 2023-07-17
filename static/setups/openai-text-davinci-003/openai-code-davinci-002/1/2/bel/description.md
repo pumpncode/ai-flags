@@ -1,1 +1,0 @@
-The flag of Belgium is a tricolour consisting of three horizontal bands of black, yellow and red. The proportions are 13:15.

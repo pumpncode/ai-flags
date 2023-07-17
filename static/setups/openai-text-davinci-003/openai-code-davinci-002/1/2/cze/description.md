@@ -1,1 +1,0 @@
-The flag of Czechia is a rectangular bicolor; its height is two-thirds of its length. The upper part of the flag is white, the bottom is red, both colors have equal width.

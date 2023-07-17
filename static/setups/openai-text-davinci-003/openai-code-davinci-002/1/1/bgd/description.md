@@ -1,1 +1,0 @@
-The flag of Bangladesh consists of a red disc on top of a green background. The diameter of the disc is equal to the width of the flag and the aspect ratio of the flag is 1:2.

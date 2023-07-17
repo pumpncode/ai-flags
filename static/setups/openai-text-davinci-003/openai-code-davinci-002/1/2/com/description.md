@@ -1,1 +1,0 @@
-The Comoros flag has an aspect ratio of 2:3. It is a horizontally-oriented triband of green, white and blue, ordered from top to bottom. The middle white band is twice as wide as each of the green and blue bands.

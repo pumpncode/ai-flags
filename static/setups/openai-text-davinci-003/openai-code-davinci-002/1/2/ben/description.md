@@ -1,1 +1,0 @@
-The flag of Benin has a ratio of 2:3 and comprises of two equal horizontal bands of yellow (top) and red with a vertical green band on the hoist side.

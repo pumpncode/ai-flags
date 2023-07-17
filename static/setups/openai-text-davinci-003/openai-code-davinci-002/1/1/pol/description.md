@@ -1,1 +1,0 @@
-The flag of Poland is a horizontal bicolor of white and red, with the white on top and the red on bottom in a ratio of 2:3.

@@ -1,1 +1,0 @@
-The flag of South Sudan has a rectangular shape with an aspect ratio of 3:2. It has three equal horizontal stripes of black, red, and green, with a white triangle off-centered to the hoist side. The triangle bears a blue, six-pointed star in the center.

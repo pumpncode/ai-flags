@@ -1,1 +1,0 @@
-The flag of Kazakhstan consists of a bright sky blue background with a golden sun with 32 rays in the centre. The sun has a circle of the same color in the centre and is shaped like the sun. The flag has an aspect ratio of 1:2.

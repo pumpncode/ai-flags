@@ -1,1 +1,0 @@
-The flag of North Korea has two horizontal stripes, one red and one blue, of equal width. The red stripe is at the top, and the blue stripe is at the bottom. The red stripe has a white lotus flower in the center, surrounded by a white ring, both of which are intersected by a red star. The aspect ratio is 1:2.

@@ -1,1 +1,0 @@
-The flag of Nepal has a crimson field with two triangles of blue at the hoist, pointing away from each other. The crimson field is bordered by a white line on each side of both triangles. The upper triangle bears a white emblem of the sun, and the lower triangle a white emblem of the crescent moon. The aspect ratio of the flag of Nepal is 2:3.

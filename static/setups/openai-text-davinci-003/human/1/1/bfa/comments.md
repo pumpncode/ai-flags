@@ -1,1 +1,0 @@
-This could look great if I was a good illustrator and/or good in Illustrator but instead I paid for this totem on an icon website and had to painstakingly edit the SVG so it looks acceptable on a flag - and that's exactly how this flag looks.

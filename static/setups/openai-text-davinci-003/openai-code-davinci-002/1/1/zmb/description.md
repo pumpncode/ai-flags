@@ -1,1 +1,0 @@
-Zambia's flag is horizontally divided two-thirds black and one third green. In the center of the flag is a representation of a red-orange African fish eagle, facing the hoist with wings outstretched. The aspect ratio is 1:2.

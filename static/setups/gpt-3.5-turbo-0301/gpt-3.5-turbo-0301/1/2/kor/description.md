@@ -1,5 +1,0 @@
-The flag of South Korea, also known as Taegeukgi, has a rectangular shape with an aspect ratio of 2:3. It consists of a white background with a centered red and blue Taeguk symbol in the middle. The upper left section of the Taeguk is dark blue, while the lower right section is bright red. The exact color codes for the blue and red sections are Pantone 286C and Pantone 186C, respectively. 
-
-The Taeguk symbol is composed of three parts: the circle at the center represents balance, the upper half in blue represents the negative cosmic forces, and the lower half in red represents the positive cosmic forces. The white background signifies peace and purity.
-
-The height of the Taeguk symbol is exactly half the height of the flag, while its width is exactly five-eighths of its height. The diameter of the circle at the center is one-fourth of the height of the Taeguk symbol. Overall, the flag's width is twice the height of the Taeguk symbol.

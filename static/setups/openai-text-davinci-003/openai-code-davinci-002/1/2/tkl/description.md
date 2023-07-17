@@ -1,1 +1,0 @@
-The flag of Tokelau consists of a white field with a red-fimbriated inner square in which a yellow/gold five-pointed star is centered. The flag has a 2:3 aspect ratio.

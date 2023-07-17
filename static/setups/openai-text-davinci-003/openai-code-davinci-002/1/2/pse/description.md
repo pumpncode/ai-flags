@@ -1,1 +1,0 @@
-The flag of Palestine is a rectangular red banner with a green isosceles triangle placed at the hoist and the base line of the triangle touches the top two corners of the flag. At the centre of the triangle sits a white five-pointed star. The length of the flag is double the width.

@@ -1,5 +1,0 @@
-The flag of Antigua and Barbuda has an aspect ratio of 2:3. It consists of three main colors: red (#CE1126), white (#FFFFFF), and blue (#000080). The base color is red, featuring a horizontal white stripe (with its width being half the flag's width) and below it, a blue stripe (also half of the flag's width). A diagonal black stripe runs from the bottom left corner to the top right corner, with two thin white-bordered segments on either side.
-
-The black stripe is approximately 1/8th of the flag's width, while each white border is half the width of the black stripe. Additionally, there's a yellow (#FCD116) seven-pointed sun symbol in the middle of the flag intersecting the stripes.
-
-Note that the exact geometric properties and measurements of the flag may vary slightly depending on the source you consult.

@@ -1,1 +1,0 @@
-The flag of Lebanon is glossy red with a white cedar tree in the center. The cedar tree is proportional to one-third the width of the flag, and the ratio of the flag is 2:3.

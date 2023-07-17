@@ -1,1 +1,0 @@
-The flag of Serbia is a horizontal tricolor of red, blue, and white with the Serbian Coat of Arms centered on the white stripe. The overall flag ratio is 2:3.

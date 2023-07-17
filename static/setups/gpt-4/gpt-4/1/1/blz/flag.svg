@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
-	<rect width="100%" height="100%" fill="#0038A8"/>
-	<rect width="100%" height="30" fill="#C60C30"/>
-	<rect width="100%" height="30" y="270" fill="#C60C30"/>
-	<circle cx="250" cy="150" r="75" fill="#FFF"/>
-	<text x="50%" y="50%" dy=".3em" font-size="24" text-anchor="middle">Coat of Arms</text>
-</svg>

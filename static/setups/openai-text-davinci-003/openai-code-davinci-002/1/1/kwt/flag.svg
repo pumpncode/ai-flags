@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40">
-		<rect x="0" y="0" width="100" height="40" style="fill:#e6ab00"/>
-		<rect x="0" y="20" width="100" height="20" style="fill:#fff"/>
-		<path d="M0 0 L40 20 L0 40" style="fill:#c20"/><path d="M50 0 L100 20 L50 40" style="fill:#c20"/>
-		<path d="M30 0 L10 20 L30 40" style="fill:#a80"/><path d="M70 0 L90 20 L70 40" style="fill:#a80"/>
-		<path d="M10 0 L00 15 L10 20" style="fill:#c20"/><path d="M90 0 L100 15 L90 20" style="fill:#c20"/>
-		<path d="M30 18 L25 25 L30 28" style="fill:#fff"/><path d="M70 18 L75 25 L70 28" style="fill:#fff"/></svg>

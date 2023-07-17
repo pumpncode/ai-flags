@@ -25,8 +25,5 @@
 	"[tailwindcss]": {
 		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
 	},
-	"css.validate": false,
-	"search.exclude": {
-		"static/**": true
-	}
+	"css.validate": false
 }

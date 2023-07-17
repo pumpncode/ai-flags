@@ -1,1 +1,0 @@
-The flag of Comoros is a rectangular flag divided diagonally from the lower hoist-side corner. The upper triangle is green, and the lower triangle is white. In the center of the flag is a crescent and four five-pointed stars. The aspect ratio is 2:3.

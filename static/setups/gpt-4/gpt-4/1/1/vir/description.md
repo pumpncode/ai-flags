@@ -1,5 +1,0 @@
-The flag of the United States Virgin Islands has an aspect ratio of 2:3. It consists of three horizontal stripes with colors white (Hex: #FFFFFF), yellow (Hex: #FFD700) and green (Hex: #006400). The white stripe is on top, followed by the yellow one, and lastly the green stripe at the bottom. Each stripe has equal height.
-
-In the center of the flag, there is a simplified version of the Coat of Arms of the United States Virgin Islands which features an eagle in the middle with its wings outstretched horizontally. The eagle is surrounded by a blue field (Hex: #1C1C1C). Above the eagle, there are seven six-pointed stars in a semi-circular pattern. The eagle is holding a green laurel branch and yellow arrows in its talons.
-
-Note that specific geometric properties and measurements may vary depending on the flag's usage (e.g., for official government purposes versus personal or decorative use).

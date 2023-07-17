@@ -1,3 +1,0 @@
-The flag of Chile consists of two horizontal stripes and a square canton. The top stripe is white, with color code #FFFFFF. The bottom stripe is red, with color code #D52B1E. The canton is blue, with color code #0039A6, and occupies the upper hoist-side corner. A white five-pointed star is centered in the canton.
-
-The aspect ratio of the flag is 3:2. The width of the canton is equal to half the length of the flag, while its height is equal to the width of the white stripe. The star is equidistant from the top and side edges of the canton and has a diameter equal to 3/5 the height of the canton.

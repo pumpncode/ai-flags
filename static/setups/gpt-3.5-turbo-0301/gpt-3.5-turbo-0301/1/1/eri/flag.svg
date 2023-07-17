@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32">
-	<path fill="#009F4D" d="M0 0h32v32H0z" stroke-width="2"/>
-	<path fill="#1C246B" d="M32 0h32v32H32z" stroke-width="2"/>
-	<path fill="gold" d="M32 16A15 15 0 1 0 47 1 15 15 0 0 0 32 16z m0-3a12 12 0 1 1-12-12 12 12 0 0 1 12 12z" stroke-width="2"/>
-</svg>

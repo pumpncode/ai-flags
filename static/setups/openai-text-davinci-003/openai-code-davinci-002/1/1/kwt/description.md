@@ -1,1 +1,0 @@
-The flag of Kuwait consists of a white horizontal band above a black horizontal stripe, both of which are separated by a red trapezoid with three white points at its top. The flag has a 2:3 aspect ratio.

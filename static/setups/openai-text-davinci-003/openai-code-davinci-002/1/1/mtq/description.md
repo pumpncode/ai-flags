@@ -1,1 +1,0 @@
-The flag of Martinique is a blue (Pantone 299) rectangular panel with two equal yellow (Pantone P 131-2C) diagonal stripes that intersect at the center of the flag, forming a yellow (Pantone P 131-2C) five-pointed star. The aspect ratio is 2:3.

@@ -1,5 +1,0 @@
-The flag of Eritrea consists of a horizontal tricolor of green, blue, and red with an isosceles red triangle based on the hoist side. The flag's aspect ratio is 1:2, and its geometric properties consist of three equal horizontal bands and a centered isosceles triangle. The green stripe at the top measures one-third of the width of the flag, while the blue stripe in the middle and the red stripe at the bottom each measure one-sixth of the width of the flag. The dimensions of the triangle are such that its height is equal to that of the flag and its base is one-third of the width of the flag. The color codes for the flag are as follows:
-
-- Green: Pantone 356 C / RGB: 0, 160, 70 / HEX: #00A046
-- Blue: Pantone 300 C / RGB: 0, 71, 160 / HEX: #00479E
-- Red: Pantone 186 C / RGB: 218, 41, 28 / HEX: #DA291C

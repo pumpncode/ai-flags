@@ -1,1 +1,0 @@
-The flag of Djibouti consists of two equal horizontal bands of light blue (top) and light green with a white triangle based on the hoist side. Inside the triangle is a green star. The aspect ratio is 2:3.

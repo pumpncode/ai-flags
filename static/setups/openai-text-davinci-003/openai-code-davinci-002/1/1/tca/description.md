@@ -1,1 +1,0 @@
-The flag of Turks and Caicos Islands is a blue ensign with a flag ratio of 1:2 and two defaced Union Jacks on each side. The defaced Union Jacks are white with a light blue border around them and a spray of light blue stars across the middle.

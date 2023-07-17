@@ -1,3 +1,0 @@
-The flag of Azerbaijan consists of three horizontal stripes of equal width. The top stripe is blue (#006A4E), the middle stripe is red (#D30A17), and the bottom stripe is green (#00966E). In the center of the red stripe, there is a white crescent moon and an eight-pointed star. The aspect ratio of the flag is 1:2.
-
-The diameter of the circle that circumscribes the crescent is half the height of the flag. The distance between the points of the star is equal to the diameter of the circle that circumscribes the crescent. The distance from the left edge of the flag to the center of the circle that circumscribes the crescent is one-third of the flag's length.

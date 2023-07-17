@@ -1,1 +1,0 @@
-The flag of Mongolia is a vertical tricolor of alternating red, blue, and sky blue stripes. The flag has a ratio of 2:3, with the red stripe measuring 4/9 of the total length and the blue and sky blue stripes each measuring 2/9 of the total length.

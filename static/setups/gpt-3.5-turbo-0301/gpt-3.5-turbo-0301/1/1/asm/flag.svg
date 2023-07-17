@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 2160">
-	<path fill="#002868" d="M0 0h1080v2160H0z" stroke-width="20"/>
-	<path fill="#fff" d="M0 0v2160l729-1080L0 0" stroke-width="20"/>
-	<path fill="#ce1126" d="M240 820l70 100 70-100h-40v-100h-30L280 780l-30-60H220v100Zm10 40h40v100h-40Zm215 310L530 1120l65 50L570 1060l50-80h-70l-20 40-20-40H440Zm25-120h40l20 40 20-40ZM740 940l-30 60-30-60v140h30l15-50L740 1080h30v-140Z" stroke-width="20"/>
-</svg>

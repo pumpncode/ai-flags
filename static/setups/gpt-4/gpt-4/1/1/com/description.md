@@ -1,3 +1,0 @@
-The flag of Comoros has an aspect ratio of 3:5. It consists of four horizontal stripes, starting from the top: yellow (#FCD116), white (#FFFFFF), red (#D21034), and blue (#00209F). On the left side, there's a green (#007A3D) isosceles triangle that spans the entire height of the flag. Inside this triangle, there's a white crescent moon with its horns pointing upward and four five-pointed white stars along its path. The crescent and stars are also in #FFFFFF.
-
-The flag doesn't have specific measurements, but should maintain its aspect ratio when produced. The geometric properties include parallel horizontal stripes, an isosceles triangle, a crescent shape, and five-pointed stars.

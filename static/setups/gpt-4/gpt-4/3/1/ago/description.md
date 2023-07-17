@@ -1,3 +1,0 @@
-The flag of Angola has two horizontal bands of red (#CE1126) and black (#000000) of equal size, and a centered yellow emblem on the dividing line. The emblem consists of a crossed cogwheel (representing industry) and machete (representing agriculture), encircled by a five-pointed star (representing socialism). The aspect ratio of the flag is 2:3.
-
-Exact measurements and geometric properties may vary depending on specific flag production guidelines or standards.

@@ -1,1 +1,0 @@
-The flag of Saint Lucia features a blue field with a golden isosceles triangle superimposed over it, pointing the base towards the hoist. The triangle bears a black, circle-like figure with two white and black crossed lines, representing a boat. Its aspect ratio is 1:2.

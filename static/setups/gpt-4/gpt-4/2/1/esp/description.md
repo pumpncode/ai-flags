@@ -1,3 +1,0 @@
-The flag of Spain has an aspect ratio of 2:3. It consists of three horizontal stripes: the top and bottom stripes are red (#AA151B) and have equal width, while the middle stripe is yellow (#F1BF00) and is twice as wide as the red stripes. On the left side of the yellow stripe, there is the Spanish coat of arms, which is positioned towards the hoist side and occupies about half of the yellow stripe's height.
-
-Exact measurements and geometric properties may vary depending on the specific flag manufacturer or official guidelines.

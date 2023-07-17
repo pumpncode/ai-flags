@@ -1,1 +1,0 @@
-The flag of Trinidad and Tobago has a red field with a black diagonal stripe in the lower hoist corner that has a white calypso shell within it. It has an aspect ratio of 1:2.

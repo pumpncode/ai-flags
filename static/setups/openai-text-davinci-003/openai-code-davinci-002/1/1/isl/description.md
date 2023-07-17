@@ -1,1 +1,0 @@
-The flag of Iceland is composed of a white cross that extends to the edges of the flag on a deep blue background. The width-to-length ratio of the flag is 1:2.

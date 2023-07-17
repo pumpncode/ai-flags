@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
-	<path fill="#C8102E" d="M0 0h1200v600H0z"/>
-	<path fill="#002868" d="M0 0h720L360 180Zm0 0v360l180-180Zm720 0v360L540 180ZM0 360h720L360 180Z"/>
-	<path stroke="#FFF" stroke-width="40" d="M0 0l720 360m0-360L0 360"/>
-	<path stroke="#002868" stroke-width="20" d="M60 0v360M660 0v360M0 60h720M0 300h720"/>
-	<circle cx="900" cy="300" r="180" fill="#FFF"/>
-	<image width="240" height="240" x="780" y="180" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Bermuda.svg/240px-Coat_of_arms_of_Bermuda.svg.png"/>
-</svg>

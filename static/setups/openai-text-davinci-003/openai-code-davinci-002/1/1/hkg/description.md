@@ -1,1 +1,0 @@
-The flag of Hong Kong features a white, five-petaled bauhinia on a red background. It has an aspect ratio of 1:2.

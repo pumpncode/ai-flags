@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1281 646">
-	<path fill="red" d="M0 0h1281v646H0z" stroke-width="1"/>
-	<path d="M475 180h331v286H475z" stroke-width="1"/>
-	<circle cx="1246" cy="353" r="80" class="bg bg1" stroke-width="1"/>
-	<circle cx="1087" cy="399" r="80" class="bg bg2" stroke-width="1"/>
-	<circle cx="1071" cy="231" r="80" class="bg bg3" stroke-width="1"/>
-	<circle cx="912" cy="275" r="80" class="bg bg4" stroke-width="1"/>
-	<circle cx="923" cy="107" r="80" class="bg bg5" stroke-width="1"/>
-</svg>

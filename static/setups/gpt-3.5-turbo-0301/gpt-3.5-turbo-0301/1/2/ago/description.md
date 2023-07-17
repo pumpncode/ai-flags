@@ -1,4 +1,0 @@
-The flag of Angola consists of two horizontal stripes of equal size, the upper stripe is red and the lower stripe is black. In the center of the flag, there is a yellow emblem featuring a gear wheel (representing industry) crossed by a machete (representing agriculture), and encircled by a half cogwheel (representing labor) and a half cornstalk (representing agriculture again). The aspect ratio of the flag is 2:3, and its geometric properties consist of two rectangles. The color codes for the flag are:
-- Red: Pantone 485 C / RGB #CE1126
-- Black: Pantone Process Black C / RGB #000000
-- Yellow: Pantone 116 C / RGB #FCD116

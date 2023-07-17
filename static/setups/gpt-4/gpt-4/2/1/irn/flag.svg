@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28000 16000">
-	<rect width="28000" height="16000" fill="#fff"/>
-	<rect width="28000" height="5333" fill="green"/>
-	<rect width="28000" height="5333" y="10667" fill="red"/>
-	<text x="14000" y="8500" fill="red" font-family="Arial" font-size="4667" text-anchor="middle">ﷲ</text>
-	<path stroke="red" stroke-width="833" d="M0 5333h28000"/>
-	<path stroke="#fff" stroke-width="833" d="M0 10667h28000"/>
-</svg>

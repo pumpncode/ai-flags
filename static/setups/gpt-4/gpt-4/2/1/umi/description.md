@@ -1,1 +1,0 @@
-The United States Minor Outlying Islands do not have a unique flag of their own. As a group of territories under the jurisdiction of the United States, they generally use the flag of the United States, which is known as the "Stars and Stripes" or "Old Glory."

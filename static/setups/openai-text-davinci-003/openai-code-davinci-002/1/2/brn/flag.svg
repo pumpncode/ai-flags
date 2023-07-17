@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 904 1340">
-	<path fill="#53698d" d="M0 0h904v1340H0z" stroke-width="4"/>
-	<path fill="#f5cc23" d="M0 0h904v460H0z" stroke-width="4"/>
-	<path fill="#0066b1" d="M0 900h904v440H0z" stroke-width="4"/>
-	<path fill="#f5cc23" d="M104 692c236 144 288 276 508 276s416-132 252-276c0-64-80-236-252-236S0 628 0 692Z" stroke-width="4"/>
-	<ellipse cx="452" cy="780" fill="#f5cc23" rx="100" ry="150" stroke-width="4"/>
-	<ellipse cx="452" cy="780" fill="#53698d" rx="50" ry="75" stroke-width="4"/>
-	<text font-family="Arial" font-size="192" stroke-width="4">God protect the sultan</text>
-</svg>

@@ -1,3 +1,0 @@
-The flag of Israel has an aspect ratio of 8:11. It consists of three horizontal stripes and a hexagram (Star of David) in the center. The top and bottom stripes are blue (#0038B8), while the middle stripe is white (#FFFFFF). The Star of David, also blue (#0038B8), is placed on the white stripe.
-
-The width of each blue stripe is 1/30th of the flag's total width, and they are positioned at a distance of 1/30th of the flag's width from the top and bottom edges. The Star of David is equilateral, with each triangle having sides equal to 1/10th of the flag's width. The hexagram is centered vertically and horizontally within the white stripe.

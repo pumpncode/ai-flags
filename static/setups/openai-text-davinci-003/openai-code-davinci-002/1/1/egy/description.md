@@ -1,1 +1,0 @@
-The flag of Egypt is a red rectangular flag with three equal-sized white vertical stripes located in the centre of the flag. In between the stripes is a golden-yellow Eagle of Saladin. The aspect ratio is 2 to 1.
