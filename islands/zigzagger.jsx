@@ -57,7 +57,7 @@ const ZigzaggerIsland = () => {
 	const [newSvg, setNewSvg] = useState(null);
 
 	const [count, setCount] = useState(5);
-	const [magnitude, setMagnitude] = useState(0);
+	const [magnitude, setMagnitude] = useState(25);
 	const [topActive, setTopActive] = useState(true);
 	const [bottomActive, setBottomActive] = useState(true);
 	const [leftActive, setLeftActive] = useState(true);
