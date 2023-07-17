@@ -16,10 +16,10 @@ const Button = forwardRef((
 		ref={ref}
 		type="button"
 		className={cn(
-			"button flex justify-center items-center cursor-pointer font-medium duration-300 rounded-[1em] px-[1em] py-[0.5em] disabled:(pointer-events-none cursor-default grayscale) focus:outline-none",
+			"button flex justify-center items-center cursor-pointer font-medium duration-150 rounded-[1em] px-[1em] py-[0.5em] disabled:pointer-events-none disabled:cursor-default disabled:grayscale focus:outline-none",
 			{
-				"bg-gradient2 text-white": variant === "contained",
-				"bg-none text-white hover:(bg(neutral-500 opacity-25))": variant === "transparent",
+				"bg-amber-300 text-neutral-900 hover:bg-cyan-500 hover:text-white": variant === "contained",
+				"bg-none text-white hover:bg-neutral-500 hover:bg-opacity-25": variant === "transparent",
 				"text-2xl": size === "2xl",
 				"text-xl": size === "xl",
 				"text-base": size === "base",

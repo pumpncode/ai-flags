@@ -8,17 +8,19 @@ import * as $2 from "./routes/about.jsx";
 import * as $3 from "./routes/entities.jsx";
 import * as $4 from "./routes/entity.jsx";
 import * as $5 from "./routes/index.jsx";
-import * as $6 from "./routes/print/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx";
-import * as $7 from "./routes/tools.jsx";
-import * as $8 from "./routes/tools/svgd-transpiler.jsx";
-import * as $9 from "./routes/tools/threevex.jsx";
-import * as $10 from "./routes/tools/zigzagger.jsx";
-import * as $11 from "./routes/vexillologists/[vexillologist].jsx";
-import * as $12 from "./routes/vexillologists/[vexillologist]/[vexillographer].jsx";
-import * as $13 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant].jsx";
-import * as $14 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance].jsx";
-import * as $15 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx";
-import * as $16 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code]/[file].js";
+import * as $6 from "./routes/legal/disclosure.jsx";
+import * as $7 from "./routes/legal/privacy.jsx";
+import * as $8 from "./routes/print/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx";
+import * as $9 from "./routes/tools.jsx";
+import * as $10 from "./routes/tools/svgd-transpiler.jsx";
+import * as $11 from "./routes/tools/threevex.jsx";
+import * as $12 from "./routes/tools/zigzagger.jsx";
+import * as $13 from "./routes/vexillologists/[vexillologist].jsx";
+import * as $14 from "./routes/vexillologists/[vexillologist]/[vexillographer].jsx";
+import * as $15 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant].jsx";
+import * as $16 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance].jsx";
+import * as $17 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx";
+import * as $18 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code]/[file].js";
 import * as $$0 from "./islands/instances-list-item.jsx";
 import * as $$1 from "./islands/mobile-menu.jsx";
 import * as $$2 from "./islands/random-flag.jsx";
@@ -34,22 +36,24 @@ const manifest = {
     "./routes/entities.jsx": $3,
     "./routes/entity.jsx": $4,
     "./routes/index.jsx": $5,
+    "./routes/legal/disclosure.jsx": $6,
+    "./routes/legal/privacy.jsx": $7,
     "./routes/print/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx":
-      $6,
-    "./routes/tools.jsx": $7,
-    "./routes/tools/svgd-transpiler.jsx": $8,
-    "./routes/tools/threevex.jsx": $9,
-    "./routes/tools/zigzagger.jsx": $10,
-    "./routes/vexillologists/[vexillologist].jsx": $11,
-    "./routes/vexillologists/[vexillologist]/[vexillographer].jsx": $12,
+      $8,
+    "./routes/tools.jsx": $9,
+    "./routes/tools/svgd-transpiler.jsx": $10,
+    "./routes/tools/threevex.jsx": $11,
+    "./routes/tools/zigzagger.jsx": $12,
+    "./routes/vexillologists/[vexillologist].jsx": $13,
+    "./routes/vexillologists/[vexillologist]/[vexillographer].jsx": $14,
     "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant].jsx":
-      $13,
-    "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance].jsx":
-      $14,
-    "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx":
       $15,
-    "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code]/[file].js":
+    "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance].jsx":
       $16,
+    "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx":
+      $17,
+    "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code]/[file].js":
+      $18,
   },
   islands: {
     "./islands/instances-list-item.jsx": $$0,

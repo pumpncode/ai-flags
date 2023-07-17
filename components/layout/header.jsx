@@ -4,6 +4,7 @@ import { startCase } from "lodash-es";
 
 import MobileMenu from "../../islands/mobile-menu.jsx";
 import Button from "../input/button.jsx";
+
 import { asset } from "$fresh/runtime.ts";
 
 const {
@@ -21,9 +22,9 @@ const Header = () => {
 			title: "Home",
 			custom: () => (
 				<>
-					<h1 className="text-4xl font-bold sm:text-5xl sr-only">AI Flags</h1>
-					<img src={asset("/images/logos/ai-flags-wordmark.svg")} className="hidden sm:block h-full" />
-					<img src={asset("/images/logos/ai-flags-icon.svg")} className="block sm:hidden h-full" />
+					<h1 className="text-4xl font-bold sr-only sm:text-5xl">AI Flags</h1>
+					<img src={asset("/images/logos/ai-flags-wordmark.svg")} className="hidden h-full sm:block" />
+					<img src={asset("/images/logos/ai-flags-icon.svg")} className="block h-full sm:hidden" />
 				</>
 			),
 			customClassName: "h-full"
@@ -39,6 +40,13 @@ const Header = () => {
 		},
 		{
 			name: "about"
+		},
+		{
+			to: "https://shop.ai-flags.com",
+			name: "shop",
+			custom: () => (
+				<Button size="2xl"><span>Shop</span></Button>
+			)
 		},
 		{
 			to: "https://github.com/pumpncode/ai-flags",
