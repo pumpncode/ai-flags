@@ -187,6 +187,11 @@ $RECYCLE.BIN/
 /psds
 /notes
 /data
+/utilities/local
+/utilities/local.js
+/utilities/browser.js
+/utilities/svg-to-png.js
+/scripts
 
 **/.git
 fly.toml
