@@ -3,8 +3,8 @@ import { join } from "std/path";
 import getDirectories from "./get-directories.js";
 import handleVexillologist from "./diff/handle-vexillologist.js";
 
-const rootFolderPath = "./static/setups";
-const diffsFolderPath = "./static/diffs";
+const rootFolderPath = "./data/vexillologists";
+const diffsFolderPath = "./data/vexillologists";
 
 // TODO: reinvestigate this
 // instead of just one result with threshold 0, calculate multiple results with different thresholds

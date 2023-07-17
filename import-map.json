@@ -50,6 +50,7 @@
 		"std/node/path": "https://deno.land/std@0.187.0/node/path.ts",
 		"std/node/url": "https://deno.land/std@0.187.0/node/url.ts",
 		"std/path": "https://deno.land/std@0.187.0/path/mod.ts",
+		"std/media_types": "https://deno.land/std@0.187.0/media_types/mod.ts",
 		"std/fs": "https://deno.land/std@0.187.0/fs/mod.ts",
 		"svg-path-commander": "https://cdn.jsdelivr.net/npm/svg-path-commander/+esm",
 		"svgo": "https://unpkg.com/svgo@3.0.2/dist/svgo.browser.js",

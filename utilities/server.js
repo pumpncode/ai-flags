@@ -9,4 +9,4 @@ export { default as getDbVexillographers } from "./shared/get-db-vexillographers
 export { default as getDbVariants } from "./shared/get-db-variants.js";
 export { default as getDbInstances } from "./shared/get-db-instances.js";
 export { default as getDbFlags } from "./shared/get-db-flags.js";
-export { default as convertDescription } from "./server/convert-description.js";
+export { default as convertMdToHtml } from "./server/convert-md-to-html.js";

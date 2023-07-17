@@ -7,7 +7,7 @@ const {
 	writeTextFile
 } = Deno;
 
-const rootFolderPath = "./static/setups";
+const rootFolderPath = "./data/vexillologists";
 
 /**
  *

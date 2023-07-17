@@ -3,6 +3,7 @@ import { flatten } from "flatten";
 const structure = {
 	flag: {
 		name: "flagName",
+		code: "flagCode",
 		instance: {
 			name: "instanceName",
 			variant: {

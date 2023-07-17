@@ -18,6 +18,7 @@ import * as $12 from "./routes/vexillologists/[vexillologist]/[vexillographer].j
 import * as $13 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant].jsx";
 import * as $14 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance].jsx";
 import * as $15 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx";
+import * as $16 from "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code]/[file].js";
 import * as $$0 from "./islands/instances-list-item.jsx";
 import * as $$1 from "./islands/mobile-menu.jsx";
 import * as $$2 from "./islands/random-flag.jsx";
@@ -47,6 +48,8 @@ const manifest = {
       $14,
     "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code].jsx":
       $15,
+    "./routes/vexillologists/[vexillologist]/[vexillographer]/[variant]/[instance]/[code]/[file].js":
+      $16,
   },
   islands: {
     "./islands/instances-list-item.jsx": $$0,

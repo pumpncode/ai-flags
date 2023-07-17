@@ -76,8 +76,8 @@ const getInstanceContent = async ({
 		instanceContent.push({
 			name: countries.find(({ cca3 }) => cca3 === code.toLocaleUpperCase()).name.common,
 			code,
-			svgFlagPath: svgFlagFilePath.replace("static/", "/"),
-			pngFlagPath: pngFlagFilePath.replace("static/", "/"),
+			svgFlagPath: svgFlagFilePath.replace(/^data\//u, "/"),
+			pngFlagPath: pngFlagFilePath.replace(/^data\//u, "/"),
 			description,
 			comments,
 			createdAt,

@@ -2,6 +2,7 @@ import condenseResults from "@/utilities/server/condense-results.js";
 import createMatchQuery from "@/utilities/server/create-match-query.js";
 import deepSort from "@/utilities/server/deep-sort.js";
 import supabase from "@/utilities/shared/supabase.js";
+import { convertMdToHtml } from "@/utilities/server.js";
 
 /**
  *
@@ -37,9 +38,34 @@ const getDbInstances = async (query = {}) => {
 		throw error;
 	}
 
+	const refinedInstances = await Promise.all(
+		instances
+			.map(async ({ flags, ...instance }) => ({
+				...instance,
+				flags: await Promise.all(
+					flags
+						.map(async ({
+							description: flagDescription,
+							comments: flagComments,
+							...flag
+						}) => ({
+							...flag,
+							description: flagDescription,
+							descriptionHtml: await convertMdToHtml(
+								flagDescription
+							),
+							comments: flagComments,
+							commentsHtml: await convertMdToHtml(
+								flagComments
+							)
+						}))
+				)
+			}))
+	);
+
 	return deepSort(
 		condenseResults({
-			results: instances,
+			results: refinedInstances,
 			query,
 			foreignRootKey: "variant"
 		}),

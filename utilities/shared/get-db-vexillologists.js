@@ -1,11 +1,15 @@
 import deepSort from "@/utilities/server/deep-sort.js";
-import convertDescription from "@/utilities/server/convert-description.js";
+import convertMdToHtml from "@/utilities/server/convert-md-to-html.js";
 import supabase from "@/utilities/shared/supabase.js";
+import createMatchQuery from "@/utilities/server/create-match-query.js";
 
 /**
  *
+ * @param query
  */
-const getDbVexillologists = async () => {
+const getDbVexillologists = async (query = {}) => {
+	const matchQuery = createMatchQuery(query, "vexillologist");
+
 	const {
 		data: vexillologists,
 		error
@@ -32,7 +36,8 @@ const getDbVexillologists = async () => {
 					)
 				)
 			)
-		`);
+		`)
+		.match(matchQuery);
 
 	if (error) {
 		throw error;
@@ -48,10 +53,38 @@ const getDbVexillologists = async () => {
 							...vexillographer,
 							variants: await Promise.all(
 								variants
-									.map(async ({ description, ...variant }) => ({
+									.map(async ({
+										description,
+										instances,
+										...variant
+									}) => ({
 										...variant,
 										description,
-										descriptionHtml: await convertDescription(description)
+										descriptionHtml: await convertMdToHtml(description),
+										instances: await Promise.all(
+											instances
+												.map(async ({ flags, ...instance }) => ({
+													...instance,
+													flags: await Promise.all(
+														flags
+															.map(async ({
+																description: flagDescription,
+																comments: flagComments,
+																...flag
+															}) => ({
+																...flag,
+																description: flagDescription,
+																descriptionHtml: await convertMdToHtml(
+																	flagDescription
+																),
+																comments: flagComments,
+																commentsHtml: await convertMdToHtml(
+																	flagComments
+																)
+															}))
+													)
+												}))
+										)
 									}))
 							)
 						}))
